@@ -6,6 +6,17 @@ __pycache__/
 models/*.pt
 models/*.bin
 
+# Mlflow
+mlruns/
+mlartifacts/
+outputs/
+mlruns.db
+
+wandb
+wandb-debug.log
+
+models/
+
 # C extensions
 *.so
 
