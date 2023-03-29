@@ -49,8 +49,11 @@ class CustomTrainer(Trainer):
         outputs = model(**inputs)
         
         last_hidden_state = outputs.last_hidden_state
+        
         pooled_output = torch.mean(last_hidden_state, dim=1)
         logits = model.classifier(pooled_output)
+        
+        #TODO: check again with multilabel if it is already automated with huggingface
         loss_fct = nn.BCEWithLogitsLoss()
         loss = loss_fct(logits, labels.float())
         return (loss, outputs) if return_outputs else loss
@@ -135,9 +138,11 @@ def main(task, epochs, train_size):
     results = {}
     
     for i in range(k):
-        print(i)
+        
+        print(f"Starting training of {i} st/th fold...")
         output_dir = f"./models/{task}_epochs_{epochs}_train_size_{train_size}_fold_{i}"
         os.makedirs(output_dir, exist_ok=True)
+        
         # Load the data for this fold
         filename = f"./data/labeled_data/{task}_test_{i}.json"
         with open(filename) as f:
@@ -146,7 +151,7 @@ def main(task, epochs, train_size):
         val_df = pd.DataFrame(data["valid"])
         test_df = pd.DataFrame(data["test"])
         
-        # Load only a subset of the training data if train_size is specified
+        # train_size argument is used to control the size of the training set 
         if train_size != "full":
             train_df = train_df.sample(n=train_size)
 
@@ -166,6 +171,9 @@ def main(task, epochs, train_size):
 
         # Convert the annotations to binary labels
         mlb = MultiLabelBinarizer(classes=classes)
+        
+        
+        #TODO : 
         model.classifier = nn.Linear(model.config.hidden_size, len(classes))
         model.to(device)
         
@@ -195,7 +203,7 @@ def main(task, epochs, train_size):
             fp16=True,
             metric_for_best_model="micro_f1",
             greater_is_better=True,
-            save_total_limit = 2
+            save_total_limit = 1
         )
 
         # Create the Trainer
