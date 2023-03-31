@@ -12,7 +12,7 @@ from transformers import (
     TrainerCallback
 )
 from sentence_transformers import SentenceTransformer, InputExample, losses
-from transformers import AutoModel, AutoTokenizer
+from transformers import AutoModel, AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.preprocessing import MultiLabelBinarizer
 from typing import Dict
 from sklearn.metrics import classification_report
@@ -42,40 +42,12 @@ class MultiLabelDataCollator(DataCollatorWithPadding):
         batch = super().__call__(features)
         batch["labels"] = torch.stack([feature["label"] for feature in features])
         return batch
-
-class CustomTrainer(Trainer):
-    def compute_loss(self, model, inputs, return_outputs=False):
-        labels = inputs.pop("labels")
-        outputs = model(**inputs)
-        
-        last_hidden_state = outputs.last_hidden_state
-        pooled_output = torch.mean(last_hidden_state, dim=1)
-        logits = model.classifier(pooled_output)
-        loss_fct = nn.BCEWithLogitsLoss()
-        loss = loss_fct(logits, labels.float())
-        return (loss, outputs) if return_outputs else loss
-    
-    def prediction_step(self, model, inputs, prediction_loss_only, ignore_keys=None):
-        inputs = self._prepare_inputs(inputs)
-        # Remove the labels key from the inputs dictionary
-        labels = inputs["labels"]
-        inputs.pop("labels", None)
-
-        with torch.no_grad():
-            outputs = model(**inputs)
-            last_hidden_state = outputs.last_hidden_state
-            pooled_output = torch.mean(last_hidden_state, dim=1)
-            logits = model.classifier(pooled_output)
-        if labels is not None:
-            return (None, logits, labels)
-        else:
-            return (None, logits, None)
         
     @staticmethod
     def loss(logits, labels):
         # Use BCEWithLogitsLoss for multi-label classification
         loss_fct = torch.nn.BCEWithLogitsLoss()
-        return loss_fct(logits.view(-1, 15), labels.float().view(-1, 15))
+        return loss_fct(logits, labels.float())
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
@@ -102,7 +74,6 @@ class TweetDataset(Dataset):
         self.mlb = mlb
         self.tokenizer = tokenizer
         self.encoded_tweets = self.preprocess_text(self.x)
-
     
     def preprocess_text(self, text):
         return self.tokenizer(text, return_attention_mask=True, return_tensors='pt', padding=True)
@@ -118,7 +89,6 @@ class TweetDataset(Dataset):
                 #'label_ids': self.labels[idx]}
 
 class CustomCallback(TrainerCallback):
-    
     def __init__(self, trainer) -> None:
         super().__init__()
         self._trainer = trainer
@@ -135,9 +105,11 @@ def main(task, epochs, train_size):
     results = {}
     
     for i in range(k):
-        print(i)
+        
+        print(f"Starting training of {i+1} st/th fold...")
         output_dir = f"./models/{task}_epochs_{epochs}_train_size_{train_size}_fold_{i}"
         os.makedirs(output_dir, exist_ok=True)
+        
         # Load the data for this fold
         filename = f"./data/labeled_data/{task}_test_{i}.json"
         with open(filename) as f:
@@ -146,11 +118,11 @@ def main(task, epochs, train_size):
         val_df = pd.DataFrame(data["valid"])
         test_df = pd.DataFrame(data["test"])
         
-        # Load only a subset of the training data if train_size is specified
+        # train_size argument is used to control the size of the training set 
         if train_size != "full":
             train_df = train_df.sample(n=train_size)
 
-        model = AutoModel.from_pretrained("vinai/bertweet-large", num_labels=15, problem_type="multi_label_classification")
+        model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-large", num_labels=15, problem_type="multi_label_classification")
         model.to(device)
         tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-large")
 
@@ -161,13 +133,10 @@ def main(task, epochs, train_size):
         classes = set()
         for annotation in train_annotations:
             classes.update(annotation)
-        
         classes = sorted(list(classes))
 
         # Convert the annotations to binary labels
         mlb = MultiLabelBinarizer(classes=classes)
-        model.classifier = nn.Linear(model.config.hidden_size, len(classes))
-        model.to(device)
         
         train_labels = mlb.fit_transform(train_df["annotations"])
         val_labels = mlb.transform(val_df["annotations"])
@@ -177,8 +146,6 @@ def main(task, epochs, train_size):
         val_dataset = TweetDataset(val_df['text'].to_list(), torch.tensor(val_labels), mlb, tokenizer)
         test_dataset = TweetDataset(test_df['text'].to_list(), torch.tensor(test_labels), mlb, tokenizer)
         data_collator = MultiLabelDataCollator(tokenizer)
-        
-        print(len(train_dataset))
 
         # Define the training arguments
         training_args = TrainingArguments(
@@ -195,18 +162,18 @@ def main(task, epochs, train_size):
             fp16=True,
             metric_for_best_model="micro_f1",
             greater_is_better=True,
-            save_total_limit = 2
+            save_total_limit = 1
         )
 
         # Create the Trainer
-        trainer = CustomTrainer(
+        trainer = Trainer(
             model=model,
             args=training_args,
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
             data_collator=data_collator,
             compute_metrics=compute_metrics,
-            callbacks = [EarlyStoppingCallback(early_stopping_patience=3)] # Set patience to 3 because patience * eval_steps = 1,200
+            callbacks = [EarlyStoppingCallback(early_stopping_patience=3)], # Set patience to 3 because patience * eval_steps = 1,200
         )
 
         # Train and evaluate your model on this fold
