@@ -99,10 +99,12 @@ class CustomCallback(TrainerCallback):
             self._trainer.evaluate(eval_dataset=self._trainer.train_dataset, metric_key_prefix="train")
             return control_copy
 
-def main(task, epochs, train_size):
+def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
     # Train and evaluate your model using k-fold cross-validation
     k = 5
     results = {}
+    if reporter == "None":
+        reporter = []
     
     for i in range(k):
         
@@ -117,10 +119,6 @@ def main(task, epochs, train_size):
         train_df = pd.DataFrame(data["train"])
         val_df = pd.DataFrame(data["valid"])
         test_df = pd.DataFrame(data["test"])
-        
-        # train_size argument is used to control the size of the training set 
-        if train_size != "full":
-            train_df = train_df.sample(n=train_size)
 
         model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-large", num_labels=15, problem_type="multi_label_classification")
         model.to(device)
@@ -137,6 +135,14 @@ def main(task, epochs, train_size):
 
         # Convert the annotations to binary labels
         mlb = MultiLabelBinarizer(classes=classes)
+        
+        # train_size argument is used to control the size of the training set 
+        if train_size != "full":
+            train_df = train_df.sample(n=train_size)
+        if validation_size != "full":
+            val_df = val_df.sample(n=validation_size)
+        if test_size != "full":
+            test_df = test_df.sample(n=test_size)
         
         train_labels = mlb.fit_transform(train_df["annotations"])
         val_labels = mlb.transform(val_df["annotations"])
@@ -159,10 +165,11 @@ def main(task, epochs, train_size):
             save_steps=400,
             learning_rate=1e-5,
             weight_decay=0.001,
-            fp16=True,
+            fp16=fp16,
             metric_for_best_model="micro_f1",
             greater_is_better=True,
-            save_total_limit = 1
+            save_total_limit = 2,
+            report_to=reporter,
         )
 
         # Create the Trainer
@@ -176,20 +183,17 @@ def main(task, epochs, train_size):
             callbacks = [EarlyStoppingCallback(early_stopping_patience=3)], # Set patience to 3 because patience * eval_steps = 1,200
         )
 
-        # Train and evaluate your model on this fold
         # start a new wandb run to track this script
-        wandb.init(
-            # set the wandb project where this run will be logged
-            project="p6",
-            
-            # track hyperparameters and run metadata
-            config={
-            "architecture": "Bertweet Large Base",
-            "epochs": epochs,
-            "task": task,
-            "train_size": train_size
-            }
-        )
+        if reporter == "wandb":
+            wandb.init(
+                project="p6",
+                config={
+                "architecture": "Bertweet Large Base",
+                "epochs": epochs,
+                "task": task,
+                "train_size": train_size
+                }
+            )
         
         trainer.add_callback(CustomCallback(trainer)) 
         trainer.train()
@@ -225,11 +229,15 @@ def main(task, epochs, train_size):
     print(tabulate(table_data, headers="keys"))
 
 if __name__ == "__main__":
-    tasks = 'generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901'
+    tasks = ['generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901']
     parser = argparse.ArgumentParser(description="Multilabel classification with k-fold cross-validation.")
     parser.add_argument("--epochs", type=int, default=200, help="Number of training epochs.")
     parser.add_argument("--train_size", type=int, default=None, help="Size of the training dataset (None for full dataset).")
+    parser.add_argument("--validation_size", type=int, default=None, help="Size of the validation dataset (None for full dataset).")
+    parser.add_argument("--test_size", type=int, default=None, help="Size of the test dataset (None for full dataset).")
     parser.add_argument("--task", type=str, choices=tasks, default='generic', help="One of 'generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901' ")
+    parser.add_argument("--fp16", type=bool, default=True, action=argparse.BooleanOptionalAction, help="Use mixed precision training.")
+    parser.add_argument("--reporter", type=str, default='wandb', choices=['wandb', 'None'], help="Use Weights and Biases for logging.")
     args = parser.parse_args()
 
     if args.epochs:
@@ -242,5 +250,14 @@ if __name__ == "__main__":
     else:
         train_size = "full"
         
+    if args.validation_size:
+        validation_size = args.validation_size
+    else:
+        validation_size = "full"
+        
+    if args.test_size:
+        test_size = args.test_size
+    else:
+        test_size = "full"
     
-    main(args.task, epochs, train_size)
+    main(args.task, epochs, train_size, validation_size, test_size, args.fp16, args.reporter)

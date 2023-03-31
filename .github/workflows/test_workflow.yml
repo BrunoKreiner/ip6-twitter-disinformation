@@ -1,4 +1,4 @@
-name: Test Workflow
+name: Test Model Training
 
 on: [push, pull_request]
 
@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: [3.8, 3.9]
+        python-version: [3.9]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -21,4 +21,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run model training
       run: |
-        python reproduce_model.py --epochs 1 --train_size 10
+        python ./src/reproduce_model.py --epochs 1 --train_size 10 --validation_size 10 --test_size 10 --no-fp16 --reporter None
