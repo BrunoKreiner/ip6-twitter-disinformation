@@ -108,7 +108,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
     
     for i in range(k):
         
-        print(f"Starting training of {i+1} st/th fold...")
+        print(f"Starting training of {i+1}. fold...")
         output_dir = f"./models/{task}_epochs_{epochs}_train_size_{train_size}_fold_{i}"
         os.makedirs(output_dir, exist_ok=True)
         
@@ -198,7 +198,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
         trainer.add_callback(CustomCallback(trainer)) 
         trainer.train()
         results[i] = {"valid": trainer.evaluate(), "test": trainer.evaluate(test_dataset)}
-        
+        trainer.save_model(output_dir)
         del trainer
         del model
         del tokenizer
@@ -229,7 +229,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
     print(tabulate(table_data, headers="keys"))
 
 if __name__ == "__main__":
-    tasks = ['generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901']
+    tasks = ['generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901_2']
     parser = argparse.ArgumentParser(description="Multilabel classification with k-fold cross-validation.")
     parser.add_argument("--epochs", type=int, default=200, help="Number of training epochs.")
     parser.add_argument("--train_size", type=int, default=None, help="Size of the training dataset (None for full dataset).")
