@@ -6,3 +6,6 @@ scikit-learn
 torch
 wandb
 tabulate
+seaborn
+emoji
+nltk
