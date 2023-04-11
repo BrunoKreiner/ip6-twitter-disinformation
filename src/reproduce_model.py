@@ -29,6 +29,8 @@ import copy
 import gc
 import json
 from tabulate import tabulate
+from emoji import demojize
+from nltk.tokenize import TweetTokenizer
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 global classes 
@@ -51,7 +53,9 @@ class MultiLabelDataCollator(DataCollatorWithPadding):
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
-    predictions = (predictions > 0.5).astype(int)
+    sigmoid = torch.nn.Sigmoid()
+    probs = sigmoid(torch.Tensor(predictions))
+    predictions = (probs >= 0.5).to(int)
     labels = labels.astype(int)
     report = classification_report(labels, predictions, labels=range(len(classes)), output_dict=True, zero_division=0)
 
@@ -74,9 +78,55 @@ class TweetDataset(Dataset):
         self.mlb = mlb
         self.tokenizer = tokenizer
         self.encoded_tweets = self.preprocess_text(self.x)
+        
+    @staticmethod
+    def normalizeToken(token):
+        lowercased_token = token.lower()
+        if token.startswith("@"):
+            return "@USER"
+        elif lowercased_token.startswith("http") or lowercased_token.startswith("www"):
+            return "HTTPURL"
+        elif len(token) == 1:
+            return demojize(token)
+        else:
+            if token == "’":
+                return "'"
+            elif token == "…":
+                return "..."
+            else:
+                return token
     
-    def preprocess_text(self, text):
-        return self.tokenizer(text, return_attention_mask=True, return_tensors='pt', padding=True)
+    def normalizeTweet(self, tweet):
+        tokens = TweetTokenizer().tokenize(tweet.replace("’", "'").replace("…", "..."))
+        normTweet = " ".join([self.normalizeToken(token) for token in tokens])
+
+        normTweet = (
+            normTweet.replace("cannot ", "can not ")
+                .replace("n't ", " n't ")
+                .replace("n 't ", " n't ")
+                .replace("ca n't", "can't")
+                .replace("ai n't", "ain't")
+        )
+        normTweet = (
+            normTweet.replace("'m ", " 'm ")
+                .replace("'re ", " 're ")
+                .replace("'s ", " 's ")
+                .replace("'ll ", " 'll ")
+                .replace("'d ", " 'd ")
+                .replace("'ve ", " 've ")
+        )
+        normTweet = (
+            normTweet.replace(" p . m .", "  p.m.")
+                .replace(" p . m ", " p.m ")
+                .replace(" a . m .", " a.m.")
+                .replace(" a . m ", " a.m ")
+        )
+        return " ".join(normTweet.split())
+
+    def preprocess_text(self, X):
+        X = [self.normalizeTweet(tweet) for tweet in X]
+        
+        return self.tokenizer(X, return_attention_mask=True, return_tensors='pt', padding=True)
         
     def __len__(self):
         return len(self.y)
@@ -261,3 +311,12 @@ if __name__ == "__main__":
         test_size = "full"
     
     main(args.task, epochs, train_size, validation_size, test_size, args.fp16, args.reporter)
+    
+    """
+    python ./src/reproduce_model.py --task generic --epochs 200
+    python ./src/reproduce_model.py --task GRU_202012 --epochs 200
+    python ./src/reproduce_model.py --task IRA_202012 --epochs 200
+    python ./src/reproduce_model.py --task REA_0621 --epochs 200
+    python ./src/reproduce_model.py --task UGANDA_0621 --epochs 200
+    python ./src/reproduce_model.py --task VENEZUELA_201901_2 --epochs 200
+    """
