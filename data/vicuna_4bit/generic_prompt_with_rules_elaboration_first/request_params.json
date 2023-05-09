@@ -1,0 +1,24 @@
+{
+    "prompt": "### Human: Based on rules, elaborate whether you think the Tweet is about Science/Technology.\nRules: Oxford dictionary's definition of science: \u201cknowledge about the structure and behavior of the natural and physical world, based on facts that you can prove, for example by experiments\u201d. Oxford dictionary's definition of technology: \u201cscientific knowledge used in practical ways in industry, for example in designing new machines\u201d.\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\n### Assistant:\nElaboration: \n1. The tweet mentions \"emancipation\" which implies a social or economic change, suggesting it could be related to societal issues rather than pure science or technology.\n2. There is no direct mention of scientific methods or technological advancements in the tweet, making it less likely to be directly related to science or technology.\n3. However, one could argue that the concept of interest mentioned in the tweet relates to economics, which is a field that uses scientific principles and theories to understand how markets function. Therefore, there may be an indirect link between the tweet and science/technology.\n4. Overall, while the tweet does not explicitly relate to science or technology, its focus on social and economic issues may have implications for these fields.\n5. It should also be noted that the tweet references Marxist ideologies, which often critique capitalism and its relationship with science and technology. In this context, the:\n Assign class 1 for Science/Technology or 0 for not. \n###Assistant:\nClass: ",
+    "context": "",
+    "max_new_tokens": 15,
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.1,
+    "typical_p": 1,
+    "repetition_penalty": 1.2,
+    "encoder_repetition_penalty": 1.0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "seed": -1,
+    "stopping_strings": [
+        "### Human:",
+        "Human:",
+        "###"
+    ]
+}

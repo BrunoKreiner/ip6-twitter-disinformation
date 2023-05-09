@@ -1,0 +1,24 @@
+{
+    "prompt": "Elaborate on whether you think the Tweet is about Science/Technology or something else.\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\nElaboration: \nThe tweet appears to be discussing a political issue, specifically related to economic inequality and the distribution of wealth in society. The use of terms such as \"unholy trinity\" suggests that this may be a religious or spiritual concept being applied to an economic context. Overall, it seems likely that this tweet is not primarily focused on science or technology but rather on broader social and political issues.\n\nAssign the label 1 for War/Terror or 0 for not based on the elaboration. Only output the number.",
+    "context": "",
+    "max_new_tokens": 200,
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.1,
+    "typical_p": 1,
+    "repetition_penalty": 1.2,
+    "encoder_repetition_penalty": 1.0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "seed": -1,
+    "stopping_strings": [
+        "### Human:",
+        "Human:",
+        "###"
+    ]
+}

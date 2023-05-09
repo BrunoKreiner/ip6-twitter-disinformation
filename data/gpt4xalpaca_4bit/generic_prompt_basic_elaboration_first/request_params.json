@@ -1,0 +1,19 @@
+{
+    "prompt": "### Instruction:\nElaborate on whether you think the Tweet is about Science/Technology or something else.\n\nTweet: Sleep - Dopesmoker [ full ] [url]\n\n### Response:\n The tweet is likely referring to a song called 'Dope Smoker' by the band Sleep, which is known for its heavy and psychedelic sound. The tweeter may be sharing this information as an album recommendation or simply promoting the band; however, it isn't explicitly about science or technology.\n\n### Instruction:\nAssign the label 1 if you think it's about {label}, assign 0 if not.\n\n### Response:",
+    "context": "",
+    "max_new_tokens": 200,
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.1,
+    "typical_p": 1,
+    "repetition_penalty": 1.2,
+    "encoder_repetition_penalty": 1.0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "seed": -1
+}

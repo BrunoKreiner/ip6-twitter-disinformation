@@ -11,7 +11,6 @@ from transformers import (
     DataCollatorWithPadding,
     TrainerCallback
 )
-from sentence_transformers import SentenceTransformer, InputExample, losses
 from transformers import AutoModel, AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.preprocessing import MultiLabelBinarizer
 from typing import Dict
@@ -44,7 +43,8 @@ class MultiLabelDataCollator(DataCollatorWithPadding):
         batch = super().__call__(features)
         batch["labels"] = torch.stack([feature["label"] for feature in features])
         return batch
-        
+    
+    #TODO: check if without it, it trains
     @staticmethod
     def loss(logits, labels):
         # Use BCEWithLogitsLoss for multi-label classification
@@ -55,9 +55,10 @@ def compute_metrics(eval_pred):
     predictions, labels = eval_pred
     sigmoid = torch.nn.Sigmoid()
     probs = sigmoid(torch.Tensor(predictions))
-    predictions = (probs >= 0.5).to(int)
-    labels = labels.astype(int)
-    report = classification_report(labels, predictions, labels=range(len(classes)), output_dict=True, zero_division=0)
+    y_pred = np.zeros(probs.shape)
+    y_pred[np.where(probs >= 0.5)] = 1
+
+    report = classification_report(labels, y_pred, labels=range(len(classes)), output_dict=True)
 
     metrics = {
         "accuracy": np.mean(predictions == labels),
@@ -77,6 +78,7 @@ class TweetDataset(Dataset):
         self.y = y
         self.mlb = mlb
         self.tokenizer = tokenizer
+        self.max_length = 128
         self.encoded_tweets = self.preprocess_text(self.x)
         
     @staticmethod
@@ -126,7 +128,7 @@ class TweetDataset(Dataset):
     def preprocess_text(self, X):
         X = [self.normalizeTweet(tweet) for tweet in X]
         
-        return self.tokenizer(X, return_attention_mask=True, return_tensors='pt', padding=True)
+        return self.tokenizer(X, return_attention_mask=True, return_tensors='pt', padding=True, truncation = True, max_length=self.max_length)
         
     def __len__(self):
         return len(self.y)
@@ -149,7 +151,7 @@ class CustomCallback(TrainerCallback):
             self._trainer.evaluate(eval_dataset=self._trainer.train_dataset, metric_key_prefix="train")
             return control_copy
 
-def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
+def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, load_8bit):
     # Train and evaluate your model using k-fold cross-validation
     k = 5
     results = {}
@@ -169,8 +171,8 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
         train_df = pd.DataFrame(data["train"])
         val_df = pd.DataFrame(data["valid"])
         test_df = pd.DataFrame(data["test"])
-
-        model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-large", num_labels=15, problem_type="multi_label_classification")
+        
+        model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-large", load_in_8bit=load_8bit ,num_labels=15, problem_type="multi_label_classification")
         model.to(device)
         tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-large")
 
@@ -214,7 +216,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
             eval_steps=400,
             save_steps=400,
             learning_rate=1e-5,
-            weight_decay=0.001,
+            weight_decay=0.0015,
             fp16=fp16,
             metric_for_best_model="micro_f1",
             greater_is_better=True,
@@ -241,7 +243,8 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
                 "architecture": "Bertweet Large Base",
                 "epochs": epochs,
                 "task": task,
-                "train_size": train_size
+                "train_size": train_size,
+                "setting": "weight-decay-0.0015, truncation=true, with maxlength"
                 }
             )
         
@@ -279,6 +282,15 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter):
     print(tabulate(table_data, headers="keys"))
 
 if __name__ == "__main__":
+    """ to consecutively train all campaigns:
+    python ./src/reproduce_model.py --task generic --epochs 200
+    python ./src/reproduce_model.py --task GRU_202012 --epochs 200
+    python ./src/reproduce_model.py --task IRA_202012 --epochs 200
+    python ./src/reproduce_model.py --task REA_0621 --epochs 200
+    python ./src/reproduce_model.py --task UGANDA_0621 --epochs 200
+    python ./src/reproduce_model.py --task VENEZUELA_201901_2 --epochs 200
+    """
+        
     tasks = ['generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901_2']
     parser = argparse.ArgumentParser(description="Multilabel classification with k-fold cross-validation.")
     parser.add_argument("--epochs", type=int, default=200, help="Number of training epochs.")
@@ -288,6 +300,7 @@ if __name__ == "__main__":
     parser.add_argument("--task", type=str, choices=tasks, default='generic', help="One of 'generic', 'GRU_202012', 'IRA_202012', 'REA_0621', 'UGANDA_0621', 'VENEZUELA_201901' ")
     parser.add_argument("--fp16", type=bool, default=True, action=argparse.BooleanOptionalAction, help="Use mixed precision training.")
     parser.add_argument("--reporter", type=str, default='wandb', choices=['wandb', 'None'], help="Use Weights and Biases for logging.")
+    parser.add_argument("--load-8bit", type=bool, default=False, action=argparse.BooleanOptionalAction, help="Train the model in 8bit. Use standalone --load-8bit to set to True.")
     args = parser.parse_args()
 
     if args.epochs:
@@ -309,14 +322,6 @@ if __name__ == "__main__":
         test_size = args.test_size
     else:
         test_size = "full"
+
+    main(args.task, epochs, train_size, validation_size, test_size, args.fp16, args.reporter, args.load_8bit)
     
-    main(args.task, epochs, train_size, validation_size, test_size, args.fp16, args.reporter)
-    
-    """
-    python ./src/reproduce_model.py --task generic --epochs 200
-    python ./src/reproduce_model.py --task GRU_202012 --epochs 200
-    python ./src/reproduce_model.py --task IRA_202012 --epochs 200
-    python ./src/reproduce_model.py --task REA_0621 --epochs 200
-    python ./src/reproduce_model.py --task UGANDA_0621 --epochs 200
-    python ./src/reproduce_model.py --task VENEZUELA_201901_2 --epochs 200
-    """
