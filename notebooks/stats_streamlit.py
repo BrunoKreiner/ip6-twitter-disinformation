@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 import math
 from collections import defaultdict
+import numpy as np
 
 from sklearn.metrics import confusion_matrix, classification_report
 
@@ -218,7 +219,7 @@ models = [
 ]
 
 # Sidebar menu
-page_options = ["Overview", "Single Class Evaluation", "Multi-Class Evaluation"]
+page_options = ["Overview", "Box Plots", "Single Class Evaluation", "Multi-Class Evaluation"]
 selected_page = st.sidebar.radio("Select Page", page_options)
 
 # Title
@@ -236,7 +237,6 @@ selected_model_3 = st.sidebar.selectbox("Select Model 3", model_options)
 selected_model_4 = st.sidebar.selectbox("Select Model 4", model_options)
 
 # Filter models based on user selection
-print(selected_model_1)
 selected_models = [model for model in models if model["model_name"] + " " + model["context"] + " " + model["type"] in [selected_model_1, selected_model_2, selected_model_3, selected_model_4]]
 
 if selected_page == "Single Class Evaluation":
@@ -380,7 +380,7 @@ def make_grid(cols, rows):
             grid[i] = st.columns(rows)
     return grid
 
-if selected_page == "Overview":
+def display_dashboard(models):
     st.write(
         f"""
         <style>
@@ -433,20 +433,16 @@ if selected_page == "Overview":
 
     cols = 3
 
-    # Group the models by model_name
     model_groups = defaultdict(list)
     for model in models:
         model_groups[model["model_name"]].append(model)
 
-    # Iterate over the model groups and create a grid for each group
     for model_name, model_group in model_groups.items():
         st.write(f'<h2 class="group-name">{model_name}</h2>', unsafe_allow_html=True)
 
-        # Calculate the number of rows based on the number of models and columns
         num_models = len(model_group)
         rows = math.ceil(num_models / cols)
 
-        # Create the grid
         row = 0
         col = 0
         outer_columns = st.columns(cols)
@@ -454,24 +450,103 @@ if selected_page == "Overview":
         for idx, model in enumerate(model_group):
             model_classification_reports = model["data"]["classification_reports"]
             model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
-            avg_f1_macro = model_classification_reports_df['f1_score_macro'].mean()
-            #avg_f1_micro_weighted = model_classification_reports_df['f1_score_micro_weighted'].mean()
+            avg_f1_class_0 = model_classification_reports_df['f1_score_class_0'].mean()
+            avg_f1_class_1 = model_classification_reports_df['f1_score_class_1'].mean()
+            avg_accuracy = 0
+            for idx, x in model_classification_reports_df.iterrows():
+                try:
+                    true_positives = x['support_class_1'] * x['recall_class_1']
+                    true_negatives = x['support_class_0'] * x['recall_class_0']
+                    total_samples = x['support_class_0'] + x['support_class_1']
+                    accuracy = (true_positives + true_negatives) / total_samples
+                    avg_accuracy += accuracy
+                except:
+                    pass
+            avg_accuracy /= len(model_classification_reports_df)
 
             with outer_columns[col]:
                 st.write(
                     f"""
                     <div class="model-box">
                         <div class="model-subtitle">{model['type']} {model['context']}</div>
-                        <div class="model-f1">Avg F1 Score Macro: {avg_f1_macro:.2f}</div>
+                        <div class="model-f1">Avg F1 Score Class 0: {avg_f1_class_0:.2f}</div>
+                        <div class="model-f1">Avg F1 Score Class 1: {avg_f1_class_1:.2f}</div>
+                        <div class="model-f1">Avg Accuracy: {avg_accuracy:.2f}</div>
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
 
-            # Update column and row indices
             col += 1
             if col == cols:
                 col = 0
                 row += 1
                 if row < rows:
                     outer_columns = st.columns(cols)
+
+def display_box_plots(models):
+
+    st.write(
+        f"""
+        <style>
+            .css-1v0mbdj img {{
+                max-width: 1600px !important;
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.title("Box Plots")
+
+    model_groups = defaultdict(list)
+    for model in models:
+        model_groups[model["model_name"]].append(model)
+
+    metrics = ['f1_score_class_0', 'f1_score_class_1', 'average_f1_score', 'accuracy']
+
+    for metric in metrics:
+        st.write(f'## {metric}')
+        fig, ax = plt.subplots(figsize=(8, 6))  # Adjust plot size
+
+        data_frames = []
+        model_labels = []
+
+        for model_name, model_group in model_groups.items():
+            for model in model_group:
+                model_classification_reports = model["data"]["classification_reports"]
+                model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
+
+                # Calculate average F1 score
+                model_classification_reports_df['average_f1_score'] = (model_classification_reports_df['f1_score_class_0'] + model_classification_reports_df['f1_score_class_1']) / 2
+
+                if metric == 'accuracy':
+                    accuracies = []
+                    for idx, x in model_classification_reports_df.iterrows():
+                        try:
+                            true_positives = x['support_class_1'] * x['recall_class_1']
+                            true_negatives = x['support_class_0'] * x['recall_class_0']
+                            total_samples = x['support_class_0'] + x['support_class_1']
+                            accuracy = (true_positives + true_negatives) / total_samples
+                            accuracies.append(accuracy)
+                        except:
+                            pass
+                    metric_df = pd.DataFrame(accuracies, columns=[metric])
+                else:
+                    metric_df = model_classification_reports_df[[metric]].dropna()
+
+                model_label = f"{model_name} {model['type']} {model['context']}"
+                metric_df = metric_df.assign(Model=model_label)
+                data_frames.append(metric_df)
+
+        combined_df = pd.concat(data_frames, ignore_index=True)
+        box_plot = sns.boxplot(y='Model', x=metric, data=combined_df, ax=ax)
+
+        plt.show()
+
+        st.pyplot(fig)
+
+if selected_page == "Overview":
+    display_dashboard(models)
+if selected_page == "Box Plots":
+    display_box_plots(models)

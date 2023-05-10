@@ -112,7 +112,6 @@ def extract_last_float(classification_str):
 
 # Function to convert 'Classification: [0 or 1]' string to int value
 def extract_nth_character(classification_str, n):
-    print(classification_str)
     if pd.isna(classification_str):
         return None
     if type(classification_str) == float:
@@ -205,13 +204,14 @@ def calculate_co_occurrence(prediction_per_class, classes, ignore_same_label=Tru
         co_occurrence = update_co_occurrence_dict(co_occurrence, y_true, y_pred, label, annotations)
 
     # Print most co-occurring labels
-    print("Most co-occurring labels in true positives, false positives, true negatives, and false negatives:")
-    for key, value in co_occurrence.items():
-        print(f"{key}:")
-        for label, counter in value.items():
-            most_common_co_occurring = counter.most_common()
-            print(f"  {label}: {most_common_co_occurring}")
-        print()
+    if verbose:
+        print("Most co-occurring labels in true positives, false positives, true negatives, and false negatives:")
+        for key, value in co_occurrence.items():
+            print(f"{key}:")
+            for label, counter in value.items():
+                most_common_co_occurring = counter.most_common()
+                print(f"  {label}: {most_common_co_occurring}")
+            print()
 
     return co_occurrence
 
