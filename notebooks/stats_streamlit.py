@@ -8,6 +8,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objs as go
+import plotly.express as px
 import math
 from collections import defaultdict
 import numpy as np
@@ -505,9 +506,10 @@ def display_box_plots(models):
 
     metrics = ['f1_score_class_0', 'f1_score_class_1', 'average_f1_score', 'accuracy']
 
+    all_models = []
+
     for metric in metrics:
         st.write(f'## {metric}')
-        fig, ax = plt.subplots(figsize=(8, 6))  # Adjust plot size
 
         data_frames = []
         model_labels = []
@@ -538,13 +540,21 @@ def display_box_plots(models):
                 model_label = f"{model_name} {model['type']} {model['context']}"
                 metric_df = metric_df.assign(Model=model_label)
                 data_frames.append(metric_df)
+                all_models.append(model_label)
 
         combined_df = pd.concat(data_frames, ignore_index=True)
-        box_plot = sns.boxplot(y='Model', x=metric, data=combined_df, ax=ax)
 
-        plt.show()
+        unique_models = sorted(list(set(all_models)))
+        selected_models = st.multiselect(f"Select Models for {metric}", unique_models, default=unique_models, key=f'select_models_{metric}')
 
-        st.pyplot(fig)
+        filtered_df = combined_df[combined_df['Model'].isin(selected_models)]
+
+        fig = px.box(filtered_df, x=metric, y='Model', labels={'Model': ''}, title=f'{metric} Boxplot')
+
+        # Update the plot size
+        fig.update_layout(width=1200, height=len(selected_models) * 40 + 200)
+
+        st.plotly_chart(fig)
 
 if selected_page == "Overview":
     display_dashboard(models)
