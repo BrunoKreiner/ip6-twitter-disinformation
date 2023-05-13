@@ -111,10 +111,15 @@ def extract_last_float(classification_str):
         return None
 
 # Function to convert 'Classification: [0 or 1]' string to int value
-def extract_nth_character(classification_str, n):
+def extract_nth_character(classification_str, n, strip = False):
+    if strip and type(classification_str) == str:
+        classification_str = classification_str.strip()
+    #print(classification_str)
     if pd.isna(classification_str):
         return None
     if type(classification_str) == float:
+        return classification_str
+    if type(classification_str) == int:
         return classification_str
     try:
         #print(classification_str)
@@ -129,13 +134,28 @@ def extract_nth_character(classification_str, n):
     except ValueError:
         return None
 
-def get_extraction_function(type, n=0):
+def extract_not_x(classification_str):
+    if pd.isna(classification_str):
+        return None
+    if type(classification_str) == float:
+        return classification_str
+    try:
+        if "not" in classification_str.lower():
+            return 0
+        else:
+            return 1
+    except ValueError:
+        return None
+
+def get_extraction_function(type, n=0, strip = False):
     if type == "extract_nth_character":
-        return lambda x: extract_nth_character(x, n-1)
+        return lambda x: extract_nth_character(x, n-1, strip)
     if type == "extract_last_float":
         return extract_last_float
     if type == "extract_label":
         return extract_label
+    if type == "extract_not_x":
+        return extract_not_x
     
 def calculate_binary_metrics(df, classes, extraction_function):
     prediction_per_class = []

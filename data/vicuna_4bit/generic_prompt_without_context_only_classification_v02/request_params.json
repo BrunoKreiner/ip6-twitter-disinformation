@@ -1,5 +1,5 @@
 {
-    "prompt": "### Human: Classify the Tweet based on if it's about Science/Technology. Use 1 or 0 as class.\n\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\n### Assistant:\nClass: ",
+    "prompt": "### Human: Give the tweet a binary class based on if it's about Science/Technology or not.\n\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\n### Assistant:\nClass: ",
     "context": "",
     "max_new_tokens": 20,
     "do_sample": true,

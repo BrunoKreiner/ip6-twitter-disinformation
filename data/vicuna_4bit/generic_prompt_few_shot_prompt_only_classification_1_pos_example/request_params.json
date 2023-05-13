@@ -1,7 +1,7 @@
 {
-    "prompt": "### Human: Classify the Tweet based on if it's about Science/Technology. Use 1 or 0 as class.\n\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\n### Assistant:\nClass: ",
+    "prompt": "### Human: Classify the Tweet based on if it's about Science/Technology. Use 1 or 0 as class.\nExample Tweet: Curated HedgeBz | #DARPA awards $ 65 million to make #CRISPR safer , more efficient [url]\nClass: 1\n\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\nClass: ",
     "context": "",
-    "max_new_tokens": 20,
+    "max_new_tokens": 5,
     "do_sample": true,
     "temperature": 0.7,
     "top_p": 0.1,
