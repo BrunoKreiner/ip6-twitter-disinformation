@@ -146,6 +146,17 @@ def extract_not_x(classification_str):
             return 1
     except ValueError:
         return None
+    
+def extract_multilabel_list(classification_str, classes):
+    classification_str = classification_str.replace("[", "").replace("]", "").replace("'", "")
+    classification_str = classification_str.split(", ")
+    for class_ in classification_str:
+        if class_ not in " ".join(classes):
+            #print(class_)
+            classification_str.remove(class_)
+    if classification_str == []:
+        classification_str = ["Others"]
+    return list(set(classification_str))
 
 def get_extraction_function(type, n=0, strip = False):
     if type == "extract_nth_character":
@@ -156,6 +167,36 @@ def get_extraction_function(type, n=0, strip = False):
         return extract_label
     if type == "extract_not_x":
         return extract_not_x
+    
+def calculate_binary_metrics_from_multilabel_list(df, classes, extraction_function):
+    prediction_per_class = []
+    confusion_matrices = {}
+    classification_reports = {}
+    
+    # Cleaning and extracting multilabel classes
+    df['annotations'] = df['annotations'].apply(lambda x: extraction_function(x, classes))
+    df['response'] = df['response'].apply(lambda x: extraction_function(x, classes))
+    
+    # Iterate through class labels
+    for idx, label in enumerate(classes):
+
+        # Create binary ground truth and predictions for current class
+        y_true = df['annotations'].apply(lambda x: int(label in x))
+        y_pred = df['response'].apply(lambda x: int(label in x))
+
+        # Store the binary predictions for current class
+        pred_df = df.copy()
+        pred_df['binary_prediction'] = y_pred
+        prediction_per_class.append(pred_df)
+        
+        # Calculate confusion matrix and classification report
+        cm = confusion_matrix(y_true, y_pred)
+        confusion_matrices[label] = cm
+        cr = classification_report(y_true, y_pred, output_dict=True)
+        classification_reports[label] = cr
+
+    return prediction_per_class, confusion_matrices, classification_reports
+
     
 def calculate_binary_metrics(df, classes, extraction_function):
     prediction_per_class = []

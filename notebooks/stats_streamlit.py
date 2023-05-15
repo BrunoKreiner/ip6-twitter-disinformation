@@ -134,12 +134,26 @@ extraction_function = llm_utils.get_extraction_function("extract_nth_character",
 few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_3_random_df, classes, extraction_function)
 few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
+# Only classification 3 random example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
+few_shot_5_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+few_shot_5_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_5_random_df, classes, extraction_function)
+few_shot_5_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
 # Only classification 1 pos 1 neg example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
 few_shot_1_pos_1_neg_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_1_neg_example/generic_test_0.csv")
 extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
 few_shot_1_pos_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_1_pos_1_neg_df, classes, extraction_function)
 few_shot_1_pos_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# ------------------------------
+### Vicuna 4bit LORA
+# ------------------------------
+vicuna_lora_multilabel_without_context_v01_df = pd.read_csv("../data/vicuna_4bit/lora/multilabel_without_context_v01/valid_generic_test_0.csv")
+vicuna_lora_multilabel_without_context_v01_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics_from_multilabel_list(vicuna_lora_multilabel_without_context_v01_df, classes, llm_utils.extract_multilabel_list)
+vicuna_lora_multilabel_without_context_v01 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
 # ------------------------------
 ### OpenAssistant LLama 30B 4bit
@@ -154,7 +168,6 @@ extraction_function = llm_utils.get_extraction_function("extract_nth_character",
 oa_without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_classification_only_df, classes, extraction_function)
 oa_without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
-
 # without context and elaboration first
 ## Example:
     #"Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\nElaboration: "
@@ -164,6 +177,48 @@ oa_without_context_elaboration_first_df = pd.read_csv("../data/openassistant_lla
 extraction_function = llm_utils.get_extraction_function("extract_label", 1)
 oa_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_df, classes, extraction_function)
 oa_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 1 pos example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
+oa_few_shot_1_pos_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_1_pos_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_pos_df, classes, extraction_function)
+oa_few_shot_1_pos = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 1 neg example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 0\n\nTweet: {tweet_text}\nClass: "
+oa_few_shot_1_neg_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_neg_df, classes, extraction_function)
+oa_few_shot_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 1 random example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label}\n\nTweet: {tweet_text}\nClass: "
+oa_few_shot_1_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_random_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_1_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_random_df, classes, extraction_function)
+oa_few_shot_1_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 3 random example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
+oa_few_shot_3_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_3_random_df, classes, extraction_function)
+oa_few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 1 pos 1 neg example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
+oa_few_shot_1_pos_1_neg_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_1_neg_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_1_pos_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_pos_1_neg_df, classes, extraction_function)
+oa_few_shot_1_pos_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 5 random example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
+oa_few_shot_5_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_5_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_5_random_df, classes, extraction_function)
+oa_few_shot_5_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
 # ------------------------------
 ### Openai GPT-3.5-turbo
@@ -206,6 +261,23 @@ extraction_function = llm_utils.get_extraction_function("extract_nth_character",
 text_davinci_003_turbo_without_context_classification_only_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_classification_only_v03_df, classes, extraction_function)
 text_davinci_003_turbo_without_context_classification_only_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
+# few shot prompt only classification
+
+# 1 pos example
+text_davinci_003_few_shot_1_pos_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv")
+openaiextraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+text_davinci_003_few_shot_1_pos_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_few_shot_1_pos_df, classes, extraction_function)
+text_davinci_003_few_shot_1_pos = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+text_davinci_003_few_shot_1_neg_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv")
+openaiextraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+text_davinci_003_few_shot_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_few_shot_1_neg_df, classes, extraction_function)
+text_davinci_003_few_shot_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+text_davinci_003_few_shot_3_random_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv")
+openaiextraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+text_davinci_003_few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_few_shot_3_random_df, classes, extraction_function)
+text_davinci_003_few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
 # without context and elaboration first
 ## Example:
@@ -357,10 +429,24 @@ models = [
     },
     {
         "model_name": "Vicuna 13B 4bit",
+        "context": "5 random examples",
+        "type": "Classification only",
+        "data": few_shot_5_random,
+        "prediction_per_class": few_shot_5_random_predictions_per_class,
+    },
+    {
+        "model_name": "Vicuna 13B 4bit",
         "context": "1 pos 1 neg examples",
         "type": "Classification only",
         "data": few_shot_1_pos_1_neg,
         "prediction_per_class": few_shot_1_pos_1_neg_predictions_per_class,
+    },
+    {
+        "model_name": "Vicuna 13B 4bit LORA",
+        "context": "",
+        "type": "Multilabel Classification only",
+        "data": vicuna_lora_multilabel_without_context_v01,
+        "prediction_per_class": vicuna_lora_multilabel_without_context_v01_predictions_per_class,
     },
     {
         "model_name": "OA Llama 30B 4bit",
@@ -375,6 +461,49 @@ models = [
         "context": "",
         "data": oa_without_context_elaboration_first,
         "prediction_per_class": oa_without_context_elaboration_first_predictions_per_class,
+    },
+        {
+        "model_name": "OA Llama 30B 4bit",
+        "context": "1 pos example",
+        "type": "Classification only",
+        "data": oa_few_shot_1_pos,
+        "prediction_per_class": oa_few_shot_1_pos_predictions_per_class,
+    },
+
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "context": "1 random example",
+        "type": "Classification only",
+        "data": oa_few_shot_1_random,
+        "prediction_per_class": oa_few_shot_1_random_predictions_per_class,
+    },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "context": "1 neg example",
+        "type": "Classification only",
+        "data": oa_few_shot_1_neg,
+        "prediction_per_class": oa_few_shot_1_neg_predictions_per_class,
+    },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "context": "3 random examples",
+        "type": "Classification only",
+        "data": oa_few_shot_3_random,
+        "prediction_per_class": oa_few_shot_3_random_predictions_per_class,
+    },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "context": "1 pos 1 neg examples",
+        "type": "Classification only",
+        "data": oa_few_shot_1_pos_1_neg,
+        "prediction_per_class": oa_few_shot_1_pos_1_neg_predictions_per_class,
+    },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "context": "5 random examples",
+        "type": "Classification only",
+        "data": oa_few_shot_5_random,
+        "prediction_per_class": oa_few_shot_5_random_predictions_per_class,
     },
     {
         "model_name": "Gpt 3.5-turbo",
@@ -438,6 +567,27 @@ models = [
         "context": "With Rules",
         "data": text_davinci_003_turbo_with_rules_elaboration_first,
         "prediction_per_class": text_davinci_003_turbo_with_rules_elaboration_first_predictions_per_class,
+    },
+    {
+        "model_name": "Text Davinci 003",
+        "type": "Classification Only",
+        "context": "1 pos example",
+        "data": text_davinci_003_few_shot_1_pos,
+        "prediction_per_class": text_davinci_003_few_shot_1_pos_predictions_per_class,
+    },
+    {
+        "model_name": "Text Davinci 003",
+        "type": "Classification Only",
+        "context": "1 neg example",
+        "data": text_davinci_003_few_shot_1_neg,
+        "prediction_per_class": text_davinci_003_few_shot_1_neg_predictions_per_class,
+    },
+    {
+        "model_name": "Text Davinci 003",
+        "type": "Classification Only",
+        "context": "3 random example",
+        "data": text_davinci_003_few_shot_3_random,
+        "prediction_per_class": text_davinci_003_few_shot_3_random_predictions_per_class,
     },
     {
         "model_name": "GPT4xalpaca 4bit",
