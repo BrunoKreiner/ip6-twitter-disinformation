@@ -26,7 +26,7 @@ import pandas as pd
 classes = ["War/Terror", "Conspiracy Theory", "Education", "Election Campaign", "Environment", 
               "Government/Public", "Health", "Immigration/Integration", 
               "Justice/Crime", "Labor/Employment", 
-              "Macroeconomics/Economic Regulation", "Media/Journalism", "Religion", "Science/Technology"]
+              "Macroeconomics/Economic Regulation", "Media/Journalism", "Religion", "Science/Technology", "Others"]
 
 # ------------------------------
 ### Vicuna 4bit 
@@ -151,7 +151,9 @@ few_shot_1_pos_1_neg = {"confusion_matrices": confusion_matrices, "classificatio
 # ------------------------------
 ### Vicuna 4bit LORA
 # ------------------------------
-vicuna_lora_multilabel_without_context_v01_df = pd.read_csv("../data/vicuna_4bit/lora/multilabel_without_context_v01/valid_generic_test_0.csv")
+df1 = pd.read_csv("../data/vicuna_4bit/lora/multilabel_without_context_v01/valid_generic_test_0.csv")
+df2 = pd.read_csv("../data/vicuna_4bit/lora/multilabel_without_context_v01/test_generic_test_0.csv")
+vicuna_lora_multilabel_without_context_v01_df = pd.concat([df1, df2])
 vicuna_lora_multilabel_without_context_v01_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics_from_multilabel_list(vicuna_lora_multilabel_without_context_v01_df, classes, llm_utils.extract_multilabel_list)
 vicuna_lora_multilabel_without_context_v01 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
@@ -874,9 +876,8 @@ def display_dashboard(models):
         model_groups[model["model_name"]].append(model)
 
     # Add metric selection dropdown in the sidebar
-    metric_options = ["Avg F1 Score Class 0", "Avg F1 Score Class 1", "Avg Accuracy"]
+    metric_options = ["None", "Avg F1 Score Class 0", "Avg F1 Score Class 1", "Avg F1 Score", "Avg Accuracy"]
     selected_metric = st.sidebar.radio("Select active metric", metric_options, index=1)
-
 
     # Prepare a color scale
     cmap = sns.color_palette("flare", as_cmap=True)
@@ -897,6 +898,10 @@ def display_dashboard(models):
             model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
             avg_f1_class_0 = model_classification_reports_df['f1_score_class_0'].mean()
             avg_f1_class_1 = model_classification_reports_df['f1_score_class_1'].mean()
+
+            # calculate overall average F1 score
+            avg_f1_score = (avg_f1_class_0 + avg_f1_class_1) / 2
+
             avg_accuracy = 0
             for idx, x in model_classification_reports_df.iterrows():
                 try:
@@ -908,19 +913,22 @@ def display_dashboard(models):
                 except:
                     pass
             avg_accuracy /= len(model_classification_reports_df)
-            metrics = {"Avg F1 Score Class 0": avg_f1_class_0, "Avg F1 Score Class 1": avg_f1_class_1, "Avg Accuracy": avg_accuracy}
+            metrics = {"Avg F1 Score Class 0": avg_f1_class_0, "Avg F1 Score Class 1": avg_f1_class_1, "Avg F1 Score": avg_f1_score, "Avg Accuracy": avg_accuracy}
             selected_metric_value = metrics[selected_metric] * 1.3 - 0.7
 
             # Normalize metrics
             min_metric = 0.0
             max_metric = 1
+            
+            if selected_metric_value != "None":
+                if max_metric != min_metric:
+                    normalized_metric = (selected_metric_value - min_metric) / (max_metric - min_metric)
+                else:
+                    normalized_metric = 0.5  # Assign a neutral value when there is no variation in the metric
 
-            if max_metric != min_metric:
-                normalized_metric = (selected_metric_value - min_metric) / (max_metric - min_metric)
+                background_color = mcolors.rgb2hex(cmap(normalized_metric))
             else:
-                normalized_metric = 0.5  # Assign a neutral value when there is no variation in the metric
-
-            background_color = mcolors.rgb2hex(cmap(normalized_metric))
+                background_color = "None"
 
             with outer_columns[col]:
                 st.write(
@@ -929,6 +937,7 @@ def display_dashboard(models):
                         <div class="model-subtitle">{model['context']} {model['type']}</div>
                         <div class="model-f1">Avg F1 Score Class 0: {avg_f1_class_0:.2f}</div>
                         <div class="model-f1">Avg F1 Score Class 1: {avg_f1_class_1:.2f}</div>
+                        <div class="model-f1">Avg F1 Score Class 1: {avg_f1_score:.2f}</div>
                         <div class="model-f1">Avg Accuracy: {avg_accuracy:.2f}</div>
                     </div>
                     """,

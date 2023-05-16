@@ -5,6 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import re
 from collections import Counter
+import numpy as np
 
 # Set display options
 pd.set_option('display.width', 1000)
@@ -148,6 +149,8 @@ def extract_not_x(classification_str):
         return None
     
 def extract_multilabel_list(classification_str, classes):
+    if classification_str is np.nan:
+        return ["Others"]
     classification_str = classification_str.replace("[", "").replace("]", "").replace("'", "")
     classification_str = classification_str.split(", ")
     for class_ in classification_str:
@@ -199,33 +202,44 @@ def calculate_binary_metrics_from_multilabel_list(df, classes, extraction_functi
 
     
 def calculate_binary_metrics(df, classes, extraction_function):
-    prediction_per_class = []
+    predictions_per_class = []
     # Iterate through class labels and extract binary predictions
     for idx, label in enumerate(classes):
         pred_column_name = f"{label}_pred"
-        pred_column_df = df[df[pred_column_name].notna()].copy()
-        pred_column_df[pred_column_name] = pred_column_df[pred_column_name].apply(extraction_function)
-        prediction_per_class.append(pred_column_df)
+        try:
+            pred_column_df = df[df[pred_column_name].notna()].copy()
+            pred_column_df[pred_column_name] = pred_column_df[pred_column_name].apply(extraction_function)
+            predictions_per_class.append(pred_column_df)
+        
+        #Skip if the column (for example Others_pred) does not exist
+        except KeyError:
+            predictions_per_class.append(None)
 
     confusion_matrices = {}
     classification_reports = {}
     for idx, label in enumerate(classes):
         pred_column_name = f"{label}_pred"
 
-        current_df = prediction_per_class[idx]
+        current_df = predictions_per_class[idx]
         
         # Ignore rows with NaN or invalid values in the predictions
-        valid_rows = current_df[pred_column_name].notna()
-        
-        y_true = current_df.loc[valid_rows, 'annotations'].apply(lambda x: int(label in x))
-        y_pred = current_df.loc[valid_rows, pred_column_name].astype(int)
-
+        try:
+            valid_rows = current_df[pred_column_name].notna()
+            
+            y_true = current_df.loc[valid_rows, 'annotations'].apply(lambda x: int(label in x))
+            y_pred = current_df.loc[valid_rows, pred_column_name].astype(int)
+        except KeyError:
+            y_true = []
+            y_pred = []
+        except TypeError:
+            y_true = []
+            y_pred = []
         cm = confusion_matrix(y_true, y_pred)
         confusion_matrices[label] = cm
         cr = classification_report(y_true, y_pred, output_dict=True)
         classification_reports[label] = cr
 
-    return prediction_per_class, confusion_matrices, classification_reports
+    return predictions_per_class, confusion_matrices, classification_reports
 
 def calculate_co_occurrence(prediction_per_class, classes, ignore_same_label=True, verbose = False):
 
