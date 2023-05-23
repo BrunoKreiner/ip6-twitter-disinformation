@@ -1,0 +1,24 @@
+{
+    "prompt": "Classify the Tweet based on if it's about Science/Technology. Use 1 or 0 as class.\nExample Tweet: Facebook , Funny Money And Libra [url] [url]\nClass: 1\nExample Tweet: RT @USER =: #AboutToday \u2014 \u2014 \u2014 A press statement was issued by all the East African countries about CRYPTOCURRENCIES an \u2026\nClass: 1\nExample Tweet: The rehabilitation and successful completion of the Tororo-kamdini Highway will develop the east and northern Uganda while boosting trade between Kenya , Uganda and South Sudan since it will ease the movement of goods and services of the neighboring countries . #256infrastructure [url]\nClass: 1\nExample Tweet: Apple's Siri speaker to challenge Google , AmazonOK Google ... [url] [url]\nClass: 1\nExample Tweet: VIDEO : Unhinged Cuomo Demands PROOF Trump Did not Collude With Russia [url] [url]\nClass: 0\nExample Tweet: RT @USER : We would appreciate more collaboration and support from the Commonwealth in the fields of research in medicine and the \u2026\nClass: 1\nExample Tweet: Terrorist groups in #Idlib province continue to violate the cease-fire . every day , #Russia and #Turkey record incidents of bombardment of positions of government troops by #terrorists . [url]\nClass: 0\nExample Tweet: Rhino poaching is growing too fast \u2013 Mokonyane [url]\nClass: 0\nExample Tweet: 129 #Ukraine's soldiers taken prisoners by #Donbas insurgents [url]\nClass: 0\nExample Tweet: A first for SpaceX : Sending a used rocket into space [url] [url]\nClass: 1\n\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\nClass: ",
+    "context": "",
+    "max_new_tokens": 5,
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.1,
+    "typical_p": 1,
+    "repetition_penalty": 1.2,
+    "encoder_repetition_penalty": 1.0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "seed": -1,
+    "stopping_strings": [
+        "### Human:",
+        "Human:",
+        "###"
+    ]
+}

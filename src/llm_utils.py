@@ -15,25 +15,25 @@ def classification_reports_to_df(classification_reports, binary):
 
     if binary:
         # Your code for creating the DataFrame and adding the results
-        df = pd.DataFrame(columns=['label', 'f1_score_macro', 'precision_macro', 'recall_macro', 'support_macro',
-                                        'f1_score_class_0', 'precision_class_0', 'recall_class_0', 'support_class_0',
-                                        'f1_score_class_1', 'precision_class_1', 'recall_class_1', 'support_class_1'])
+        df = pd.DataFrame(columns=['label', 'f1_score_macro', #'precision_macro', 'recall_macro', 'support_macro',
+                                        'f1_score_class_0','support_class_0',
+                                        'f1_score_class_1', 'support_class_1'])
 
         for label, cr in classification_reports.items():
             try: 
                 df = df.append({
                     'label': label,
                     'f1_score_macro': cr['macro avg']['f1-score'],
-                    'precision_macro': cr['macro avg']['precision'],
-                    'recall_macro': cr['macro avg']['recall'],
-                    'support_macro': cr['macro avg']['support'],
+                    #'precision_macro': cr['macro avg']['precision'],
+                    #'recall_macro': cr['macro avg']['recall'],
+                    #'support_macro': cr['macro avg']['support'],
                     'f1_score_class_0': cr['0']['f1-score'],
-                    'precision_class_0': cr['0']['precision'],
-                    'recall_class_0': cr['0']['recall'],
+                    #'precision_class_0': cr['0']['precision'],
+                    #'recall_class_0': cr['0']['recall'],
                     'support_class_0': cr['0']['support'],
                     'f1_score_class_1': cr['1']['f1-score'],
-                    'precision_class_1': cr['1']['precision'],
-                    'recall_class_1': cr['1']['recall'],
+                    #'precision_class_1': cr['1']['precision'],
+                    #'recall_class_1': cr['1']['recall'],
                     'support_class_1': cr['1']['support']
                 }, ignore_index=True)
             except Exception as e:
@@ -41,16 +41,16 @@ def classification_reports_to_df(classification_reports, binary):
                 df = df.append({
                     'label': label,
                     'f1_score_macro': None,
-                    'precision_macro': None,
-                    'recall_macro': None,
-                    'support_macro': None,
+                    #'precision_macro': None,
+                    #'recall_macro': None,
+                    #'support_macro': None,
                     'f1_score_class_0': None,
-                    'precision_class_0': None,
-                    'recall_class_0': None,
+                    #'precision_class_0': None,
+                    #'recall_class_0': None,
                     'support_class_0': None,
                     'f1_score_class_1': None,
-                    'precision_class_1': None,
-                    'recall_class_1': None,
+                    #'precision_class_1': None,
+                    #'recall_class_1': None,
                     'support_class_1': None
                 }, ignore_index=True)
                 continue

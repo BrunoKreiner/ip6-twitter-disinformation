@@ -134,12 +134,20 @@ extraction_function = llm_utils.get_extraction_function("extract_nth_character",
 few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_3_random_df, classes, extraction_function)
 few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
-# Only classification 3 random example
+# Only classification 5 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
 few_shot_5_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv")
 extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
 few_shot_5_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_5_random_df, classes, extraction_function)
 few_shot_5_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 10 random example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
+few_shot_10_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_10_random_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+few_shot_10_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_10_random_df, classes, extraction_function)
+few_shot_10_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
 
 # Only classification 1 pos 1 neg example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
@@ -221,6 +229,13 @@ oa_few_shot_5_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/gene
 extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
 oa_few_shot_5_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_5_random_df, classes, extraction_function)
 oa_few_shot_5_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+# Only classification 10 random example
+## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
+oa_few_shot_10_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_10_random_example/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+oa_few_shot_10_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_10_random_df, classes, extraction_function)
+oa_few_shot_10_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
 # ------------------------------
 ### Openai GPT-3.5-turbo
@@ -346,7 +361,7 @@ gpt4xalpaca_without_context_classification_only = {"confusion_matrices": confusi
 models = [
     {
         "model_name": "Vicuna 13B 4bit",
-        "type": "Classification only",
+        "type": "Classification only V01",
         "context": "",
         "data": without_context_classification_only,
         "prediction_per_class": without_context_classification_only_predictions_per_class,
@@ -368,7 +383,7 @@ models = [
     {
         "model_name": "Vicuna 13B 4bit",
         "context": "",
-        "type": "Elaboration first",
+        "type": "Elaboration first V01",
         "data": without_context_elaboration_first,
         "prediction_per_class": without_context_elaboration_first_predictions_per_class,
     },
@@ -389,14 +404,14 @@ models = [
     {
         "model_name": "Vicuna 13B 4bit",
         "context": "With Rules",
-        "type": "Classification only",
+        "type": "Classification only V01",
         "data": with_rules_classification_only,
         "prediction_per_class": with_rules_classification_only_predictions_per_class,
     },
     {
         "model_name": "Vicuna 13B 4bit",
         "context": "With Rules",
-        "type": "Elaboration first",
+        "type": "Elaboration first V01",
         "data": with_rules_elaboration_first,
         "prediction_per_class": with_rules_elaboration_first_predictions_per_class,
     },
@@ -438,6 +453,13 @@ models = [
     },
     {
         "model_name": "Vicuna 13B 4bit",
+        "context": "10 random examples",
+        "type": "Classification only",
+        "data": few_shot_10_random,
+        "prediction_per_class": few_shot_10_random_predictions_per_class,
+    },
+    {
+        "model_name": "Vicuna 13B 4bit",
         "context": "1 pos 1 neg examples",
         "type": "Classification only",
         "data": few_shot_1_pos_1_neg,
@@ -452,14 +474,14 @@ models = [
     },
     {
         "model_name": "OA Llama 30B 4bit",
-        "type": "Classification only",
+        "type": "Classification only V01",
         "context": "",
         "data": oa_without_context_classification_only,
         "prediction_per_class": oa_without_context_classification_only_predictions_per_class,
     },
     {
         "model_name": "OA Llama 30B 4bit",
-        "type": "Elaboration first",
+        "type": "Elaboration first V01",
         "context": "",
         "data": oa_without_context_elaboration_first,
         "prediction_per_class": oa_without_context_elaboration_first_predictions_per_class,
@@ -508,15 +530,22 @@ models = [
         "prediction_per_class": oa_few_shot_5_random_predictions_per_class,
     },
     {
-        "model_name": "Gpt 3.5-turbo",
+        "model_name": "OA Llama 30B 4bit",
+        "context": "10 random examples",
         "type": "Classification only",
+        "data": oa_few_shot_10_random,
+        "prediction_per_class": oa_few_shot_10_random_predictions_per_class,
+    },
+    {
+        "model_name": "Gpt 3.5-turbo",
+        "type": "Classification only V01",
         "context": "",
         "data": gpt3_turbo_without_context_classification_only,
         "prediction_per_class": gpt3_turbo_without_context_classification_only_predictions_per_class,
     },
     {
         "model_name": "Text Davinci 003",
-        "type": "Classification only",
+        "type": "Classification only V01",
         "context": "",
         "data": text_davinci_003_turbo_without_context_classification_only,
         "prediction_per_class": text_davinci_003_turbo_without_context_classification_only_predictions_per_class,
@@ -537,7 +566,7 @@ models = [
     },
     {
         "model_name": "Text Davinci 003",
-        "type": "Elaboration First",
+        "type": "Elaboration First V01",
         "context": "",
         "data": text_davinci_003_turbo_without_context_elaboration_first,
         "prediction_per_class": text_davinci_003_turbo_without_context_elaboration_first_predictions_per_class,
@@ -565,7 +594,7 @@ models = [
     },
     {
         "model_name": "Text Davinci 003",
-        "type": "Elaboration First",
+        "type": "Elaboration First V01",
         "context": "With Rules",
         "data": text_davinci_003_turbo_with_rules_elaboration_first,
         "prediction_per_class": text_davinci_003_turbo_with_rules_elaboration_first_predictions_per_class,
@@ -593,14 +622,14 @@ models = [
     },
     {
         "model_name": "GPT4xalpaca 4bit",
-        "type": "Elaboration first",
+        "type": "Elaboration first V01",
         "context": "",
         "data": gpt4xalpaca_without_context_elaboration_first,
         "prediction_per_class": gpt4xalpaca_without_context_elaboration_first_predictions_per_class,
     },
     {
         "model_name": "GPT4xalpaca 4bit",
-        "type": "Classification only",
+        "type": "Classification only V01",
         "context": "",
         "data": gpt4xalpaca_without_context_classification_only,
         "prediction_per_class": gpt4xalpaca_without_context_classification_only_predictions_per_class,
@@ -937,7 +966,7 @@ def display_dashboard(models):
                         <div class="model-subtitle">{model['context']} {model['type']}</div>
                         <div class="model-f1">Avg F1 Score Class 0: {avg_f1_class_0:.2f}</div>
                         <div class="model-f1">Avg F1 Score Class 1: {avg_f1_class_1:.2f}</div>
-                        <div class="model-f1">Avg F1 Score Class 1: {avg_f1_score:.2f}</div>
+                        <div class="model-f1">Avg F1 Score: {avg_f1_score:.2f}</div>
                         <div class="model-f1">Avg Accuracy: {avg_accuracy:.2f}</div>
                     </div>
                     """,
@@ -1087,7 +1116,7 @@ if selected_page == "Co-Occurrences":
 
     # Model selection
     model_options = [model["model_name"] + " " + model["context"] + " " + model["type"] for model in models]
-    """selected_models = st.sidebar.multiselect("Select Models (up to 4)", model_options, key="single_model_selection")
+    selected_models = st.sidebar.multiselect("Select Models (up to 4)", model_options, key="single_model_selection")
 
     # Filter models based on user selection
     selected_models = [model for model in models if model["model_name"] + " " + model["context"] + " " + model["type"] in selected_models]
@@ -1110,7 +1139,7 @@ if selected_page == "Co-Occurrences":
             co_occurrence = llm_utils.calculate_co_occurrence(model["prediction_per_class"], classes, verbose=True)
             data = parse_data(co_occurrence)
             visualize_data(data, columns[idx % 2])  # Choose column based on index
-            idx += 1  # Increase index"""
+            idx += 1  # Increase index
 
 if selected_page == "Dashboard":
     display_dashboard(models)
