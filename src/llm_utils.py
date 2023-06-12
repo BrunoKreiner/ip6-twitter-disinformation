@@ -161,6 +161,23 @@ def extract_multilabel_list(classification_str, classes):
         classification_str = ["Others"]
     return list(set(classification_str))
 
+def extract_using_class_token(classification_str):
+    if pd.isna(classification_str):
+        return None
+    if type(classification_str) == float:
+        return classification_str
+    try:
+        classification_string = classification_str.lower().split("class")[-1]
+        print(classification_string)
+        if "0" in classification_string:
+            return 0
+        elif "1" in classification_string:
+            return 1
+        else:
+            return None
+    except ValueError:
+        return None
+
 def get_extraction_function(type, n=0, strip = False):
     if type == "extract_nth_character":
         return lambda x: extract_nth_character(x, n-1, strip)
@@ -170,6 +187,8 @@ def get_extraction_function(type, n=0, strip = False):
         return extract_label
     if type == "extract_not_x":
         return extract_not_x
+    if type == "extract_using_class_token":
+        return extract_using_class_token
     
 def calculate_binary_metrics_from_multilabel_list(df, classes, extraction_function):
     prediction_per_class = []
