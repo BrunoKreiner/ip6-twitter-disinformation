@@ -205,10 +205,20 @@ oa_without_context_classification_only_v03 = {"confusion_matrices": confusion_ma
     #"Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\nElaboration: "
     #Followup: \n\nAssign the label 1 for {label} or 0 for not.\nClass: 
 
-oa_without_context_elaboration_first_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv")
+oa_without_context_elaboration_first_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first/generic_test_0.csv")
 extraction_function = llm_utils.get_extraction_function("extract_label", 1)
 oa_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_df, classes, extraction_function)
 oa_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+oa_without_context_elaboration_first_v02_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_label", 1)
+oa_without_context_elaboration_first_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_v02_df, classes, extraction_function)
+oa_without_context_elaboration_first_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+oa_without_context_elaboration_first_v04_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_using_class_token", 1)
+oa_without_context_elaboration_first_v04_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_v04_df, classes, extraction_function)
+oa_without_context_elaboration_first_v04 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
 # Only classification 1 pos example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
@@ -272,6 +282,10 @@ extraction_function = llm_utils.get_extraction_function("extract_nth_character",
 gpt3_turbo_without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt3_turbo_without_context_classification_only_df, classes, extraction_function)
 gpt3_turbo_without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
+gpt3_turbo_without_context_elaboration_first_df = pd.read_csv("../data/openai_gpt-3.5-turbo/generic_prompt_without_context_elaboration_first/generic_test_0.csv")
+extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
+gpt3_turbo_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt3_turbo_without_context_elaboration_first_df, classes, extraction_function)
+gpt3_turbo_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
 
 # ------------------------------
 ### Openai text-davinci-003
@@ -551,6 +565,20 @@ models = [
         "data": oa_without_context_elaboration_first,
         "prediction_per_class": oa_without_context_elaboration_first_predictions_per_class,
     },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "type": "Elaboration first V02",
+        "context": "",
+        "data": oa_without_context_elaboration_first_v02,
+        "prediction_per_class": oa_without_context_elaboration_first_v02_predictions_per_class,
+    },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "type": "Elaboration first V04",
+        "context": "",
+        "data": oa_without_context_elaboration_first_v04,
+        "prediction_per_class": oa_without_context_elaboration_first_v04_predictions_per_class,
+    },
         {
         "model_name": "OA Llama 30B 4bit",
         "context": "1 pos example",
@@ -607,6 +635,13 @@ models = [
         "context": "",
         "data": gpt3_turbo_without_context_classification_only,
         "prediction_per_class": gpt3_turbo_without_context_classification_only_predictions_per_class,
+    },
+    {
+        "model_name": "Gpt 3.5-turbo",
+        "type": "Elaboration First V01",
+        "context": "",
+        "data": gpt3_turbo_without_context_elaboration_first,
+        "prediction_per_class": gpt3_turbo_without_context_elaboration_first_predictions_per_class,
     },
     {
         "model_name": "Text Davinci 003",
