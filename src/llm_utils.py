@@ -60,6 +60,27 @@ def classification_reports_to_df(classification_reports, binary):
     
     return None
 
+"""def report_to_dataframe(average_reports, classes):
+    data = {
+        "precision": [],
+        "recall": [],
+        "f1-score": [],
+        "support": []
+    }
+    index = []
+
+    for i, average_report in enumerate(average_reports):
+        for class_name, metrics in average_report.items():
+            if class_name in {'micro avg', 'macro avg', 'weighted avg', 'accuracy'}:
+                continue
+            index.append(classes[i])
+            data["precision"].append(metrics["0"]["precision"])
+            data["recall"].append(metrics["0"]["recall"])
+            data["f1-score"].append(metrics["0"]["f1-score"])
+            data["support"].append(metrics["0"]["support"])
+
+    return pd.DataFrame(data, index=index)"""
+
 def find_last_float(s):
     # Define the pattern for a float number
     float_pattern = r'\d+\.\d+|\d+'
@@ -151,6 +172,30 @@ def extract_not_x(classification_str):
 def extract_multilabel_list(classification_str, classes):
     if classification_str is np.nan:
         return ["Others"]
+    classification_str = classification_str.replace("[", "").replace("]", "").replace("'", "").replace('\n', '').replace("### Human:", "")
+    annotations = []
+    for class_ in classes:
+        if class_.lower() in classification_str.lower():
+            annotations.append(class_)
+    if annotations == []:
+        annotations = ["Others"]
+    return list(set(annotations))
+
+def extract_multilabel_list_explanation_first(classification_str, classes):
+    if classification_str is np.nan:
+        return ["Others"]
+    classification_str = classification_str.split("Topics:")[-1]
+    annotations = []
+    for class_ in classes:
+        if class_.lower() in classification_str.lower():
+            annotations.append(class_)
+    if annotations == []:
+        annotations = ["Others"]
+    return list(set(annotations))
+    
+def extract_multilabel_list_only_first_class(classification_str, classes):
+    if classification_str is np.nan:
+        return ["Others"]
     classification_str = classification_str.replace("[", "").replace("]", "").replace("'", "")
     classification_str = classification_str.split(", ")
     for class_ in classification_str:
@@ -159,6 +204,20 @@ def extract_multilabel_list(classification_str, classes):
             classification_str.remove(class_)
     if classification_str == []:
         classification_str = ["Others"]
+    classification_str = [classification_str[0]]
+    return list(set(classification_str))
+
+def extract_multilabel_list_explanation_first_only_first_class(classification_str, classes):
+    if classification_str is np.nan:
+        return ["Others"]
+    classification_str = classification_str.split("Topics:")[-1].split(", ")
+    for class_ in classification_str:
+        if class_ not in " ".join(classes):
+            #print(class_)
+            classification_str.remove(class_)
+    if classification_str == []:
+        classification_str = ["Others"]
+    classification_str = [classification_str[0]]
     return list(set(classification_str))
 
 def extract_using_class_token(classification_str):
@@ -168,7 +227,6 @@ def extract_using_class_token(classification_str):
         return classification_str
     try:
         classification_string = classification_str.lower().split("class")[-1]
-        print(classification_string)
         if "0" in classification_string:
             return 0
         elif "1" in classification_string:
