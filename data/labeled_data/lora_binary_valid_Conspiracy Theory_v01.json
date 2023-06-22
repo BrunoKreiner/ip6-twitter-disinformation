@@ -1,0 +1,472 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The international #coalition led by the #US is not taking any action to prevent terrorist attacks in the territories on the #eastern bank of the #Euphrates . #Syria #War #terrorists",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The #US uses cases of #refugees ' bombing in mines located in the territory adjacent to #Rukban as a reason for refusing international organizations to deliver #humanitarian_aid to the camp . #AtTanf #Rukban #USA #terrorists #terrorism #Homs",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "In the article , one of the reasons why #Syrians in the camp live in #unacceptable conditions , with little or no food , water or medicine , the #Americans call the #refugees ' fear of the #Assad regime . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Who Orchestrated The Breakup Of Yugoslavia And How ? [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "In the cities of Khadzhin and Shaaf , on November 14 , 18 civilians were killed ! Aviation of the so-called \u201c coalition \u201d , headed by the United States , uses cluster munitions in Syria that are prohibited by an international convention signed by representatives of more than 100 states . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "\u201c White helmets \u201d brainwash schoolchildren in Idlib again , scaring them with Assad's chemical weapons . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER New evidence suggests #coronavirus may have originated in the \ud83c\uddfa\ud83c\uddf8 #US [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "\" This is the final hour , the last call , before the total collapse of entire industries in the \ud83c\uddee\ud83c\uddf1 #Israeli economy , \" said Histadrut labor federation chairman Arnon Bar-David . [url] #Coronavirus #COVID19",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Meet The Russian \u201c Agent \u201d Working For the DNC [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Another crime of not only Britain , but the United Sates , France , etc . They are empires in decay . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Dem Leaders Refuse to Condemn Women's March for Glorifying a Cop-Killer [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "12 members of #UNSC that voted against the China and Russia #Idlib resolution are trying to protect the #terrorists they sponsor from destruction . The draft resolution called for support for a #ceasefire in the #Idlib #deescalation zone . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The #Turkish special services , under the threat of reprisals against their relatives , are recruiting militants in #Syria to send them to #Azerbaijan to carry out sabotage under the guise of #Armenian reconnaissance groups . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : #PNAC Already in 2003 Bush administration had identified #Syria as the next stage of the Middle East \u201c roadmap to war \u201d htt \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER + vjtCMtDejmMJ 1XZXAyduXbW0BgRnl38KGQF2Q5L0 =: ALERT :warning: On 14th Jan , be aware of NUP fans who are planning to wear yellow T-shirts to disguise as NRM fans yet their main \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "#ste BREAKING : High Profile Dem BUSTED for Funneling Campaign Cash to Wife [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Inspectors find Israel is feeding Palestinian prisoners in Etzion jail with unfit foodstuffs that are expired & rotting h \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Members of the White Helmets organization with professional video equipment arrived in Azaz , Marea and Chobanbey , as well as containers with toxic substances , presumably with chlorine , were delivered . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Hillary's New \u201c Dark Money \u201d Group Allowed to Hide Donors from the Public [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : The US is the largest prison state that has ever existed on the planet . By . Definition . We have the largest prison \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "BREAKING : Liberals in Georgia Are Trying to Vote Illegally [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "#gess BOMBSHELL STUDY : Voter Fraud May Have Resulted in Hillary Winning New Hampshire [url] #gene [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : I don't believe anything American media says about Venezuela . The US funded an attempted coup . Elites are hoarding food , w \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The stuff of the \" White Helmets \" were found at the #ISIS warehouse in #Damascus . Does anyone else doubt the White Helmets collaboration with terrorists in #Syria ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The purpose of the #UNSC's resolution on the situation in #Syria's #Idlib , prepared by #Germany , #Belgium and #Kuwait , is to save the #terrorists in the region from final #defeat . Therefore , these countries , as well as a number of #European countries and the #US , [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Cuba has a lung cancer vaccine . But the criminal , illegal US blockade prevents US cancer patients from getting it . * Ki \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The militants of the Jebhat-an-Nusra group in the north of Hama , under the leadership of the Americans , are preparing a provocation using chemical weapons . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "In the province of Idlib , Turkish militants plan to conduct regular chemical provocations with the participation of White Helmets , which specialize in media provocations and deceptive stories about chemical attacks . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "ALERT : ISIS Plans to Target Western Churches For Christmas Season [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "BREAKING : Michigan Recount Uncovers Voter Fraud in Democrat Stronghold of Detroit [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER Terrorists wants to to disrupt Astana process ! ! ! Jebhat al-Nusra is preparing some kind of false flag or weapon provocation ! #crime #syira",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "It is a smear job and a smokescreen to distract from capitalism's further decay and to provide cover for the real drug traffickers , the US government , it's allies in the Middle East and Latin America , and the Venezuelan opposition .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : #US #NATO backed head choppers at each others throats in #Syria . :grinning_squinting_face: :face_with_steam_from_nose: :angry_face: :enraged_face: #Assad #Astana #UN #Russia [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Most likely , the news about the alleged use of #chemical_weapons by #government_troops can be expected in the near future .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "#Trump claims the murder of one terrorist , but at the same time allocates $ 4.5 million to other terrorists #WhiteHelmets [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Amnesty is another arm of the US state department , a fixture in the NGO-Military-Industrial-Complex . They attack anyone who challenges the US dominated status quo and gives passes to some of the worst human rights abuses on earth .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "URGENT ! ! ! #Whitehelmets are making another #falseflag in #Azaz , #Chobanbey , #Mar'a . #Civilians are in #danger ! #White_helmets looking for another #sacred #sacrifice . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "FLASHBACK VIDEO : Obama Busted on HOT MIC Making Secret Promises Russia [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Liberal Failure ! Embolden Chicago Gangs Use MILITARY RIFLES for MORE FIREPOWER [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : US @USER forces in the Syrian al-Jazeera area made a deal w #Daesh terrorists by which Washington gets tens of tons \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The Democratic and Republican parties are both beholden to the same oligarchic interests . They serve the wealthy parasites and push for more war and poverty for the rest of us .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "#calleCORRUPTION ! ! ! Disgraced Dem Mayor HID the DISASTROUS RESULTS ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The United States plans to complete its \" victorious \" operation to destroy ISIL in the Hajin pocket in the near future and for this they organized the transfer of ISIL and Iraqi militants . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "In October 2018 , the United States increased its remittances by 6.6 million to the Assistance Program of the White Helmets non-governmental organization , which Washington includes among the Syrian opposition . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Opposition Party leader warns of vote rigging in Malawi - [url] Opposition leader in Malawai , Lazarus Chakwera on Wednesday warned the media about attempts to rig the country's election , claiming he is leading as votes are slowly being counted . About one-thi ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Donald Trump Jr . DESTROYS Fake News CNN with ONE TWEET [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Rachel Maddow Pushes Another CRAZY Anti-Trump Conspiracy Theory [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "FAZ becomes Zambian lotteries beneficiary - [url] The Football Association of Zambia ( FAZ ) has sign one-year contract with GG International , becoming the lotteries beneficiary . From now on , a part of the money received from selling lottery tickets will be ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": ":clapping_hands: Turkish security forces held 26,678 irregular migrants seeking safety in Europe in the seas surrounding the country in 2018 , according to security sources #Turkey #Migrants",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "To solve the challenge of housing for the medical personal , @USER has constructed staff housing units at Mulago Hospital . #WhyUGDecidedM7 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Cluster Crime Intelligence Unit , SAPS Tzaneen Crime Prevention , and the K9 Unit officers have uncovered a drug lag . It is reported that the value of seized drugs is estimated at R200 000 . The suspect was arrested during the operation . He is believed to be a drug lord . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : @USER = We arrest those idiots",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The Industrial Development Corporation has called the ZESCO Board of Directors to halt employment of new personnel and suspend all vacant positions . \" The Board needs to take courageous and significant actions that will convert the company into a sustainable enterprise . \" [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER @USER I doubt he meant an ugly idiot like u bt people who have foregone Mzigo hatred treat all mankind with brotherhood love and we're all Ugandan patriotic brothers and sisters",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "#Putin May Reconsider Russian Energy Ties With West [url] #Ukraine #Russia #RussianSpring",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Xenophobic people , you know the idiots whose idea of politics is blaming immigrants for every single thing .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER It's better than 1/2 kg",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER @USER + RiCDPYKygUmXr 12GaFQMtg8 = @USER @USER Haha , he thinks that tuli mu show #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba #BinnoSibyaKuyimba",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER smashing it up :bright_button: Tumayukke :bright_button: @USER @USER #CampusNightExplosion :fire: ___ :red_circle: Venue :blue_circle: @USER ___ Cc @USER @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : The U . S . imperialists continue to accuse Venezuela of being a murderous dictatorship . Meanwhile , right next door in Colo \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "After #defeats in battles with #government_forces , a number of #field_commanders seek to secede from the #HTS and receive the protection of #Turkey by joining the \" #NationalLiberationFront . \"",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : #ste Trump Cracks Down on Food Stamp Fraud and it INSTANTLY Does Wonders ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Single mothers aren't just disproportionately likely to be poor , they're becoming more so [url] via @USER \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "#sted RT THESLAMMMMER : I sure wish [url] #justo",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Police detained two suspects in the nurse's cold-blooded murder case [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Russian presence in the Black Sea must be stopped . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "\" Everything is possible in #Germany : the options of events ' development may be different , but the fact is that the era of #Merkel is drooping \" , #valdaiclub expert Alexander Rahr comments on Angela Merkel ` s decision not to run for the #CDU presidency . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Inside the Beltway : Democrats reinvent the wheel [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Obama Awards Himself Major Defense Medal [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Two women were killed on Wednesday night in Plastic View , east of Pretoria after four men entered a shebeen where they robbed , assaulted and shot victims .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Victory !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "There's a little life in the old soldier yet : retired man seized robber [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : JUST IN : #Uganda's application to join the Extractive Industries Transparency Initiative ( EITI ) has been approved . EITI \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Bill Cosby trial Day 8: Why is the jury taking so long to reach a verdict ? [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "VIDEO : Claudia Tenney Receives Threat Post-Shooting \u201c One Down , 216 To Go \u2026 \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Yet another defeat of #militants in #Syria [url] #SAA #Idlib #Syria #HTS #militants",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Soccer analyst and journalist David Kekana passed away at the age of 47 after a long battle with diabetes . #RIPDavidKekana [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "According to heads of security agencies the factional battles in the All Basotho Convention might have an impact on the security situation in Lesotho . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "The Kwa na Kwa party is to nominate Fran\u00e7ois Boziz\u00e9 as its presidential candidate . The ex-president of the #CentralAfricanRepublic , is still under UN sanctions imposed for \u201c engaging in or providing support for acts that undermine the peace , stability or security of the CAR \u201d . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Jon Ossoff slammed in CLF ad for missing debate with Karen Handel [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : \" The financial strain is pushing millions of seriously ill Americans to ration their care , jeopardizing their health an \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Minister of Foreign Affairs Hon Joseph Malanji says the Zambian government appreciates the support it gets from the European Union ( EU ) . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Yesterday , three #terrorist attacks took place in the territories east of the Euphrates , killing two people and injuring five . #Syria #War #Terror #Euphrates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": ":red_exclamation_mark: \ufe0fWe remind you that today at 15:00 there will be a session of the #valdaiclub on #SPIEF2019 . Watch the broadcast session on our website : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "\ud83c\uddf7\ud83c\uddfa Ekaterina Arapova , Director of the Sanctions Policy Expertise Centre : Preference should be given to development of critical digital infrastructure in developing countries to avoid growth of global inequality @USER #GlobalSolutions",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : After his injury for fifth time #ISIS - Hunter Ibrahim Jaber Hussein martyred by the American airstrike on syrian forces . \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Gen . Mizentsev : In accordance with UN Security Council Resolution 2254 on the ways to resolve the #Syrian conflict , a Constitutional Committee is being formed with the participation of the opposition and representatives of the entire spectrum of multinational Syrian civil society [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Y'all claiming salary is the bribe they give you to forget your dreams , have y'all met unemployment ? ? ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : What will happen :dog_face: :winking_face: :face_blowing_a_kiss: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : @USER @USER baddest collaboration dance well @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": ":sunrise: Turkey is working with Russia on how a disarmament zone inside Idlib , Syria will be set up and how terror groups will be driven out , a Turkish presidential aide said on Friday . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Turkey",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "KwaNdengezi SAPS officers apprehended two suspects in connection with the murder of a 24 y . o . man . The victim's decomposed body was found off a cliff in Tafelkop by the Durban Search and Rescue . According to the police , the man was shot and thrown down the rock few weeks ago .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Newsmax CEO says Trump is thinking about doing something really shocking [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Conspiracy Theory. Use 1 (True) or 0 (False) as output.",
+        "input": "Bisha Munsaka , the Council Chairperson , announced that the government had prohibited the use of plastic bags as they were not only unfriendly to nature but also robbed a lot of funds during the rainy seasons blocking the drainages in town . #Zambia #Ecology [url]",
+        "output": "0"
+    }
+]
