@@ -9,3 +9,5 @@ tabulate
 seaborn
 emoji
 nltk
+plotly
+streamlit
