@@ -1,0 +1,132 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "One of these days , in the schools of Kumkhan el Mukhdas and Al Bin al-Ula of the city of #Khama , #Russian soldiers from the Center for the reconciliation of warring parties distributed 250 pairs of sports shoes , 250 backpacks and 250 sets of stationery . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "City of Tshwane launches Youth Month - [url] Nonhlanhla Jele The city of Tshwane officially launched its Youth Month at the state theatre in Pretoria on Tuesday with the objective of helping young people from the City , to do better in business and other area ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "TUT campuses shut down following new wave of protests [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "The #Syrian government is doing everything possible to make it easier to live for the refugees who managed to escape from the #Rukban camp . They are provided with jobs for adults and places in schools for children [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER =: Last Sunday ( 10thNov ) , Hon.Minister @USER donated UGX 3M to Oxford Modern School Biguri In Kawmwenge distri \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Popstar Lady Gaga will support the communities of the cities where the recent mass shootings happened . She will fund three schools in El Paso , Dayton , and Gilroy . She announced her desire to work with the crowdfunding website [url] via Facebook . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "YOUTH & WOMEN EMPOWERMENT . The government has provided a good environment for the youths & women to prosper and improve their livelihoods . Youths / women join these funds :backhand_index_pointing_down: - Youth livelihood programmes - The women fund - The Emyooga fund - Skilling Uganda - Operation Wealth Creation [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER =: In 2017 , H . E @USER launched an initiative on skilling the girl & boy child where 700 girls were enrolled . T \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER All 15 million Ugandans attending school . Wow the level of literacy is at climax . Thanx Govt fr making this happen",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "VIDEO : Betsy DeVos Haters Actually Agree With Her When Not Given Her Name [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "The secondary school pupils from all around the country have taken part in the finals of a Chinese language proficiency competition Chinese Bridge held on Friday at the Confucius Institute University of Zambia ( UNZA ) . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT PeeSparkle : The doctor your life depends on The teacher of ur children U want one who got their degree bc of r \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "LOL : HILARIOUS New Video Shows What an Internship at CNN is Like [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER smashing it up with Clouds @USER #BoxingDayxplosion CLUB AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "BREAKING VIDEO : Former Obama WH Officials Say They Were ORDERED to Sabotage Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Following a retaliatory attack by the Syrian Arab Army on the Jabhat al-Nusra group , which is located at the #Jarboa plant in Sheikh Ahmed , militants sent construction equipment there to remove wounded and killed extremists from under the rubble . #Syria #SAA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "No fear : Brexit , Trump , Italy fail to rattle market [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER =: :high_voltage: The Future of #Iran #Energy Exports to #Iraq Op-ed by Omid Shokri Kalehsar ( @USER ) [url] #Teheran #Ba \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER @USER @USER @USER @USER @USER U have no right over anyone's opinion , Nobody has that ! Every citizen has a right born with over their choices in life , it's just your intolerance pushing u into hurting innocent citizens .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "According to the military , terrorists \" Jabhad al-Nusra \" plan to equip bombs for their unmanned aerial vehicles with toxic substances [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Spanish protest after young boy's body is washed up in C\u00e1diz [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER =: \ud83c\uddf9\ud83c\uddf7 #Turkish President #Erdogan spokesman Ibrahim Kalin \u2066 @USER : \u201d The activation of the \ud83c\uddf7\ud83c\uddfa #Russian #S400 air defense systems \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "#sted RT RedNationRising : If this were my child , I would be tweeting you from prison . It's time the Justice system end their PC attitude | \u2026 \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Militant training continues in the Al Thanh area of Ruqban camp , while theft , prostitution and sexual exploitation of minors flourish in the camp itself . #Syria #Ruqban #USA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Containers with chlorine brought by terrorists to settlements of the province of Idlib pose a danger to the population . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER =: Another Hit coming from @USER after #AkatijjoAnthem ... Nakupenda ( i love u ) is the song \ud83d\udc47\ud83c\udffb \ud83d\udc47\ud83c\udffb [url]",
+        "output": "0"
+    }
+]

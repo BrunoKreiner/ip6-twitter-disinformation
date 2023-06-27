@@ -17,9 +17,7 @@
     "early_stopping": false,
     "seed": -1,
     "stopping_strings": [
-        "\n",
-        "### Human:",
-        "Human:",
+        "Instruction:",
         "###"
     ]
 }

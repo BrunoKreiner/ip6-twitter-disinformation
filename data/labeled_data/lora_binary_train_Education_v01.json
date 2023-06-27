@@ -1,0 +1,512 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "#CrazySocks4Docs : raising awareness about depression amongst doctors - [url] Thanduxolo Buti The #CrazySocks4Docs campaign hopes to end the stigma and help curb the high number of depression and suicide case amongst doctors and medicine students . The campaig ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "The National Board of Education imposes the learning of the Turkish language to the Syrian children of Kilis in the canton of Afrin . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER =: Through @USER , @USER aided in the construction of Lira University Teaching Hospital in Lira district . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "So many students lack the tech tools that could prepare them for a digital future . Others should follow @USER ' s lead on making access to these tools a priority ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Class with all freshman #prayfordakotah",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "A Russian humanitarian action was held in #Marran , #Aleppo province . The school building was renovated by the local administration with the assistance of the BAAS Party to enable children to receive education . Well done , everyone ! #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Session Four \" The Conflict Between Universalism and Self-Identity \" has begun [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : #SexualityEducation What comes to your mind when you see this word ? #WeAreRHU [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER @USER We hope the teaching curriculum of schools should be changed too .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "It has been confirmed that Penny Sparrow has passed away due to the lung cancer . She got bad fame after her message on Facebook where she referred to black people as ' monkeys ' . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "The conditions that teachers are expected to work under for the pay they receive is criminal . Only under capitalism can a parasite like Bezos hoard billions while teachers have to strike for basic and fundamental recognition and rights .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Gulu University is community of change agents whose collective commitment to teaching , learning , research , regional & global engagements stimulates attention & invaluable outcomes that transform persons . Thank you YK M7 for the peace & security #M7UGsChoice #SecuringYourFuture . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "KZN school closed after teacher murdered - [url] KZN school has been shut down for a week after one of the teachers was shot dead in the premises . According to the Department of Education spokesperson Kwazi Mthethwa , the department have decided to suspend the ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Gauteng school online registration system up and running - [url] The Gauteng Department of Education's online registration system sees huge traffic volumes as parents register grade 1 and 8 pupils . Gauteng Education MEC Panyaza Lesufi says , the online regist ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : In an effort to promote girl-child education , additional 5 points are always given to female students seeking to join universi \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "BEHNA : Liberal Twitter Users Upset Over Trump's \u201c Apprentice \u201d Joke At National Prayer Breakfast [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Studying in Aleppo : ' You get used to seeing blood on the floor ' [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "On the occasion of the beginning of the 2020-2021 school year Prime Minister of the #CentralAfricanRepublic Firmin Ngrebada donated desks and a large batch of textbooks to a school in Boali . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : The next time some badly educated person says something like \" .. but we haven't got enough money \" , the world lost , I repeat los \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "In #EasternGut , the work of educational institutions is being restored . #Syrian authorities provided schools with educational materials and equipment [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "In the Syrian city of Hama , active work is under way to restore the city , which The work of local authorities is being restored , schools and shops are being opened . Units of the Syrian government troops and the Russian military police constantly support law and order in the cit [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Interesting #lessons are taught in #Idlib schools . \" #Whitehelmets \" lie to the #children that #Assad wants to kill them with #chemical #weapons . But they themselves do not tell children about how \u201c White Helmets \u201d poisoned many people in #Syrian cities . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "On February 20 , the Prime Minister met with the collective of temporary teachers who are on strike to demand their integration into public service . The Prime Minister asked the Minister of Primary and Secondary Education to examine their problems . #RCA #EducationMatters #strike",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Middle schooler draws Republican elephant pooping on Trump , gets perfect grade \u2014 but Dad is ticked \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : @USER Former Contra leader in NY Times : \" the contras burn down schools , homes and health centers as fast as the S \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": ". @USER @USER @USER , ensure that Articles 11 & 12 on girls education get the proper resources to enable #climateaction",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : According to Cornel West , the American educational system continues to be extremely racist in the way it teaches slavery .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "SA Dept to eradicate gender-based abuse in universities [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Every commercial farmer needs to interest there self in this new feeding concept . Larvae is bred under controlled enviro \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "#Mariupol under fire , children leave schools [url] #Ukraine",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "BREAKING : Betsy DeVos Quietly Makes New Move That's Crumbling Obama's Legacy \u2026 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : We would appreciate more collaboration and support from the Commonwealth in the fields of research in medicine and the \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : #DSA_NPC hears report on @USER : chapters growing , lots of new interest for 2014-15 school year . #NPizzleC",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Get 50 % off Crypto Trading courses at CryptoUniversity for this week only ! Learn how to Earn passive income trading crypto \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "CFPB sues America's largest student loan company [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "TUT campuses shut down following new wave of protests [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Atheist group demands public school ban baccalaureate , prayer ceremonies [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Middlebury College prof unsure of return to US from Iran [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "A student was ordered to write a 50 - page essay on drugs after he was convicted of lacing cakes with marijuana . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Mid-year exams proceed without any glitches - [url] The first week of the mid-year examinations for matriculants went on without any problems . There are 350 000 registered candidates for the 2019 mid-year exams . The exams are identical to the November ( end-o ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Venezuelan National Government will deliver School Kits through the homeland system [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Fellow Ugandans , It is my pleasure to address you again on the Uganda Education and Sports Sector preparedness and respo \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER #NelsonMandelaUniversity is saddened at the news of the passing of three students in separate incidents over the weekend . The University extended its deepest and most sincere condolences to the family and friends of those who have lost their lives . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Bernie Supporters Sue DNC for Rigging Primary , DNC Has Worst Excuse EVER [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Millions of Nigerian youths have been sleeping in protest grounds . Pushing for an end to police brutality , for better schoo \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Middle schooler draws Republican elephant pooping on Trump , gets perfect grade \u2014 but Dad is ticked \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "VIDEO : Former Obama Aide LOVES Trump's Education Plan ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Colorado State Univ : 3 students affected by travel ban [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Libyan instructors from Katibat Battar Lubiya recruit under-age children from the Er-Rukban camp to train sabotage groups to act in Idlib . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "More than 400 soldiers of the Armed Forces of the #CentralAfricanRepublic have returned to Berengo to undergo the training provided by Russian instructors . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Lesufi to launch automotive school in partnership with BMW [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "The general election held in Moz received good reviews from the SADC observer mission which described the event as overall peaceful and consistent . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER + R2D0a + RXyETI 7Z51C01LqDo =: #Terrorists from #EasternGhouta made another one #mortarsShelling of #Damascus residential areas [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Igbalod\u00e9 Logistics 15days promo is still on , send us @USER a dm today , lets give you that fast delivery you've al \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "IS claims attack in Mozambique , police dismiss claim - [url] The Islamic State ( IS ) group has for the first time taken responsibility in an insurgent clash in Mozambique , but analysts are skeptical and police completely dismissed the claim . A jihadist rebel ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Aldar Khalil , co-chair of the #Kurdish Movement for Democratic Society , said the deal between #Ankara and #Washington is the result of the absence of any intra - #Syrian dialogue .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "ANC wants Tshwane to be under control after Mimanga's \u201c dismissal \u201d [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "People should take an action before it's too late #PrayForTheAmazon [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "US judge bars deportations under Trump travel ban [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "6 People Hold Protest Hoping California will \u201c Exit \u201d America Over President Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Lesotho wool famers claim govt sabotage , disregards Anthrax outbreak - [url] Lesotho wool and mohair farmers have accused the government of faking an anthrax outbreak , in a bid to scare South African and international markets from buying their products . Afte ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Assault charges withdrawn against Babes Wodumo - [url] Popstar Babes Wodumo and her sister and manager Nondumiso Simelane , along with artist Thobeka \u201c Tipcee \u201d Ndaba faced charges of common assault . Charges were filed by a Durban businesswoman , Neliswe Zondi , ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Scott Baio PHYSICALLY ATTACKED by the Wife of Red Hot Chili Peppers Drummer for Supporting Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "jacques christian Retweet RT RT_America to #MAGA ! [url] 490 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Today's top human rights news comes from #Syria , #Lebanon , #Israel , #Palestine , #Burma & #SriLanka . HRW's Daily Brief [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "\" Our response will be a military operation against criminals and traitors backed by the United States , \" Major General Jazez Al-Musa said . He had in mind the skirmish that took place this week between Kurdish forces and regime militants in the divided north-eastern city of Kamishl [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Milky Way being pushed through space by cosmic dead zone , say scientists [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "VIDEO : Judge Jeanine \u201c Like it or not , Laws are Being Enforced \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "7.Therefore the representatives of the Arab tribes go out into the street with slogans of #withdrawal of American #troops from the territory of #Syria . After all , the desire of the population on the left bank of the #Euphrates is a simple wish to end the #war and live in #peace . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Off the busy campaign trail , we took a stroll : From Kapchorwa State lodge , you can view Mt Kadam in Karamoja , Mt Elgon , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "As soon as the #Americans left #Hasakah , the #Kurds began to suffer heavy losses in Al-Suvar [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "I was raised Catholic and still consider myself so ; but please , is @USER or any of these cronies were real Christians they would be socialists . Science has an amazing track record in fighting diseases ..",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": ":sunrise_over_mountains: Turkish justice minister said on Tuesday the fight against Fetullah Terrorist Organization ( FETO ) , the group behind the 2016 defeated coup , was his country's fight for independence and prestige in the judiciary . #turkey #feto #fethullahgulen #gulen",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "#DRC : Illegal mine collapses , kills fourteen [url] via @USER African Development Community",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "#joness Dinesh Just Said Out Loud What EVERYONE'S Thinking [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Poacher killed by his deeds [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : What do you expect from the very same fake news outlets that hailed Bin Laden as a hero for years ? ! Do you expect them to \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Victims of Russian air strikes \u2013 Victims of US-led international coalition #USA #ruassianairforces [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Donald Trump's \u201c Win-Lose \u201d Model Versus Xi Jinping's \u201c Win-Win \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "The checkpoint Abu Dukhur works as usual . Everyone who left #Idlib province through this checkpoint is provided with warm clothing , food , and medical care . #Syria #Abu_al_Duhur #Help [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Port Shepstone K9 Unit during an intell driven op in Boboyi recovered drugs and a stolen vehicle . Vehicle was reported stolen over the weekend in Port Shepstone - found completely stripped next to suspect's residence . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Chat : \" Can't \" Email : \" I cannot \" Essay of 3000 words : \" Henceforth , I am unable to can \" [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Freshwater Lakes in the Sierra Nevada Mountains [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "HTS shelled Shahriyah of the Hama governorate #StopTerrorismInSyria #StopHTSinSyria #WeAreTheLove [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "#HTS tries to camouflage their equipment because of fear of airstrikes from RuAF and US UAV [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Members of the FlySafair aircraft crew found an abandoned foetus while preparing for the next flight . Police is now investigating the incident . #FlySafair #Durban [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : #SAA SyrianArmy is SAVING the people of #EastGhouta . NOT killing the people Look and see ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Caddell : Democrats \u2018 a Hollowed-Out Party ' of \u2018 Bi-Coastal Elites , ' Unable \u2018 to Reach Out Beyond Identity Politics ' [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "@USER @USER Fake's White Helmets , and that's the truth .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "First U . S . State Will Offer \u201c Non Specified Gender \u201d Drivers Licenses [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "BREAKING VIDEO : Churches on HIGH ALERT After Easter Sunday Threat [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Two convoys of the #US #army , including 12 #military vehicles , arrived in the outskirts of the town of #Manbij and deployed in the two villages of al-Sa'eidah and Awn al-Dadat West and North of the town , respectively #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Plenty of spectators didn't stop a male lion from taking down a kudu at the Kruger National Park . As a result , the whole incident was captured on video from several angles . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "UNREAL ! Obama Wastes 650 Security Guards to Protect Him in Indonesia [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "Session 2 . #Russia and #China Opposing Global and Regional Security Challenges : [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : If God gives you a vision , He will fend for it :OK_hand: Yours is just to follow His Lead :victory_hand: #WednesdayThoughts",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "It's amazing what happens when workers and the people are in control . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : America slowly evolving from a mass of people living paycheck to paycheck to a mass of people living from no paycheck to no \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT SkyNewsAust : #BREAKING Emergency services are on the scene of a wall collapse caused by strong winds in the Sydney suburb of Carlingford \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "RT @USER : Love and loyalty ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "JUST IN : Tucker Carlson is Already KILLING Megyn Kelly's Ratings ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Education. Use 1 (True) or 0 (False) as output.",
+        "input": "BREAKING : Macron Victorious as France Votes for Self Destruction [url] [url]",
+        "output": "0"
+    }
+]
