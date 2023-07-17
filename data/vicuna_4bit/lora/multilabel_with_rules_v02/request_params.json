@@ -1,5 +1,5 @@
 {
-    "prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nOut of the following list of topics, choose topics that best fit the text in your opinion. Here are the rules:\n- Use clear indicators for labeling.\n- If unclear, output \"Others\". No speculation.\n- Don't mix content from different operations.\n- Refer to Oxford definitions for topics.\n\nTopics: \"War/Terror\", \"Conspiracy Theory\", \"Education\", \"Election Campaign\", \"Environment\", \"Government/Public\", \"Health\", \"Immigration/Integration\", \"Justice/Crime\", \"Labor/Employment\", \"Macroeconomics/Economic Regulation\", \"Media/Journalism\", \"Religion\", \"Science/Technology\"\n\n### Input:\nVIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]\n\n### Response:\n",
+    "prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nOut of the following list of topics, choose topics that best fit the text in your opinion. Here are the rules:\n- Use clear indicators for labeling.\n- If unclear, output 'Others'. \n- No speculation.\n- Don't mix content from different operations.\n- Refer to Oxford definitions for topics.\n\nTopics: 'War/Terror', 'Conspiracy Theory', 'Education', 'Election Campaign', 'Environment', 'Government/Public', 'Health', 'Immigration/Integration', 'Justice/Crime', 'Labor/Employment', 'Macroeconomics/Economic Regulation', 'Media/Journalism', 'Religion', 'Science/Technology'\n\n### Input:\nVIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]\n\n### Response:\n",
     "context": "",
     "max_new_tokens": 200,
     "do_sample": true,
@@ -17,9 +17,7 @@
     "early_stopping": false,
     "seed": -1,
     "stopping_strings": [
-        "\n",
-        "### Human:",
-        "Human:",
+        "Instruction:",
         "###"
     ]
 }
