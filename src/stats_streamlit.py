@@ -13,20 +13,23 @@ import math
 from collections import defaultdict
 import numpy as np
 import matplotlib.colors as mcolors
-
+from sklearn.metrics import fbeta_score
 from sklearn.metrics import confusion_matrix, classification_report
-
 import streamlit as st
-
 # Set the default layout to wide mode
 st.set_page_config(layout="wide")
 import pandas as pd
-
 
 classes = ["War/Terror", "Conspiracy Theory", "Education", "Election Campaign", "Environment", 
               "Government/Public", "Health", "Immigration/Integration", 
               "Justice/Crime", "Labor/Employment", 
               "Macroeconomics/Economic Regulation", "Media/Journalism", "Religion", "Science/Technology", "Others"]
+
+def load_model(url, extraction_func, metrics_calculation_func):
+    df = pd.read_csv(url)
+    predictions_per_class, confusion_matrices, binary_classification_reports, multilabel_classification_reports = metrics_calculation_func(df, classes, extraction_func)
+    data = {"confusion_matrices": confusion_matrices, "binary_classification_reports": binary_classification_reports, "multilabel_classification_reports": multilabel_classification_reports}
+    return data, predictions_per_class
 
 # ------------------------------
 ### Vicuna 4bit 
@@ -35,146 +38,97 @@ classes = ["War/Terror", "Conspiracy Theory", "Education", "Election Campaign", 
 # Without context and classification only
 ## Example:
     ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n\nTweet: {tweet_text}\n### Assistant:\nClass = 
-without_context_classification_only_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_classification_only_df, classes, extraction_function)
-without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
+without_context_classification_only, without_context_classification_only_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Without context and classification only
 ## Example:
     ### Human: Give the tweet a binary class based on if it's about {label} or not.\n\nTweet: {tweet_text}\n### Assistant:\nClass: "
-without_context_classification_only_v02_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-without_context_classification_only_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_classification_only_v02_df, classes, extraction_function)
-without_context_classification_only_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
+without_context_classification_only_v02, without_context_classification_only_v02_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Without context and classification only
 ## Example:
     ### Human: Assign 1 if the tweet is about {label}. Assign 0 if it is not about {label}.\n\nTweet: {tweet_text}\n### Assistant:\nClass: "
-without_context_classification_only_v03_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-without_context_classification_only_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_classification_only_v03_df, classes, extraction_function)
-without_context_classification_only_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+without_context_classification_only_v03, without_context_classification_only_v03_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and elaboration first
 ## Example:
     ### Human: Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\n### Assistant:\nElaboration: 
     #Followup :\n Assign class 1 for {label} or 0 for not. \n###Assistant:\nClass:  
-without_context_elaboration_first_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_last_float")
-without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_elaboration_first_df, classes, extraction_function)
-without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+without_context_elaboration_first, without_context_elaboration_first_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_last_float"), llm_utils.calculate_binary_metrics)
 
 #with rules as context and classification only
 ## Example:
     ### Human: Based on rules, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n\nRules: {rules}\nTweet: {tweet_text}\n### Assistant:\nClass:
-with_rules_classification_only_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_with_rules_only_classification/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 2)
-with_rules_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(with_rules_classification_only_df, classes, extraction_function)
-with_rules_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+with_rules_classification_only, with_rules_classification_only_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_with_rules_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 2), llm_utils.calculate_binary_metrics)
 
 # with rules as context and elaboration first
 ## Example:
     ### Human: Based on rules, elaborate whether you think the Tweet is about {label}.\nRules: {rules}\nTweet: {tweet_text}\n### Assistant:\nElaboration: 
     #Followup :\n Assign class 1 for {label} or 0 for not. \n###Assistant:\nClass: 
-with_rules_elaboration_first_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_with_rules_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-with_rules_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(with_rules_elaboration_first_df, classes, extraction_function)
-with_rules_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
+with_rules_elaboration_first, with_rules_elaboration_first_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_with_rules_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and elaboration first v02
 ## Example:
     #prompt = f"### Human: Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\n### Assistant:\nElaboration: "
     #followup = f"### Human: Based on the elaboration, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nElaboration: [ELABORATION]\n### Assistant:\nClass: "
-without_context_elaboration_first_v02_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-without_context_elaboration_first_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_elaboration_first_v02_df, classes, extraction_function)
-without_context_elaboration_first_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+without_context_elaboration_first_v02, without_context_elaboration_first_v02_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and elaboration first v03
 ## Example:
     #prompt = f"### Human: Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\n### Assistant:\nElaboration: "
     #followup = f"### Human: Based on the elaboration, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nElaboration: [ELABORATION]\n### Assistant:\nClass: "
-without_context_elaboration_first_v03_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first_v03/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-without_context_elaboration_first_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_elaboration_first_v03_df, classes, extraction_function)
-without_context_elaboration_first_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+without_context_elaboration_first_v03, without_context_elaboration_first_v03_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
-without_context_elaboration_first_v04_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_using_class_token", 1)
-without_context_elaboration_first_v04_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(without_context_elaboration_first_v04_df, classes, extraction_function)
-without_context_elaboration_first_v04 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+# without context and elaboration first v04
+without_context_elaboration_first_v04, without_context_elaboration_first_v04_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv", llm_utils.get_extraction_function("extract_using_class_token", 1), llm_utils.calculate_binary_metrics)
 
 # with few-shot prompts
 #----------------------
-
 # Only classification 1 pos example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
-few_shot_1_pos_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_1_pos_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_1_pos_df, classes, extraction_function)
-few_shot_1_pos = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_1_pos, few_shot_1_pos_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 neg example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 0\n\nTweet: {tweet_text}\nClass: "
-few_shot_1_neg_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_1_neg_df, classes, extraction_function)
-few_shot_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_1_neg, few_shot_1_neg_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label}\n\nTweet: {tweet_text}\nClass: "
-few_shot_1_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_1_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_1_random_df, classes, extraction_function)
-few_shot_1_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_1_random, few_shot_1_random_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 3 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-few_shot_3_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_3_random_df, classes, extraction_function)
-few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_3_random, few_shot_3_random_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 3 random example v02
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n Tweet: {example_tweet}\n### Assistant:\nClass: {example_tweet_label1}\nTweet: {example_tweet2}\n### Assistant:\nClass: {example_tweet_label2}\nTweet: {example_tweet3}\n### Assistant:\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\n### Assistant:\nClass: 
-few_shot_3_random_v02_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_3_random_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_3_random_v02_df, classes, extraction_function)
-few_shot_3_random_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_3_random_v02, few_shot_3_random_v02_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 5 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-few_shot_5_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_5_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_5_random_df, classes, extraction_function)
-few_shot_5_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_5_random, few_shot_5_random_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 10 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-few_shot_10_random_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_10_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_10_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_10_random_df, classes, extraction_function)
-few_shot_10_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_10_random, few_shot_10_random_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_10_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 pos 1 neg example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-few_shot_1_pos_1_neg_df = pd.read_csv("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_1_neg_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-few_shot_1_pos_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(few_shot_1_pos_1_neg_df, classes, extraction_function)
-few_shot_1_pos_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+few_shot_1_pos_1_neg, few_shot_1_pos_1_neg_predictions_per_class = load_model("../data/vicuna_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_1_neg_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # ------------------------------
 ### Vicuna 4bit LORA
 # ------------------------------
-df1 = pd.read_csv("../data/vicuna_4bit/lora/multilabel_without_context_v01/valid_generic_test_0.csv")
-df2 = pd.read_csv("../data/vicuna_4bit/lora/multilabel_without_context_v01/test_generic_test_0.csv")
-vicuna_lora_multilabel_without_context_v01_df = pd.concat([df1, df2])
-vicuna_lora_multilabel_without_context_v01_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics_from_multilabel_list(vicuna_lora_multilabel_without_context_v01_df, classes, llm_utils.extract_multilabel_list)
-vicuna_lora_multilabel_without_context_v01 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+vicuna_lora_multilabel_without_context_v01, vicuna_lora_multilabel_without_context_v01_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_without_context_v01/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
+vicuna_lora_multilabel_without_context_v01_256_rank, vicuna_lora_multilabel_without_context_v01_256_rank_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_without_context_v01_256_rank/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list) 
+vicuna_lora_multilabel_without_context_v01_retest, vicuna_lora_multilabel_without_context_v01_retest_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_without_context_v01_retest/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
+vicuna_lora_multilabel_with_rules_v02, vicuna_lora_multilabel_with_rules_v02_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_with_rules_v02/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
+vicuna_lora_multilabel_with_rules_v02_256_rank, vicuna_lora_multilabel_with_rules_v02_256_rank_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_with_rules_v02_256_rank/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
+
+#-------------------------------
+### Vicuna 4bit Multilabel In Context
+#-------------------------------
+vicuna_multi_label_no_fine_tune_explanation_first_v01, vicuna_multi_label_no_fine_tune_explanation_first_v01_predictions_per_class = load_model("../data/vicuna_4bit/multi_label_no_fine_tune_explanation_first_v01/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
 
 # ------------------------------
 ### OpenAssistant LLama 30B 4bit
@@ -183,91 +137,45 @@ vicuna_lora_multilabel_without_context_v01 = {"confusion_matrices": confusion_ma
 # without context and classification only
 ## Example:
     #f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nClass: "
-
-oa_without_context_classification_only_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_classification_only_df, classes, extraction_function)
-oa_without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-oa_without_context_classification_only_v02_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_without_context_classification_only_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_classification_only_v02_df, classes, extraction_function)
-oa_without_context_classification_only_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-oa_without_context_classification_only_v03_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_without_context_classification_only_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_classification_only_v03_df, classes, extraction_function)
-oa_without_context_classification_only_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
+oa_without_context_classification_only, oa_without_context_classification_only_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+oa_without_context_classification_only_v02, oa_without_context_classification_only_v02_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+oa_without_context_classification_only_v03, oa_without_context_classification_only_v03_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and elaboration first
 ## Example:
     #"Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\nElaboration: "
     #Followup: \n\nAssign the label 1 for {label} or 0 for not.\nClass: 
-
-oa_without_context_elaboration_first_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_label", 1)
-oa_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_df, classes, extraction_function)
-oa_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-oa_without_context_elaboration_first_v02_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_label", 1)
-oa_without_context_elaboration_first_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_v02_df, classes, extraction_function)
-oa_without_context_elaboration_first_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-oa_without_context_elaboration_first_v04_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_using_class_token", 1)
-oa_without_context_elaboration_first_v04_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_without_context_elaboration_first_v04_df, classes, extraction_function)
-oa_without_context_elaboration_first_v04 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_without_context_elaboration_first, oa_without_context_elaboration_first_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_label", 1), llm_utils.calculate_binary_metrics)
+oa_without_context_elaboration_first_v02, oa_without_context_elaboration_first_v02_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_label", 1), llm_utils.calculate_binary_metrics)
+oa_without_context_elaboration_first_v04, oa_without_context_elaboration_first_v04_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv", llm_utils.get_extraction_function("extract_using_class_token", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 pos example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
-oa_few_shot_1_pos_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_1_pos_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_pos_df, classes, extraction_function)
-oa_few_shot_1_pos = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_1_pos, oa_few_shot_1_pos_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 neg example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 0\n\nTweet: {tweet_text}\nClass: "
-oa_few_shot_1_neg_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_neg_df, classes, extraction_function)
-oa_few_shot_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_1_neg, oa_few_shot_1_neg_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label}\n\nTweet: {tweet_text}\nClass: "
-oa_few_shot_1_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_1_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_random_df, classes, extraction_function)
-oa_few_shot_1_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_1_random, oa_few_shot_1_random_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 3 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-oa_few_shot_3_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_3_random_df, classes, extraction_function)
-oa_few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_3_random, oa_few_shot_3_random_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 1 pos 1 neg example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-oa_few_shot_1_pos_1_neg_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_1_neg_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_1_pos_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_1_pos_1_neg_df, classes, extraction_function)
-oa_few_shot_1_pos_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_1_pos_1_neg, oa_few_shot_1_pos_1_neg_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_1_pos_1_neg_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 5 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-oa_few_shot_5_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_5_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_5_random_df, classes, extraction_function)
-oa_few_shot_5_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_5_random, oa_few_shot_5_random_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_5_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # Only classification 10 random example
 ## ### Human: Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass:
-oa_few_shot_10_random_df = pd.read_csv("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_10_random_example/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-oa_few_shot_10_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(oa_few_shot_10_random_df, classes, extraction_function)
-oa_few_shot_10_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+oa_few_shot_10_random, oa_few_shot_10_random_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_few_shot_prompt_only_classification_10_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # ------------------------------
 ### Openai GPT-3.5-turbo
@@ -276,16 +184,8 @@ oa_few_shot_10_random = {"confusion_matrices": confusion_matrices, "classificati
 # without context and classification only
 ## Example:
     #Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n\nTweet: {tweet_text}\nClass: 
-
-gpt3_turbo_without_context_classification_only_df = pd.read_csv("../data/openai_gpt-3.5-turbo/generic_prompt_without_context_only_classification/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-gpt3_turbo_without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt3_turbo_without_context_classification_only_df, classes, extraction_function)
-gpt3_turbo_without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-gpt3_turbo_without_context_elaboration_first_df = pd.read_csv("../data/openai_gpt-3.5-turbo/generic_prompt_without_context_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-gpt3_turbo_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt3_turbo_without_context_elaboration_first_df, classes, extraction_function)
-gpt3_turbo_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+gpt3_turbo_without_context_classification_only, gpt3_turbo_without_context_classification_only_predictions_per_class = load_model("../data/openai_gpt-3.5-turbo/generic_prompt_without_context_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+gpt3_turbo_without_context_elaboration_first, gpt3_turbo_without_context_elaboration_first_predictions_per_class = load_model("../data/openai_gpt-3.5-turbo/generic_prompt_without_context_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # ------------------------------
 ### Openai text-davinci-003
@@ -294,82 +194,38 @@ gpt3_turbo_without_context_elaboration_first = {"confusion_matrices": confusion_
 # without context and classification only
 ## Example:
     #Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n\nTweet: {tweet_text}\nClass: 
-
-text_davinci_003_turbo_without_context_classification_only_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_without_context_classification_only/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_turbo_without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_classification_only_df, classes, extraction_function)
-text_davinci_003_turbo_without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
+text_davinci_003_turbo_without_context_classification_only, text_davinci_003_turbo_without_context_classification_only_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_classification_only/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 ## Example: 
     #f"Give the tweet a binary class based on if it's about {label} or not.\n\nTweet: {tweet_text}\nClass: "
-text_davinci_003_turbo_without_context_classification_only_v02_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_without_context_classification_only_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_not_x", 2)
-text_davinci_003_turbo_without_context_classification_only_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_classification_only_v02_df, classes, extraction_function)
-text_davinci_003_turbo_without_context_classification_only_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
+text_davinci_003_turbo_without_context_classification_only_v02, text_davinci_003_turbo_without_context_classification_only_v02_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_classification_only_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_not_x", 2), llm_utils.calculate_binary_metrics)
 ## Example:
     #f"Assign 1 if the tweet is about {label}. Assign 0 if it is not about {label}.\n\nTweet: {tweet_text}\nClass: "
-text_davinci_003_turbo_without_context_classification_only_v03_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_without_context_classification_only_v03/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_turbo_without_context_classification_only_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_classification_only_v03_df, classes, extraction_function)
-text_davinci_003_turbo_without_context_classification_only_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+text_davinci_003_turbo_without_context_classification_only_v03, text_davinci_003_turbo_without_context_classification_only_v03_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_classification_only_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # few shot prompt only classification
-
 # 1 pos example
-text_davinci_003_few_shot_1_pos_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv")
-openaiextraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_few_shot_1_pos_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_few_shot_1_pos_df, classes, extraction_function)
-text_davinci_003_few_shot_1_pos = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-text_davinci_003_few_shot_1_neg_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv")
-openaiextraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_few_shot_1_neg_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_few_shot_1_neg_df, classes, extraction_function)
-text_davinci_003_few_shot_1_neg = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-text_davinci_003_few_shot_3_random_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv")
-openaiextraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_few_shot_3_random_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_few_shot_3_random_df, classes, extraction_function)
-text_davinci_003_few_shot_3_random = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+text_davinci_003_few_shot_1_pos, text_davinci_003_few_shot_1_pos_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_1_pos_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+text_davinci_003_few_shot_1_neg, text_davinci_003_few_shot_1_neg_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_1_neg_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+text_davinci_003_few_shot_3_random, text_davinci_003_few_shot_3_random_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_few_shot_prompt_only_classification_3_random_example/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and elaboration first
 ## Example:
     #"Elaborate on whether you think the Tweet is about {label} or something else.\n\nTweet: {tweet_text}\n\n"
     #Followup: \nAssign the label 1 if it's about {label} or 0 for not based on the elaboration. Only output the number."
-
-text_davinci_003_turbo_without_context_elaboration_first_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_turbo_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_elaboration_first_df, classes, extraction_function)
-text_davinci_003_turbo_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-text_davinci_003_turbo_without_context_elaboration_first_v02_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1, True)
-text_davinci_003_turbo_without_context_elaboration_first_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_elaboration_first_v02_df, classes, extraction_function)
-text_davinci_003_turbo_without_context_elaboration_first_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-text_davinci_003_turbo_without_context_elaboration_first_v03_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v03/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1, True)
-text_davinci_003_turbo_without_context_elaboration_first_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_without_context_elaboration_first_v03_df, classes, extraction_function)
-text_davinci_003_turbo_without_context_elaboration_first_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+text_davinci_003_turbo_without_context_elaboration_first, text_davinci_003_turbo_without_context_elaboration_first_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+text_davinci_003_turbo_without_context_elaboration_first_v02, text_davinci_003_turbo_without_context_elaboration_first_v02_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+text_davinci_003_turbo_without_context_elaboration_first_v03, text_davinci_003_turbo_without_context_elaboration_first_v03_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1, True), llm_utils.calculate_binary_metrics)
 
 # with rules and classification only
 ## Example:
     #"Based on rules, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nRules: {rules}\nTweet: {tweet_text}\nClass: "
-
-text_davinci_003_turbo_with_rules_classification_only_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_with_rules_classification_only/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_turbo_with_rules_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_with_rules_classification_only_df, classes, extraction_function)
-text_davinci_003_turbo_with_rules_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+text_davinci_003_turbo_with_rules_classification_only, text_davinci_003_turbo_with_rules_classification_only_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_with_rules_classification_only/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # with rules and elaboration first
 ## Example:
     #prompt = f"Based on rules, elaborate whether you think the Tweet is about {label}.\nRules: {rules}\nTweet: {tweet_text}\nElaborations: "
     #followup = f"\nAssign the label 1 if it's about {label} or 0 for not based on the elaboration. Only output the number."
-
-text_davinci_003_turbo_with_rules_elaboration_first_df = pd.read_csv("../data/openai_text_davinci_003/generic_prompt_with_rules_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-text_davinci_003_turbo_with_rules_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(text_davinci_003_turbo_with_rules_elaboration_first_df, classes, extraction_function)
-text_davinci_003_turbo_with_rules_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+text_davinci_003_turbo_with_rules_elaboration_first, text_davinci_003_turbo_with_rules_elaboration_first_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_with_rules_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # ------------------------------
 ### GPT4xalpaca 4bit
@@ -379,35 +235,15 @@ text_davinci_003_turbo_with_rules_elaboration_first = {"confusion_matrices": con
 ## Example:
     ### Instruction:\nElaborate on whether you think the Tweet is about {label} or something else.\n\nTweet: {tweet_text}\n\n### Response:\n 
     #Followup: \n\n### Instruction:\nAssign the label 1 if you think it's about {label}, assign 0 if not.\n\n### Response:",
-
-gpt4xalpaca_without_context_elaboration_first_df = pd.read_csv("../data/gpt4xalpaca_4bit/generic_prompt_basic_elaboration_first/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-gpt4xalpaca_without_context_elaboration_first_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt4xalpaca_without_context_elaboration_first_df, classes, extraction_function)
-gpt4xalpaca_without_context_elaboration_first = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+gpt4xalpaca_without_context_elaboration_first, gpt4xalpaca_without_context_elaboration_first_predictions_per_class = load_model("../data/gpt4xalpaca_4bit/generic_prompt_basic_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and classification only
 ## Example:
     #Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n\nTweet: {tweet_text}\n\n
-
-gpt4xalpaca_without_context_classification_only_df = pd.read_csv("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-gpt4xalpaca_without_context_classification_only_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt4xalpaca_without_context_classification_only_df, classes, extraction_function)
-gpt4xalpaca_without_context_classification_only = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-gpt4xalpaca_without_context_classification_only_v02_df = pd.read_csv("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-gpt4xalpaca_without_context_classification_only_v02_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt4xalpaca_without_context_classification_only_v02_df, classes, extraction_function)
-gpt4xalpaca_without_context_classification_only_v02 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-gpt4xalpaca_without_context_classification_only_v03_df = pd.read_csv("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_nth_character", 1)
-gpt4xalpaca_without_context_classification_only_v03_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt4xalpaca_without_context_classification_only_v03_df, classes, extraction_function)
-gpt4xalpaca_without_context_classification_only_v03 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
-
-gpt4xalpaca_without_context_elaboration_first_v04_df = pd.read_csv("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv")
-extraction_function = llm_utils.get_extraction_function("extract_using_class_token", 1)
-gpt4xalpaca_without_context_elaboration_first_v04_predictions_per_class, confusion_matrices, classification_reports = llm_utils.calculate_binary_metrics(gpt4xalpaca_without_context_elaboration_first_v04_df, classes, extraction_function)
-gpt4xalpaca_without_context_elaboration_first_v04 = {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+gpt4xalpaca_without_context_classification_only, gpt4xalpaca_without_context_classification_only_predictions_per_class = load_model("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics) 
+gpt4xalpaca_without_context_classification_only_v02, gpt4xalpaca_without_context_classification_only_v02_predictions_per_class = load_model("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+gpt4xalpaca_without_context_classification_only_v03, gpt4xalpaca_without_context_classification_only_v03_predictions_per_class = load_model("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+gpt4xalpaca_without_context_elaboration_first_v04, gpt4xalpaca_without_context_elaboration_first_v04_predictions_per_class = load_model("../data/gpt4-x-alpaca_13b_4bit/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv", llm_utils.get_extraction_function("extract_using_class_token", 1), llm_utils.calculate_binary_metrics)
 
 models = [
     {
@@ -531,11 +367,50 @@ models = [
         "prediction_per_class": few_shot_1_pos_1_neg_predictions_per_class,
     },
     {
-        "model_name": "Vicuna 13B 4bit LORA",
+        "model_name": "Vicuna 13B 4bit Multilabel LORA",
         "context": "",
-        "type": "Multilabel Classification only",
+        "type": "LoRA Multilabel Classification only",
         "data": vicuna_lora_multilabel_without_context_v01,
         "prediction_per_class": vicuna_lora_multilabel_without_context_v01_predictions_per_class,
+    },
+    {
+        "model_name": "Vicuna 13B 4bit Multilabel LORA",
+        "context": "",
+        "type": "LoRA Multilabel Classification with 256 Rank",
+        "data": vicuna_lora_multilabel_without_context_v01_256_rank,
+        "prediction_per_class": vicuna_lora_multilabel_without_context_v01_256_rank_predictions_per_class,
+    },
+
+    {
+        "model_name": "Vicuna 13B 4bit Multilabel LORA",
+        "context": "",
+        "type": "LoRA Multilabel Classification retest",
+        "data": vicuna_lora_multilabel_without_context_v01_retest,
+        "prediction_per_class": vicuna_lora_multilabel_without_context_v01_retest_predictions_per_class,
+    },
+
+    {
+        "model_name": "Vicuna 13B 4bit Multilabel LORA",
+        "context": "",
+        "type": "LoRA Multilabel Classification with rules v02",
+        "data": vicuna_lora_multilabel_with_rules_v02,
+        "prediction_per_class": vicuna_lora_multilabel_with_rules_v02_predictions_per_class,
+    },
+
+    {
+        "model_name": "Vicuna 13B 4bit Multilabel LORA",
+        "context": "",
+        "type": "LoRA Multilabel Classification with rules v02 and 256 Rank",
+        "data": vicuna_lora_multilabel_with_rules_v02_256_rank,
+        "prediction_per_class": vicuna_lora_multilabel_with_rules_v02_256_rank_predictions_per_class,
+    },
+
+    {
+        "model_name": "Vicuna 13B 4bit Multilabel",
+        "context": "",
+        "type": "LoRA Multilabel In Context without fine tune explanation first v01",
+        "data": vicuna_multi_label_no_fine_tune_explanation_first_v01,
+        "prediction_per_class": vicuna_multi_label_no_fine_tune_explanation_first_v01_predictions_per_class,
     },
     {
         "model_name": "OA Llama 30B 4bit",
@@ -877,7 +752,7 @@ if selected_page == "Single Class Evaluation":
                 )
 
                 selected_confusion_matrix = model["data"]["confusion_matrices"][selected_class]
-                selected_classification_report = model["data"]["classification_reports"][selected_class]
+                selected_classification_report = model["data"]["binary_classification_reports"][selected_class]
 
                 # Display the confusion matrix using Seaborn's heatmap
                 st.subheader("Confusion Matrix")
@@ -931,8 +806,8 @@ if selected_page == "Multi-Class Evaluation":
     selected_models = [model for model in models if model["model_name"] + " " + model["context"] + " " + model["type"] in selected_models]
 
     for idx, model in enumerate(selected_models):
-        model_classification_reports = model["data"]["classification_reports"]
-        model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
+        model_classification_reports_df = model["data"]["classification_reports"]
+        #model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
 
         st.write(
             f"""
@@ -966,6 +841,65 @@ def make_grid(cols, rows):
         with st.container():
             grid[i] = st.columns(rows)
     return grid
+
+def calculate_fbeta_score(beta, precision, recall):
+    return (1 + beta**2) * (precision * recall) / ((beta**2 * precision) + recall)
+
+def calculate_metrics(model_classification_reports_df, beta):
+    # Check if it's multilabel or binary classification
+    low_f1_classes = ["Conspiracy Theory", "Education", "Environment", "Labor/Employment", "Science/Technology", "Religion"]
+    if 'label' in model_classification_reports_df.columns:
+        model_classification_reports_df = model_classification_reports_df.set_index('label')
+    if 'f1_score_class_0' in model_classification_reports_df.columns:
+        # Binary case
+        avg_f1_class_0 = model_classification_reports_df['f1_score_class_0'].mean()
+        avg_f1_class_1 = model_classification_reports_df['f1_score_class_1'].mean()
+        avg_f1_score = (avg_f1_class_0 + avg_f1_class_1) / 2
+        avg_f1_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'f1_score_class_1'].mean()
+
+        avg_accuracy = 0
+        for idx, x in model_classification_reports_df.iterrows():
+            try:
+                true_positives = x['support_class_1'] * x['recall_class_1']
+                true_negatives = x['support_class_0'] * x['recall_class_0']
+                total_samples = x['support_class_0'] + x['support_class_1']
+                accuracy = (true_positives + true_negatives) / total_samples
+                avg_accuracy += accuracy
+            except:
+                pass
+        avg_accuracy /= len(model_classification_reports_df)
+        
+        avg_precision_class_0 = model_classification_reports_df['precision_class_0'].mean()
+        avg_precision_class_1 = model_classification_reports_df['precision_class_1'].mean()
+        avg_recall_class_0 = model_classification_reports_df['recall_class_0'].mean()
+        avg_recall_class_1 = model_classification_reports_df['recall_class_1'].mean()
+
+        avg_precision_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'precision_class_1'].mean()
+        avg_recall_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'recall_class_1'].mean()
+        fbeta_score_class_1_low = calculate_fbeta_score(0.5, avg_precision_class_1_low, avg_recall_class_1_low)
+
+        fbeta_score_class_0 = calculate_fbeta_score(beta, avg_precision_class_0, avg_recall_class_0)
+        fbeta_score_class_1 = calculate_fbeta_score(beta, avg_precision_class_1, avg_recall_class_1)
+        avg_fbeta_score = (fbeta_score_class_0 + fbeta_score_class_1) / 2
+
+        return avg_f1_class_0, avg_f1_class_1, avg_f1_class_1_low, avg_f1_score, avg_accuracy, fbeta_score_class_0, fbeta_score_class_1, avg_fbeta_score, fbeta_score_class_1_low
+    else:
+    # Multilabel case
+        avg_f1_scores = model_classification_reports_df.loc[low_f1_classes, 'f1-score'].tolist()
+        avg_f1_score_low = sum(avg_f1_scores) / len(avg_f1_scores) if avg_f1_scores else None
+
+        avg_precision_low = model_classification_reports_df.loc[low_f1_classes, 'precision'].tolist()
+        avg_recall_low = model_classification_reports_df.loc[low_f1_classes, 'recall'].tolist()
+        fbeta_scores_low = [calculate_fbeta_score(beta, precision, recall) for precision, recall in zip(avg_precision_low, avg_recall_low)]
+        avg_fbeta_score_low = sum(fbeta_scores_low) / len(fbeta_scores_low) if fbeta_scores_low else None
+
+        # The average scores for all classes
+        avg_f1_score = model_classification_reports_df.loc['macro avg', 'f1-score']
+        avg_accuracy = 0  # Not defined in the multilabel case
+        avg_fbeta_score = calculate_fbeta_score(beta, model_classification_reports_df.loc['macro avg', 'precision'], model_classification_reports_df.loc['macro avg', 'recall'])
+        
+        return 0, 0, 0, avg_f1_score, avg_accuracy, 0, 0, avg_fbeta_score, avg_fbeta_score_low
+
 
 def display_dashboard(models):
     st.write(
@@ -1026,7 +960,7 @@ def display_dashboard(models):
         model_groups[model["model_name"]].append(model)
 
     # Add metric selection dropdown in the sidebar
-    metric_options = ["None", "Avg F1 Score Class 0", "Avg F1 Score Class 1", "Avg F1 Score", "Avg Accuracy"]
+    metric_options = ["None", "Avg F1-Score Class 0", "Avg F1-Score Class 1", "Avg-F1 Score", "Avg F1-Score Class 1 Low Class", "Avg F-Beta-Score Class 0", "Avg F-Beta-Score Class 1", "Avg F-Beta-Score", "Avg F-Beta-Score Low Class 1"]
     selected_metric = st.sidebar.radio("Select active metric", metric_options, index=1)
 
     # Prepare a color scale
@@ -1043,27 +977,25 @@ def display_dashboard(models):
         outer_columns = st.columns(cols)
 
         # Collect metrics for color scale normalization
+        beta = 0.5
         for idx, model in enumerate(model_group):
-            model_classification_reports = model["data"]["classification_reports"]
-            model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
-            avg_f1_class_0 = model_classification_reports_df['f1_score_class_0'].mean()
-            avg_f1_class_1 = model_classification_reports_df['f1_score_class_1'].mean()
+            if type(model["data"]["multilabel_classification_reports"]) != type(None):
+                model_classification_reports_df = model["data"]["multilabel_classification_reports"]
+            else:
+                model_classification_reports_df = model["data"]["binary_classification_reports"]
+            avg_f1_class_0, avg_f1_class_1, avg_f1_class_1_low, avg_f1_score, avg_accuracy, fbeta_score_class_0, fbeta_score_class_1, avg_fbeta_score, avg_fbeta_score_low = calculate_metrics(model_classification_reports_df, beta)
 
-            # calculate overall average F1 score
-            avg_f1_score = (avg_f1_class_0 + avg_f1_class_1) / 2
-
-            avg_accuracy = 0
-            for idx, x in model_classification_reports_df.iterrows():
-                try:
-                    true_positives = x['support_class_1'] * x['recall_class_1']
-                    true_negatives = x['support_class_0'] * x['recall_class_0']
-                    total_samples = x['support_class_0'] + x['support_class_1']
-                    accuracy = (true_positives + true_negatives) / total_samples
-                    avg_accuracy += accuracy
-                except:
-                    pass
-            avg_accuracy /= len(model_classification_reports_df)
-            metrics = {"Avg F1 Score Class 0": avg_f1_class_0, "Avg F1 Score Class 1": avg_f1_class_1, "Avg F1 Score": avg_f1_score, "Avg Accuracy": avg_accuracy}
+            metrics = {
+                "Avg F1-Score Class 0": avg_f1_class_0, 
+                "Avg F1-Score Class 1": avg_f1_class_1, 
+                "Avg F1-Score": avg_f1_score, 
+                "Avg F1-Score Class 1 Low Class": avg_f1_class_1_low,
+                #"Avg Accuracy": avg_accuracy,
+                "Avg F-Beta-Score Class 0": fbeta_score_class_0,
+                "Avg F-Beta-Score Class 1": fbeta_score_class_1,
+                "Avg F-Beta-Score": avg_fbeta_score,
+                "Avg F-Beta-Score Low Class 1": avg_fbeta_score_low
+            }
             selected_metric_value = metrics[selected_metric] * 1.3 - 0.7
 
             # Normalize metrics
@@ -1081,18 +1013,35 @@ def display_dashboard(models):
                 background_color = "None"
 
             with outer_columns[col]:
-                st.write(
-                    f"""
-                    <div class="model-box" style="background-color: {background_color}">
-                        <div class="model-subtitle">{model['context']} {model['type']}</div>
-                        <div class="model-f1">Avg F1 Score Class 0: {avg_f1_class_0:.2f}</div>
-                        <div class="model-f1">Avg F1 Score Class 1: {avg_f1_class_1:.2f}</div>
-                        <div class="model-f1">Avg F1 Score: {avg_f1_score:.2f}</div>
-                        <div class="model-f1">Avg Accuracy: {avg_accuracy:.2f}</div>
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+                if "multilabel" in model_name.lower():
+                    st.write(#<div class="model-f1">Avg Accuracy: {avg_accuracy:.2f}</div>
+                        f"""
+                        <div class="model-box" style="background-color: {background_color}">
+                            <div class="model-subtitle">{model['context']} {model['type']}</div>
+                            <div class="model-f1">Avg F1-Score: {avg_f1_score:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score: {avg_fbeta_score:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score Low Class 1: {avg_fbeta_score_low:.2f}</div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
+                else:
+                    st.write(#<div class="model-f1">Avg Accuracy: {avg_accuracy:.2f}</div>
+                        f"""
+                        <div class="model-box" style="background-color: {background_color}">
+                            <div class="model-subtitle">{model['context']} {model['type']}</div>
+                            <div class="model-f1">Avg F1-Score Class 0: {avg_f1_class_0:.2f}</div>
+                            <div class="model-f1">Avg F1-Score Class 1: {avg_f1_class_1:.2f}</div>
+                            <div class="model-f1">Avg F1-Score: {avg_f1_score:.2f}</div>
+                            <div class="model-f1">Avg F1-Score Class 1 Low Class: {avg_f1_class_1_low:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score Class 0: {fbeta_score_class_0:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score Class 1: {fbeta_score_class_1:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score: {avg_fbeta_score:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score Low Class 1: {avg_fbeta_score_low:.2f}</div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
 
             col += 1
             if col == cols:
@@ -1133,8 +1082,8 @@ def display_box_plots(models):
 
         for model_name, model_group in model_groups.items():
             for model in model_group:
-                model_classification_reports = model["data"]["classification_reports"]
-                model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
+                model_classification_reports_df = model["data"]["classification_reports"]
+                #model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
 
                 # Calculate average F1 score
                 model_classification_reports_df['average_f1_score'] = (model_classification_reports_df['f1_score_class_0'] + model_classification_reports_df['f1_score_class_1']) / 2

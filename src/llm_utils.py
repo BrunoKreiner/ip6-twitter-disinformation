@@ -6,34 +6,34 @@ import matplotlib.pyplot as plt
 import re
 from collections import Counter
 import numpy as np
+from sklearn.preprocessing import MultiLabelBinarizer
 
 # Set display options
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', 15)
 
-def classification_reports_to_df(classification_reports, binary):
-
+def classification_reports_to_df(classification_reports, binary = True):
     if binary:
         # Your code for creating the DataFrame and adding the results
-        df = pd.DataFrame(columns=['label', 'f1_score_macro', #'precision_macro', 'recall_macro', 'support_macro',
+        df = pd.DataFrame(columns=['label', 'f1_score_macro', 'precision_macro', 'recall_macro', 'support_macro',
                                         'f1_score_class_0','support_class_0',
                                         'f1_score_class_1', 'support_class_1'])
-
+        
         for label, cr in classification_reports.items():
             try: 
                 df = df.append({
                     'label': label,
                     'f1_score_macro': cr['macro avg']['f1-score'],
-                    #'precision_macro': cr['macro avg']['precision'],
-                    #'recall_macro': cr['macro avg']['recall'],
-                    #'support_macro': cr['macro avg']['support'],
+                    'precision_macro': cr['macro avg']['precision'],
+                    'recall_macro': cr['macro avg']['recall'],
+                    'support_macro': cr['macro avg']['support'],
                     'f1_score_class_0': cr['0']['f1-score'],
-                    #'precision_class_0': cr['0']['precision'],
-                    #'recall_class_0': cr['0']['recall'],
+                    'precision_class_0': cr['0']['precision'],
+                    'recall_class_0': cr['0']['recall'],
                     'support_class_0': cr['0']['support'],
                     'f1_score_class_1': cr['1']['f1-score'],
-                    #'precision_class_1': cr['1']['precision'],
-                    #'recall_class_1': cr['1']['recall'],
+                    'precision_class_1': cr['1']['precision'],
+                    'recall_class_1': cr['1']['recall'],
                     'support_class_1': cr['1']['support']
                 }, ignore_index=True)
             except Exception as e:
@@ -41,24 +41,24 @@ def classification_reports_to_df(classification_reports, binary):
                 df = df.append({
                     'label': label,
                     'f1_score_macro': None,
-                    #'precision_macro': None,
-                    #'recall_macro': None,
-                    #'support_macro': None,
+                    'precision_macro': None,
+                    'recall_macro': None,
+                    'support_macro': None,
                     'f1_score_class_0': None,
-                    #'precision_class_0': None,
-                    #'recall_class_0': None,
+                    'precision_class_0': None,
+                    'recall_class_0': None,
                     'support_class_0': None,
                     'f1_score_class_1': None,
-                    #'precision_class_1': None,
-                    #'recall_class_1': None,
+                    'precision_class_1': None,
+                    'recall_class_1': None,
                     'support_class_1': None
                 }, ignore_index=True)
                 continue
 
         # Display the results
         return df
-    
-    return None
+    else:
+        return pd.DataFrame(classification_reports).transpose()
 
 """def report_to_dataframe(average_reports, classes):
     data = {
@@ -248,10 +248,11 @@ def get_extraction_function(type, n=0, strip = False):
     if type == "extract_using_class_token":
         return extract_using_class_token
     
-def calculate_binary_metrics_from_multilabel_list(df, classes, extraction_function):
+def calculate_metrics_from_multilabel_list(df, classes, extraction_function):
     prediction_per_class = []
     confusion_matrices = {}
-    classification_reports = {}
+    binary_classification_reports = {}
+    mlb = MultiLabelBinarizer(classes=classes)
     
     # Cleaning and extracting multilabel classes
     df['annotations'] = df['annotations'].apply(lambda x: extraction_function(x, classes))
@@ -273,13 +274,18 @@ def calculate_binary_metrics_from_multilabel_list(df, classes, extraction_functi
         cm = confusion_matrix(y_true, y_pred)
         confusion_matrices[label] = cm
         cr = classification_report(y_true, y_pred, output_dict=True)
-        classification_reports[label] = cr
+        binary_classification_reports[label] = cr
 
-    return prediction_per_class, confusion_matrices, classification_reports
+    y_true = mlb.fit_transform(df['annotations'])
+    y_pred = mlb.transform(df['response'])
+    multilabel_classification_report = classification_report(y_true, y_pred, output_dict=True, target_names=classes)
 
+    return prediction_per_class, confusion_matrices, classification_reports_to_df(binary_classification_reports), classification_reports_to_df(multilabel_classification_report, binary = False)
     
 def calculate_binary_metrics(df, classes, extraction_function):
     predictions_per_class = []
+    confusion_matrices = {}
+    binary_classification_reports = {}
     # Iterate through class labels and extract binary predictions
     for idx, label in enumerate(classes):
         pred_column_name = f"{label}_pred"
@@ -292,8 +298,6 @@ def calculate_binary_metrics(df, classes, extraction_function):
         except KeyError:
             predictions_per_class.append(None)
 
-    confusion_matrices = {}
-    classification_reports = {}
     for idx, label in enumerate(classes):
         pred_column_name = f"{label}_pred"
 
@@ -314,9 +318,9 @@ def calculate_binary_metrics(df, classes, extraction_function):
         cm = confusion_matrix(y_true, y_pred)
         confusion_matrices[label] = cm
         cr = classification_report(y_true, y_pred, output_dict=True)
-        classification_reports[label] = cr
+        binary_classification_reports[label] = cr
 
-    return predictions_per_class, confusion_matrices, classification_reports
+    return predictions_per_class, confusion_matrices, classification_reports_to_df(binary_classification_reports), None
 
 def calculate_co_occurrence(prediction_per_class, classes, ignore_same_label=True, verbose = False):
 

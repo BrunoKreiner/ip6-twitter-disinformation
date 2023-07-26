@@ -1,4 +1,4 @@
-id,campaign_name,text,annotations,prompt,context,normalized_tweet,validgeneric_prompt_few_shot_prompt_only_classification_3_random_example
+id,campaign_name,text,annotations,prompt,context,normalized_tweet,response
 962251540617670661,GRU_202012,RT @Kasman62: After his injury for fifth time #ISIS - Hunter Ibrahim Jaber Hussein martyred  by the American airstrike on syrian forces.…,['War/Terror'],"Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
 ### Instruction:
