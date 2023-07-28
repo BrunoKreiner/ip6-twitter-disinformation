@@ -102,7 +102,7 @@ def normalize_tweet_simplified(tweet):
     Returns:
         str: normalized Tweet
     """
-    tokens = normalize_token_simplified().tokenize(tweet.replace("’", "'"))
+    tokens = TweetTokenizer().tokenize(tweet.replace("’", "'"))
     normTweet = " ".join([normalize_token_simplified(token) for token in tokens])
 
     normTweet = (
@@ -204,10 +204,11 @@ def get_openassistant_llama_30b_4bit_without_context_only_classification_v02(twe
     context = ''
     return prompt, context
 
-def get_openassistant_llama_30b_4bit_without_context_only_classification_v03(tweet_text, label):
+def get_openassistant_llama_30b_4bit_without_context_only_classification_v03(tweet_text, label, request_params):
     prompt = f"Assign 1 if the tweet is about {label}. Assign 0 if it is not about {label}.\n\nTweet: {tweet_text}\nClass: "
     context = ''
-    return prompt, context
+    request_params["max_new_tokens"] = 10
+    return prompt, context, request_params
 
 def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_1_pos_example(tweet_text, label, example_tweet):
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
@@ -221,9 +222,10 @@ def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_1_rando
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label}\n\nTweet: {tweet_text}\nClass: "
     return prompt, ""
 
-def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_1_pos_1_neg_example(tweet_text, label, pos_example_tweet, neg_example_tweet):
+def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_1_pos_1_neg_example(tweet_text, label, pos_example_tweet, neg_example_tweet, request_params):
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {pos_example_tweet}\nClass: 1\nExample Tweet: {neg_example_tweet}\nClass: 0\n\nTweet: {tweet_text}\nClass: "
-    return prompt, ""
+    request_params["max_new_tokens"] = 10
+    return prompt, '', request_params
 
 def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_n_random_example(tweet_text, label, example_tweets):
     example_tweets_str = ""
