@@ -5,6 +5,7 @@ import requests
 #from nltk.stem import SnowballStemmer
 from datetime import datetime
 import pandas as pd
+import os
 
 HOST = 'http://127.0.0.1:5000'
 URI = f'{HOST}/api/v1/generate'
@@ -193,6 +194,18 @@ def generate_binary_balanced_dfs(all_labels, df, n = 65):
         balanced_dfs.append(balanced_df)
 
     return balanced_dfs
+
+def generate_unlabeled_dataset():
+    data_dir = "../data/unlabeled_data/"
+    file_names = ["GRU_202012_tweets.csv", "IRA_202012_tweets.csv", "REA_0621_tweets.csv", "uganda_0621_tweets.csv", "venezuela_201901_2_tweets.csv"]
+    
+    dfs = []
+    for file_name in file_names:
+        file_path = os.path.join(data_dir, file_name)
+        df = pd.read_csv(file_path)
+        dfs.append(df)
+        
+    return pd.concat(dfs, ignore_index=True)
 
 def get_openassistant_llama_30b_4bit_without_context_only_classification_v01(tweet_text, label):
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nClass: "
