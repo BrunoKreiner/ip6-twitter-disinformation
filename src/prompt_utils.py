@@ -6,6 +6,7 @@ import requests
 from datetime import datetime
 import pandas as pd
 import os
+import openai
 
 HOST = 'http://127.0.0.1:5000'
 URI = f'{HOST}/api/v1/generate'
@@ -23,7 +24,12 @@ RULES = ["Oxford dictionary's definition of war: “situation in which two or mo
 "Oxford dictionary's definition of media: “the main ways that large numbers of people receive information and entertainment, that is television, radio, newspapers and the internet”. Oxford dictionary's definition of journalism: “the work of collecting and writing news stories for newspapers, magazines, radio, television or online news sites; the news stories that are written”. Remark: This category will be used for statements/content which explicitly references other media outlets or journalists (e.g. “BBC has reported that …”, “Bellingcat has discovered a secret operation of X”). Content which appears “news-worthy” does not generally fall into this category (🡪 newsworthiness is very subjective and context-dependent).",
 "Oxford dictionary's definition of religion: “the belief in the existence of a god or gods, and the activities that are connected with the worship of them, or in the teachings of a spiritual leader”.",
 "Oxford dictionary's definition of science: “knowledge about the structure and behavior of the natural and physical world, based on facts that you can prove, for example by experiments”. Oxford dictionary's definition of technology: “scientific knowledge used in practical ways in industry, for example in designing new machines”."]
-
+ALL_LABELS = all_labels = ["War/Terror", "Conspiracy Theory", "Education", "Election Campaign", "Environment", 
+              "Government/Public", "Health", "Immigration/Integration", 
+              "Justice/Crime", "Labor/Employment", 
+              "Macroeconomics/Economic Regulation", "Media/Journalism", "Religion", "Science/Technology", "Others"]
+LOW_F1_LABELS = ["Conspiracy Theory", "Education", "Environment", "Labor/Employment", "Religion", "Science/Technology"]
+openai.api_key = "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"
 
 def normalize_token_simplified(token):
     """normalize token function as opposed to:
@@ -207,6 +213,74 @@ def generate_unlabeled_dataset():
         
     return pd.concat(dfs, ignore_index=True)
 
+def get_response_wip(prompt, first_model_type, second_model_type = "", follow_up = "", prompting_type = "simple", context = "", openai_model = "", max_tokens = 200, temperature = 0.7, stop = None):
+    
+    valid_models = ["llama", "vicuna", "openassistant", "openai-davinci", "openai-gpt-3.5-turbo"]
+    assert first_model_type in valid_models, "First model type needs to be one of the following: " + ", ".join(valid_models)
+    first_model = get_model_by_type(first_model_type)
+
+    if prompting_type == "two-way":
+        if second_model_type == "":
+            second_model = get_model_by_type(first_model_type)
+        else:
+            assert second_model_type in valid_models, "Second model type needs to be one of the following: " + ", ".join(valid_models)
+            assert follow_up != "", "Follow up needs to be specified for two_way prompting type"
+            second_model = get_model_by_type(second_model_type)
+
+        if openai_model != "":
+            #print("first prompt: ", prompt)
+            first_response = first_model(prompt, context = context, model = openai_model)
+            if "gpt" in second_model_type:
+                first_response = [prompt, {"role": "assistant", "content": first_response}]
+            #time.sleep(2)
+            #print("First response: ", first_response)
+            second_response = second_model(follow_up, context = prompt + first_response, model = openai_model)
+            return second_response
+        
+    if prompting_type == "simple":
+        return first_model(prompt, model = openai_model, max_tokens = max_tokens, temperature = temperature, stop = stop)
+
+
+def get_openai_response(prompt, context = [], model = "gpt-3.5-turbo", max_tokens = 200, temperature = 0.7, stop = None):
+    # Use OpenAI's ChatCompletion API to get the chatbot's response
+
+    if "gpt" in model:
+        messages = []
+        if context != [] and context != "":
+            for c in context:
+                messages.append(c)
+        messages.append(prompt)
+    else:
+        if context != "" and context != []:
+            prompt = context + prompt
+        #print("Context: ", context)
+        #print("Full prompt: ", prompt)
+    if model == "gpt-3.5-turbo":
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",  # The name of the OpenAI chatbot model to use
+            messages=messages,   # The conversation history up to this point, as a list of dictionaries
+            max_tokens=200,        # The maximum number of tokens (words or subwords) in the generated response
+            stop=None,              # The stopping sequence for the generated response, if any (not used here)
+            temperature=0.7,        # The "creativity" of the generated response (higher temperature = more creative)
+        )
+
+    elif model == "davinci":
+        response = openai.Completion.create(
+            model="text-davinci-003",  # The name of the OpenAI chatbot model to use
+            prompt=prompt,   # The conversation history up to this point, as a list of dictionaries
+            max_tokens=200,        # The maximum number of tokens (words or subwords) in the generated response
+            stop=None,              # The stopping sequence for the generated response, if any (not used here)
+            temperature=0.7,        # The "creativity" of the generated response (higher temperature = more creative)
+        )
+
+    # Find the first response from the chatbot that has text in it (some responses may not have text)
+    for choice in response.choices:
+        if "text" in choice:
+            return choice.text
+
+    # If no response with text is found, return the first response's content (which may be empty)
+    return response.choices[0].message.content
+
 def get_openassistant_llama_30b_4bit_without_context_only_classification_v01(tweet_text, label):
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nClass: "
     context = ''
@@ -222,6 +296,11 @@ def get_openassistant_llama_30b_4bit_without_context_only_classification_v03(twe
     context = ''
     request_params["max_new_tokens"] = 10
     return prompt, context, request_params
+
+def get_openassistant_llama_30b_4bit_with_rules_only_classification(tweet_text, label, rules, request_params):
+    prompt = f"Based on rules, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nRules: {rules}\nTweet: {tweet_text}\nClass: "
+    request_params["max_new_tokens"] = 10
+    return prompt, "", request_params
 
 def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_1_pos_example(tweet_text, label, example_tweet):
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
@@ -240,12 +319,13 @@ def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_1_pos_1
     request_params["max_new_tokens"] = 10
     return prompt, '', request_params
 
-def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_n_random_example(tweet_text, label, example_tweets):
+def get_openassistant_llama_30b_4bit_few_shot_prompt_only_classification_n_random_example(tweet_text, label, example_tweets, request_params):
     example_tweets_str = ""
     for example_tweet in example_tweets:
         example_tweets_str += f"\nExample Tweet: {normalize_tweet_simplified(example_tweet[0])}\nClass: {example_tweet[1]}"
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.{example_tweets_str}\n\nTweet: {tweet_text}\nClass: "
-    return prompt, ""
+    request_params["max_new_tokens"] = 10
+    return prompt, "", request_params
 
 def get_openassistant_llama_30b_4bit_without_context_elaboration_first(tweet_text, label):
     prompt = f"Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\nElaboration: "
@@ -471,3 +551,99 @@ def get_random_examples(df, label, exclude_tweet, n, random_state = 42):
     
     # Return a list of tuples, each containing the tweet text and its annotations
     return list(zip(values, labels))
+
+# TODO: maybe use the same "Class: " token for output as in vicuna
+def get_openai_prompt_with_rules_elaboration_first(tweet_text, label, rules):
+    prompt = f"Based on rules, elaborate whether you think the Tweet is about {label}.\nRules: {rules}\nTweet: {tweet_text}\nElaborations: "
+    followup = f"\nAssign the label 1 if it's about {label} or 0 for not based on the elaboration. Only output the number."
+    return prompt, followup
+
+def get_openai_prompt_without_context_elaboration_first(tweet_text, label):
+    prompt = f"Elaborate on whether you think the Tweet is about {label} or something else.\n\nTweet: {tweet_text}\n\n"
+    followup = f"\nAssign the label 1 if it's about {label} or 0 for not based on the elaboration. Only output the number."
+    return prompt, followup
+
+# last TODO: Here it's correct check if its correct 
+def get_openai_prompt_without_context_elaboration_first_v02(tweet_text, label):
+    prompt = f"Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\nElaboration: "
+    followup = f"Based on the elaboration, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nElaboration: [ELABORATION]\nClass: "
+    return prompt, followup
+
+def get_openai_prompt_without_context_elaboration_first_v03(tweet_text, label):
+    prompt = f"Elaborate on whether you think the Tweet is about {label} or something else.\nTweet: {tweet_text}\nElaboration: "
+    followup = f"Based on the elaboration, assign 1 if it's about {label} or 0 if not.\nElaboration: [ELABORATION]\nClass: "
+    return prompt, followup
+
+def get_openai_prompt_without_context_elaboration_first_v04(tweet_text, label, request_params):
+    prompt = f"Classify the Tweet based on if it's about {label}. Give an explanation using \"Explanation:\" then classify using \"Class:\" as 1 or 0.\n\nTweet:\n{tweet_text}\n\nExplanation:"
+    context = ''
+    request_params["max_new_tokens"] = 400
+    return prompt, context, request_params
+
+def get_openai_prompt_without_context_only_classification(tweet_text, label):
+    prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_prompt_without_context_only_classification_v02(tweet_text, label):
+    prompt = f"Give the tweet a binary class based on if it's about {label} or not.\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_prompt_without_context_only_classification_v03(tweet_text, label):
+    prompt = f"Assign 1 if the tweet is about {label}. Assign 0 if it is not about {label}.\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_prompt_with_rules_only_classification(tweet_text, label, rules):
+    prompt = f"Based on rules, classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nRules: {rules}\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_few_shot_prompt_only_classification_1_pos_example(tweet_text, label, example_tweet):
+    prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 1\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_few_shot_prompt_only_classification_1_neg_example(tweet_text, label, example_tweet):
+    prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: 0\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_few_shot_prompt_only_classification_1_random_example(tweet_text, label, example_tweet, example_tweet_label):
+    prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label}\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_few_shot_prompt_only_classification_3_random_example(tweet_text, label, example_tweet, example_tweet_label1, example_tweet2, example_tweet_label2, example_tweet3, example_tweet_label3):
+    prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {example_tweet}\nClass: {example_tweet_label1}\nExample Tweet: {example_tweet2}\nClass: {example_tweet_label2}\nExample Tweet: {example_tweet3}\nClass: {example_tweet_label3}\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_openai_few_shot_prompt_only_classification_1_pos_1_neg_example(tweet_text, label, pos_example_tweet, neg_example_tweet):
+    prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nExample Tweet: {pos_example_tweet}\nClass: 1\nExample Tweet: {neg_example_tweet}\nClass: 0\n\nTweet: {tweet_text}\nClass: "
+    return prompt, ""
+
+def get_positive_example(df, label, exclude_tweet):
+    pos_example_df = df[(df['annotations'].apply(lambda x: label in x)) & (df['text'] != exclude_tweet)]
+    pos_example_tweet = pos_example_df.sample(n=1, random_state=42)['text'].values[0]
+    return pos_example_tweet
+
+def get_negative_example(df, label, exclude_tweet):
+    neg_example_df = df[(df['annotations'].apply(lambda x: label not in x)) & (df['text'] != exclude_tweet)]
+    neg_example_tweet = neg_example_df.sample(n=1, random_state=42)['text'].values[0]
+    return neg_example_tweet
+
+def get_random_examples(df, label, exclude_tweet, n):
+    # Exclude the specific tweet
+    df = df[df['text'] != exclude_tweet]
+    
+    # Sample n random examples
+    sampled_df = df.sample(n=n, random_state=42)
+    
+    # Return a list of tuples, each containing the tweet text and its annotations
+    return list(zip(sampled_df['text'].values, sampled_df['annotations'].apply(lambda x: int(label in x)).values))
+
+def get_model_by_type(model_type):
+    if model_type == "llama":
+        return #get_llama_response
+    elif model_type == "vicuna":
+        return #get_vicuna_response
+    elif model_type == "openassistant":
+        return #get_openassistant_response
+    elif "openai" in model_type:
+        return get_openai_response
+    elif "gpt-3.5" in model_type:
+        return get_openai_response

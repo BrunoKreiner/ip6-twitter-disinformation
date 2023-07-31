@@ -1,0 +1,24 @@
+{
+    "prompt": "Based on rules, classify the Tweet based on if it's about Science/Technology. Use 1 or 0 as class.\nRules: Oxford dictionary's definition of science: \u201cknowledge about the structure and behavior of the natural and physical world, based on facts that you can prove, for example by experiments\u201d. Oxford dictionary's definition of technology: \u201cscientific knowledge used in practical ways in industry, for example in designing new machines\u201d.\nTweet: RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026\nClass: ",
+    "context": "",
+    "max_new_tokens": 10,
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.1,
+    "typical_p": 1,
+    "repetition_penalty": 1.2,
+    "encoder_repetition_penalty": 1.0,
+    "top_k": 40,
+    "min_length": 0,
+    "no_repeat_ngram_size": 0,
+    "num_beams": 1,
+    "penalty_alpha": 0,
+    "length_penalty": 1,
+    "early_stopping": false,
+    "seed": -1,
+    "stopping_strings": [
+        "### Human:",
+        "Human:",
+        "###"
+    ]
+}

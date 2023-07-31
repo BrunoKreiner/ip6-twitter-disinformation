@@ -12,6 +12,68 @@ from sklearn.preprocessing import MultiLabelBinarizer
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', 15)
 
+def calculate_fbeta_score(beta, precision, recall):
+    return (1 + beta**2) * (precision * recall) / ((beta**2 * precision) + recall)
+
+def calculate_metrics_streamlit(model_classification_reports_df, beta):
+    # Check if it's multilabel or binary classification
+    low_f1_classes = ["Conspiracy Theory", "Education", "Environment", "Labor/Employment", "Science/Technology", "Religion"]
+    if 'label' in model_classification_reports_df.columns:
+        model_classification_reports_df = model_classification_reports_df.set_index('label')
+    if 'f1_score_class_0' in model_classification_reports_df.columns:
+        # Binary case
+        avg_f1_class_0 = model_classification_reports_df['f1_score_class_0'].mean()
+        avg_f1_class_1 = model_classification_reports_df['f1_score_class_1'].mean()
+        avg_f1_score = (avg_f1_class_0 + avg_f1_class_1) / 2
+        avg_f1_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'f1_score_class_1'].mean()
+
+        avg_accuracy = 0
+        for idx, x in model_classification_reports_df.iterrows():
+            try:
+                true_positives = x['support_class_1'] * x['recall_class_1']
+                true_negatives = x['support_class_0'] * x['recall_class_0']
+                total_samples = x['support_class_0'] + x['support_class_1']
+                accuracy = (true_positives + true_negatives) / total_samples
+                avg_accuracy += accuracy
+            except:
+                pass
+        avg_accuracy /= len(model_classification_reports_df)
+        
+        avg_precision_class_0 = model_classification_reports_df['precision_class_0'].mean()
+        avg_precision_class_1 = model_classification_reports_df['precision_class_1'].mean()
+        avg_recall_class_0 = model_classification_reports_df['recall_class_0'].mean()
+        avg_recall_class_1 = model_classification_reports_df['recall_class_1'].mean()
+
+        avg_precision_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'precision_class_1'].mean()
+        avg_recall_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'recall_class_1'].mean()
+        fbeta_score_class_1_low = calculate_fbeta_score(0.5, avg_precision_class_1_low, avg_recall_class_1_low)
+        avg_fbeta_score_class_1_low_0_25 = calculate_fbeta_score(0.25, avg_precision_class_1_low, avg_recall_class_1_low)
+
+        fbeta_score_class_0 = calculate_fbeta_score(beta, avg_precision_class_0, avg_recall_class_0)
+        fbeta_score_class_1 = calculate_fbeta_score(beta, avg_precision_class_1, avg_recall_class_1)
+        avg_fbeta_score = (fbeta_score_class_0 + fbeta_score_class_1) / 2
+
+        return avg_f1_class_0, avg_f1_class_1, avg_f1_class_1_low, avg_f1_score, avg_accuracy, fbeta_score_class_0, fbeta_score_class_1, avg_fbeta_score, fbeta_score_class_1_low, avg_fbeta_score_class_1_low_0_25
+    else:
+    # Multilabel case
+        avg_f1_scores = model_classification_reports_df.loc[low_f1_classes, 'f1-score'].tolist()
+        avg_f1_score_low = sum(avg_f1_scores) / len(avg_f1_scores) if avg_f1_scores else None
+
+        avg_precision_low = model_classification_reports_df.loc[low_f1_classes, 'precision'].tolist()
+        avg_recall_low = model_classification_reports_df.loc[low_f1_classes, 'recall'].tolist()
+        fbeta_scores_low = [calculate_fbeta_score(beta, precision, recall) for precision, recall in zip(avg_precision_low, avg_recall_low)]
+        fbeta_scores_low_0_25 = [calculate_fbeta_score(0.25, precision, recall) for precision, recall in zip(avg_precision_low, avg_recall_low)]
+        avg_fbeta_score_low = sum(fbeta_scores_low) / len(fbeta_scores_low) if fbeta_scores_low else None
+        avg_fbeta_score_low_0_25 = sum(fbeta_scores_low_0_25) / len(fbeta_scores_low_0_25) if fbeta_scores_low_0_25 else None
+
+        # The average scores for all classes
+        avg_f1_score = model_classification_reports_df.loc['macro avg', 'f1-score']
+        avg_accuracy = 0  # Not defined in the multilabel case
+        avg_fbeta_score = calculate_fbeta_score(beta, model_classification_reports_df.loc['macro avg', 'precision'], model_classification_reports_df.loc['macro avg', 'recall'])
+        
+        return 0, 0, 0, avg_f1_score, avg_accuracy, 0, 0, avg_fbeta_score, avg_fbeta_score_low, avg_fbeta_score_low_0_25
+
+
 def classification_reports_to_df(classification_reports, binary = True):
     if binary:
         # Your code for creating the DataFrame and adding the results
@@ -105,11 +167,15 @@ def extract_label(classification_str):
         #print(match.group(1))
         class_value = int(match.group(1))
         if class_value != 0 and class_value != 1:
-            print("Class value not 0 or 1")
+            """print("Class value not 0 or 1")
             print("---------------------")
             print(classification_str)
-            print("----------------------")
+            print("----------------------")"""
             return None
+            """if class_value == 2:
+                return 1
+            else:
+                return None"""
         return class_value
     else:
         print("Label not found in the message: ", classification_str)
@@ -121,11 +187,15 @@ def extract_last_float(classification_str):
     try:
         class_value = float(find_last_float(classification_str))
         if class_value != 0 and class_value != 1:
-            print("Class value not 0 or 1")
+            """print("Class value not 0 or 1")
             print("---------------------")
             print(classification_str)
             print("----------------------")
-            return None
+            return None"""
+            """if class_value == 2:
+                return 1
+            else:
+                return None"""
         return class_value
     except ValueError:
         return None
@@ -147,11 +217,15 @@ def extract_nth_character(classification_str, n, strip = False):
         #print(classification_str)
         class_value = int(classification_str[n])
         if class_value != 0 and class_value != 1:
-            print("Class value not 0 or 1")
+            """print("Class value not 0 or 1")
             print("---------------------")
             print(classification_str)
-            print("----------------------")
+            print("----------------------")"""
             return None
+            """if class_value == 2:
+                return 1
+            else:
+                return None"""
         return class_value
     except ValueError:
         return None

@@ -1,5 +1,7 @@
 # custom
 data/unlabeled_data/**/*
+data/labeled_data/**/*_weak_labeling.csv
+data/*/*/*_weak_labeling.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

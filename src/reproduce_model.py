@@ -172,7 +172,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, l
         val_df = pd.DataFrame(data["valid"])
         test_df = pd.DataFrame(data["test"])
         
-        model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-large", load_in_8bit=load_8bit ,num_labels=15, problem_type="multi_label_classification")
+        model = AutoModelForSequenceClassification.from_pretrained("vinai/bertweet-large", load_in_8bit=load_8bit, num_labels=15, problem_type="multi_label_classification")
         model.to(device)
         tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-large")
 
@@ -301,6 +301,13 @@ if __name__ == "__main__":
     parser.add_argument("--fp16", type=bool, default=True, action=argparse.BooleanOptionalAction, help="Use mixed precision training.")
     parser.add_argument("--reporter", type=str, default='wandb', choices=['wandb', 'None'], help="Use Weights and Biases for logging.")
     parser.add_argument("--load-8bit", type=bool, default=False, action=argparse.BooleanOptionalAction, help="Train the model in 8bit. Use standalone --load-8bit to set to True.")
+    # add fsl strategy (none, data augmentation (using EDA), all automatically labeled data, distinct classifications, balanced labels, forgiving labels, co-occurrence probabilities, majority_vote)
+    # for all automatically labeled data -> always inject training data with all labels. use 1/0 of the underrepresented labels to create [0, .., 0, 1,] labels
+    # for distinct classifications -> use only the weak labels where every label is the only label for the tweet
+    # for balanced labels -> add a balanced dataset to the training data
+    # for forgiving labels -> add a forgiving labels [0.5, 0, 0, ..]
+    # co-occurrence probabilities -> use the co-occurrence probabilities of each distinct classification
+    # for majority vote -> use the weak labels of multiple models and use the majority vote as the label
     args = parser.parse_args()
 
     if args.epochs:

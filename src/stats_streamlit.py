@@ -140,6 +140,7 @@ vicuna_multi_label_no_fine_tune_explanation_first_v01, vicuna_multi_label_no_fin
 oa_without_context_classification_only, oa_without_context_classification_only_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 oa_without_context_classification_only_v02, oa_without_context_classification_only_v02_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 oa_without_context_classification_only_v03, oa_without_context_classification_only_v03_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_without_context_only_classification_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+oa_with_rules_classification_only, oa_with_rules_classification_only_predictions_per_class = load_model("../data/openassistant_llama_30b_4bit/generic_prompt_with_rules_only_classification/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
 
 # without context and elaboration first
 ## Example:
@@ -213,8 +214,9 @@ text_davinci_003_few_shot_3_random, text_davinci_003_few_shot_3_random_predictio
     #"Elaborate on whether you think the Tweet is about {label} or something else.\n\nTweet: {tweet_text}\n\n"
     #Followup: \nAssign the label 1 if it's about {label} or 0 for not based on the elaboration. Only output the number."
 text_davinci_003_turbo_without_context_elaboration_first, text_davinci_003_turbo_without_context_elaboration_first_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
-text_davinci_003_turbo_without_context_elaboration_first_v02, text_davinci_003_turbo_without_context_elaboration_first_v02_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1), llm_utils.calculate_binary_metrics)
+text_davinci_003_turbo_without_context_elaboration_first_v02, text_davinci_003_turbo_without_context_elaboration_first_v02_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v02/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 0), llm_utils.calculate_binary_metrics)
 text_davinci_003_turbo_without_context_elaboration_first_v03, text_davinci_003_turbo_without_context_elaboration_first_v03_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v03/generic_test_0.csv", llm_utils.get_extraction_function("extract_nth_character", 1, True), llm_utils.calculate_binary_metrics)
+text_davinci_003_turbo_without_context_elaboration_first_v04, text_davinci_003_turbo_without_context_elaboration_first_v04_predictions_per_class = load_model("../data/openai_text_davinci_003/generic_prompt_without_context_elaboration_first_v04/generic_test_0.csv", llm_utils.get_extraction_function("extract_using_class_token", 1), llm_utils.calculate_binary_metrics)
 
 # with rules and classification only
 ## Example:
@@ -454,6 +456,13 @@ models = [
         "data": oa_without_context_elaboration_first_v04,
         "prediction_per_class": oa_without_context_elaboration_first_v04_predictions_per_class,
     },
+    {
+        "model_name": "OA Llama 30B 4bit",
+        "type": "With Rules Classification only",
+        "context": "",
+        "data": oa_with_rules_classification_only,
+        "prediction_per_class": oa_with_rules_classification_only_predictions_per_class,
+    },
         {
         "model_name": "OA Llama 30B 4bit",
         "context": "1 pos example",
@@ -559,6 +568,13 @@ models = [
         "context": "",
         "data": text_davinci_003_turbo_without_context_elaboration_first_v03,
         "prediction_per_class": text_davinci_003_turbo_without_context_elaboration_first_v03_predictions_per_class,
+    },    
+    {
+        "model_name": "Text Davinci 003",
+        "type": "Elaboration First v04",
+        "context": "",
+        "data": text_davinci_003_turbo_without_context_elaboration_first_v04,
+        "prediction_per_class": text_davinci_003_turbo_without_context_elaboration_first_v04_predictions_per_class,
     },
     {
         "model_name": "Text Davinci 003",
@@ -842,65 +858,6 @@ def make_grid(cols, rows):
             grid[i] = st.columns(rows)
     return grid
 
-def calculate_fbeta_score(beta, precision, recall):
-    return (1 + beta**2) * (precision * recall) / ((beta**2 * precision) + recall)
-
-def calculate_metrics(model_classification_reports_df, beta):
-    # Check if it's multilabel or binary classification
-    low_f1_classes = ["Conspiracy Theory", "Education", "Environment", "Labor/Employment", "Science/Technology", "Religion"]
-    if 'label' in model_classification_reports_df.columns:
-        model_classification_reports_df = model_classification_reports_df.set_index('label')
-    if 'f1_score_class_0' in model_classification_reports_df.columns:
-        # Binary case
-        avg_f1_class_0 = model_classification_reports_df['f1_score_class_0'].mean()
-        avg_f1_class_1 = model_classification_reports_df['f1_score_class_1'].mean()
-        avg_f1_score = (avg_f1_class_0 + avg_f1_class_1) / 2
-        avg_f1_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'f1_score_class_1'].mean()
-
-        avg_accuracy = 0
-        for idx, x in model_classification_reports_df.iterrows():
-            try:
-                true_positives = x['support_class_1'] * x['recall_class_1']
-                true_negatives = x['support_class_0'] * x['recall_class_0']
-                total_samples = x['support_class_0'] + x['support_class_1']
-                accuracy = (true_positives + true_negatives) / total_samples
-                avg_accuracy += accuracy
-            except:
-                pass
-        avg_accuracy /= len(model_classification_reports_df)
-        
-        avg_precision_class_0 = model_classification_reports_df['precision_class_0'].mean()
-        avg_precision_class_1 = model_classification_reports_df['precision_class_1'].mean()
-        avg_recall_class_0 = model_classification_reports_df['recall_class_0'].mean()
-        avg_recall_class_1 = model_classification_reports_df['recall_class_1'].mean()
-
-        avg_precision_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'precision_class_1'].mean()
-        avg_recall_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'recall_class_1'].mean()
-        fbeta_score_class_1_low = calculate_fbeta_score(0.5, avg_precision_class_1_low, avg_recall_class_1_low)
-
-        fbeta_score_class_0 = calculate_fbeta_score(beta, avg_precision_class_0, avg_recall_class_0)
-        fbeta_score_class_1 = calculate_fbeta_score(beta, avg_precision_class_1, avg_recall_class_1)
-        avg_fbeta_score = (fbeta_score_class_0 + fbeta_score_class_1) / 2
-
-        return avg_f1_class_0, avg_f1_class_1, avg_f1_class_1_low, avg_f1_score, avg_accuracy, fbeta_score_class_0, fbeta_score_class_1, avg_fbeta_score, fbeta_score_class_1_low
-    else:
-    # Multilabel case
-        avg_f1_scores = model_classification_reports_df.loc[low_f1_classes, 'f1-score'].tolist()
-        avg_f1_score_low = sum(avg_f1_scores) / len(avg_f1_scores) if avg_f1_scores else None
-
-        avg_precision_low = model_classification_reports_df.loc[low_f1_classes, 'precision'].tolist()
-        avg_recall_low = model_classification_reports_df.loc[low_f1_classes, 'recall'].tolist()
-        fbeta_scores_low = [calculate_fbeta_score(beta, precision, recall) for precision, recall in zip(avg_precision_low, avg_recall_low)]
-        avg_fbeta_score_low = sum(fbeta_scores_low) / len(fbeta_scores_low) if fbeta_scores_low else None
-
-        # The average scores for all classes
-        avg_f1_score = model_classification_reports_df.loc['macro avg', 'f1-score']
-        avg_accuracy = 0  # Not defined in the multilabel case
-        avg_fbeta_score = calculate_fbeta_score(beta, model_classification_reports_df.loc['macro avg', 'precision'], model_classification_reports_df.loc['macro avg', 'recall'])
-        
-        return 0, 0, 0, avg_f1_score, avg_accuracy, 0, 0, avg_fbeta_score, avg_fbeta_score_low
-
-
 def display_dashboard(models):
     st.write(
         f"""
@@ -960,7 +917,7 @@ def display_dashboard(models):
         model_groups[model["model_name"]].append(model)
 
     # Add metric selection dropdown in the sidebar
-    metric_options = ["None", "Avg F1-Score Class 0", "Avg F1-Score Class 1", "Avg-F1 Score", "Avg F1-Score Class 1 Low Class", "Avg F-Beta-Score Class 0", "Avg F-Beta-Score Class 1", "Avg F-Beta-Score", "Avg F-Beta-Score Low Class 1"]
+    metric_options = ["None", "Avg F1-Score Class 0", "Avg F1-Score Class 1", "Avg-F1 Score", "Avg F1-Score Class 1 Low Class", "Avg F-Beta-Score Class 0", "Avg F-Beta-Score Class 1", "Avg F-Beta-Score", "Avg F-Beta-Score (0.5) Low Class 1", "Avg F-Beta-Score (0.25) Low Class 1"]
     selected_metric = st.sidebar.radio("Select active metric", metric_options, index=1)
 
     # Prepare a color scale
@@ -983,7 +940,7 @@ def display_dashboard(models):
                 model_classification_reports_df = model["data"]["multilabel_classification_reports"]
             else:
                 model_classification_reports_df = model["data"]["binary_classification_reports"]
-            avg_f1_class_0, avg_f1_class_1, avg_f1_class_1_low, avg_f1_score, avg_accuracy, fbeta_score_class_0, fbeta_score_class_1, avg_fbeta_score, avg_fbeta_score_low = calculate_metrics(model_classification_reports_df, beta)
+            avg_f1_class_0, avg_f1_class_1, avg_f1_class_1_low, avg_f1_score, avg_accuracy, fbeta_score_class_0, fbeta_score_class_1, avg_fbeta_score, avg_fbeta_score_low, avg_fbeta_score_low_0_25 = llm_utils.calculate_metrics_streamlit(model_classification_reports_df, beta)
 
             metrics = {
                 "Avg F1-Score Class 0": avg_f1_class_0, 
@@ -994,7 +951,8 @@ def display_dashboard(models):
                 "Avg F-Beta-Score Class 0": fbeta_score_class_0,
                 "Avg F-Beta-Score Class 1": fbeta_score_class_1,
                 "Avg F-Beta-Score": avg_fbeta_score,
-                "Avg F-Beta-Score Low Class 1": avg_fbeta_score_low
+                "Avg F-Beta-Score (0.5) Low Class 1": avg_fbeta_score_low,
+                "Avg F-Beta-Score (0.25) Low Class 1": avg_fbeta_score_low_0_25
             }
             selected_metric_value = metrics[selected_metric] * 1.3 - 0.7
 
@@ -1020,7 +978,8 @@ def display_dashboard(models):
                             <div class="model-subtitle">{model['context']} {model['type']}</div>
                             <div class="model-f1">Avg F1-Score: {avg_f1_score:.2f}</div>
                             <div class="model-f1">Avg F-Beta-Score: {avg_fbeta_score:.2f}</div>
-                            <div class="model-f1">Avg F-Beta-Score Low Class 1: {avg_fbeta_score_low:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score (0.5) Low Class 1: {avg_fbeta_score_low:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score (0.25) Low Class 1: {avg_fbeta_score_low_0_25:.2f}</div>
                         </div>
                         """,
                         unsafe_allow_html=True,
@@ -1037,7 +996,8 @@ def display_dashboard(models):
                             <div class="model-f1">Avg F-Beta-Score Class 0: {fbeta_score_class_0:.2f}</div>
                             <div class="model-f1">Avg F-Beta-Score Class 1: {fbeta_score_class_1:.2f}</div>
                             <div class="model-f1">Avg F-Beta-Score: {avg_fbeta_score:.2f}</div>
-                            <div class="model-f1">Avg F-Beta-Score Low Class 1: {avg_fbeta_score_low:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score (0.5) Low Class 1: {avg_fbeta_score_low:.2f}</div>
+                            <div class="model-f1">Avg F-Beta-Score (0.25) Low Class 1: {avg_fbeta_score_low_0_25:.2f}</div>
                         </div>
                         """,
                         unsafe_allow_html=True,
