@@ -1,4 +1,6 @@
 import json
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 import numpy as np
 from torch.utils.data import DataLoader
@@ -30,10 +32,63 @@ import json
 from tabulate import tabulate
 from emoji import demojize
 from nltk.tokenize import TweetTokenizer
+import prompt_utils
+import eda
+
+from collections import Counter
+from itertools import combinations
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 global classes 
 classes = set()
+
+def co_occurrence(annotations):
+    label_count = {}
+    co_occur_count = {}
+    
+    for labels in annotations:
+        for label in labels:
+            label_count[label] = label_count.get(label, 0) + 1
+            for co_label in labels:
+                if label != co_label:
+                    pair = tuple([label, co_label])
+                    co_occur_count[pair] = co_occur_count.get(pair, 0) + 1
+
+    co_occur_prob = {pair: count/label_count[pair[0]] for pair, count in co_occur_count.items()}
+
+    return co_occur_prob
+
+def inject_weak_labels(train_df, weak_labels_df, fsl_strategy):
+    co_occur_prob = None
+    if fsl_strategy == 'all':
+        for index, row in weak_labels_df.iterrows():
+            annotations = ast.literal_eval(row['annotations'])
+            if annotations != []:
+                train_df = train_df.append({'text': row['tweet_text'], 'annotations': annotations}, ignore_index=True)
+    if fsl_strategy == 'distinct':
+        for index, row in weak_labels_df.iterrows():
+            annotations = ast.literal_eval(row['annotations'])
+            print(len(annotations))
+            if len(annotations) == 1:
+                train_df = train_df.append({'text': row['tweet_text'], 'annotations': annotations}, ignore_index=True)
+
+    if fsl_strategy == 'co-occurrence':
+        co_occur_prob = co_occurrence(train_df['annotations'])
+        for index, row in weak_labels_df.iterrows():
+            annotations = ast.literal_eval(row['annotations'])
+            if len(annotations) == 1:
+                train_df = train_df.append({'text': row['tweet_text'], 'annotations': annotations, 'co-occurence': True}, ignore_index=True)
+
+    if fsl_strategy == 'eda':
+        augmented_train_df = pd.DataFrame(columns=['text', 'annotations'])
+        for index, row in train_df.iterrows():
+            tweet_text = normalizeTweet(row['text'])
+            augmented_tweets = eda.eda(tweet_text, alpha_sr=0.05, alpha_ri=0.05, alpha_rs=0.05, p_rd=0.5, num_aug=8)
+            for augmented_tweet in augmented_tweets:
+                augmented_train_df = augmented_train_df.append({'text': augmented_tweet, 'annotations': row['annotations']}, ignore_index=True)
+        train_df = augmented_train_df
+    
+    return train_df, co_occur_prob
 
 class MultiLabelDataCollator(DataCollatorWithPadding):
     def __init__(self, tokenizer):
@@ -49,10 +104,13 @@ class MultiLabelDataCollator(DataCollatorWithPadding):
     def loss(logits, labels):
         # Use BCEWithLogitsLoss for multi-label classification
         loss_fct = torch.nn.BCEWithLogitsLoss()
+        print(logits)
+        print(labels.float())
         return loss_fct(logits, labels.float())
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
+    #print(predictions, labels)
     sigmoid = torch.nn.Sigmoid()
     probs = sigmoid(torch.Tensor(predictions))
     y_pred = np.zeros(probs.shape)
@@ -72,17 +130,7 @@ def compute_metrics(eval_pred):
 
     return metrics
 
-class TweetDataset(Dataset):
-    def __init__(self, x, y, mlb, tokenizer):
-        self.x = x
-        self.y = y
-        self.mlb = mlb
-        self.tokenizer = tokenizer
-        self.max_length = 128
-        self.encoded_tweets = self.preprocess_text(self.x)
-        
-    @staticmethod
-    def normalizeToken(token):
+def normalizeToken(token):
         lowercased_token = token.lower()
         if token.startswith("@"):
             return "@USER"
@@ -97,10 +145,10 @@ class TweetDataset(Dataset):
                 return "..."
             else:
                 return token
-    
-    def normalizeTweet(self, tweet):
+
+def normalizeTweet(tweet):
         tokens = TweetTokenizer().tokenize(tweet.replace("’", "'").replace("…", "..."))
-        normTweet = " ".join([self.normalizeToken(token) for token in tokens])
+        normTweet = " ".join([normalizeToken(token) for token in tokens])
 
         normTweet = (
             normTweet.replace("cannot ", "can not ")
@@ -125,8 +173,18 @@ class TweetDataset(Dataset):
         )
         return " ".join(normTweet.split())
 
-    def preprocess_text(self, X):
-        X = [self.normalizeTweet(tweet) for tweet in X]
+class TweetDataset(Dataset):
+    def __init__(self, x, y, mlb, tokenizer, fsl_strategy = None):
+        self.x = x
+        self.y = y
+        self.mlb = mlb
+        self.tokenizer = tokenizer
+        self.max_length = 128
+        self.encoded_tweets = self.preprocess_text(self.x, fsl_strategy)
+
+    def preprocess_text(self, X, fsl_strategy):
+        if fsl_strategy != 'eda':
+            X = [normalizeTweet(tweet) for tweet in X]
         
         return self.tokenizer(X, return_attention_mask=True, return_tensors='pt', padding=True, truncation = True, max_length=self.max_length)
         
@@ -135,6 +193,7 @@ class TweetDataset(Dataset):
 
     def __getitem__(self, idx):
         label = self.y[idx]
+        #print(label)
         return {'input_ids': self.encoded_tweets['input_ids'][idx],
                 'attention_mask': self.encoded_tweets['attention_mask'][idx],
                 'label': torch.tensor(label, dtype=torch.float32)}
@@ -151,7 +210,7 @@ class CustomCallback(TrainerCallback):
             self._trainer.evaluate(eval_dataset=self._trainer.train_dataset, metric_key_prefix="train")
             return control_copy
 
-def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, load_8bit):
+def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, load_8bit, fsl_strategy, weak_labels_path, output_base):
     # Train and evaluate your model using k-fold cross-validation
     k = 5
     results = {}
@@ -161,14 +220,25 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, l
     for i in range(k):
         
         print(f"Starting training of {i+1}. fold...")
-        output_dir = f"./models/{task}_epochs_{epochs}_train_size_{train_size}_fold_{i}"
+
+        if output_base == None:
+            output_base = "../models/"
+            
+        output_dir = f"{output_base}_{task}_epochs_{epochs}_train_size_{train_size}_fold_{i}"
+
         os.makedirs(output_dir, exist_ok=True)
         
         # Load the data for this fold
-        filename = f"./data/labeled_data/{task}_test_{i}.json"
+        filename = f"../data/labeled_data/{task}_test_{i}.json"
         with open(filename) as f:
             data = json.load(f)
         train_df = pd.DataFrame(data["train"])
+
+        if (fsl_strategy != 'none') and (weak_labels_path != None):
+            weak_labels_df = pd.read_csv(weak_labels_path)
+            train_df, co_occurrence_probabilities = inject_weak_labels(train_df, weak_labels_df, fsl_strategy)
+            train_df.to_csv(output_dir + '/train_df.csv', index=False)
+
         val_df = pd.DataFrame(data["valid"])
         test_df = pd.DataFrame(data["test"])
         
@@ -177,13 +247,13 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, l
         tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-large")
 
         train_annotations = train_df["annotations"].tolist()
-
         # Get all unique classes
         global classes
         classes = set()
         for annotation in train_annotations:
             classes.update(annotation)
         classes = sorted(list(classes))
+        print(classes)
 
         # Convert the annotations to binary labels
         mlb = MultiLabelBinarizer(classes=classes)
@@ -196,11 +266,31 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, l
         if test_size != "full":
             test_df = test_df.sample(n=test_size)
         
-        train_labels = mlb.fit_transform(train_df["annotations"])
+        #print(co_occurrence_probabilities)
+        train_labels = []
+        for index, row in train_df.iterrows():
+            try:
+                if row["co-occurence"] == True:
+                    annotation = []
+                    for class_ in classes:
+                        if class_ == row["annotations"][0]:
+                            annotation.append(1)
+                        else:
+                            try:
+                                annotation.append(co_occurrence_probabilities[tuple([row["annotations"][0], class_])])
+                            except KeyError:
+                                annotation.append(0)
+                    train_labels.append(annotation)
+                else:
+                    train_labels.append(mlb.fit_transform([row["annotations"]])[0])
+            except KeyError:
+                train_labels.append(mlb.fit_transform([row["annotations"]])[0])
+
+        #train_labels = mlb.fit_transform(train_df["annotations"])
         val_labels = mlb.transform(val_df["annotations"])
         test_labels = mlb.transform(test_df["annotations"])
         
-        train_dataset = TweetDataset(train_df['text'].to_list(), torch.tensor(train_labels), mlb, tokenizer)
+        train_dataset = TweetDataset(train_df['text'].to_list(), torch.tensor(train_labels), mlb, tokenizer, "eda")
         val_dataset = TweetDataset(val_df['text'].to_list(), torch.tensor(val_labels), mlb, tokenizer)
         test_dataset = TweetDataset(test_df['text'].to_list(), torch.tensor(test_labels), mlb, tokenizer)
         data_collator = MultiLabelDataCollator(tokenizer)
@@ -220,7 +310,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, l
             fp16=fp16,
             metric_for_best_model="micro_f1",
             greater_is_better=True,
-            save_total_limit = 2,
+            save_total_limit = 1,
             report_to=reporter,
         )
 
@@ -260,7 +350,7 @@ def main(task, epochs, train_size, validation_size, test_size, fp16, reporter, l
         gc.collect()
 
     # Average the results across all k folds
-    filename = f"./reports/{task}_epochs_{epochs}_train_size_{train_size}.json"
+    filename = f"../reports/{output_base}_{task}_epochs_{epochs}_train_size_{train_size}.json"
     
     # Check if the file exists and create it if it doesn't
     if not os.path.exists(filename):
@@ -302,6 +392,9 @@ if __name__ == "__main__":
     parser.add_argument("--reporter", type=str, default='wandb', choices=['wandb', 'None'], help="Use Weights and Biases for logging.")
     parser.add_argument("--load-8bit", type=bool, default=False, action=argparse.BooleanOptionalAction, help="Train the model in 8bit. Use standalone --load-8bit to set to True.")
     # add fsl strategy (none, data augmentation (using EDA), all automatically labeled data, distinct classifications, balanced labels, forgiving labels, co-occurrence probabilities, majority_vote)
+    parser.add_argument("--fsl-strategy", type=str, default='none', choices=['none', 'eda', 'all', 'distinct', 'balanced', 'forgiving', 'co-occurrence', 'majority_vote'], help="Few-shot learning strategy.")
+    parser.add_argument("--weak-labels-path", type=str, default=None, help="Path to the weak labels.")
+    parser.add_argument("--output-base-folder", type=str, default=None, help="Path to the output folder.")
     # for all automatically labeled data -> always inject training data with all labels. use 1/0 of the underrepresented labels to create [0, .., 0, 1,] labels
     # for distinct classifications -> use only the weak labels where every label is the only label for the tweet
     # for balanced labels -> add a balanced dataset to the training data
@@ -330,5 +423,5 @@ if __name__ == "__main__":
     else:
         test_size = "full"
 
-    main(args.task, epochs, train_size, validation_size, test_size, args.fp16, args.reporter, args.load_8bit)
+    main(args.task, epochs, train_size, validation_size, test_size, args.fp16, args.reporter, args.load_8bit, args.fsl_strategy, args.weak_labels_path, args.output_base_folder)
     
