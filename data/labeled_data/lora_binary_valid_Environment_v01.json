@@ -1,0 +1,122 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "May 29 : @USER = will hold expert discussion on #NATOSummit in Brussels with Russian PR to NATO A . #Grushko [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Toxic sludge in Parys reservoirs becomes gravely dangerous [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Weather Services : no cold front on weekend - [url] The South African Weather Services reported that the country would not be hit by the cold front this weekend . During the week , some reports showed that several parts of the country would feel the effects ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : #Flint without water 2 yrs , Pipelines exploding everywhere , What do @USER do ? Wear white to \" resist \" . Lmfao [url] : \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The fire that broke out at the scene of the terrorist act was localized . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Cape residents urged to be on the lookout as cold front approaches - [url] Disaster management says Langa , Gugulethu , Imizamo Yethu , Mitchells Plain , Philippi , and Khayelitsha were one of the areas that were affected by this week's heavy rain . Burundi inform ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#Syria #HTS #terrorists are very afraid of airstrikes and artillery shelling . They are hastily abandoning their positions #warinSyria #aviodaras [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : WWF Report Reveals a 60 % Decline in Wildlife Populations Since 1970 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Donald Trump is a president gripped by delusions of absolute power | Jill Abramson [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : \ud83c\uddf8\ud83c\uddfe #Syrian Electricity Ministry has launched the urban and constructional works preparing the infrastructure of a power genera \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Moz emergency services on high alert as flood death toll expected to rise [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The future is here ! More places should follow @USER and Sacramento's example , and use technology to make cities more environmentally friendly . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "VIDEO : Dishonest Liberal Media Stoking Violent Riot Fires with Biased Reporting [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The Latest : Activist faces felony charge in pipeline protest [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "I signed up for Energy , the Environment , and Our Future from @USER on @USER ! [url] #energy",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Hong Kong customs arrested 40 kilogrammes of Joburg rhino horns [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Makono royal village can be destroyed by Zambezi River's stream - [url] Zambezi River has been threatening the cultural heritage of Makono royal village \u2014 the settlement found in Zambia's Western Province considered to be the bedrock of the Lozi culture , whi ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Insurgents in the Idlib zone shelled Hama for the third time during a day . Fortunately , there are no victims . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#ISIS is already an #advertised #brand , promising immortality : is it possible to avoid #radicalization via #dialogue [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#Turkey has again avoided falling into a trap of the British , who have repeatedly confronted Moscow and Ankara throughout history . #Iran . #Russia . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER Wapi as you can see all over the world a good example is the USA the nation will always vote seasoned leaders who have learned so many lessons along the way not chaps Bobi who woke up yesturday [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Crackdown on man who trolled Trump went too far , free speech experts say [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : We as Turkish Cypriots condemn whole Parties who accuses Turkey ! Check my presentation on Yavuz Drilling , Reactions , Real \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Landslides in Uganda leave at least 5 dead ; dozens others missing - [url] About five people have died and dozens of others missing after heavy rains triggered a series of landslides in eastern Uganda . A statement from the office of Prime Minister Ruhakana Ru ... [url]",
+        "output": "1"
+    }
+]

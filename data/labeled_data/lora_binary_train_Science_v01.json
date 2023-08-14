@@ -1,0 +1,432 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "A woman was shot in Cape Town , just meters away from her 7 y . o . child . Cynthia Stoulo received several fatal bullets to her face while walking with her son in Valhalla Park on Wednesday . According to the reports , the suspect later fled the scene on foot and is still at large . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#AWSSummit is a free , one-day event that is taking place today in Cape Town . You will have the opportunity to hear from local customers about their journey to the cloud and to network with AWS partners and your peers in Partner and Solutions Expo . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Facebook , Funny Money And Libra [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": ":chart_increasing: Report : Future Preparedness Index The vision of the future includes technological breakthroughs , cultural transformations , changes in public relations , new governance systems and other areas where changes over the horizon of 15 \u2013 20 years can be decisive . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Scan any celeb's face & this app will tell you who it is [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Read thread down that tweet",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Every commercial farmer needs to interest there self in this new feeding concept . Larvae is bred under controlled enviro \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "A first for SpaceX : Sending a used rocket into space [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : The kind of phones they use to type \" i cant date a guy without a car \" my sister akulogga tamanyi luzungu :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "@USER Smashing It Up with Biri Biri @USER #TwinsFestivalUg at Namboole ___ Hosted by @USER @USER @USER @USER @USER @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : The #jaguzalivestockapp uses a drone & AI to monitor & detect diseases . Thermal imaging & high definition cameras allow you \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "22 boxes of Covid-Organics has been sent by #Madagascar to #Congo , #DRC and #CentralAfricanRepublic . Last month herbal concoction against #COVID has been developed by the Malagasy Institute of Applied Research . A pharmaceutical factory is to be set up within a month . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "' Anti-Sharia law ' protests in US turn violent [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : nice sms @USER @USER @USER @USER @USER @USER @USER @USER + vjtCMtDejmMJ 1XZXAyduXbW0BgRnl38KGQF2Q5L0 =",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Tech firm offers reward after laptops are stolen at CES [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "SAMSUNG denies new galaxy phone malfunction This is after a South Korean smartphone owner posted pictures online of the handset claiming that it had mysteriously burnt . The new galaxy phones have generated excitement from gadget lovers after the electronic touted them as the ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#Zimbabwe acquires 100MW from #Mozambique , speeds up thermal power refurbishment [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: Where will the next global #pandemic begin ? The scientists predicted that the human onslaught on nature had left us susceptib \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "1st PROJECT 2018 ON MY WAY @USER More :fire: :fire: :fire: @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "I was raised Catholic and still consider myself so ; but please , is @USER or any of these cronies were real Christians they would be socialists . Science has an amazing track record in fighting diseases ..",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "ICAO has chosen SANSA as the global weather information center for the African continent [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: \" For Bulambuli district , electricity is available in all subcounties . Health Centre IIIs have been constructed at Bunanga \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Government seeks dismissal of suit over Trump's businesses [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: The growth in mobile money services has been phenomenal . It has deepened financial inclusion , incurring lower transaction c \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Capitalism is theft . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : US Government Agencies Destroy Our Right to Be Left Alone : They Exploit Technology to Make Privacy Obsolete #p2 #tcot [url] \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The construction of a new railroad in Kenya built by China , stretching from the coast all the way to Uganda has been halted . The railroad doesn't quite reach the border , instead it ends abruptly 75 miles west of the Kenyan Capital , Nairobi . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : New extreme right Brazil govt starts off attacking working people's pensions . No taxes on corporations or the rich . Brazili \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "@USER @USER I think you take a chill pill for now and let the bazukulu enjoy this conversation in peace #M7UGsChoice",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "In #Syria #Idlib , created the #Russian Coordination Center , which carried out engineering reconnaissance of the #M4 highway ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Uganda's Electricity sub-Sector has grown from 3 Generation Plants in 2001 to over 40 Plants and is still growing . Total Installed Generation Capacity has grown from 60 MW to 1237.49 MW as of October 2020 & will rise to 1837.49 MW by mid - 2021 #WhyUGDecidedM7 #UgInfrastructure [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Russian-Belarusian Relations : Back To Being Brothers ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Corey Feldman to Expose the TRUTH about the Hollywood Pedophile Network ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "USA does not consider #Russia key \u201c emerging cyber power \u201d for both diplomatic and commercial reasons . [url] #internet",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : \" WE WANT THE USA \ud83c\uddfa\ud83c\uddf8 TO STOP KILLING US \" \" WE WANT THE US TO LEAVE AFGHANISTAN \ud83c\udde6\ud83c\uddeb \" Hundreds of Afghans march to protest t \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The major crops grown range from root crops such as cassava , irish potatoes , sweet potatoes and yams ; cereals such as rice , maize , sorghum , and millet ; pulses such as beans , pigeon peas and cowpeas ; fruit trees such as mangoes , oranges and avocado . #M7UGsChoice #SecuringYourFuture [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Get started on your office tasks with #GULAirtime App , get seamless connections and calls all day . :red_exclamation_mark: Remember you can download this @USER App as many times as you wish on your different mobiles . :face_with_rolling_eyes: \ud83d\udc4d\ud83c\udfff StayHomeStayConnected . :smiling_face_with_smiling_eyes: :thumbs_up: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : The Moscow Metro System Is Just Incredible - [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "China is going to finish the construction of the 750 - megawatt Hydro-power Station next year , a senior Zambian government official said on Sunday . Once the construction is finished , Zambia's power generation capacity will be increased to 3,750 from the current 2,900 megawatts . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Never pay for an overweight suitcase again [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : The beauty of physics as shown by drawing natural pendulum motion [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The rehabilitation and successful completion of the Tororo-kamdini Highway will develop the east and northern Uganda while boosting trade between Kenya , Uganda and South Sudan since it will ease the movement of goods and services of the neighboring countries . #256infrastructure [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The article and proposals of our writer Mohammed Sabreen about \ud83c\uddf9\ud83c\uddf7 #Turkish - \ud83c\uddea\ud83c\uddec #Egyptian relations in headlines of Turkish media . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Sony showcased a $ 25,000 projector at CES [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Pretoria commuter train service partially collapsed due to cable thieves [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : A planned DC protest in support of #HongKong activists and promoting the \u2018 Chinazi ' flag is backed by the notoriously sha \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Thomas Sankara : The Revolutionary You Need To Know About with the great @USER [url] @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : I keep saying many of the pictures from the Syrian war were fake , supplied by Qatari PR firms . This one wen a bit far . [url] :/ \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Gov't is Undertaking Possible Measures to Reopen Places of Worship , Arcades , Bodabodas \u2013 @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The tobacco industry then peddles their products to the working class . It is a form of capitalist genocide . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Archived HedgeBz | #Blockchain adn #FinTech Jobs More Popular Than Ever On LinkedIn [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Girls around the world are not in school because of period poverty . On #DayoftheGirl we are ready to end the stigma with @USER to keep girls confident and in the classroom ! :female_sign: :books: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Today's top human rights news comes from #Syria , #Lebanon , #Israel , #Palestine , #Burma & #SriLanka . HRW's Daily Brief [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Awesome work @USER ! Have had the pleasure of meeting @USER on a few occasions . A steadfast defender of self determination , sovereignty and fairness ! The Venezuelan people are lucky to have a foreign minister like him . Meanwhile in the US we had an oil exec ..",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "@USER It's better than 1/2 kg",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Establishing a fruit processing plant in Masaka @USER will create jobs across the value chain and deepen modernization @USER @USER @USER @USER @USER @USER @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#HTS terrorists delivered several containers with #chlorine in #Khan-Shaykhun , #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: #AboutToday \u2014 \u2014 \u2014 A press statement was issued by all the East African countries about CRYPTOCURRENCIES an \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: Thanks :folded_hands: :folded_hands: :folded_hands: 2017 Getting Started [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Manchester United art challenge . Club rivalry aside , How did I do mates :beaming_face_with_smiling_eyes: #MUFC [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The #Turkish special services , under the threat of reprisals against their relatives , are recruiting militants in #Syria to send them to #Azerbaijan to carry out sabotage under the guise of #Armenian reconnaissance groups . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : A public blockchain can be used as a ledger that keeps time-stamped records of every transaction made by a public office \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Dance @USER @USER #TuesdayMotivation @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Breaking Poll Shows Clear Frontrunner in Strange vs . Moore Alabama Race [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Botrivier protesters block N2 , demand electricity , land for houses [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "English football club and the defending champions Liverpool suffered a loss to Italian Napoli 2-0 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "When the sun goes dark : 5 questions answered about the solar eclipse [url] #p2 #ctl [url] \u2014 #Resist \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#Russia delivered trucks , excavators and bulldozers to the #Syrian city of #Dumas . Technicians need civilians to restore roads and infrastructure [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Yet he is a Doctor .. Kyoka kifefe [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Milky Way being pushed through space by cosmic dead zone , say scientists [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Research has found that it's actually good for you to do an act of kindness or generosity for someone else . Scientists have \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Yes , The U . S . National Tick Collection Is A Thing That Exists . You're Welcome , World [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : In Uganda when heavy rains , No electricity , MTN and Airtel emergency , DSTV no signal , Manhood 4.5 G with full signal :woozy_face:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Infrastructure sharing is what we passed in our recently approved broad band policy . We are yet to see how to enforce \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#Nusra leaders in provinces #Idlib and #Aleppo cut off payment of salary to militants who didn't pass course of sharia law [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Illegal Alien Sitcoms from Actress Gina Rodriguez Headed to CBS and CW [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The main question is why the United States is not able to guarantee security in the territory under its control ? Are the rumors about the radicals acting there true ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#HTS militants intend to detain members of #ISIS responsible for the explosions of two cars in the streets of #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Senator Duckworth and Most of the Press Are Lying about Trump's Speech [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : I just found out Cuba has its own alternative to Wikipedia with over 200,000 articles . It's called [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#jobb Hateful Hollywood Actress Helen Mirren Just Slammed Ivanka Trump [url] #job [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Residents of the province of #Rakka again went to a rally against the presence of pro - #American forces in the region and against the #Kurdish occupation . The #SDF #militants in turn used tough measures against the demonstrators #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The future is here ! More places should follow @USER and Sacramento's example , and use technology to make cities more environmentally friendly . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Accused of plotting against senior SA govt officials to hear his sentence today [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "' A . I . already is in so many things , ' Salesforce CEO Benioff says [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : What if I was securing them for later when I get back home nga I would find the pharmacy closed by the time I leave your \u2026",
+        "output": "0"
+    }
+]

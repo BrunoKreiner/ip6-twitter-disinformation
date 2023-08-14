@@ -1,0 +1,567 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : #BREAKING ALL OF THE BRITISH MISSILES LOCKED AND SHOT DOWN British missiles that targeted an ammo depot east of #Homs wer \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Every Morning I Recite :folded_hands: @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Today militants with the support of tanks and mortars twice attacked government troops in Al Huwayz in the Hama governorate . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "\u201c Black Lives Matter \u201d Issues Revolting Anti-Christian Message on Christmas [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Southern Baptist Convention in uproar over \" alt-right \" [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#topl RT zlando : Muslims tell us : \" You do not understand #Islam \" Me : What exactly do I not understand ? [url] 15024606 31 \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER True",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Not all sugar daddies Have big stomach , some are skinny like buhari .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "There are no days greater than these ten days before Allah , and there are no days in which the perfect deeds would be more be loved by Him than these ten days . Truly believing Muslims must lay down their arms and devote themselves to the deeds that are acceptable before Allah .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER #NelsonMandelaUniversity is saddened at the news of the passing of three students in separate incidents over the weekend . The University extended its deepest and most sincere condolences to the family and friends of those who have lost their lives . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#ISIS commander Ibrahim al - #Teinawi ordered to stop all payments for militants until special instruction . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Tragic accident near Magaliesburg : mother and daughter die in crash - [url] two-vehicle collision left a mother and her young daughter dead when their car collided with a light delivery vehicle on Monday night . Netcare 911 rescue crew was the first responder ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : While you were waking up this morning ... someone else was taking their last breath If you are alive , tell God something .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : 3 John 1:2 Beloved , I pray that you may prosper in every way and [ that your body ] may keep well , even as [ I know ] your \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The struggle for Central Asia : #Russia vs #China [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Texas resolution condemns Trump executive order on Muslims [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : ISIS kills Muslims . It crushes Muslim lives . It wants to dominate Muslims . We are the first and biggest victims of ISI \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "WATCH : KZN residents were shocked by the amazing sight when they saw a man with a bright green mamba around his neck . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : New year was lit down this side . Had some family time with my siblings . God is great . Happy new year guys ... [url] : \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#Russia ' s Vladimir #Putin says West is fomenting jihadi ' blowback ' - [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Tennessee : Muslim Students Association Call for \u201c a new Hitler \u201d to \u201c Wipe Out the Jews \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#syria #HTS #terrorists under command of Abu Hamzi have abandoned their positions near #Ballirmun in the #Aleppo province . They were shelled by the #SAA #artillery , 34 #terrorists #killed [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "There are no days greater than these ten days before Allah , and there are no days in which the perfect deeds would be more be loved by Him than these ten days . Truly believing Muslims must lay down their arms and devote themselves to the deeds that are acceptable before Allah .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : God watches how we use money to test how trustworthy we are ( please retweet )",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER Thank you Gen MK . To our Muslim brothers happy Eid al-Fitr let's continue to share love and exhibit good xcter that we have maintained during all this Ramadhan . Let's keep being peaceful and loving",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : What is Kidney ? ? ? :backhand_index_pointing_down: :backhand_index_pointing_down: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Islamic Revolution Day in #Iran : \" Thanks Trump , for revealing the true face of the US \" #\u0627\u0644\u0644\u0647_\u0627\u06a9\u0628\u0631 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Don't take cheating too seriously . Someone can love you and still cheat on you , just like we love God and still sin :relieved_face: [url] : \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : #Syria #EastGhouta is controlled by Al-Qaeda & Co This groups are religious racists who in many ways resemble Nazi ra \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "- [url] man has been arrested by the police officers after a group of suspects robbed a cash-in-transit vehicle . According to the SAPS spokesperson Brig . Vishnu Naidoo , the incident happened in Lotus Gardens , West of Pretoria . The suspects used explosives to ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Three people died , 43 with multiple injuries were rushed to hospital , 2 others are still trapped inside the bus that had crashed on the way to Plettenberg Bay early on Friday morning . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "militants executed several people who were imprisoned in the settlements of Al-Shafa'a and Bugatir during the celebration of Qurban Bayram . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : If God gives you a vision , He will fend for it :OK_hand: Yours is just to follow His Lead :victory_hand: #WednesdayThoughts",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Be a dear and quote this tweet with any funny meme saved in your phone .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "in the #Ariha #Idlib area , an exchange of fire broke out between Hayat Tahrir al-Sham #HTH and Faylak al-Sham , the reasons are being clarified . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Fake CNN Tries Question Trump During Press Conference ; Watch This Viral Response ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Italian Priest Puts Mary In a BURKA For Christmas to Avoid Offending Muslims [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Police arrested seven who robbed bar and wanted to have barbeque [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The unidentified capsized fishing trawler which was found floating at sea on the South Africa and Mozambique border came ashore in Mozambique . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Today all #Catholics are celebrating #MardiGras [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "OR Tambo Airport security officer took a bribe from a passenger [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": ":fire: :fire: [url] \u2014 The Resistance Party ( ResistanceParty ) August 4 , 2017",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : The Poorest person in the world is not the One without Money , it is the One without God .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "In \ud83c\uddf0\ud83c\uddfc #Kuwait During the call to prayer , an emotional #muazzin now says : \" Pray at your homes \" instead of \" Come to prayer \" . This is a big for #Muslims , as it only happens in exceptional circumstances . It shows how serious authorities take #covid19 threat . Via @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER baddest collaboration dance well @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Democratic and Republican parties are both beholden to the same oligarchic interests . They serve the wealthy parasites and push for more war and poverty for the rest of us .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Trump's Inauguration Bible Revealed \u2013 This Moment Says a Lot ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "I'm wishing you a very Happy Easter season May the Almighty bless you !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "BOOM : Mike Huckabee Drops A BOMBSHELL About Intolerance Of Muslim Countries \u2026 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Bisozi has been upgraded from HC III to IV . The facility has one OPD , one general ward four stainless steel rain water tanks \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "BREAKING : TEXAS JUST BANNED SHARIA LAW [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#Nusra leaders in provinces #Idlib and #Aleppo cut off payment of salary to militants who didn't pass course of sharia law [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT w_terrence : Name someone that will most likely go to future Pastor Hilary Clintons Mega Church ! I'll go first ! \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "WATCH : EC sangoma beaten to death by white farmer [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Lenovo Introduces Its Best Entertainment Tablets Yet [url] You're probably thinking t",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "President Trump and Family Send Condolences to Victims of Vegas Shooting [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER If Russia doesn't fucking reply with direct threats against the British and the Americans interfering in Syria , thi \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Al Sharpton : \u201c Jesus Was A Refugee Who Fled To Egypt \u201d ; Even Non-Bible Scholars Just Shut This Down ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "VIDEO : Trump's Orlando \u201c Thank You \u201d Rally Crowd BELTS OUT \u201c God Bless The USA \u201d Song [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "FLASHBACK VIDEO : Ann DESTROYS the Race Baiting Libs on \u201c THE VIEW \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Wolves stun Liverpool in FA Cup after Richard Stearman kickstarts upset [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT Senteney 4Wyo : May everyone have a Merry Christmas and a Happy Hanukkah ! Bless those less fortunate and cherish those you love ! #Christma \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Ilanda residents are concerned about the discoveries made all over the local beach . Chickens ' and goats ' remains , as well as dolls with needles stuck in them , are found by the locals who relate these \u2018 items ' to satanic rituals that are repeatedly carried out in the area . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : \" Resources should be allocated to saving lives , giving security to families & giving true Christian Love to humanity \" . Co \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "EPIC VIDEO ! ! ! Boy Scouts BOO Obama and CHEER President Trump ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#Russia launched sanctions on most European farm products in response to similar moves by the EU [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Idiot Nancy Pelosi Claims to Speak for God , Gets ROASTED by Pro-Life Group [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "We love Trevor Noah \u2013 Malema - [url] EFF leader Julius Malema says he harbors no ill feelings towards international comedian and The Daily Show host Trevor Noah . In a clip , Noah compared Malema to American President Donald Trump . Noah further added : \" If you ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Activists to protest Trump's actions on Muslim immigrants [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "BREAKING : Assange Legal Team Working on U . S . Extradition [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Providence in Emalahleni : pastor brought woman back to life [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#mari Possible Jihadi Truck Attack KILLS Man in Denver [url] #mar [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Butikie Matseke described the day his trust in law enforcement decency was betrayed . It is said that the victim of police arbitrariness saved some money at a total amount of R1 , 750 to send it to his two daughters who live with their grandmother . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "PROVERBS 11:2 WHEN PRIDE COMES , THEN COMES DISGRACE BUT WITH HUMILITY COMES WISDOM . While on the floor of parliament yesterday , Idah Nantaba made gross allegations against police , these are part of her recent malicious propaganda campaign aimed at installing fear in the public . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Central African Republic can boast gender equality in the field of politics . Look at our female politicians . Beauty and intelligence ! #CAR #genderequity #politics #GirlPower",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Irony And Belief [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : There are 38 settlements in the province of Aleppo , Syria , under control of the Turkish Armed Forces at this moment # O \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Gonz\u00e1lez : \u2022 We tried to break the power of Maduro but Juan ( Guaid\u00f3 ) has not been able to exercise internal power ... we lost the battle \u2022 I see no way out by breaking \u2022 Whether we like it or not , Chavismo is a political force . You have to find a space to do politics \u201d",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Brigadier General Henri Wanzet Linguissara promoted to the rank of Major General . Major General thanked the President of the #CentralAfricanRepublic for promotion and reaffirmed his dedication to the service . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Michigan Voter Fraud Update \u2013 782 More Votes Than People Discovered in Democrat Stronghold Detroit [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Usual mafia style tactics by a desperate colonial government ! If she was the wife of a radical islamist no one will come \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "\" Islamic government \" from Jabhat al-Nusra in Idlib decided to impose a new tax for civilians . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Murder accused man about to face charges of two more counts of crime - [url] 26 - year-old woman , Khensani Sambo's kidnapping and subsequent murder accused man is suspected of having committed the other two counts of murder in Mpumalanga last month . After the 2 ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "I was raised Catholic and still consider myself so ; but please , is @USER or any of these cronies were real Christians they would be socialists . Science has an amazing track record in fighting diseases ..",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#Putin May Reconsider Russian Energy Ties With West [url] #Ukraine #Russia #RussianSpring",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Durban Cannabis Expo will be held in Sibaya Casino & Entertainment Kingdom - [url] Casino & Entertainment Kingdom will be holding the Cannabis Expo 2019 in Durban . The aim of the event \u2013 over 18 thousand visitors this year . Now , over 95 % of the exhibitor stan ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "VIDEO : Islamic Activist Explains Why She Supports Extreme Vetting [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "May god protect President Maduro !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER @USER Thanks for the mobilization comrade and uniting the youth towards a good cause . We need to help our youth not to be taken advantage of by greedy self seekers in opposition .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Obama Appointed Judge Orders Removal of Memorial with Christian Cross [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "13 y . o . boy was raped in the cemetery toilet [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Huge birthday shoutouts to you @USER May God continue to guide you in whatever you do in this new year , and the yea \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Useless God [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : :high_voltage: \ufe0fEXCLUSIVE :high_voltage: Hello . This is Hassan Diab . He is 11 yo & was pictured in the White Helmets ' #CW attack video for food ( dates , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : I've heard people say Cubans aren't allowed to go to church , which is funny , cuz there was a giant portrait of Jesus in \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Rudy Giuliani : Travel Ban Is Not About Religion ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "BREAKING : Betsy DeVos Quietly Makes New Move That's Crumbling Obama's Legacy \u2026 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Refugees continue coming back home to the Eastern shore of Euphrates . 286 people returned to Jnayna yesterday #Refugees \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Most religious groups come out against Trump refugee order [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": ":fireworks: Sri Lanka says international network involved in attacks Seven suicide bombers took part in the attacks on churches and luxury hotels in Sri Lanka that killed 290 people and wounded more than 500 , an investigator said on Monday . #srilanka #SriLankaBombings #SriLankaTerrorAttack [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "What about the right to have your family NOT blown to pieces by an occupying apartheid force ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump's EPA Saves Coal Mines from Obama Era Rule that Would End Them ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "ICAO has chosen SANSA as the global weather information center for the African continent [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Love U [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Syrian army , with the support of the aviation of the Russian Air Force and the Air Force of the United Arab Emirates , began the assault on the last major settlement of Shajar , still controlled by the militants ISIS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : :sparkles: :sparkles: Wow ! The Waterfall Road in Nepal \ud83c\uddf3\ud83c\uddf5 , Do you want to drive here ? :sparkles: :sparkles: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER But Bambi give them some ka money , u never know",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : Churches on HIGH ALERT After Easter Sunday Threat [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Hi everyone :upside-down_face: @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Kremlin's new approach to the opposition [url] #Putin #Russia @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Suddenly , Muslims are America's untouchables | Nesrine Malik [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Mixed reaction to Ramaphosa's new cabinet - [url] After announcing his new cabinet of ministers , several party members and opposition parties were not pleased with President Cyril Ramaphosa's new team . following the announcement , Ekhuruleni Mayor Mzwandile M ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#calleThis Video Montage of Trump Denouncing Racism OVER and OVER is VIRAL ! [url] [url]",
+        "output": "0"
+    }
+]

@@ -281,6 +281,13 @@ def get_openai_response(prompt, context = [], model = "gpt-3.5-turbo", max_token
     # If no response with text is found, return the first response's content (which may be empty)
     return response.choices[0].message.content
 
+def get_vicuna_data_augmentation(tweet_text, request_params):
+    prompt = f'### Human:\nPlease data augment the following Tweet.\n\nTweet: {tweet_text}\n\n### Assistant:\nAugmented Tweet: '
+    
+    request_params["max_new_tokens"] = 500
+    request_params["stopping_strings"] = ["\n\n", "### Human:", "### Assistant:"]
+    return prompt, "", request_params
+
 def get_openassistant_llama_30b_4bit_without_context_only_classification_v01(tweet_text, label):
     prompt = f"Classify the Tweet based on if it's about {label}. Use 1 or 0 as class.\nTweet: {tweet_text}\nClass: "
     context = ''

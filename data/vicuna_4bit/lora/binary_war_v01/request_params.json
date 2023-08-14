@@ -1,5 +1,5 @@
 {
-    "prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nClassify the input based on if it's about War/Terror. Use 1 (True) or 0 (False) as output.\n\n### Input:\nVIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]\n\n### Response:\n",
+    "prompt": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nClassify the input based on if it's about War/Terror. Use 1 or 0 as output.\n\n### Input:\nVIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]\n\n### Response:\n",
     "context": "",
     "max_new_tokens": 30,
     "do_sample": true,

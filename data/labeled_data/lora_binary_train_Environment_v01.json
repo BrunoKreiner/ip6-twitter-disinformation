@@ -1,0 +1,462 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Zambia : Agricultural celebrations canceled in 3 Provinces - [url] Zambian authorities have announced the cancelation of 2019 Agricultural and Commercial Shows in three provinces \u2014 Lusaka , Southern and Western provinces . The poor harvest recorded in the 2018 - ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Baabo @USER #SundayXplosion NYONDOclub #TUESDAY_CLUB_AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Next month , Madagascar will be hosting the 56th annual Association of Tropical Biology and Conservation and organisers of the summit have launched a petition to protect the country's unique biodiversity and its people . You can sign the petition here : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": ". @USER @USER @USER , ensure that Articles 11 & 12 on girls education get the proper resources to enable #climateaction",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Western Cape has spent R30m , combating recent fires [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "People should take an action before it's too late #PrayForTheAmazon [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : If this boy lived in a socialist country , everyone would be demanding immediate humanitarian intervention and accusing \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER @USER Your mum should take away her phone . This young gal should go back to school",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Yesterday , militants from Sukur al-Sham and Hayat Tahrir ash-Sham factions again quarreled in the Idlib de-escalation zone . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Simon and Boubou help Marguerite Bangui carry whatever she could salvage from her home as water rises towards her porch . #YearReview2019 #flooding via Al Jazeera [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER =: May you have a wonderful birthday H . E @USER . We really believe that you are the best president in the world \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Zambian President attends the 74th session of the United Nations General Assembly . He will discuss topics related to the universal health coverage and climate changes . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Best Greenpeace protest video ever ? The moment we activated our remote-controlled banners on Grand Prix podium [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The 1st patient with Ebola in the eastern Democratic Republic of Congo in Goma city died . Experts are worried that the virus will continue to spread and reach cities where high population and mobility will make it hard to trace and isolate infected people compared to villages . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Two field commanders of Jaysh al-Yarmouk group and Mohammand bin Abdullah brigade , Abdel Rahman al-Mahamid and Fadi al-Bawuni \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "More than 80 percent of #Raqqa territory were recognized by the #UnitedNations as non-habitable . Who else wants #American-style #democracy ? #Syria #news [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#Botswana : This is one of the biggest disasters to impact elephants this century , and right in the middle of one of Africa's top tourism destinations [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "It's amazing what happens when workers and the people are in control . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Evo Morales : \u201c The best thing would be that all war spending be directed towards climate change , instead of spending it \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Mustafa Sidjary from #Liwa_al_Mutasim confirm that #US #CIA stop supporting #Faylaq_al_Sham , #Jabhat_al_Shamiya and #Jaysh_al_Izza [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Florida GOP Elector : ' I Get 4,000 Harassing Emails from Hillary Supporters a Day . I mean it's a lot of harassment ' [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Flint still doesn't have clean drinking water . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : City socialite #BrianWhite of @USER at the fore front of removing the wreckage of #LakeVictoriaBoatAccident . He \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The traditional cures threatening Myanmar's wildlife \u2013 in pictures [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Senator Duckworth and Most of the Press Are Lying about Trump's Speech [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Rhino poaching is growing too fast \u2013 Mokonyane [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Trump Absolutely Destroys MSNBC and CNN \u201c FOOLS \u201d Over their Coverage of Russia [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Freshwater Lakes in the Sierra Nevada Mountains [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Smell the coffee : species face extinction - [url] A new study has revealed that fifteen out of 75 species of coffee in East Africa face extinction and this is threatening exports by Kenya , Uganda and Tanzania . The decline in agricultural practices among many ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER =: :water_wave: Admiral \u00d6zbey's view about #IstanbulCanal : \" Opening the #MontreuxConvention to debate is an act of strategic blindness \" ht \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#imo Ann Coulter DESTROYS Mitt Romney for Siding with ANTIFA Over Trump [url] #im [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "An expensive area along the south coast of KwaZulu-Natal was engulfed by wind-driven fires on Wednesday evening . The property damage was caused and the residents were evacuated to safety . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Today in the morning insurgents shelled several towns in the north of #Hama : Qamhana , Suqaylabiyah , Tal-Salhab . The shelling killed a woman and injured several civilians . Some houses are destroyed , fields and forests are burning . #Syria #Idlib [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : If Nigeria has failed you raise your hand :raised_hand:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT AZcardFAN 711 : Hannity EXPOSES Media Matters , George Soros and plot to impeach Trump [url] via realDennisLynch",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump's EPA Saves Coal Mines from Obama Era Rule that Would End Them ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Environmental groups launch social media war to fight Trump agenda [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Drums of Big War Heard in Middle East [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump Plans to Cut EPA Staff in Half [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "[url] Rewind 06/2017 | Interior Secretary Orders More Alaskan Oil Drilling [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "ANC wins North West and Northern Cape , DA retains Western Cape - [url] The Independent Electoral Commission ( IEC ) said more than 90 % of the votes have now been tallied , with results from 20 632 of the 22 924 voting stations captured . \u201c Leading the way in capt ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : #m7onland Uganda's forests and wetlands should not not be encroached on to avoid drought and famine . We need water for i \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "DEA : South Africa needs more knowledge of climate change impacts [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Karoo National Park rangers spot escaped lion after week of searching [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Never pay for an overweight suitcase again [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "This Reporter Saving \u201c Old Glory \u201d From Hurricane Harvey Will Bring a Tear to Your Eye ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "VIDEO : Former Obama Aide LOVES Trump's Education Plan ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "SHOCK VIDEO : Boston Liberal \u201c Counter-Protest \u201d Becomes Anti-Police Rally [url] #charlizzz [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Falling oil prices are adversely affecting plans for the construction of nuclear power plants . [url] #oilprice",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Bisha Munsaka , the Council Chairperson , announced that the government had prohibited the use of plastic bags as they were not only unfriendly to nature but also robbed a lot of funds during the rainy seasons blocking the drainages in town . #Zambia #Ecology [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "At 14:00 , watch the live broadcast of the #valdaiclub's online press conference \u201c Valdai Club and Agenda - 2020 : Global Challenges from a #Pandemic to #ClimateChange and Their Impact on World Security . \u201d Live text in English will be available . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "VIDEO : Massive Chaos at U . S . Border as Hoards of Haitians Seek U . S . Asylum [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Michigan Rep . Who VOTED NO on Kate's Law Refused Aid in Flint Water Crisis [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "How Much Money Can I Bring Into the United States ? [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The Zambian police have launched a manhunt for three suspects who allegedly gang-raped a first-year Catholic University student . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER =: Good morning fellows , only mature minds please :folded_hands: What advice can you give her to save her marriage ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Border Police confiscated counterfeit goods with a total value of R45 553 400 on 28 June 2019 . The counterfeit goods were seized and handed to officials from Customs and Excise for the safekeeping .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER Warn me ? ? Lol ! ! :face_with_tears_of_joy: :face_with_tears_of_joy:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#calleTrump TRIGGERS Climate Change Freaks With THIS Policy Change [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#Turkey's leadership is unable to make and implement independent politico-military decisions without the intervention of its main \" partner \" in #NATO .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Militarised Conservation : Paramilitary Rangers And The WWF [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "In #Jarjanaz there is artillery fire from the town of #Gadfa . Militants are using shrapnel shells as well as gas cylinders to bombard #SAA positions . Only the last shelling killed a soldier and injured three others with shrapnel . #Syria #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER =: Where will the next global #pandemic begin ? The scientists predicted that the human onslaught on nature had left us susceptib \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "WHY Dems are DOOMED and a \u201c New Slogan \u201d Won't Help ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Yaroslav Lissovolik , Programme Director at the #jv7wuQqplcrGESxqoiVhQN0piu3WvVoNn02V5geew0 = * New institutions are increasingly direct their forces to sustainable development and human capital development . It's very important today . @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Welcome back , @USER . May the best House win . #FU [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : It was on this day in 1999 that NATO bombed Yugoslavia during the Kosovo war . The devastating U . S . - backed intervention \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Socialism is democracy . Democracy is the rule of the masses , the workers , the people .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "#Russia Takes Steps to Increase LNG Exports [url] #gas @USER #Asia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Vegetation fire in Western Cape [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT SkyNewsAust : #BREAKING Emergency services are on the scene of a wall collapse caused by strong winds in the Sydney suburb of Carlingford \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": ":globe_showing_Asia-Australia: Central Asia is a region that is dynamically growing , both economically and demographically , but the following long-term challenges are characteristic for the countries of the region , writes #valdaiclub expert Khudoberdi Kholiknazar . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "God bless land of #Sham #Syria #Rocks #Hama #Latakia #Nature #sky [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : #Uganda is home to over 3,000 plains zebras and close to 1,000 of the 2,500 Rothschild's giraffes in the world . You can c \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER @USER @USER @USER = @USER @USER @USER @USER Youth shud b given a chance to take an active part in the decision-making of local , national & global levels . #Youth4ClimateChangeBill",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Panetta : Trump's Arctic drilling policy hurts national security [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER =: \ud835\udc07\ud835\udc00\ud835\udc0f\ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc13\ud835\udc0e\ud835\udc0c\ud835\udc0e\ud835\udc11\ud835\udc11\ud835\udc0e\ud835\udc16 \u2014 \u2014 \u2014 #THEME : Reporting on climate change and disaster risk reduction in Uganda and Afr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Stocks : 5 things to know before the bell [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "After Being Polite Day One , Merkel Finally LASHES OUT at Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "What can Japan expect during negotiations with Russia on the issue of signing a peace treaty ? The #valdaiclub expert Dmitry Streltsov is trying to answer this question . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": ":spider_web: Group of Gabon soldiers seize national radio in coup attempt #gabon #radio #war",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "VIDEO : Hillary , if you Want to Know WHY YOU LOST Listen to These Democrats Who Voted For Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Mandela's daughter Zindzi dies in South Africa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : #JWHighBallTour happening tomorrow at signature premium 20backs gets u a free 200ml jonnie [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Ethiopia planted more than 353 million trees in 12 hours on Monday , which officials believe is a world record . Read more : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The revival of the Soviet Union , an idea that is assigned to Putin , is a futile project politically and economically [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Plus East Germany legalized homosexuality in 1968 ; had progressive sex ed that fought homophobia and transphobia ; taught \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Green light for #financial mega-regulator in #Russia \u2014 RT Business : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Anglo American South Africa has passed the charges on to the Zambian government after it was accused of lead poisoning over 200 children from the villages near Kabwe . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "9 bodies to stay underground at Gloria coal mine [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Alexey Kokorin , director of the Climate and Energy programme of the World Wildlife Fund ( #WWF ) , spoke in an interview with #valdaiclub about the possible consequences of climate change and the contradictions of the Paris Agreement . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Woman Shot In The Face At SC Gun Range [url] [url]",
+        "output": "0"
+    }
+]

@@ -4,6 +4,11 @@ sys.path.append("../src")
 import llm_utils
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=RuntimeWarning)
+warnings.filterwarnings('always') 
+warnings.simplefilter(action='ignore')
+
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -18,7 +23,13 @@ from sklearn.metrics import confusion_matrix, classification_report
 import streamlit as st
 # Set the default layout to wide mode
 st.set_page_config(layout="wide")
-import pandas as pd
+
+# Global variables
+cumulative_support = {
+    'support_class_0': 0,
+    'support_class_1': 0
+}
+model_count = 0
 
 classes = ["War/Terror", "Conspiracy Theory", "Education", "Election Campaign", "Environment", 
               "Government/Public", "Health", "Immigration/Integration", 
@@ -27,8 +38,28 @@ classes = ["War/Terror", "Conspiracy Theory", "Education", "Election Campaign", 
 
 def load_model(url, extraction_func, metrics_calculation_func):
     df = pd.read_csv(url)
-    predictions_per_class, confusion_matrices, binary_classification_reports, multilabel_classification_reports = metrics_calculation_func(df, classes, extraction_func)
+
+    if "multi" not in url: #Ignore "Others" class for binary classification
+        predictions_per_class, confusion_matrices, binary_classification_reports, multilabel_classification_reports = metrics_calculation_func(df, classes[0:-1], extraction_func)
+    else:
+        predictions_per_class, confusion_matrices, binary_classification_reports, multilabel_classification_reports = metrics_calculation_func(df, classes, extraction_func)
     data = {"confusion_matrices": confusion_matrices, "binary_classification_reports": binary_classification_reports, "multilabel_classification_reports": multilabel_classification_reports}
+
+    if ((binary_classification_reports[['support_class_0', 'support_class_1']].iloc[0:-1] < 55).any(axis=1).any()) and ("multi" not in url):
+        print("There are rows with NaN values in either 'support_class_0' or 'support_class_1'.")
+        print("url: ", url)
+        print("binary_classification_reports:")
+        print(binary_classification_reports)
+        print("--------------------")
+
+    # Update the global variable with the sum of support values from the current model
+    cumulative_support['support_class_0'] += binary_classification_reports['support_class_0'].mean()
+    cumulative_support['support_class_1'] += binary_classification_reports['support_class_1'].mean()
+    
+    global model_count
+    # Increment the model count
+    model_count += 1
+
     return data, predictions_per_class
 
 # ------------------------------
@@ -124,6 +155,87 @@ vicuna_lora_multilabel_without_context_v01_256_rank, vicuna_lora_multilabel_with
 vicuna_lora_multilabel_without_context_v01_retest, vicuna_lora_multilabel_without_context_v01_retest_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_without_context_v01_retest/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
 vicuna_lora_multilabel_with_rules_v02, vicuna_lora_multilabel_with_rules_v02_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_with_rules_v02/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
 vicuna_lora_multilabel_with_rules_v02_256_rank, vicuna_lora_multilabel_with_rules_v02_256_rank_predictions_per_class = load_model("../data/vicuna_4bit/lora/multilabel_with_rules_v02_256_rank/test_generic_test_0.csv", llm_utils.extract_multilabel_list, llm_utils.calculate_metrics_from_multilabel_list)
+
+def calculate_binary_metrics_lora(df, class_full, extraction_function):
+    prediction_per_class = None
+    # Iterate through class labels and extract binary predictions
+    pred_column_name = f"response"
+    pred_column_df = df[df[pred_column_name].notna()].copy()
+    pred_column_df[pred_column_name] = pred_column_df[pred_column_name].apply(extraction_function)
+    prediction_per_class = pred_column_df
+
+    confusion_matrices = {}
+    classification_reports = {}
+    pred_column_name = f"response"
+
+    current_df = prediction_per_class
+    
+    # Ignore rows with NaN or invalid values in the predictions
+    try:
+        valid_rows = current_df[pred_column_name].notna()
+        
+        y_true = current_df.loc[valid_rows, 'annotations'].apply(lambda x: int(class_full in x))
+        y_pred = current_df.loc[valid_rows, pred_column_name].astype(int)
+    except KeyError:
+        y_true = []
+        y_pred = []
+    except TypeError:
+        y_true = []
+        y_pred = []
+    cm = confusion_matrix(y_true, y_pred)
+    confusion_matrices[class_full] = cm
+    cr = classification_report(y_true, y_pred, output_dict=True)
+    classification_reports[class_full] = cr
+    return prediction_per_class, confusion_matrices, classification_reports
+
+def load_vicuna_binary_model(path, class_full):
+    binary_df = pd.read_csv(path)
+    extraction_function = llm_utils.get_extraction_function("extract_using_class_token", 1)
+    _, confusion_matrices, classification_reports = calculate_binary_metrics_lora(binary_df, class_full, extraction_function)
+    return {"confusion_matrices": confusion_matrices, "classification_reports": classification_reports}
+
+binary_war_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_war_v01/test_generic_test_0.csv", "War/Terror")
+binary_conspiracy_theory_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_conspiracy_theory_v01/test_generic_test_0.csv", "Conspiracy Theory")
+binary_education_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_education_v01/test_generic_test_0.csv", "Education")
+binary_election_campaign_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_election_campaign_v01/test_generic_test_0.csv", "Election Campaign")
+binary_environment_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_environment_v01/test_generic_test_0.csv", "Environment")
+binary_government_public_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_government_public_v01/test_generic_test_0.csv", "Government/Public")
+binary_health_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_health_v01/test_generic_test_0.csv", "Health")
+binary_immigration_integration_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_immigration_integration_v01/test_generic_test_0.csv", "Immigration/Integration")
+binary_justice_crime_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_justice_crime_v01/test_generic_test_0.csv", "Justice/Crime")
+binary_labor_employment_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_labor_employment_v01/test_generic_test_0.csv", "Labor/Employment")
+binary_macroeconomics_economic_regulation_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_macroeconomics_economic_regulation_v01/test_generic_test_0.csv", "Macroeconomics/Economic Regulation")
+binary_media_journalism_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_media_journalism_v01/test_generic_test_0.csv", "Media/Journalism")
+binary_religion_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_religion_v01/test_generic_test_0.csv", "Religion")
+binary_science_technology_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_science_technology_v01/test_generic_test_0.csv", "Science/Technology")
+binary_others_lora = load_vicuna_binary_model("../data/vicuna_4bit/lora/binary_others_v01/test_generic_test_0.csv", "Others")
+
+vicuna_binary_lora = [binary_war_lora, binary_conspiracy_theory_lora, binary_education_lora, binary_election_campaign_lora, binary_environment_lora, 
+             binary_government_public_lora, binary_health_lora, binary_immigration_integration_lora, binary_justice_crime_lora, binary_labor_employment_lora, 
+             binary_macroeconomics_economic_regulation_lora, binary_media_journalism_lora, binary_religion_lora, binary_science_technology_lora, binary_others_lora]
+rows_tmp = []
+for data in vicuna_binary_lora:
+    for label, report in data['classification_reports'].items():
+        row = {
+            'label': label,
+            'f1_score_macro': report['macro avg']['f1-score'],
+            'precision_macro': report['macro avg']['precision'],
+            'recall_macro': report['macro avg']['recall'],
+            'support_macro': report['macro avg']['support'],
+            'f1_score_class_0': report['0']['f1-score'],
+            'support_class_0': report['0']['support'],
+            'f1_score_class_1': report['1']['f1-score'],
+            'support_class_1': report['1']['support'],
+            'precision_class_0': report['0']['precision'],
+            'recall_class_0': report['0']['recall'],
+            'precision_class_1': report['1']['precision'],
+            'recall_class_1': report['1']['recall']
+        }
+        rows_tmp.append(row)
+
+vicuna_binary_lora = pd.DataFrame(rows_tmp)
+
+vicuna_binary_lora = {"confusion_matrices": None, "binary_classification_reports": vicuna_binary_lora, "multilabel_classification_reports": None}
 
 #-------------------------------
 ### Vicuna 4bit Multilabel In Context
@@ -367,6 +479,13 @@ models = [
         "type": "Classification only",
         "data": few_shot_1_pos_1_neg,
         "prediction_per_class": few_shot_1_pos_1_neg_predictions_per_class,
+    },
+    {
+        "model_name": "Vicuna 13B 4bit Binary LORA",
+        "context": "",
+        "type": "LoRA Binary Classification only",
+        "data": vicuna_binary_lora,
+        "prediction_per_class": None,
     },
     {
         "model_name": "Vicuna 13B 4bit Multilabel LORA",
@@ -768,7 +887,7 @@ if selected_page == "Single Class Evaluation":
                 )
 
                 selected_confusion_matrix = model["data"]["confusion_matrices"][selected_class]
-                selected_classification_report = model["data"]["binary_classification_reports"][selected_class]
+                selected_classification_report = model["data"]["binary_classification_reports"].loc[model["data"]["binary_classification_reports"]['label'] == selected_class]
 
                 # Display the confusion matrix using Seaborn's heatmap
                 st.subheader("Confusion Matrix")
@@ -822,7 +941,7 @@ if selected_page == "Multi-Class Evaluation":
     selected_models = [model for model in models if model["model_name"] + " " + model["context"] + " " + model["type"] in selected_models]
 
     for idx, model in enumerate(selected_models):
-        model_classification_reports_df = model["data"]["classification_reports"]
+        model_classification_reports_df = model["data"]["binary_classification_reports"]
         #model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
 
         st.write(
@@ -917,7 +1036,7 @@ def display_dashboard(models):
         model_groups[model["model_name"]].append(model)
 
     # Add metric selection dropdown in the sidebar
-    metric_options = ["None", "Avg F1-Score Class 0", "Avg F1-Score Class 1", "Avg-F1 Score", "Avg F1-Score Class 1 Low Class", "Avg F-Beta-Score Class 0", "Avg F-Beta-Score Class 1", "Avg F-Beta-Score", "Avg F-Beta-Score (0.5) Low Class 1", "Avg F-Beta-Score (0.25) Low Class 1"]
+    metric_options = ["None", "Avg F1-Score Class 0", "Avg F1-Score Class 1", "Avg F1-Score", "Avg F1-Score Class 1 Low Class", "Avg F-Beta-Score Class 0", "Avg F-Beta-Score Class 1", "Avg F-Beta-Score", "Avg F-Beta-Score (0.5) Low Class 1", "Avg F-Beta-Score (0.25) Low Class 1"]
     selected_metric = st.sidebar.radio("Select active metric", metric_options, index=1)
 
     # Prepare a color scale
@@ -1042,7 +1161,7 @@ def display_box_plots(models):
 
         for model_name, model_group in model_groups.items():
             for model in model_group:
-                model_classification_reports_df = model["data"]["classification_reports"]
+                model_classification_reports_df = model["data"]["binary_classification_reports"]
                 #model_classification_reports_df = llm_utils.classification_reports_to_df(model_classification_reports, binary=True)
 
                 # Calculate average F1 score
@@ -1175,3 +1294,11 @@ if selected_page == "Dashboard":
     display_dashboard(models)
 if selected_page == "Box Plots":
     display_box_plots(models)
+
+
+# At the end of your script, calculate and print the average support values
+average_support_class_0 = cumulative_support['support_class_0'] / model_count
+average_support_class_1 = cumulative_support['support_class_1'] / model_count
+
+print(f"Average support for class 0: {average_support_class_0}")
+print(f"Average support for class 1: {average_support_class_1}")

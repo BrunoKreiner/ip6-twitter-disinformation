@@ -1,0 +1,2712 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER = @USER 2020 , the year that never was because it was just an extension of 2019",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "SA rugby fans awaiting World Cup semi-finals got some good news here as Eskom has announced there would not be any serious power cuts during the upcoming weekend . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Swa Babukusu , Bakusu Swa . a special greeting as we planted 3trees at the launch of Umukhungu @USER Muhoozi Tree planting ca \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : very impressed with the Global Shapers of the @USER whom I met ahead of the @USER Africa meeting in Cape Town this \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER Team good music BOSS :star-struck: :star-struck:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Looking like a right swipe on #Friendable :banana: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "WATCH LIVE : Judgement on #ApartheidFlag [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A violent multiple-car crash resulted in deaths of four people on the N3 in KwaZulu-Natal on Thursday . The incident was confirmed by Rescue Care official , Ceron Meadows . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Block me :cold_face:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Tombawala @USER #FridayExplosion #CLUBAMBIANCE :television: \ud83d\udc47\ud83c\udffb [url] TUESDAY CLUB AMNESIA",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Saw this on my sisters ( @USER ) timeline and I just want to ask , Guys , what will be you do if your fiance sends yo \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER asks for fuel at @USER #gas station [url] #Ukraine",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Happy birthday to Tumi Sole , a person who founded Country Duty Organization . #HappyBirthdayTumiSole [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Russia gradually disappearing from the Western radars as a threat , while it accumulates resources , builds regional integration projects in Eurasia . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER = expert Georgy #Mirsky has passed away . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER Soo sad comrade , sorry for the loss . May his soul Rest In Peace :folded_hands:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Why is it that on a morning I've decided to go out very early , I get very sleepy and have to force myself from the bed but on \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it :bright_button: Bum Sakarya :bright_button: @USER #HitWaveTuesday ___ :red_circle: Venue :blue_circle: | @USER | ___",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Mandla Maseko , widely known as Spaceboy or Afronaut , was one of 23 people who won a competition sponsored by a US-based academy and received a chance to fly to the stars . However , those dreams had not become a reality as the citizen died in a road accident on Saturday night . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER = @USER @USER But me am following you",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "PMB Motorcyclist dies on scene after he got hit by a car [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Employee electrocuted at car wash [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#mar RT Jen_I_yam : Mindset of a leader ! Someone who's NOT willing to live on handouts ! You know who's going to give you everything , YOU \u2026 \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "What NFL Playoff Football Games Are on TV Today on Sunday , January 22 ? [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Vote here [url] . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Notula nkahi Where do u stay",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT warriorloverlei : \ue070 \ud83c\uddfa\ud83c\uddf8 \ud83d\udc4d\ud83c\udffc 5 :star: rated ! Help a Vet ! Help yourself ! #combatptsd #veterans #veteranslivesmatter #ptsd \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER rush to Bishop Cipriano Luzira , day section . @USER guys working on the drainage left a damaged pipe . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Yesterday was @USER ' s birthday :party_popper: Better late than never . Happy birthday comrade , hope you had a good one ? :smiling_face_with_smiling_eyes: Thanks \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Having sex before or after marriage :thinking_face: :person_tipping_hand: :unamused_face: ? ...",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Do Fish Know That They're Wet ? [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : It's on tonight ... @USER with ur boy 256 Spin doctor @USER @USER = [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Your #NxtZikiZa host as always @USER . #BellJamzZikiZa [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : \ud83c\uddf8\ud83c\uddfe Good morning #Syria \ud83c\uddf8\ud83c\uddfe [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Jesus Christ , Tucker Carlson just said that calling out and criticizing white supremacy is leading us down \" the path to \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER This Gen has shaken tables . He is now a topic in Rwanda",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER = @USER @USER @USER + 1Ivb4HLLktuLGfcis = @USER @USER @USER @USER @USER So disgusting .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER + 80I4HYC9aaUQOO5mvDeNag =: @USER @USER Nice shades :OK_hand:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "David Squires on \u2026 Claudio Ranieri's sacking and football's ' lost soul ' [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Cowards bring it on stupid people #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism you think you and your family will survive nonsense",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Wisconsin AG : Constitutional carry bill seems reasonable [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Happy birthday @USER , may God answer your prayers this year . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Marble Hall Police and various volunteers reach out to elderly woman at Leeufontein village outside Marble Hall . 76 - year-old woman was handed groceries , clothes and blankets while members also cleaned her yard and house . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Before you ask God to give you ... first give to the less privileged . Charity is the fastest prayer God can answer . #UOTEast \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "We are approaching hunger games levels of ridiculousness . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : CELEBRITY DEATH MATCH : @USER throws @USER off turntables - ( VERDICT in @USER ) Get the #EPAPER via : h \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Thanks",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Picking up pan dulce this morning . Carace\u00f1os ( people from Caracas ) say the prices at this panader\u00eda are extremely good . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Blessings to my booo daughta Hassifa",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Fragility of Belarussian National Identity ( I ) [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : This should sink deeper ! ! ... y'all hear me ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #TweetRequest | What music videos would you like to watch on MTV Base ? Tweet us NOW with the hashtag & name of vid :front-facing_baby_chick: htt \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : MY OPINION @USER @USER @USER @USER @USER @USER @USER @USER \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER But u the only one who is den ...",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Ahhhhhh :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :kissing_face_with_closed_eyes: :kissing_face_with_closed_eyes: :kissing_face_with_closed_eyes: This is awesome",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: I will be tuned in @USER #NTVtheBeat [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER Was UPE and USE introduced by your dad ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: @USER smashing it up with Kaddemu @USER #MondayXplosion LAFTAZZ TOMORROW :right_arrow: \ufe0fCLUB AMNESIA [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : Lewandowski \u2013 Comey is the \u201c Deep State in D . C . \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#amb WOW ! Everyone is Talking SMACK on Crybaby Acosta Right Now ! [url] #amb [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : He is always composed , calm , focused , and above all , patriotic . Though some ideologically bankruptcy elements try \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Nsfas to contribute R32 bn next year , students to be notified in January [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "\u201c I hate you , you're a slug \u201d",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Do you need to refresh your Vue.js basics ? Then we have just the thing for you . This article by @USER walks you \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : . @USER & I put together a little tribute to Michael Brooks [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER But the Rate at which Uganda is ditigizing everything is underrated by non citizens of Uganda like you",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER haha thanks now I know that and I like this word . I'm from Norway . And this is a beautiful country . Lots of people there don't like the idea of the civil war in Syria which used to be another beautiful country . A very ancient one .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A woman from Germany has suffered a tremendous ordeal when she fell into a deep ravine at Lisbon Falls in Mpumalanga on Wednesday . She had been lifted to the surface without further incidents . She had rib fractures , but was in a stable condition when the rescuers retrieved her .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Good morning Juniology Friends have a blessed week \ud83d\udc4a\ud83c\udfff \u270c\ud83c\udfff",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER #NBSBoomerang nonstick",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Madagascar Independence Day turned into a nightmare . According to the Hospital director Oliva Alison Rakoto , 15 dead and 80 injured were reported earlier . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Another \u201c democratic \u201d friend of the empire .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Wife and son ' dumped American man with dementia in UK car park ' [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Nowadays , we follow the dream of an equal world free of hatred , racism , xenophobia and discrimination . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : Actor Shia Labeouf Melts Down , Verbally Assaults Trump Supporter [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Kanye West , Drake and Justin Bieber may skip the Grammys [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER @USER wabula Rasta ne family , mwe mumanyi sente , now u want Ugandans to give u mon \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Thank you all my friends for the love , support and for always standing up for me . However , now it's important that we all \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Omg ! ! :face_with_tears_of_joy: :face_with_tears_of_joy: What took u so long ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Canada's meddling in Venezuela : Communist Party of Canada candidate @USER is running against Chrystia Freeland and \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Shuttle diplomacy guru Henry Kissinger is celebrating his 90th birthday . Born on May 27th 1923 , Kissinger served ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Ifb actives only",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER The red beret is part of the Uganda peoples Defence forces ' Marks , accessories , insignia , decoration and uniform as provided for under section 160 of the UPDF Act 2005",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "I'm gonna scream . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : A girl who SMELLS good can MAKE me do any WEIRDEST thing u can EVER know . I THINK u know the SMELL I am TALKING abt",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : You guys should be ashamed of yourselves and leave somethings . Before Trump was voted y'all just followed the wave and \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up :bright_button: Jangu Ondabe :bright_button: @USER #PremiereMondays ___ :red_circle: Venue :blue_circle: | CLUB RAZAH | ___",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : On the 125th anniversary of his death , Marti's legacy for Latin America and the world is more relevant than ever . #Jose \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Omo plenty people no juss normal again for this country :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : If you are broke , stop having expensive tastes because you will die of High Blood Pressure .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER always crying like a child . Just follow the instructions and see if they will disturb you the Drama King . #NationalUselessPlatform",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : The things OWC won't tell our farmers . In UG we ban raggae musicians from composing more music :face_with_tears_of_joy: :face_with_tears_of_joy: @USER = @USER \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "College Football Player Disrespects Anthem , Gets Kicked Off Team ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Salute to Our National Heroes . #happyheroesday :red_heart: :folded_hands: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "steady kid with the steady progress #M7UGsChoice #M7UGsChoice #M7UGsChoice #M7UGsChoice #M7UGsChoice #M7UGsChoice #M7UGsChoice",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "\u2550 \u2550 \u2550 #PremiereMondays \u2550 \u2550 \u2550 Happening TONIGHT featuring @USER Straight outta #BigTarlent alongside @USER Premiering their latest VIDEOS ! \u2550 HOSTED by Africa's Finest @USER \u2550 \u2550 / @USER @USER @USER @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Very good article my friend . Well researched , and very well presented . The Ottoman Empire was definately a multicultura \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : I don't know who needs to hear this but hating on someone won't stop them from winning in life ... \ud83e\uddd8\ud83c\udffe\u200d\u2640",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Grow confidence instead of doubts . Grow success instead of failure .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Thanks",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : I didn't summon kibalama he sought my assistance over security concerns , then he run to iso and then appeared in court next t \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Locked in one room with your Ex ... what wud you do ? ? ? As for me I'd shoot that MF :litter_in_bin_sign:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : RT @USER : Faced with the blatant imperial aggression against our heroic Venezuela , the proud , dignified and brave \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Really cool photos : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The People's Judge , Joseph Wapner ; Dead At 97 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Gigi Lamayne said she will release an EP in the end of this month ( July 26th 2019 ) #JobWoodsEP [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: They say a picture is worth a thousand words , but I wld like to say yo smile is worth a thousand words ; happiness , opti \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Another liar posted on facebook page of Voice of Gomba that I refuted what The President said on testing results . MOH has \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "President Hage Geingob officially wishes the Namibian Rugby team to the 2019 Rugby World Cup success as they leave for Japan from 20 September to 2 November . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":sheaf_of_rice: Turkey an example for world on empathy , aid : UN envoy #turkey #un #world",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Laba wetutuuse ! I want to thank this wonderful girl in Germany . Next time I'll post a video of Bazungu dancing African st \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: \u201c She continues to urge parents to ensure that children stay at home since one of the reasons for the closure of the sc \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : PHOTOGRAPHY Meet my dudu_berry My :red_heart: Follow her @USER for a quick follow back [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : All men are dogs , all men are goats . But you have about five ( 5 ) boyfriend's . Babe , are you a veterinary doctor ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Currently in Cape Town [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Tonzoleya @USER @USER #ThursdayMotivation @USER #DjShiruLiveMixx :television: TUESDAY_AMNESIA_Club",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : South Africa can't calm down after a video of a proposal made at KFC went viral . Check this below : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : And now taking off from Helsinki . A short jump over \u00c5land Islands to reach Stockholm . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : What part of your morning routine takes the longest ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Am only seeing 20 people :grinning_face_with_big_eyes: :grinning_face_with_big_eyes: and they were hired to follow you Kasese has more than 10000 people .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The transformation of the German Democratic Republic ( GDR or East Germany ) has important lessons for Cuba [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : People don't realize you can forgive them without ever speaking to them again .. it's not grudge .. it's peace of mind \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER #NBSBoomerang favorite",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #LunchTimeRequest Request for your favorite music video and tag your friend that you would like to watch with during luncht \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : comrades who have not yet seen @USER ' s new documentary , please watch as i report on the colonial and neocolonial ex \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it :bright_button: Love u die :bright_button: @USER @USER #ThursdayExplosion ___ :red_circle: Venue :blue_circle: | PIT STOP bar Jinja | ___",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Musician John Ng'ang'a Mwangi , alias John DeMathew , who died in a road crash on Sunday will be buried on Saturday , August 24 . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "ALERT : Facebook \u201c Fact-Checking \u201d Partner Once Forced to Admit \u201c Lie of the Year \u201d Was Actually Truth [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "13 ' Hold My Beer ' Moments That Are Just Spectacularly Stupid [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Because that's it",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Which is ok since am far beta than a hoe that gave birth t u",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "1 killed in motorcycle crash [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Fishing gone wrong : new bakkie drowned in Zambia [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A man from Mitchells Plain won R61m after he bought a ticket at the Total petrol station . He first won R75 000 seven years ago and spent them on building a house for his family . \" My family will never suffer again , \" the man said after he found out he won for the second time .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER Great message . Congratulations H . E [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER : A friend in need is a friend indeed #msumun2015 #ecosoc [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "11 - year-old brave boy saves life of drowning baby - [url] is not a problem to be a hero . A young boy bravely rushes for a help and retrieves an 18 - month-old baby from a pool in Puttick Avenue in Sundowner , Randburg . The drowning accident was first time report ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #gainwithxtiandela Follow :backhand_index_pointing_down: :backhand_index_pointing_down: :backhand_index_pointing_down: @USER @USER @USER @USER @USER @USER @USER We foll \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : You Will Get CHILLS ! ! ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER Safety precautions",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Which network sucks data like this ? ? :rolling_on_the_floor_laughing: :rolling_on_the_floor_laughing: :rolling_on_the_floor_laughing: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : And still MUBz baes will still need his mone u galz ur heroz muyita mutanuluu eat ur money bambi :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : When I make a ' mad ' tweet only for it to garner one like and zero retweet after six hours . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Guys I don't know what it is but I feel like @USER is looking at me :face_with_rolling_eyes: I'm shy [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Rustenburg accident [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Botswana men's 4x400m relay team disqualified from the IAAF World Championships #DOHA2019 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Julius Malema says Jacques Pauw to go \u201c f * * * himself \u201d [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Boy ( 16 ) drowns in Durban lagoon - [url] 16 - year-old boy died after being swept into the sea at Baggies Beach in Durban this afternoon . It is understood that the teen had been on a beach with his friends when he was swept away at the lagoon . Eyewitnesses call ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER :thumbs_up: :thumbs_up: :thumbs_up: very good )",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Northwoods and MH - 17 : False Flags Fly alongside \u00ab Old Glory \u00bb [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER Thanks for clarity . #MOHDELIVERS",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Cape Town racing : taxi against F1 car - [url] 1 driver David Coulthard has run into a very confident taxi driver in the streets of Cape Town . Coulthard was driving a Red Bull Aston Martin RB7F1 car during the Red Bull Grand parade . A taxi driver had a brief c ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : :fire: :fire: in the city ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Money won't make you happy but everybody want to find out for themselves . Enjoy ya weekend !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Tonzoleya @USER @USER #SaturdayExplosion #CLUBTEXbweyogerere TUESDAY :right_arrow: \ufe0fCLUB AMNESIA",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "They ask for our contacts but never contact us , that gender :smirking_face: :smirking_face:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : You went to charge your phone in your neighbors house and getting there to pick up your phone , it was missing . You ask who \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : I know some guys on this app still use \u201c Question to ask a girl \u201d search on google to talk to ladies",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The LION Was BORN today #27thJuly Happy Birthday @USER Cc @USER @USER @USER @USER @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Because of its natural beauty , natural wonders and its welcoming people while on his tour to this land with magnificent featur \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER HTS / Al Nusra is an islamist terrorist organisation , what did you expect ? Life in Idlib will only become better , when terrorists are purged , consequences of their presense are eliminated , and pecufull life is established . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Everything on point",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : ' Unvarnished Tyranny ' a book review by Hon @USER , former British Member of Parliament , who grew up in Uganda d \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Patagonia to donate all $ 10M of its Black Friday profits [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "' What Are You Doin ? ' Adorable Bird Brothers Strike Up The Cutest Conversation Ever [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Clouds @USER #BoxingDayxplosion CLUB AMNESIA",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Have you Made Any Transactions with @USER App ? If Yes , I trust you must Have Felt How convenient It Is . If Not , Then \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Terrible incident took place in Fish Hoek on Wednesday . A man was cut in half by train after he stepped in front of it . The case is being investigated . #FishHoek [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Esethu gets her dream job - [url] Following her unlawful arrest on the Sea Point beachfront Esethu Mcinjana got the job that she had hoped for . On Thursday it was reported that Mcinjana was searched and arrested by two police officers while she was waiting f ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Me too",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#sst Bolling Under Attack ! HuffPo Claims He Pulled an Anthony Weiner , Cites \u201c Anon Sources \u201d [url] #ste [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The entrance to the Petroport petrol station at Queen Nandi Drive became the scene of a fatal car crash involving a taxi A man has been killed near the N2 northbound carriageway in Durban after the minibus taxi he had been driving crashed and burst into flames [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "We are waiting for them on 15th .. Nitubasasira just just ... Wait after declaring Mzee ! \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Seven people deceased while fifteen have sustained serious injuries in a horrific fatal road traffic accident which occurred on June 24 on the Itezhi tezhi-Mumbwa road . This accident happened about 35 km north of Itezhi tezhi Police Station . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : For my 78 followers :backhand_index_pointing_right: :backhand_index_pointing_left: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Congratulate me guys , my girlfriend is 6 months pregnant and we been dating from November , I'm gone be a father soon :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Thats what you think ... wait for the day your relative will be beaten by NUP hooligans",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Exactly they seem to think no other Ugandan is worth to serve apart from themselves . They have built their movement on tribalism and sectarian talk",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Pulling and bed issues aside , what other lessons were taught by Baganda before the coming of missionaries under :deciduous_tree: trees :rolling_on_the_floor_laughing: :face_with_tears_of_joy: :rolling_on_the_floor_laughing: \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : The vibe in this song is classic , \" EXPREZZZ Vol . 8 \u201d Mixtape ft . Wurld , Sara , Terri by DJ @USER ; Download Via : h \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Nyanzi cant answer simple questions :face_with_tears_of_joy: :face_with_tears_of_joy: Ebintu tabitegeera #NxtBigTalk [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : One of the reasons as to why DJ Shiru is more famous than any other Ugandan Dj is because he gives Ugandan music prior \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Smashing it up with Alleluiah @USER #MondayMotivation :fire: :fire: :fire: @USER :optical_disk: :dvd: :television: :television: :microphone: :microphone: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER Be ashamed of your shallow brains . Bobi wines statement lacks substance",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Mock NFL draft from The Ringer has 49ers finding their Earl Thomas [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Some nice accolades",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Another Hit coming from @USER after #AkatijjoAnthem ... Nakupenda ( i love u ) is the song \ud83d\udc47\ud83c\udffb \ud83d\udc47\ud83c\udffb [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "WATCH : The Drakensberg Boys Choir have returned from their trip to London where they wowed the audience of the Lyceum Theatre . Check the video below : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: GIVE THEM by @USER ft @USER @USER @USER #BigTune :fire: :fire: :fire: \u250f \u2501 \u2501 \u2501 \u2503 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Getting ready to sell ? Find out what your home is worth now [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Guys , @USER is giving out 5k to 5persons :woman_dancing: :woman_dancing: :woman_dancing: Check out the page #requidapp #JudasTheRat #TheWedding #TachaXTeebi \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : PHOTOS : Gen Muhoozi Graces Kutesa Daughter Shatsi's Event in Sembabule - #Featured #UgandaNews [url] ht \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Kinda classy , kinda hood . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Dear Arewa tweeter , Hope una eye don clear . Or you all need hypo and sanitizer ? \ud83e\udd37\ud83c\udffe\u200d\u2642",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Why the red car ? #KutamaLife @USER =",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Hello my one and only president @USER how many retweets for some Ka data :crying_face:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER the more you talk and tweet .. the more you burry yourself",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER + gWAXzh 7QvN0Wn3od2Gg =: @USER @USER @USER DANCE WELL by @USER ft @USER Then Lighter by @USER ft @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Whoever is paying his tuition won't be happy about this :face_with_tears_of_joy: :face_with_tears_of_joy: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Follow everyone who Likes and Retweets . :tropical_drink:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In DNR deny that they have a \" Buk \" [url] #Ukraine",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Besigye's words on corruption :backhand_index_pointing_down: :backhand_index_pointing_down: :backhand_index_pointing_down: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Kendall Jenner's Pepsi ad sparks backlash [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : UPDF Special Forces Soldiers that are well skilled that when dealing with any threat the evidence tells them \u201c HOW \u201d & Psych \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER What is the ratio you should spend on renting and entertainment to your salary ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#BRICS Forge Ahead As World Order Tumbles Toward Chaos [url] #BRICS2016 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Incredible . Vast opportunity to tap",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "WATCH : Man electrocuted at Phillipi train station in Cape Town [ not for sensitive viewers ] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Breaking News : Orlando Pirates Football Club has reached an agreement with #SuperSport United for the services of Kudakwashe Mahachi and Thamsanqa #Gabuza [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Since I have no ass , let me just show y'all my bwontwe :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: The phone though :unamused_face: :litter_in_bin_sign: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER = @USER @USER @USER = @USER = @USER @USER @USER \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Ever seen the moon cry ? Have to go now ... Good night patriots ... I will miss you :rose: :rose: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : So many ladies would realise after they are married that they needed a job first and not husband .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A blaze erupted in Sea Point apartment building [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "This Adorable Panda Trying To Walk A Tightrope Is All Of Us Stumbling Through Life [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : 10 Movies To Watch In December Article by Joy Aliba via @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER Hehehehe Araali u're right . All the necessities for longer life from peace & security , variety of food with nutrients , loving and happy people not forgetting the best climate indeed one can't fail to live longer",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Never stop trying to see the good in yourself . :smiling_face_with_open_hands: :hundred_points: :check_mark:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "He's At It Again ! This Guy's Hilarious Photoshop ' Fixes ' Will Make Your Day [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Sky porn . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Join us from the 11 - 13 Nov and learn more about the most significant relationship you'll ever have . #DeepCoach [url] \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : \u201c Those who produce should have , but we know that those who produce the most \u2014 that is , those who work hardest , and at t \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "O'Reilly exit marks end of an era for Rupert Murdoch [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Nice ones",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Good morning dear Marie :rose: :revolving_hearts: Have a happy and joyful weekend my dear friend :cat_face: :smiling_face_with_smiling_eyes: :bouquet: :tulip: Big hugs :kissing_face_with_closed_eyes: :blossom: :two_hearts: :blossom: :two_hearts: :blossom: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER I dont waste my time with pple who can't read . Save your ignorance and energy for sex and comical tweets",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Thank you @USER ! ! ! The Irish and Venezuelan people thank you !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Ladies , men are not cheating bastards ! I know you are hurt , but you just met a man with a character flaw when you were too wea \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER And soo ? ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER Those are Russians , not Europeans .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Hello friends , Jovial moments are so refreshing . On Saturday , I joined my teachers Bishop Dr . Sheldon and his lovely wife Dr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : I dreamt when my man was leaving me for a babe who had bought him PS5 , so I woke up today determined to at least find out th \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "xxxcom 01 Not resisting here ... but I'm not retreating either ... I play the hand I'm dealt ... #SouthernWoman",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Ladies this is for you . Would you carry your bestfriend's baby if she was infertile ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: With e'ebo App we've got you covered . :smiling_face_with_heart-eyes: Download the app now And watch all sorts of movies , music , cinemas etc [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : it's super annoying to me when people are very good at twitter and also really good at instagram cmon ! ! ! Some of can even p \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Omg ! ! ! Dota :grinning_face_with_sweat: :grinning_face_with_sweat: u know these things . Cheiii :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The celebration of the #WorldFoodDay and #RuralWomenDay took place in Bossangoa , #CentralAfricanRrepublic . The agricultural producers , breeders , fishermen , fish farmers and foresters from the sixteen prefectures joined together to share their production . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Hypocrite Gun-Owner Ashton Kutcher Declares You Don't Needs Guns [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER How abt u address him as HIM not it ? He has life , feelings , understanding and he's a blessing .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Hi bro when are you posting the lockdown extended workout plan ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER = @USER @USER = @USER @USER @USER = @USER @USER = @USER @USER @USER Ask ur mum cz she told me",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : ' TELL ME ABOUT YOURSELF ' is actually a very difficult question to answer .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER Enjoying the show play me Biri Biri By @USER #Omushongi #Omushongi",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Smashing it up Tomorrow Again @USER @USER #PremiereWednesday THE DAWN Kasanga [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The LONG AWAITED #HIT ( MPA LOVE ) is finally OUT @USER :cross_mark: @USER ___ Cc @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Yemen : Peace On The Horizon [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Ayaya @USER #SundayExplosion #NyondoClub :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Nkana , the Zambian football club based in Kitwe , has signed a one-year renewable contract with former Roan United and Forest Rangers coach Kaunda Simonda . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER He's still a Gen",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Tell me something I don't know :smiling_face_with_hearts: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "From Russia , Lessons for #Egypt [url] #Morsi #MidEast #ArabSpring",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: You struggled too hard & you truly deserved it . Congratulations Halima Nakaayi on winning a golden medal in the remark \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER For you case , I have my younger brother studying 1st year at Makerere but he narrates that he has never seen the people rioting at the university",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Native of South Africa dies in airplane crash in Dubai - [url] people died after a four-seat airplane crashed south of Dubai airport on Thursday Saudi authorities stated . Three airplane occupants were the citizens of Great Britain and one was a native of Sout ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with I like the way @USER #SaturdayExplosion #ClubAmbiance :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Lesotho to open the Verve Lesotho cannabis processing facility that will produce an extraction plant that is said to have extra-ordinary healing powers . The business was set up by Sam Matekane , a businessman who partnered with Britain investors , Richard Davies and Joe Simon . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Number of female footballers grows exponentially \u2014 Safa [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Go Down @USER #WednesdayXplosion DE EMPIRE club TUESDAY_CLUB_AMNESIA [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Smeagal @USER #X_MAS_Explosion :optical_disk: \ud83d\udc47\ud83c\udffb [url] TUESDAY_CLUB_AMNESIA",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Good morning fam , drop your handle and I will follow back",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RR RT gerard_lapointe : Only if you were born yesterday would you question Barcelona as being a \u2018 Copycat ' of Charl \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Rare picture of Twitter NG winning the DRAGGING Champions League After dragging African Giant to the extent that they qu \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "My week on Twitter :party_popper: : 5 Tweets . See yours with [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Let's end the day with a recap of the day's top 10 jams . Join @USER and @USER as they bring you the #NxtTr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Good morning friends of Ritah , Have a blessed day :folded_hands:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Amazing Mountain Chalet Overlooking The Alps [url] Building first evolved out of",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : I didn't summon kibalama he sought my assistance over security concerns , then he run to iso and then appeared in court next t \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Some pictures from #MTN702Walk [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Most Trump real estate now sold to anonymous buyers [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The American Aggression Enablement Act and the US ' Eurasian Thrust ( I ) [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : I was also very honoured to meet HE @USER ' s sick mother and pray with her . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A man detonated a mine near Tell Tamer in #Haseke province . It was this area that was spotted yesterday by Syrian National Army fighters , and that was followed by a terrorist attack . #Syria #SNA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The President of the Central African Republic Touadera granted audience to a delegation of the Economic , Social and Environmental Council of France . #RCA #Touadera [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Davos should get real or close shop [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#HTS #fighters and their affiliated groups fight not for #idea and #faith , but for #money . A source close to the #terrorists said the #militants have lost a significant part of their money reward for losing control over #KhanSheikhun . #Idlib #terrorist #HTS #Syria #SAA #Hama",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "SA Department of Labour to verify NMW implementation [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":camera: PHOTO GALLERY : On July 7 the #jv7wuQqplcrGESxqoiVhQN0piu3WvVoNn02V5geew0 = held an online discussion based on the results of the Conference of signatories to the Treaty on Open Skies , called No Quiet OST , or who needs to exit the open sky ? [url] @USER @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : This is Dr Gladys West . Whenever you use your #GPS thank her . She's the member of the team that developed it . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#JebhatanNusra \" militants brought eight containers of chlorine to Syria . A chemical attack is planned on the units of the #SyrianArabArmy . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "During the second day of the talks in Sochi within the framework of the #Astana format , the head of the #Syrian delegation , Bashar al-Jaafari , said that the official Damascus has every right to return all the north-western areas of the Arab Republic , including Idlib province [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Turkish Army Neutralizes Ten PKK fighters In Northern Iraq ( Photos ) [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "White House defends Trump Holocaust statement that didn't mention Jews [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Crimea : What to Expect from #Ukraine and the West [url] #russiainvadesukraine",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Today at #valdaiclub we talk about Ideological Constructs of the Second World War in Modern Discourse with @USER @USER @USER @USER and other guests @USER . Watch LIVE in 15 minutes . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Capitalism , imperialism and dangerous regimes all go hand in hand .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER will today officiate at the Groundbreaking ceremony for the construction of Busega \u2014 Mpigi Expressway project \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BUSTED : Trump-Mocker Alec Baldwin Caught Hurling Gay Slur At Reporter \u2026 Media SILENT [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Police officers have nabbed a dangerous suspect and discovered a kidnapped person [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : Black Trump Supporter Stands His Ground at the L . A . Women's March [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Burglars were arrested after they pressed the alarm [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#may Judge Jeanine Calls Out Crooked Mueller's \u201c Phishing Expedition \u201d [url] #mayy [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER + UVxH 0NdxvC9b4HHO + aA9Y =: A wave of #rallies and #demonstrations of the local population against the #Turkish invasion of the country took place in \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":pushpin: The White House has formally invited President Vladimir Putin to Washington , U . S . National Security Advisor John Bolton said on Friday #Trump #US #WhiteHouse #Putin #Russia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "DeVos Burns Sanders On Free Education : Nothing In Life Is Truly Free . Somebody's Going To Pay [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "67 % of Venezuelans are Committed to Vote in the 2020 Parliamentary Elections [url] @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "At least 43 illegal miners dead after two \u2018 galleries ' overlooking an open excavation pit collapsed in a copper mine owned by Glencore in the Democratic Republic of Congo ( DRC ) on Thursday . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Good . May the people and the revolution triumph over this hatred and imperialism . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Taxpayers spent $ 70,000 , 000 developing this drug . Gilead's CEO makes $ 31,000 , 000 Pharma greed is sickening .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Every day #ISIS #terrorists killed #SDF #fighters in the northeastern #Syria . The forces of #international_coalition co \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "An innocent woman became a victim of a gunfight after she had been hit by a stray bullet in Grassy Park , Cape Town The 27 - year-old woman was a mother of two .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Initially He Was Going to Perform At Inauguration Event , Now Garth Brooks Gives Reason For Backing Out [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Pietermaritzburg's municipal workers were caught in unworthy deed [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Michigan teacher pension fight ruffles union feathers [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Obama's Taxpayer-Funded Final White House Bash Raged on Until 4 am [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Last Sunday ( 10thNov ) , Hon.Minister @USER donated UGX 3M to Oxford Modern School Biguri In Kawmwenge distri \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : As cowards this morning , the American forces withdrew from the border points after they demolished the fortifications o \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "acting not in the interests of the #Syrians , but in the interests of those who pay them .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Teenager sentenced to 10 years behind bars for murder - [url] Nzima , 16 , has been sentenced to 10 years imprisonment for murder . Two years were suspended for a period of five years . According to the SAPS spokesperson Cpt . Dumile Gwavu , the suspect has been ar ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Nigerian President Muhammadu Buhari sworn in for second term - [url] Nigerian President Muhammadu Buhari was sworn in for a second term on Wednesday promising to once again tackle crippling security threats and root out corruption in Africa's key economy . Th ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "ANC member Mhlengi Khumalo was found dead in his own house [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Convicted racist Vicki Momberg thinks racism is not a crime - [url] Convicted racist Vicki Momberg appeared on Your View on Newzroom Afrika , hosted by seasoned broadcaster JJ Tabane and told him that in her own opinion , \u201c racism is not a crime , \u201d and that she ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT CGage 4466326 9 : Andrea Mitchell needs a history lesson , Bill Clinton and Obama himself spoke this way ; 1 of 2 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "According to the military , terrorists \" Jabhad al-Nusra \" plan to equip bombs for their unmanned aerial vehicles with toxic substances [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "India's boom continues but for how much longer ? [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Two men dead after an apparent shootout - [url] Two men heave died after what appears to be a shootout in Germiston on Gauteng's East Rand . One man was found in a car with several gunshot wounds . The other was lying nearby in President Street with a gunshot ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : Judge Jeanine Dishes Truth on Crooked Mueller [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Can Russia prevent China and India taking up arms against each other ? \u2014 RT Op-ed [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Moscow : Reporter's Notebook [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Judge Jeanine WARNS Anti-Trump Flake and Heller \u2018 We Are Gunning For Your Seats ' [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Zheng Zhu Qiang , Chinese Ambassador to \ud83c\uddfa\ud83c\uddec assures @USER that \u201c no people , mostly Chinese in Wuhan who had gone f \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : American children have a higher chance of being killed by their own parents than terrorism .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #Venezuela | Interior and Justice Minister Nestor Reverol rejected drugs trafficking accusations made by U . S . President \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The Automobile Association said it is expecting the petrol to drop by 86 cents a litre , diesel by 68 cents , and illuminating paraffin by 58 cents next month . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "More than 500 #civilians took to the streets in the city of #Idlib , in protest against the actions of #terrorist groups #Syria #BreakingNews [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Several hundreds of employees are about to lose their jobs after Cavmont Bank announced shut down of 4 of its 19 branches . The branches in context are the Industrial Area , Mpulungu , Mwense and Mufumbwe . #CavmontBank #shutdown [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Trump Supporters React to Unhinged Rosie THREATENING Trump's Life [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING : 9 Looters Arrested in Florida \u201c Smash and Grab \u201d Looting Spree [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "\" We do not buy #US weapons for our money , but , unfortunately , the US does it for #terrorist organizations for free \" , - #Turkish President #Erdogan [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: :high_voltage: The Future of #Iran #Energy Exports to #Iraq Op-ed by Omid Shokri Kalehsar ( @USER ) [url] #Teheran #Ba \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Residents of the city of #Nava in the West of der'a staged a demonstration in support of the #SyrianArabArmy . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Donald Trump : \" We wanted to bring the soldiers home , but we decided to leave them to protect the oil because I like oil . With these words , the American president recommended the withdrawal of the American contingent from the oil fields in #Syria . #SyriaOil #USMilitary [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#tonis Rolling Stone Mag Attacks Trump in Tweet , INSTANTLY Regrets It [url] #scaarr [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The chief prosecutor of a UN tribunal on Wednesday accused South Africa of failing to co-operate in the arrest of a fugitive sought over his role in the 1994 Rwanda genocide . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Trump Admin TRASHES Obama's Transgender Soldier Policy [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In the village of Rayyan , Aleppo Province , a humanitarian action was carried out by the Russian Reconciliation Center . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: It's unfortunate NUP is built on ignorance of facts , hate and chauvinism . If there's a sector this Gvt has hugely inve \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The decision of the #Syrian president to issue a decree on a general amnesty for those who evaded military service and fled abroad or who moved within the country is regarded by experts as an important step towards national reconciliation and a political settlement of the crisis . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER = @USER We appreciate the government for tremendously improving our agriculture sector . #Securi \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "52 Anti-American Democrats are Boycotting the Trump Inauguration [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#ISIS militants killed 30 and captured 50 National Defense Forces ( #NDF ) militiamen by ambushing the Al-Faydah area in the province of #DeirEzzor #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #Syria's Islamist rebels thought the US would back them all the way by giving them a no-fly-zone & anti-aircraft weapons , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Body of a missing 4 - year-old girl has been found dumped in a pit toilet . She is alleged to have been raped as there were marks of violence discovered on her body . The police have already arrested a 36 - year-old man and accused him of this gruesome offense . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #Venezuela | Global Twitter campaign in support of the current president and presidential candidate @USER , as \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Five settlements in the Syrian province of #Aleppo joined the regime of cessation of hostilities . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#ross Obama Expresses His Sympathies on Charlottesville the WORST Way Possible [url] #ros [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : During the early days of the \u201c Syrian revolution \u201d , NATO-backed protesters called for the annihilation of minorities and f \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : We don't need 9,800 troops in Afghanistan to keep us safe . #TimeforPeace [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Youth creating jobs in the face of unemployment in SA as Stats SA revealed that the country's unemployment rate had increased to 27.6 % in the first quarter compared to 27.1 % at the end of the fourth quarter of 2018 . Read more : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Today , seven years ago , imperialism with the US and NATO in the lead , assassinated Muammar Gaddafi to plunder the millions of reserves and loot oil from Libya , the richest country in Africa and with the most well-being . Chavez explained the treachery to Libya in 2011 .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Senate preserves Trump arms deal with Saudi Arabia [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Glenanda clinic employee arrested for stealing in Joburg - [url] An ex-operations manager at the Glenanda clinic has been arrested by the police officers for stealing a computer . According to Mayor Herman Mashaba , the suspect is now detained at the Mondeo ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "14 stolen skip bins were retrieved by Joburg police , 2 men arrested - [url] coworkers who were employed by the city of Johannesburg's waste management entity , Pikitup , have been arrested and accused of stealing a total of 14 skip bins . \" Following the arrest o ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Russia set to retaliate on U . S . #Magnitsky law [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : Kellyanne is Proud that President Trump is KEEPING HIS PROMISES [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":fireworks: Mike Pompeo meets King Salman amid reports Riyadh may admit journalist was killed in Istanbul consulate #JamalKhashoggi #salman #riyadh #pompeo [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER U have no right over anyone's opinion , Nobody has that ! Every citizen has a right born with over their choices in life , it's just your intolerance pushing u into hurting innocent citizens .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Syrian refugees from #Er-Rukban are not allowed to leave the camp . In the neighborhood , the #US military is training militants . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "James Woods Obliterates Chelsea After She Attacks Trump's Harvey Response ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#SyrianArabArmy made a response #airstrike on #JabhatAlNusra positions in #Serakab , #AbuAlDuhur and #UmmAttin , #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In the #Idlib zone of de-escalation , the preparation by the militants and activists of the #White Helmets for the staging of chemical weapons is continuing . #idlibwithoutteror [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Rush Limbaugh using vaccinations to incite fear [url] again [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Paul Evans , 49 , has made his appearance in the Western Cape High Court . He was suspected of the murder of 35 - year-old Shafieka Peterson and her 12 - year-old daughter in Delft . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Employees haven't been paid for 2 months due to the low income . The employees clarified that the revenues mainly come from the KCM land rates supplemented by the governmental payroll grants . Thus , since the liquidation process began , the mine has not been receiving land rates .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #Damascus : The #Syrian Flag is raised in the town of #Dumeir after it was purged of the terrorists #FromSyria \ud83c\uddf8\ud83c\uddfe [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "This morning , near the city of Saraf in the highlands of the north-eastern part of Latakia , the rebels from the Jebel al-Islam brigade associated with the Jebhat al-Nusra tried to attack the positions of the Syrian Arab Army ( SAA . ) However , her . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "If these are the people filling seats in the EAC then we are doomed if we think we are heading towards African Independence . Clearly he does not believe we can make it without interference from the Western world .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "170 unprotected households have received benefits from the village banking program implemented by the government in order to support Chipata district this year . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A 20 - year-old suspect was arrested for possession of drugs in Western Cape . Police recovered 3282 mandrax tablets . The suspect will soon appear in Athlone Magistrate Court . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Frau Hausman is of German Jewish & Lebanese descent & makes propaganda videos making the case for regime change as a supp \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "President Vladimir Putin said on Monday that #Russia would stop construction of the South Stream gas pipeline [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#TurkishArmy got Bulbul under its control . Kurds lost more than 50 militants",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":high_voltage: #ArmenianGenocide propaganda in the #film \u2018 #SabreDance ' Op-ed by @USER [url] #AramKhachaturian #Kachaturian #YusupRazykov #Music #Movie #Soviet #USSR #Russia #Armenia #genocide #Nazi #WorldWarII #WWII #Holocaust #Jewish #Turks",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : The people of #Raqqa and #DeirEzzor call on the #SyrianArmy to protect them and renew their protests against the presence \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Instagram started hiding \u201c likes \u201d on its app in several major markets including Australia and Brazil , following criticism about its impacts on mental health . Although Instagram described the hiding of the likes for users as a \u201c test \u201d , no deadline was given for when it would end .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":play_button: The head of Islamic State in Afghanistan , Abu Saad Erhabi , was killed in a strike on the group's hideouts in Nangarhar province on Saturday night , authorities said on Sunday #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #ISIS #Afganistan",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#jud BREAKING : Feckless Traitor Mccain Issues Statement on Why He Sided With Dems [url] #jud [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Hundreds of Central African refugees , forced to settle for several years in the Democratic Republic of Congo ( DRC ) because of violence in their country , ended their exile Thursday , returning home in the Central African Republic , said the United Nations Refugee Agency #UNHCR [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Mad Max Attacks Sessions in a Cringeworthy Race-Baiting Attack [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Many men in the #alRukban camp are forced to join the #US-controlled #MagavirAlSaura units due to the catastrophic situation of their families . So , in addition to money , better conditions are immediately provided to families that have recruited [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A stronghold of the 148th Airborne Assault Battalion of the #SAA on the line of contact with Turkish-backed Syrian National Army in Hasakah province . Russian journalist [url] #Syria #SNA #Turkey [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Why has the New York Times just removed the word \" Coup \" from a headline about a possible military takeover in Brazil ? ht \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "16 units in Idlib are ready to go over to the side of the government forces in Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Pretoria man hangs himself and 3 children - [url] The community of Soshanguve , north of Pretoria was left traumatised after a man hanged his girlfriend's three children before taking his own life . Molefe Mojutu killed Thabang ( 11 ) , Amogelang ( 3 ) and Lebogang ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : Former Obama WH Officials Say They Were ORDERED to Sabotage Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The protest action by Greenpeace Africa that took place today at Escom's head office in Johannesburg . The protest followed a recent report that shows Eskom's coal-fired power plants are poisoning the people of Mpumalanga and eastern Gauteng . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "\u201c Execution style \u201d shooting in Port Elizabeth : 1 in critical condition , 4 died [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ". @USER : It will be the first elections after the referendum which was held in last year's April . With the satisfactory candidate lists , the opposition bloc can have a chance to win the majority of the seats in Grand National Assembly of #Turkey . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Leaked Documents : George Soros Massive Funding to Manipulate Federal Elections [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "\u201c Fake News \u201d - 87 % Of Muslims Arn't Affected By The Proposed \u201c Muslim Ban \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#emel TRIGGERED : Watch Keith Olbermann LITERALLY CRY About Trump [url] #eme [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Subscribe to us on social networks and blogs : [url] [url] ... [url] ...",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#iv Look Who TRAITOR Lindsey Graham is Working With to Undermine Trump [url] #iva [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "142 hand washing devices has been provided for Nana-Mamb\u00e9r\u00e9 and Sangha-Mba\u00e9r\u00e9 in the #CentralAfricanRepublic , enabling 7 100 students in exam classes to adopt the barrier gestures against #COVID19 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "City of Tshwane launches Youth Month - [url] Nonhlanhla Jele The city of Tshwane officially launched its Youth Month at the state theatre in Pretoria on Tuesday with the objective of helping young people from the City , to do better in business and other area ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The Turkish military has repeatedly carried out military operations against the Kurds in Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Probably the only thing I'll give warren a thumbs up for ; her face at Biden's stupidity .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER Sebo commander of UPDF where were they going and what was their task for deployment , which law did they break wearing uniform ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "MSNBC host has absolutely no idea what a \u2018 scope ' is [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "From Venezuela , to the USA , to every corner of the globe , POWER TO THE PEOPLE !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Washington supports the Kurdish self-defense detachments , and for some reason the northern areas of Manbij patrol the US troops together with the troops of Turkey .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Global class warfare : The 26 richest billionaires own as much as the 3.8 billion ( 3,800 , 000,000 ) people who make up the \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The United States has been financially supporting the White Helmets organization since 2013 . During this time , the US authorities have provided her more than 33 million to destabilize the situation in Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Cynical Enterprises : The Kurds Await Their Fate [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "No fear : Brexit , Trump , Italy fail to rattle market [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Oil tanker trade grows fastest in a decade [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "There is a trend of withdrawal of commanders and jihadists from #HayatTahrirAlSham terrorist group . They are not satisfied with the rapprochement with the #SNA / #FSA factions which they had previously fought with for power in #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Mother will not bury daughter till body parts are recovered - [url] The mother of the Limpopo teacher , Precious Magabana , who was murdered in December refuses to bury her head and intestines until the rest of her body parts are found . It is alleged that the ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Today , at 06.05 several hundred #HTS fighters , supported by #tanks , infantry fighting vehicles , suicide car bombers and \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Meanwhile Trump and Macri are billionaires who are hell bent on screwing the people of the US and Argentina respectively . @USER is a people's president fighting for the workers . He could eat steak every night and that FACT wouldn't change .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Mozambique's talks with the International Monetary Fund ( IMF ) are making \u201c encouraging progress , \u201d as the country seeks to restore access to international financing , President Filipe Nyusi said on Wednesday . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Photos : US ships launch missiles [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The elderly couple murdered at their house in Umkomaas have been identified as Sathie and Southree Pillay . Police officers have arrested a 37 - year-old suspect . He is expected to appear in the court . Sathie Pillay , 78 , was hit to death with a hammer . Southree , 74 , was strangled . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The secondary school pupils from all around the country have taken part in the finals of a Chinese language proficiency competition Chinese Bridge held on Friday at the Confucius Institute University of Zambia ( UNZA ) . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Ugandans were listening live to their president through Tvs and radios while foreigners were watching their fake Product on int \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "America Sabotages in South of Syria Under False ISIS Flag #US #Syria #AlTanf #Rukban #ISIS #IS #terrorism #albukamal #baghuz #damascus [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT TruthinGov 2016 : STATE DEPT SUFFERS WORLDWIDE EMAIL OUTAGE : Deep State Hacking Into State Dept ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Lily Allen releases cover of Rufus Wainwright song as anti \u200b \u200b - Trump protest [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In Eastern #Ghouta #Syria #militants gives out respirators to civilians due to the new preparing provocation [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#SAA won victory over #ISIS in #DeirezZor . More than 20 terrorists killed [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "7 ) The NRA pressed on with their goal of liberating Uganda gaining significant ground from the southern regions and other areas in Uganda .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The chairlady of Kalulushi Constituency , Rashida Mulenga , has been suspended for taking part of the K122 , 000 from the State House destined for Kalulushi party programmes during President Edgar Lungu's recent visit to the area . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING : Ft Lauderdale Airport Shooter Suspect Identified [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The South African National Defence Force is considering relaxing its dress code for female Muslim members to allow them to wear headscarves under their berets . The issue came to light after Major Fatima Isaacs was slapped with disciplinary action for refusing to remove her hijab . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Hundreds of Gambian activists held a peaceful procession on Thursday expressing solidarity with the country's former beauty queen who claimed she was raped by the country's former president . Read more : [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#may Correctly Blaming BOTH SIDES , Trump Triggers Dems , Media and RINOs [url] #mayy [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#CoronavirusUpdate #CentralAfricanRepublic According to the minister of Health , Dr . Pierre Somse , the crisis committee has already begun discussions to facilitate the local production of masks for the fight against #coronavirus . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Police arrested a man , 36 , for possession of an illegal firearm and dagga in Vanderkloof . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Uganda's agricultural sector presents multiple highly-profitable investment opportunities both for profit-oriented invest \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In Cold War Echo , #Obama Strategy Writes Off #Putin [url] #Russia #Ukraine #coldwar2k14",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "An orphanage in in the Democratic Republic of Congo ( DRC ) is under investigation for allegations of abduction and child trafficking by a Belgian court . read full article : [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Refugees return to the eastern shore of the #Euphrates . Yesterday 520 people returned to the settlement of #Jaina #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "5 CNN Screenshots that PROVE their Pre-G 20 Coverage Was FAKE NEWS [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A #Chinese General explains why the \ud83c\uddfa\ud83c\uddf8 #US will not be able to defeat \ud83c\udde8\ud83c\uddf3 #China Western globalization is already a thing of the past , the general suggests . [url] #QiaoLiang #Asia #UnitedStates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT AnnCoulter : We need to clone Stephen Miller and appoint him to every cabinet position .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "WATCH : The men in blue gathered in Pretoria Church Square and marched to Jubilee Park via Leyds Street and Kotze Street to stop the crimes committed against women and children . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":skull_and_crossbones: \ufe0fFrance : 102 Yellow Vests arrested as protests continue French police officers intervene with tear gas , water cannon to disperse protesters in capital Paris #france #yellowvests #protests [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Zambian govt emphasises a need to protect media with self-regulating mechanism - [url] The authorities in Zambia believe that a self-regulating mechanism will eradicate fake news in the media sector . According to Ministry of Information and Broadcasting Serv ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Militant training continues in the Al Thanh area of Ruqban camp , while theft , prostitution and sexual exploitation of minors flourish in the camp itself . #Syria #Ruqban #USA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Student fatally stabbed for a mere cap - [url] David Methape has described by his family as a quiet boy who loved dancing to entertain people around him . But his life came to an abrupt end when he was brutally stabbed reportedly for a cap and R12 that did no ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Swedish Doctors for Human Rights : White Helmets Video Manipulation of Dead Children & Staged Chemical Weapons Attack [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Residents of #Idlib reported the deployment of additional commercial checkpoints on major highways to #Hama and Aleppo.Syrians engaged in supplying goods to small traders in the territory controlled by the pro-Turkish groups complain of being charged for crossing the checkpoints . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Ailing Marine Vet Shares Deathbed Message Supporting Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "hey , @USER , why do you keep silence about the fact that civilians were poisoned in #Hama ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Obama's Final Vacation Destination On Presidential Plane Revealed [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":check_mark: \ufe0fCheck out our new #video summary of the 3rd day of the #valdaiclub 15th Annual Meeting in #Sochi . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : She was jailed under Obama's administration during the police occupation of Standing Rock . She never should have been ar \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#SyrianGovernmentForces conducted response #airstrikes on #terrorists positions in #KhaushDaura district [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In the #Al_Huwayz district of north-west #Hama , #terrorists fired on #SAA forces . #Syria #syriawarcrimes [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Promoting free and fair elections [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #SleepunderthenetUg Door to door distribution of mosquito nets in Buwambwa sub county , Namisindwa District . kick malaria \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The National Assembly of #CentralAfricanRepublic is working on extending the mandate of President Touad\u00e9ra . The Elections Authority follows the schedule , but the Assembly is afraid the deadline for the December #elections will be difficult to meet because of the #Covid_19 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The group of criminals continues to spread violence all across the streets of Pretoria forcing the foreigners to live in fear for their own health . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Universal Health Coverage is achievable and can improve global health ! Watch how in this explainer by @USER and @USER . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Social Security's looming $ 11 trillion shortfall [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Great question from @USER on how #Putin to be remembered by the young generation . #valdai2013 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER He was right since there have been numerous NUP supporters crossing to the NRM party which is headed by H . E Yoweri Kaguta Museveni #SecuringYourFuture [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Turkish army and SNA attacking Dawudiyah in Ras Al Ain countryside with tanks , howitzers and UAVs . #Syria #SNA #TurkishArmy [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : #Russia , #Pakistan Edge Closer in New Cold War Conditions [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "This msg is directed to the #nationaluselessplatform Who are the drug addicts.should say no to such idiots @USER @USER @USER @USER @USER @USER @USER @USER @USER = @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "If you're upset that a socialist leader , who is battling imperialism , shares something positive about Trotsky to satisfy some in his party / country , get off Twitter and go out in the real world for the first time ! Love to Maduro and the @USER !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "DISGRACEFUL : Huffpost Writer Jesse Benn Defends Shooting of Republicans [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING : State Department Launches a Mutiny Against President Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : 7 reasons why the minimum wage should be $ 15 an hour . Sign the petition . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Breaking : Militants to ' attack on all fronts ' in #Daraa if Syrian Army launches east #Damascus offensive - reports [url] \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Insurgents shelled Ikku of the Latakia governorate #StopTerrorismInSyria #StopHTSinSyria #WeAreTheLove [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Unrequited love : Tembisa man suicides after killing ex-girlfriend [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A 48 - year-old man was arrested by police officers for corruption . He reportedly extorted a bribe from the JMPD officer who allegedly assaulted him . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "All these attacks are the result of policies pursued in northeastern #Syria by the #US and #Kurds controlled by #americans . Almost every day #explosions thunder and people die",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: \ud83c\uddf9\ud83c\uddf7 \ud83c\uddf5\ud83c\uddf0 Meeting in #Islamabad : Clear #antiWestern message in #Erdogan words [url] #Turkey #Pakistan #ImranKhan \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#SAA took control of #Rasm_al_Abayke and successfully repulsed #ISIS counter-offensive in this area [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT JoshHollingsw 10 : Scattermae 777M These dirty Dems get away with literal murder while Trump gets hammered for honesty .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER Labba what's bothering you this early morning :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: . Being poor & idle is a disease",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In the province of #Idlib arrived a large #Turkish convoy of #military equipment , probably headed for the city of Ishtabraq , where they establish a point of observation in the west of Idlib #Syria #BreakingNews [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "According to the police statement , the officers followed up on information about the allegedly stolen car spotted at Utrecht . The police have detained 5 men aged between 21 and 36 who were found in possession of the vehicle . They are to appear in the Utrecht Magistrates ' Court .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Today at night insurgents shelled towns in the #Hama and #Latakia governorated 7 TIMES . #SyAF suffered losses : one serviceman was killed , three got injured .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":triangular_flag: :triangular_flag: Israeli army storms Palestinian news agency office Israeli soldier detains journalists inside room of building , fire tear gas #palestine #israel",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The Ministry of Plan , Cooperation and the Central African Agency for Agricultural Development ( ACDA ) , has launched the sowing operations in Landjai-Mboko as a part of the mechanization of #corn cultivation . #CentralAfricanRepublic #farming [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Militants said that Ukrainian army retreated from Lugansk [url] #Ukraine",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Russia's Arms Sale Success Is Proof That Its \u201c Military Diplomacy \u201d Works [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "As a result of the actions of the #AlHol administration , unbearable conditions for #refugees were created in the #camp . As a result , cases of #escape from the #camp became more frequent .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Rwanda and Zimbabwe entering deal : A Memorandum of Understanding ( MoU ) has been signed in Harare to promote further business growth and investment in the mining sector . The deal will focus on shared training , resource and expert management . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Theory And Practice Of Human Rights [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Sentence to 17 - year-old pupil : he is to be jailed for 10 years [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Hayat Tahrir al-Sham #HTS terrorists executed 3 civilians in #Idlib accusing them of being in connection with government forces [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: \ud83c\uddfa\ud83c\uddf8 #US military is being deployed to the #Greek Section ! Op-ed by @USER [url] #Turkey #Russia # U \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "VIDEO : Snowflake Hillary Supporters Confess they Couldn't Function at Work After Election Loss [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING POLL : 92 % OPPOSE Mitt Romney for Secretary of State #NeverRomney [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Rick Perry , Ryan Zinke clear Senate committee with bipartisan support [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BOOM ! Security Experts Turn Up Noses At Obama's Hacking Grizzly Report [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "George wife's murderer waits for judgment [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER There's nothing like closing courts . Re arresting a suspect by security agents its normal . He maybe a security threat and he has some other cases to answer",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The humanitarian situation in the buffer zone created by Turkey in #Syria has deteriorated dramatically . There is a shortage of food and water in Suluk and Tel Abyad . Pro-Turkish militants are robbing the local population . #Turkey [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The commanders of the #FeylakalSham illegal armed groups stopped funding the units of the \u201c implacable opposition \u201d in order to fill their pockets [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The Latest : Top senator says call to review Greitens stalled [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The president of the High Communication Council of the #CentralAfricanRepublic Jos\u00e9 Richard Pouambi discussed media coverage of the elections with the students of the Department of Information and Communication ( DSIC ) of the University of Bangui . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Among 100 CEOs analyzed , 11 made more than 1,000 times median employee pay ( Tesla not included in chart because it would \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: M . A . S . K :face_with_medical_mask:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "12 - year-old boy killed \u2018 as part of a gang initiation ' - [url] A Grade 5 pupil at Tygersig Primary School , Aswin Jonas , was guarding cars at an Elsies River mosque when he was shot multiple times and killed . Police spokesperson sergeant Noloyiso Rexwana , conf ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Syrian Rebels Losing Big in Qusayr [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Zimbabwean accused of rape and murder appeared in PE High Court - [url] truly blood chilling story was told on Thursday in the Port Elizabeth High Court . The victim accused a Zimbabwean national of killing her boyfriend , kidnapping and raping her , and stabbin ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Terrorist organization Tahrir al-Sham prepares provocations with the use of chemical weapons . Two trucks with chemicals were spotted near the city of Jisr al-Shugur . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Nigerian 54 - year-old Edwin Elochukwu Anyaoku was arrested last year in connection with seizure of 29 kilograms of heroin . He was extradited to the United States on Thursday to face charges of drug trafficking . #Drugs #SANEB #DEA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The #European_Union has allocated 1.5 million euros for #UNICEF's response to #COVID19 in #Syria . The list of funding targets is very unclear . It creates conditions for money theft on the ground . It is highly likely that the funds will end up in the pockets of the mercenaries [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "More than 100 #ISIS victims were found in 7 mass graves found near Abu Kemal by the employees of the Red Crescent and representatives of the #Syrian #government #forces . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "In the area of Al-Hawajj , near Dayr al-Zawr , IEDs were #detonated by unidentified persons near the #SDF checkpoint . Three #Kurdish fighters were #killed . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": ":large_orange_diamond: Arab tribes in Syria mull action against YPG / PKK #syria #ypg #pkk",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Offensive to the ideals of democracy and justice . Once the people are in power in the US , justice will be served against oligarchs and criminals like @USER . The existence of Guantanamo is a crime in and of itself !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Ramaphosa congratulates re-elected Nigerian president on victory [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "EU and US never stopped colonizing the world ; they just moved onto more \u201c efficient \u201d methods . Military and economic subversion keeps much of the world under the thumb of empires .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Tanks and special forces in the opinion of the #Turkish military should restrain the wave of refugees in case of active operations in the province of #Idlib . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "@USER @USER nrm is the best at service delivery",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Guerrilla group YPG on the road between the villages of Kimara and Barada destroyed the pickup militants \" National Syrian Army . \" [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Post mortem shows zero results after journalist's body found next to N1 - [url] Free state detectives were baffled when the post mortem of a recently found local journalist produced inconclusive results . 41 - year-old award-winning specialist Junior Bonase , ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : PHOTO : Members of self-defense forces near police HQ in #Slavyansk ; #Ukraine LIVE UPDATES [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "BREAKING POLL : Look at Roger Goodell's HORRIFIC Favorability Rating ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Radical_groups in the #Idlib #deescalation zone continue to prepare for staged provocations using #chemical_weapons",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT RepublicanChick : You obviously have never research Margaret Sanger and the eugenics movement \ud83e\udd26\ud83c\udffb\u200d\u2640 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Sickening ! Liberals Attack 16 - year-old Singer Jackie Evancho Tapped to Sing National Anthem at Inauguration [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "President Faustin Archange Touad\u00e9ra has received Mr . Paulo Soares , Head of EU Civilian advisory mission in the #CentralAfricanRepublic to discuss defence and security issues . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Liz Peek \u201c Why Democrats Can't Win in 2020 \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "A mother of a newborn is being sought by the Port Elizabeth police as his body was found in a garbage bin in Summerstrand on Sunday morning , the SAPS reported . A vagrant found dead child lying upon the trash . Anyone with information is asked to contact Humewood SAPS .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "If #SDF does not take measures to establish relations with the local population in the territories under its control , then not only #ISIS #militants but also local residents will soon be hunting the #fighters",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Britain must STAY OUT of mddle east , they have only been a force for evil and exploitation . Oman comes to mind immediately with the sultans .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Zambia-based French fries company to begin production in 2019 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The Russian Center for Reconciliation of the opposing sides in Syria and the Foundation of the Hero of Russia Akhmad Kadyrov held a humanitarian action for the residents of the Al Qatan district of Aleppo . Residents were given 500 packages of foodstuffs . #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : Democrats : We support imperialism , but in \ud835\udcb8\ud835\udc5c\ud835\udcb6\ud835\udcc1\ud835\udcbe\ud835\udcc9\ud835\udcbe\ud835\udc5c\ud835\udcc3\ud835\udcc8",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "America's Plan B in Egypt : Bring Back the Old Regime [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Two men arrested for possession of drugs in Protea Glen . They are expected to appear in court soon . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "#Putin and the Art of Listening : Lessons learned from #Russia's experience in #Ukraine are being applied to #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Wisconsin Recount Update : Stein Spends 3.5 Million Dollars to Find 84 Votes for Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "PIC Amendment Bill for transparency adopted by the National Assembly [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The members of Reaction Unit South Africa ( RUSA ) have saved a one-year-old girl following a dreadful incident involving the child's mother and her boyfriend . He had stabbed her and then threatened to murder the baby . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "\ud83c\uddee\ud83c\udde9 H . E . Dino Patti Djalal , founder and director Foreign Policy Community of Indonesia @USER * Climate issue . We have keep global warming within the 1.5 degrees goal . All states should cooperate .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "After being accused of sexually abusing at least 16 men , Willem Breytenbach , a former Media 24 magazine executive and teacher , has attempted to take away his life on a beach near Mossel Bay . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : President @USER received letters of credence of six new Ambassadors and High Commissioners to #Uganda from #Net \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER =: Are #Haftar's troops trained by the \ud83c\uddfa\ud83c\uddf8 #US ? Op-ed by @USER [url] #Libya #Sarraj #GNA #Turkey #Blu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "RT @USER : 1989 , richest 1 % owned 23.6 % of US wealth . Rose to 30.9 % in 2018 . Top 1 % own a majority of all shares of stock . Since 1989 , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "Roaming lion pride did not escape from Kruger - [url] African National Parks stated that the lion pride that has been roaming outside Phalaborwa were not a pride from Kruger National Park . It was reported that the pride has been roaming in the area for over a ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "CIA Troublemaking in Caucasus [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Others. Use 1 or 0 as output.",
+        "input": "The peaceful inhabitants of the Syrian cities of Al-Fua and Kefray , located north-east of Idlib , besieged by terrorists , will be evacuated as part of the Syrian agreement with the leaders of illegal paramilitary groups [url]",
+        "output": "0"
+    }
+]

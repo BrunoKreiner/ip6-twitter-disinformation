@@ -1,0 +1,147 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Trump Supporters React to Viral Video of Shoe Being Thrown at Hillary [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Art's complicated relationship with religion [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Good morning @USER = I hope you are well . Have a wonderful day",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER The video clearly says that what happened in Libya will happen here not what happened to Gadafi will happen to him Rewatch the video please the problem with you is that you don't want to hear the true",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Don't give up , NEVER GIVE UP . God is the greatest \u270c\ud83c\udffe :relieved_face: :blue_heart:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT elizabethwila : caption this rt plz #banIslam #religionofpeace [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER Smashing it up with Jaburata @USER #MondayMotivation :fire: @USER :optical_disk: :television: :microphone: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Group of people posing as prophets wanted by Joburg police - [url] police department of Johannesburg calls upon residents to remain vigilant and consider their own safety after a number of robberies that were committed by people posing themselves as prophets ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : One need a political reform , but #Russia needs weapon plants and altars . #valdai2013",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Vatican Nativity Scene Features Spire from Quake-Ravaged Church [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "A new church-related TV channel , named Lumen TV , has officially gone live in the Zambian capital , Lusaka . The launch of the station organised by the country's catholic bishops was timed to coincide with the feast of Blessed Virgin Mary's birthday which fell on September 8 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Providers say Zimbabwe telecoms not working properly due to protests [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : #SyrianArabArmy conducted a bombing strike on Hayat Tahrir al-Sham positions in #KaferNebel neighborhoods #Syria #SAA \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Iran isn't invading Iraq .. @USER #Debatenight",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "A jewellery shop was robbed at Blueroute Mall , Tokai , Cape Town . Two suspects were arrested . #CapeTown [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "ALERT : ISIS Plans to Target Western Churches For Christmas Season [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Atheist group demands public school ban baccalaureate , prayer ceremonies [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Gov't is Undertaking Possible Measures to Reopen Places of Worship , Arcades , Bodabodas \u2013 @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "The Cape Town K9 Unit in a joint operation with the National Intervention Unit members have arrested a 27 y . o . armed robber in Athlone . The suspects had tried to flee the scene but the officers managed to detain the suspect . They also seized a 9mm handgun and 15 rounds of ammo .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Previous American Presidents have already positively used these linkages by putting in place the African Growth And Opp \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : We believe that we can never do enough in the face of corona virus unless God is with us . We shall hold prayers as a n \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Terrorists from the Jabhat al - #Nusra group opened fire on #SAR military positions in the Abu al-Duhur district of #Idlib province . No one was killed and a Syrian tent was burned . #Syria #HTS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Taxi drivers after seeing Kayoola bus script on nbs tv :face_with_tears_of_joy: :face_with_tears_of_joy: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : It doesn't matter what the MEDIA or OFFICIALS in the west said about #ALEPPO I was there ! I SAW IT ! Aleppo did NOT fall , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "FLASHBACK POLL : 2/3 rds of UK Muslims would NOT Snitch on Terrorist [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Muslims make a pitch for populist vote as Dutch politics turns sharp right [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Speech by Ali #Larijani , Speaker of the Islamic Consultative Assembly of #Iran , at #Valdai2015 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT _LoveLike_JESUS : . \" ONE SOLITARY LIFE \" This video is the Story of JESUS , please listen and tell me what yo \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Happy birthday Mzee wa kazi na Baba wa Taifa . May Almighty God continue to bless you . #HappyBirthDaySevo [url]",
+        "output": "1"
+    }
+]

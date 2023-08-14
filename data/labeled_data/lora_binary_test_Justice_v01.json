@@ -1,0 +1,1372 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Fourth in a row : protesters set alight another Golden Arrow bus in Cape Town , as part of the service delivery protest . #CapeTown #GoldenArrow [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : She was jailed under Obama's administration during the police occupation of Standing Rock . She never should have been ar \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": ":high_voltage: \ufe0fTwenty soldiers suspected of being members of the group behind the 2016 defeated coup in Turkey were arrested on Tuesday , according to judicial sources #Turkey #FETO #FethullahGulen",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A mother of a newborn is being sought by the Port Elizabeth police as his body was found in a garbage bin in Summerstrand on Sunday morning , the SAPS reported . A vagrant found dead child lying upon the trash . Anyone with information is asked to contact Humewood SAPS .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Don Jr . BLASTS Nancy Sinatra for Saying \u2018 Murderous NRA Should Face Firing Squad ' [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A 20 - year-old suspect was arrested for possession of drugs in Western Cape . Police recovered 3282 mandrax tablets . The suspect will soon appear in Athlone Magistrate Court . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER After their violent behavior and not abiding by the law they will blame the government when the police retaliates :kissing_face_with_smiling_eyes:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "PE 15 - year-old girl narrowly escapes death during gang shootout - [url] gang gunfight was reported by Port Elizabeth police on Wednesday . A schoolgirl was slightly injured during this incident having escaped death when one bullet almost hit her head . As polic ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#evas Disgraced Anthony Weiner Paying the Price for Crime , Lies , and Corruption [url] #eevan [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Student fatally stabbed for a mere cap - [url] David Methape has described by his family as a quiet boy who loved dancing to entertain people around him . But his life came to an abrupt end when he was brutally stabbed reportedly for a cap and R12 that did no ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The group of criminals continues to spread violence all across the streets of Pretoria forcing the foreigners to live in fear for their own health . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : \" There is no protection for Palestinians from the police or soldiers or army \" says dad of US teen beaten in Jerusalem [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A suspected card thief was attacked by several Limpopo residents . They cut off the man's genitals . The suspect was then transported to the Elim Hospital . The man is in critical condition .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Man accused of raping teenager expected in court [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Police discovered a buried body in Johannesburg [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Pietermaritzburg's municipal workers were caught in unworthy deed [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Yesterday , #SDF members arrested 40 employees working in the #Rumeilan oil field in eastern #Syria . Those arrested are accused of stealing #oil products and selling them illegally . The workers will serve a six-month sentence in prison . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Taxi driver shot dead in Newlands East protecting his girlfriend from hijackers - [url] taxi driver became the victim of armed hijackers who assaulted him and his girlfriend at a petrol station in Newlands East , KZN . The driver was filling his car at a petrol ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "An innocent woman became a victim of a gunfight after she had been hit by a stray bullet in Grassy Park , Cape Town The 27 - year-old woman was a mother of two .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Protestors arrested : 4,400+ Not arrested : 3 of the 4 officers involved in George Floyd's death .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Investigation of a terrible raping case goes on [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Offensive to the ideals of democracy and justice . Once the people are in power in the US , justice will be served against oligarchs and criminals like @USER . The existence of Guantanamo is a crime in and of itself !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Congressman : No need for green-card holders ban if no threat [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A 48 - year-old man was arrested by police officers for corruption . He reportedly extorted a bribe from the JMPD officer who allegedly assaulted him . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Teenager sentenced to 10 years behind bars for murder - [url] Nzima , 16 , has been sentenced to 10 years imprisonment for murder . Two years were suspended for a period of five years . According to the SAPS spokesperson Cpt . Dumile Gwavu , the suspect has been ar ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": ":high_voltage: #ArmenianGenocide propaganda in the #film \u2018 #SabreDance ' Op-ed by @USER [url] #AramKhachaturian #Kachaturian #YusupRazykov #Music #Movie #Soviet #USSR #Russia #Armenia #genocide #Nazi #WorldWarII #WWII #Holocaust #Jewish #Turks",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#amms BREAKING VIDEO ! She's Been ARRESTED ! [url] #amis [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Congressman Among Four People Shot At Baseball Field ; More Than 50 Rounds Fired ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Baltimore Elderly Man Stabbed To Death ; Police Need Your Help ASAP ! [ VIDEO ] [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : I chaired a mtg today with all relevant #MDAs to agree on a coordinated approach in the fight against #HumanTraffickin \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Paul Evans , 49 , has made his appearance in the Western Cape High Court . He was suspected of the murder of 35 - year-old Shafieka Peterson and her 12 - year-old daughter in Delft . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Hundreds of Gambian activists held a peaceful procession on Thursday expressing solidarity with the country's former beauty queen who claimed she was raped by the country's former president . Read more : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Malawi President Peter Mutharika called for security forces to take action on protestors who were planning to shut down airports and border crossings as part of new post-elections demonstrations . He said any attempts at closing down frontiers will be met with all necessary force . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Just before midnight on Tuesday , an official municipal vehicle crashed into the wall damaging two houses in the township of Osizweni , Newcastle , KwaZulu-Natal . Newcastle deputy mayor Reuben Molelekoa was allegedly driving under influence when the incident occurred . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "In Colombia , product of the deterioration of the quality of life , drugs and war , have emigrated more than 12 million of people . Venezuela , on the other hand , is a migrant-receiving country that has hosted more than 9 million citizens of the world . Check it out !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Angry Soweto Residents burn buses and trucks in service delivery protest - [url] The City of Johannesburg has said that a Putco and Rea Vaya bus , including two tow trucks were burned during a protest action , that saw the Soweto motorway and Carr Street in Mz ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": ":fireworks: Mike Pompeo meets King Salman amid reports Riyadh may admit journalist was killed in Istanbul consulate #JamalKhashoggi #salman #riyadh #pompeo [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The members of Reaction Unit South Africa ( RUSA ) have saved a one-year-old girl following a dreadful incident involving the child's mother and her boyfriend . He had stabbed her and then threatened to murder the baby . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The chairlady of Kalulushi Constituency , Rashida Mulenga , has been suspended for taking part of the K122 , 000 from the State House destined for Kalulushi party programmes during President Edgar Lungu's recent visit to the area . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A man who attempted to siphon money from a resident by posing as City Power official was arrested . The suspect offered help to one of the residents , whose electricity meters had been disconnected by the real City Power officials . In exchange for reconnection he took R7 , 000 bribe .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Sickening ! Liberals Attack 16 - year-old Singer Jackie Evancho Tapped to Sing National Anthem at Inauguration [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Mad Max Attacks Sessions in a Cringeworthy Race-Baiting Attack [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Two men dead after an apparent shootout - [url] Two men heave died after what appears to be a shootout in Germiston on Gauteng's East Rand . One man was found in a car with several gunshot wounds . The other was lying nearby in President Street with a gunshot ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Well , Well , Well , Look What George Soros is Accused of Orchestrating [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "12 - year-old boy killed \u2018 as part of a gang initiation ' - [url] A Grade 5 pupil at Tygersig Primary School , Aswin Jonas , was guarding cars at an Elsies River mosque when he was shot multiple times and killed . Police spokesperson sergeant Noloyiso Rexwana , conf ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BREAKING : Liberals \u201c Russian Hacking Story \u201d Unravels as Cyber Firm is Caught Lying [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Cape Town police seized abalone worth more than R3 million [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "According to the police statement , the officers followed up on information about the allegedly stolen car spotted at Utrecht . The police have detained 5 men aged between 21 and 36 who were found in possession of the vehicle . They are to appear in the Utrecht Magistrates ' Court .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "ANC member Mhlengi Khumalo was found dead in his own house [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "WATCH : The men in blue gathered in Pretoria Church Square and marched to Jubilee Park via Leyds Street and Kotze Street to stop the crimes committed against women and children . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Militant training continues in the Al Thanh area of Ruqban camp , while theft , prostitution and sexual exploitation of minors flourish in the camp itself . #Syria #Ruqban #USA [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The #European_Union has allocated 1.5 million euros for #UNICEF's response to #COVID19 in #Syria . The list of funding targets is very unclear . It creates conditions for money theft on the ground . It is highly likely that the funds will end up in the pockets of the mercenaries [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Swedish Doctors for Human Rights : White Helmets Video Manipulation of Dead Children & Staged Chemical Weapons Attack [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Mother will not bury daughter till body parts are recovered - [url] The mother of the Limpopo teacher , Precious Magabana , who was murdered in December refuses to bury her head and intestines until the rest of her body parts are found . It is alleged that the ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER Sebo commander of UPDF where were they going and what was their task for deployment , which law did they break wearing uniform ?",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Glenanda clinic employee arrested for stealing in Joburg - [url] An ex-operations manager at the Glenanda clinic has been arrested by the police officers for stealing a computer . According to Mayor Herman Mashaba , the suspect is now detained at the Mondeo ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER The most incredible after returning him from the #CentralAfricanRepublic they moved him to church property with children summer camp ! #LukDelft [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Sentence to 17 - year-old pupil : he is to be jailed for 10 years [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Obama's Lawyers are Suing Roger Stone for the Most RIDICULOUS Reason [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Pretoria man hangs himself and 3 children - [url] The community of Soshanguve , north of Pretoria was left traumatised after a man hanged his girlfriend's three children before taking his own life . Molefe Mojutu killed Thabang ( 11 ) , Amogelang ( 3 ) and Lebogang ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "VIDEO : Judge Jeanine Dishes Truth on Crooked Mueller [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT JoshHollingsw 10 : Scattermae 777M These dirty Dems get away with literal murder while Trump gets hammered for honesty .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT TruthinGov 2016 : STATE DEPT SUFFERS WORLDWIDE EMAIL OUTAGE : Deep State Hacking Into State Dept ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Police officers have nabbed a dangerous suspect and discovered a kidnapped person [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Militants Jund al-Malayahim sell the looted property of the murdered civilians right on the street in #Idlib . #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Residents of #Idlib reported the deployment of additional commercial checkpoints on major highways to #Hama and Aleppo.Syrians engaged in supplying goods to small traders in the territory controlled by the pro-Turkish groups complain of being charged for crossing the checkpoints . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The elderly couple murdered at their house in Umkomaas have been identified as Sathie and Southree Pillay . Police officers have arrested a 37 - year-old suspect . He is expected to appear in the court . Sathie Pillay , 78 , was hit to death with a hammer . Southree , 74 , was strangled . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Four teenagers aged between 13 and 16 were arrested after they shot and killed their schoolmate , Moyeni Walters , 16 . The deceased had a fight in school with one of the accused on the previous day . On the following day Walters was walking home along Warwick Avenue and got shot . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Post mortem shows zero results after journalist's body found next to N1 - [url] Free state detectives were baffled when the post mortem of a recently found local journalist produced inconclusive results . 41 - year-old award-winning specialist Junior Bonase , ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Trump wants to enlist local police in immigration crackdown [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A 19 - year-old Forest High pupil suspected of murdering 16 - year-old fellow learner , Daniel Bakwela , is expected to make his appearance in the Johannesburg Magistrate's Court . Mohammed Mwela is facing charges of murder and attempted murder . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A 19 y . o . woman made her appearance in the Lusaka Magistrate's Court . The woman reportedly broke into the house of William Chirwa and stole a TV because her victim did not pay her for sexual services . The next hearing of the matter is scheduled to August 30 . #Zambia",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "30 y . o . rapist was nabbed on Friday [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "DISGRACEFUL : Huffpost Writer Jesse Benn Defends Shooting of Republicans [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Free State police raised concerns over amage to property [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "When They Noticed The Self-Checkout Register Was Malfunctioning , They Went Nuts ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "14 stolen skip bins were retrieved by Joburg police , 2 men arrested - [url] coworkers who were employed by the city of Johannesburg's waste management entity , Pikitup , have been arrested and accused of stealing a total of 14 skip bins . \" Following the arrest o ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "At least 43 illegal miners dead after two \u2018 galleries ' overlooking an open excavation pit collapsed in a copper mine owned by Glencore in the Democratic Republic of Congo ( DRC ) on Thursday . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : WATCH : An Israeli settler from Havat Mor can be seen violently unleashing his dog on a Palestinian shepherd and his sheep in t \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "WATCH : Daylight robbery caught on camera near Joburg goes viral on social media - [url] internet community has been widely sharing a video of a daylight robbery that took place on the Xavier Street onramp to the N12 , south of Johannesburg . On the footage , a g ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Police arrested a man , 36 , for possession of an illegal firearm and dagga in Vanderkloof . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A Zambian resident has filed a lawsuit against Legana Meat products accusing the company of low-quality products . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT RepublicanChick : You obviously have never research Margaret Sanger and the eugenics movement \ud83e\udd26\ud83c\udffb\u200d\u2640 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "An orphanage in in the Democratic Republic of Congo ( DRC ) is under investigation for allegations of abduction and child trafficking by a Belgian court . read full article : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The police have arrested two suspects , aged 15 and 24 , who allegedly assaulted , raped and murdered a 33 - year-old Prieska woman . At the weekend , Vanessa Barends was found with her clothes ripped off . A local passer-by saw the victim and called the police . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A murder of 60 y . o . woman and her granddaughter [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "2 Cape Town policemen were sent to hospital after being shot and robbed of their firearms [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "After being accused of sexually abusing at least 16 men , Willem Breytenbach , a former Media 24 magazine executive and teacher , has attempted to take away his life on a beach near Mossel Bay . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Authorities investigating a case of causing harm after a 77 - year-old woman was hit by minibus taxi in Msundusa Street in Sobantu , on Monday . Paramedics assessed the scene and found that the patient had sustained serious injuries and required Advanced Life Support intervention .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Popstar Lady Gaga will support the communities of the cities where the recent mass shootings happened . She will fund three schools in El Paso , Dayton , and Gilroy . She announced her desire to work with the crowdfunding website [url] via Facebook . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BREAKING : Sessions Says Deadly MS - 13 Gang May be Designated a Terror Organization [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Criminals taking advantage of the lockdown should know that the justice system is alive and well . You will be arrested , tried \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": ":skull_and_crossbones: \ufe0fFrance : 102 Yellow Vests arrested as protests continue French police officers intervene with tear gas , water cannon to disperse protesters in capital Paris #france #yellowvests #protests [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The chief prosecutor of a UN tribunal on Wednesday accused South Africa of failing to co-operate in the arrest of a fugitive sought over his role in the 1994 Rwanda genocide . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Zimbabwean accused of rape and murder appeared in PE High Court - [url] truly blood chilling story was told on Thursday in the Port Elizabeth High Court . The victim accused a Zimbabwean national of killing her boyfriend , kidnapping and raping her , and stabbin ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A 29 - year-old man has been arrested by the police officers in the Durban Central Business District . The man is suspected of hijacking a vehicle at Mayville . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Election-related violence suspects released on bail - [url] On Monday police officers have arrested 21 people in connection with disturbing elections in Madinonyane , Ganyesa . The suspects were granted bail on Thursday . According to the Brigadier Sabata Mokgw ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Two men arrested for possession of drugs in Protea Glen . They are expected to appear in court soon . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Burglars were arrested after they pressed the alarm [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "During the operation that was conducted in Thohoyandou Cluster , 34 security companies were visited and 152 fire arms and 93 various assorted rounds of ammunition were recovered . The recovered firearms and ammunition will be destroyed after proper procedures are completed . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Illegal WC and KZN police protest and fake sick notes [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BREAKING : 9 Looters Arrested in Florida \u201c Smash and Grab \u201d Looting Spree [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BREAKING : Ft Lauderdale Airport Shooter Suspect Identified [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : #SYRIA : #OPCW #investigation is \" not a viable one \" - #Scott_Ritter - [url] via @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "\u201c Execution style \u201d shooting in Port Elizabeth : 1 in critical condition , 4 died [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Hungarian police start investigation after Korean tourist's deaths - [url] police officers have launched the investigation after seven Korean tourists died on the Danube river . The incident happened when two boats collided in a pouring rain . According to the ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The #Americans are increasing their presence in the region ; the number of #PMCs already exceeds 3.5 thousand . These people have organized criminal production in several fields and sell oil abroad . #Syria #US #oil #Euphrates [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Six officers shot trying to arrest murderer in Nyanga - [url] Western Cape police officers have been attacked while trying to arrest a murder suspect . According to the police spokesperson Brig . Novela Potelwa , six members of the Anti-Gang Unit were injured wh ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The girl was kidnapped outside a school [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Three boys lost their lives at illegal initiation school . Parents are blamed for being irresponsible and negligent . #Contralesa #Pretoria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Watch . Pitch Black Afro charged with killing of his wife [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The commanders of the #FeylakalSham illegal armed groups stopped funding the units of the \u201c implacable opposition \u201d in order to fill their pockets [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BREAKING : National Guardsman Arrested For Threatening to Kill Mike Pence [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Consultant sentenced to prison for part in kickback scheme [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A security guard died in an alleged robbery at a shopping mall in Randburg on Tuesday . He had reportedly been shot and killed by an armed robber trying to flee the scene . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Joburg Taxi driver murder : three suspects arrested [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Police arrested a robber in a Chatsworth [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER @USER There's nothing like closing courts . Re arresting a suspect by security agents its normal . He maybe a security threat and he has some other cases to answer",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BREAKING : Former Attorney General Loretta Lynch Says Sally Yates \u201c Fierce and Unshakeable \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Nigerian 54 - year-old Edwin Elochukwu Anyaoku was arrested last year in connection with seizure of 29 kilograms of heroin . He was extradited to the United States on Thursday to face charges of drug trafficking . #Drugs #SANEB #DEA [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "THIS is Why Susan Rice REFUSES to Testify ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A 55 - year-old man was arrested in Western Cape on drug related charges . Police discovered 991 mandrax tablets . The suspect will appear in Wynberg Magistrate's court . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "One suspect was arrested in Soweto . During the search , a plastic bag containing 3500 mandrax tablets , 7 plastic bags containing dagga , a box with 25 9mm live rounds and 1 black 9mm Z88 were discovered . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Convicted racist Vicki Momberg thinks racism is not a crime - [url] Convicted racist Vicki Momberg appeared on Your View on Newzroom Afrika , hosted by seasoned broadcaster JJ Tabane and told him that in her own opinion , \u201c racism is not a crime , \u201d and that she ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Without the written permission of the Directorate General for Migration of the \u201c Government of Salvation \u201d , the checkpoints cannot be crossed . Any movement between settlements is also forbidden . Every man can at any time be mobilized into the ranks of militants or forced labor . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#sted RT RedNationRising : If this were my child , I would be tweeting you from prison . It's time the Justice system end their PC attitude | \u2026 \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "George wife's murderer waits for judgment [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "40kg of rhino horns seized during raid in Kempton Park - [url] last Friday the Hawks special squad carried out an operation during which they seized a batch of rhino horns at a cost of about R38m in Kempton Park . \" The exact location of the warehouse cannot be ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The Directorate for Priority Crime Investigation are looking for 4 suspects who robbed a security officer during a routine money pick-up at an ATM in the filling station caf\u00e9 in Hartbeespoort on July 27 . #WANTED [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Police in Hartebeesfontein arrested 2 suspects for armed robbery yesterday . The suspects were found in possession of an unlicensed firearm , cash & clothing . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Today , seven years ago , imperialism with the US and NATO in the lead , assassinated Muammar Gaddafi to plunder the millions of reserves and loot oil from Libya , the richest country in Africa and with the most well-being . Chavez explained the treachery to Libya in 2011 .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The Constitutional Court has dismissed former Eskom CEO Brian Molefe's appeal against the decision to pay back part of the R30m pension he received from the power utility . This after the Pretoria High Court found that he received the money unlawfully from the Eskom Pension Fund . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Abby works for the people . For truth , justice and peace . That's something Democrats and Republicans alike will never be able to understand . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Unrequited love : Tembisa man suicides after killing ex-girlfriend [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Spanish protest after young boy's body is washed up in C\u00e1diz [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Body of a missing 4 - year-old girl has been found dumped in a pit toilet . She is alleged to have been raped as there were marks of violence discovered on her body . The police have already arrested a 36 - year-old man and accused him of this gruesome offense . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "VIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "US : A nation of immigrants , but ambivalent about immigration [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "AG : Missoula can't enforce background check for gun sales [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Militants from #Rastan enclave fired missiles at the Wadi Al-Dahab quarter in #Homs , two children were killed , 12 civilians were wounded #Syrie [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Many men in the #alRukban camp are forced to join the #US-controlled #MagavirAlSaura units due to the catastrophic situation of their families . So , in addition to money , better conditions are immediately provided to families that have recruited [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "President Emmerson Mnangagwa's presidential exit is all but sealed amid reports that China will help in his removal from office , after he angered Beijing by giving exclusive diamond exploration and mining rights to Russia ahead of the Asian powerhouse . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Indicative features of upturn in SA manufacturing [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : If you are broke , stop having expensive tastes because you will die of High Blood Pressure .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": ":triangular_flag: :triangular_flag: Israeli army storms Palestinian news agency office Israeli soldier detains journalists inside room of building , fire tear gas #palestine #israel",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: Have you Made Any Transactions with @USER App ? If Yes , I trust you must Have Felt How convenient It Is . If Not , Then \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : The things OWC won't tell our farmers . In UG we ban raggae musicians from composing more music :face_with_tears_of_joy: :face_with_tears_of_joy: @USER = @USER \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Madagascar Independence Day turned into a nightmare . According to the Hospital director Oliva Alison Rakoto , 15 dead and 80 injured were reported earlier . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#Russian #military doctors rendered medical assistance to 250 Syrians for 24 hours , including 160 children in the province of #Aleppo #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "As a result of the actions of the #AlHol administration , unbearable conditions for #refugees were created in the #camp . As a result , cases of #escape from the #camp became more frequent .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : very impressed with the Global Shapers of the @USER whom I met ahead of the @USER Africa meeting in Cape Town this \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The United States has been financially supporting the White Helmets organization since 2013 . During this time , the US authorities have provided her more than 33 million to destabilize the situation in Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "During the second day of the talks in Sochi within the framework of the #Astana format , the head of the #Syrian delegation , Bashar al-Jaafari , said that the official Damascus has every right to return all the north-western areas of the Arab Republic , including Idlib province [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#syria #GeneralSuheil's assault units liberated #Salihiyah , now conducting mopping-up operation in #AlQataa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The LION Was BORN today #27thJuly Happy Birthday @USER Cc @USER @USER @USER @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Terrorist organization Tahrir al-Sham prepares provocations with the use of chemical weapons . Two trucks with chemicals were spotted near the city of Jisr al-Shugur . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Northern areas of #Aleppo are doomed to the fate of #Afrin if the #SyrianArabArmy does not come there [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Good morning friends of Ritah , Have a blessed day :folded_hands:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BUSTED : Trump-Mocker Alec Baldwin Caught Hurling Gay Slur At Reporter \u2026 Media SILENT [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Today #AbuDuhur was shelled by #Nusra jihadists , several people were wounded . Turkey agreed to cleanse \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Meanwhile Trump and Macri are billionaires who are hell bent on screwing the people of the US and Argentina respectively . @USER is a people's president fighting for the workers . He could eat steak every night and that FACT wouldn't change .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER rush to Bishop Cipriano Luzira , day section . @USER guys working on the drainage left a damaged pipe . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER + mgBM 9fEtWCaJAwxTs =: Hapi birthday the Genius Nelson Mandela of Uganda Gen @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Picking up pan dulce this morning . Carace\u00f1os ( people from Caracas ) say the prices at this panader\u00eda are extremely good . \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "PMB Motorcyclist dies on scene after he got hit by a car [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Because of its natural beauty , natural wonders and its welcoming people while on his tour to this land with magnificent featur \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BOMBSHELL REPORT : Bill and Hillary in Feud , Have Not Spoke for Months [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Prime Minister of the #CentralAfricanRepublic has commented on the critique of his decision to negotiate with Ali Darassa . Firmin Ngrebada says that he was acting in the interests of the people to make the electoral process available to all the regions of the country . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: Another Hit coming from @USER after #AkatijjoAnthem ... Nakupenda ( i love u ) is the song \ud83d\udc47\ud83c\udffb \ud83d\udc47\ud83c\udffb [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "A man detonated a mine near Tell Tamer in #Haseke province . It was this area that was spotted yesterday by Syrian National Army fighters , and that was followed by a terrorist attack . #Syria #SNA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Which is ok since am far beta than a hoe that gave birth t u",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : PHOTO : Members of self-defense forces near police HQ in #Slavyansk ; #Ukraine LIVE UPDATES [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "5 CNN Screenshots that PROVE their Pre-G 20 Coverage Was FAKE NEWS [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Want a fairer tax system ? Join #TaxChat 3/20 w / @USER @USER @USER @USER RT if you'll be there ! ht \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The protest action by Greenpeace Africa that took place today at Escom's head office in Johannesburg . The protest followed a recent report that shows Eskom's coal-fired power plants are poisoning the people of Mpumalanga and eastern Gauteng . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER What is the ratio you should spend on renting and entertainment to your salary ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : So many ladies would realise after they are married that they needed a job first and not husband .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Capitalism breeds misery . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : There's an agenda behind wall-to-wall propaganda US pushes about other countries . I talk to @USER about the war being wa \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#Botswana men's 4x400m relay team disqualified from the IAAF World Championships #DOHA2019 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : 4 Large Unknown Explosions in #DeirEzzor #Syria @USER 9m Sounds of 4 huge explosions are heard near Badiyat Al-Maya \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "In order to successfully complete the operation against international terrorism in the Hadji pocket , the US is transferring ISIS leadership from dangerous areas to Iraq . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER = @USER We appreciate the government for tremendously improving our agriculture sector . #Securi \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Guerrilla group YPG on the road between the villages of Kimara and Barada destroyed the pickup militants \" National Syrian Army . \" [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "This msg is directed to the #nationaluselessplatform Who are the drug addicts.should say no to such idiots @USER @USER @USER @USER @USER @USER @USER @USER @USER = @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : . @USER & I put together a little tribute to Michael Brooks [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "##Erdogan plans to \" liberate \" the northern regions of #Syria from the #Kurds , whom #Turkey considers to be #terrorists , and intends to create conditions in the region for the return of 3.5 million Syrian #refugees who have found refuge in #Turkey in recent years .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "1 killed in motorcycle crash [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER @USER Be ashamed of your shallow brains . Bobi wines statement lacks substance",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Ahhhhhh :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :smiling_face_with_heart-eyes: :kissing_face_with_closed_eyes: :kissing_face_with_closed_eyes: :kissing_face_with_closed_eyes: This is awesome",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The #SyrianArabArmy and allied forces : struck at the headquarters of #Djebhat anNusra \" in the west of #Idlib . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : ' Unvarnished Tyranny ' a book review by Hon @USER , former British Member of Parliament , who grew up in Uganda d \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : American children have a higher chance of being killed by their own parents than terrorism .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Good morning dear Marie :rose: :revolving_hearts: Have a happy and joyful weekend my dear friend :cat_face: :smiling_face_with_smiling_eyes: :bouquet: :tulip: Big hugs :kissing_face_with_closed_eyes: :blossom: :two_hearts: :blossom: :two_hearts: :blossom: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "If Trump were a woman : play swaps presidential candidates ' genders [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with I like the way @USER #SaturdayExplosion #ClubAmbiance :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The Kurdish forces of the #SDF continue , with the support of the #UnitedStates , to develop military infrastructure in the areas of #Jayna and #Meshia #Syria #Breakingnews [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Employee electrocuted at car wash [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Three members of the reconciliation committee in southern #Syria named \u201c Tufiq al-Ghunim \u201d , \u201c Mohamad al-Ghunim \u201d and \u201c Mufaq al-Bargas \u201d were assassinated in the northeastern #Deraa countryside [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Violence in Syria : Strike against the IS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : For my 78 followers :backhand_index_pointing_right: :backhand_index_pointing_left: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "In the southeast of #Syria near the Syrian-Iraqi border between the #AlTanf base and #Albukemal a weapon cache was found . The ammunition was prepared by the New Syrian Army insurgents to organize sabotage against Iranian armed units . #Iran [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "America Sabotages in South of Syria Under False ISIS Flag #US #Syria #AlTanf #Rukban #ISIS #IS #terrorism #albukamal #baghuz #damascus [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Amazing Mountain Chalet Overlooking The Alps [url] Building first evolved out of",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: They say a picture is worth a thousand words , but I wld like to say yo smile is worth a thousand words ; happiness , opti \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The President of the Central African Republic Touadera granted audience to a delegation of the Economic , Social and Environmental Council of France . #RCA #Touadera [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER Ifb actives only",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Wisconsin AG : Constitutional carry bill seems reasonable [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "\ud83c\uddf9\ud83c\uddf7 #Turkey allegedly #blocked permanent #NATO base in #BlackSea [url] #Sea #Maritime #Turkish #Military #Ankara #Romania #EU #Russia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "This Adorable Panda Trying To Walk A Tightrope Is All Of Us Stumbling Through Life [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "BEHNA : Twitter Users Slam CNN's Chris Cuomo Over Disturbing Tweet On Transgender Bathrooms [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The humanitarian situation in the buffer zone created by Turkey in #Syria has deteriorated dramatically . There is a shortage of food and water in Suluk and Tel Abyad . Pro-Turkish militants are robbing the local population . #Turkey [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Daily , dozens of #terrorist_acts take place in #Syria on the right bank of the #Euphrates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "This beautiful city Kampala at one point had become a city of warlords . All under UNLA different factions partitioned it out each group controlling a portion of our capital ; UFM of Kayira-Makindye , Fedemo-Kabalagala , FUNA - Summit view . At one point there was a fierce battle [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: Yesterday was @USER ' s birthday :party_popper: Better late than never . Happy birthday comrade , hope you had a good one ? :smiling_face_with_smiling_eyes: Thanks \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "FIRST PHOTOS AND VIDEO : 8 Trump Border Wall Prototypes Completed ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#China will become the absolute leader of the world community . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "\ud83c\udde8\ud83c\uddf3 :microbe: #China's experiences : trust each other , help each other , and follow the doctor's instructions [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : #EnVivo | Day of productive work with the peasant sector , in the framework of the Great AgroVenezuela Mission . #Soberan\u00edaAgr \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Subscribe to us on social networks and blogs : [url] [url] ... [url] ...",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Youth creating jobs in the face of unemployment in SA as Stats SA revealed that the country's unemployment rate had increased to 27.6 % in the first quarter compared to 27.1 % at the end of the fourth quarter of 2018 . Read more : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Ayaya @USER #SundayExplosion #NyondoClub :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "So Maduro is a dictator for supporting democracy , yet the opposition are freedom fighters for being murderous tools of empire ? Puh-lease .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Rare picture of Twitter NG winning the DRAGGING Champions League After dragging African Giant to the extent that they qu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Thank you , @USER : \" Venezuela already has a government our government recognized by the United Nations and by a \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER = expert Georgy #Mirsky has passed away . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER Tiger Forces engineer squad defused 3 landmines and 9 mines in school's in Abu Kamal . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Let's end the day with a recap of the day's top 10 jams . Join @USER and @USER as they bring you the #NxtTr \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "On May 18 , the Syrian army unilaterally ceased firing in the Idlib zone . Today the militants attempted to attack the positions of government troops , but were stopped . About 40 terrorists destroyed . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": ":check_mark: \ufe0fCheck out our new #video summary of the 3rd day of the #valdaiclub 15th Annual Meeting in #Sochi . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#syria 5 vehicles #destroyed , more than 20 gunmen eliminated after #airstrikes on positions of #terrorists near #Saraqib and #Maradih in the #Idlib province [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : #SyrianArmy soldiers brought in a verdict to terrorists in #Douma #Syria #Damascus #EasternGhouta [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#deb Here's the REAL Reason McCain Voted Against ObamaCare Repeal [url] #debb [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#GermanElections : #Merkel and Grand Coalition . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Mock NFL draft from The Ringer has 49ers finding their Earl Thomas [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "I'm gonna scream . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER @USER = @USER @USER = @USER @USER @USER = @USER @USER = @USER @USER @USER Ask ur mum cz she told me",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The #Syrian government is doing everything possible to make it easier to live for the refugees who managed to escape from the #Rukban camp . They are provided with jobs for adults and places in schools for children [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Leaders of Nour al-Din al-Zenki , Ahrar al-Sham , Firqa 23 , Suqour al-Sham , and Falaq al-Sham agreed on common struggle against #HTS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Interpreting President Putin's Speech At The 2019 BRI Forum [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Initially He Was Going to Perform At Inauguration Event , Now Garth Brooks Gives Reason For Backing Out [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The car and several #ISIS terrorists were destroyed in #Essaouira . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: ARMY CHARITY WORK :round_pushpin: The Deputy Commander of SFC , Col Vincent & Col.Mpagi of UPDF leading a team of officers and men i \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#mar RT Jen_I_yam : Mindset of a leader ! Someone who's NOT willing to live on handouts ! You know who's going to give you everything , YOU \u2026 \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Employees haven't been paid for 2 months due to the low income . The employees clarified that the revenues mainly come from the KCM land rates supplemented by the governmental payroll grants . Thus , since the liquidation process began , the mine has not been receiving land rates .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Sky porn . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Can Russia prevent China and India taking up arms against each other ? \u2014 RT Op-ed [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Friend Steven Seagal Presented With Russian Passport By Vladimir Putin [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Residents of Al-Tveineh in #Hasaka governorate on the anniversary of the \" #OctoberWar \" painted and distributed graffiti in honor of the #SyrianArmy and its heroism . The #SDF later removed the images , sparking discontent among the local population [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Theory And Practice Of Human Rights [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "David Squires on \u2026 Claudio Ranieri's sacking and football's ' lost soul ' [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Moz govt will adjust the current scheme of awarding the public works contracts . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "President Hage Geingob officially wishes the Namibian Rugby team to the 2019 Rugby World Cup success as they leave for Japan from 20 September to 2 November . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Kendall Jenner's Pepsi ad sparks backlash [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The entrance to the Petroport petrol station at Queen Nandi Drive became the scene of a fatal car crash involving a taxi A man has been killed near the N2 northbound carriageway in Durban after the minibus taxi he had been driving crashed and burst into flames [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Not all Canadians welcome the fake self declared President of Venezuela @USER diplomacy with the real governm \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Sanders supported the Federal Crime Bill that give the gave the capitalist state more than 50 new pretexts for executi \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Why the red car ? #KutamaLife @USER =",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Boris Johnson Against Parliament [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "There is a trend of withdrawal of commanders and jihadists from #HayatTahrirAlSham terrorist group . They are not satisfied with the rapprochement with the #SNA / #FSA factions which they had previously fought with for power in #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "#SyrianGovernmentForces conducted response #airstrikes on #terrorists positions in #KhaushDaura district [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Michigan teacher pension fight ruffles union feathers [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: Are #Haftar's troops trained by the \ud83c\uddfa\ud83c\uddf8 #US ? Op-ed by @USER [url] #Libya #Sarraj #GNA #Turkey #Blu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Seattle City Council votes to defy Trump immigration order [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Militants of terrorist groups constantly arrange provocations by shelling the positions of Syrian government forces in western Aleppo . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Davos should get real or close shop [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Durban highways blocked by refuse trucks - [url] Striking eThekwini municipality water and sanitation department employees have been joined by Durban Solid Waste workers . Today , they trashed rubbish bins leaving streets littered with garbage . The drivers b ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "The new voter registration date for the next presidential and legislative elections in the #CentralAfricanRepublic has been set from June 26 to July 15 , announced Marie-Madeleine N'kouet Hoornaert , the president of the National Electoral Authority . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : I dreamt when my man was leaving me for a babe who had bought him PS5 , so I woke up today determined to at least find out th \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "In #war , everyone is looking for their own #benefit . #Leader #Ahrar al-Sham Ali Basha uses the #Turkish #army to get rid of competitors in the province of #Idlib , and single-handedly lead the #forces of the #FreeSyrianArmy in the region [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "@USER Hi bro when are you posting the lockdown extended workout plan ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER =: I will be tuned in @USER #NTVtheBeat [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "Donald Trump : \" We wanted to bring the soldiers home , but we decided to leave them to protect the oil because I like oil . With these words , the American president recommended the withdrawal of the American contingent from the oil fields in #Syria . #SyriaOil #USMilitary [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Justice/Crime. Use 1 or 0 as output.",
+        "input": "RT @USER : Money won't make you happy but everybody want to find out for themselves . Enjoy ya weekend !",
+        "output": "0"
+    }
+]

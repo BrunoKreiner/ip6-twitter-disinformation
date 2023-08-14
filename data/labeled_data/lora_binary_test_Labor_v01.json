@@ -1,0 +1,282 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : US taxpayers subsidizing Amazon employees because Amazon refuses to pay US workers a living wage ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "City of Tshwane launches Youth Month - [url] Nonhlanhla Jele The city of Tshwane officially launched its Youth Month at the state theatre in Pretoria on Tuesday with the objective of helping young people from the City , to do better in business and other area ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "The workers of the US should look to popular mobilizations in Latin America for inspiration . Chavez , Maduro , CFK , Nestor , Evo , AMLO , Castro and others offer us a vision to emancipate the people and break the chains of the workers .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Several hundreds of employees are about to lose their jobs after Cavmont Bank announced shut down of 4 of its 19 branches . The branches in context are the Industrial Area , Mpulungu , Mwense and Mufumbwe . #CavmontBank #shutdown [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Tshwane Metro Bus drivers are on strike , demanding an 18 % salary increase . The protest affects several routes in Pretoria CBD . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": ". @USER pledges strengthen and adequately recapitalize Uganda Development Bank ( UDB ) to avail affordable long - term credit to those investing in commercial agriculture , tourism , mining and manufacturing . #M7UGsChoice this means easy access of capital . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Why Hollywood's writers might be headed for a strike [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : #EnVivo | Day of productive work with the peasant sector , in the framework of the Great AgroVenezuela Mission . #Soberan\u00edaAgr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "The #Syrian government is doing everything possible to make it easier to live for the refugees who managed to escape from the #Rukban camp . They are provided with jobs for adults and places in schools for children [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "#HTS #fighters and their affiliated groups fight not for #idea and #faith , but for #money . A source close to the #terrorists said the #militants have lost a significant part of their money reward for losing control over #KhanSheikhun . #Idlib #terrorist #HTS #Syria #SAA #Hama",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Many men in the #alRukban camp are forced to join the #US-controlled #MagavirAlSaura units due to the catastrophic situation of their families . So , in addition to money , better conditions are immediately provided to families that have recruited [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : 7 reasons why the minimum wage should be $ 15 an hour . Sign the petition . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Workers of the world with Venezuela !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "SA Department of Labour to verify NMW implementation [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : A working person in Iraq is a working person is Texas is a working person in Berlin ; war is the desire to kill this tr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Meanwhile Trump and Macri are billionaires who are hell bent on screwing the people of the US and Argentina respectively . @USER is a people's president fighting for the workers . He could eat steak every night and that FACT wouldn't change .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Durban highways blocked by refuse trucks - [url] Striking eThekwini municipality water and sanitation department employees have been joined by Durban Solid Waste workers . Today , they trashed rubbish bins leaving streets littered with garbage . The drivers b ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Zambia-based French fries company to begin production in 2019 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : Among 100 CEOs analyzed , 11 made more than 1,000 times median employee pay ( Tesla not included in chart because it would \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : Huge US unemployment unnecessary ! US could hire millions to make jobs safe ( by testing , redesigning , disinfecting , etc . ) . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "#Militants operating in the #Idlib zone are leaving the ranks of the groups because of reduced cash payments after they were unable to retain control of #KhanSheikhun and surrounding areas . #Idlib #terrorist #HTS #Syria #SAA #Hama [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Employees haven't been paid for 2 months due to the low income . The employees clarified that the revenues mainly come from the KCM land rates supplemented by the governmental payroll grants . Thus , since the liquidation process began , the mine has not been receiving land rates .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Is it summer where you live ? Do you feel like just going outside is a chore because of how hot and uncomfortable it is ? Imagine working for 8-16 hours in a warehouse doing heavy lifting with NO A / C in this weather for sub-par wages . This is the source of bezos wealth - parasitism . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : BITTER TRUTH : 88.9 % of pussies here in Africa / Nigeria is been :eggplant: :peach: :sweat_droplets: with money one way or the other . ( money influence th \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "A motorcycle was blown up at a market in #Suluk village . Three civilians were killed and four were admitted to the town hospital with shrapnel wounds . The terrorist attack is suspected of pro-Turkish groups that share business with each other . #Syria #Raqqa #SNA [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "@USER Labba what's bothering you this early morning :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: :beaming_face_with_smiling_eyes: . Being poor & idle is a disease",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "acting not in the interests of the #Syrians , but in the interests of those who pay them .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Without the written permission of the Directorate General for Migration of the \u201c Government of Salvation \u201d , the checkpoints cannot be crossed . Any movement between settlements is also forbidden . Every man can at any time be mobilized into the ranks of militants or forced labor . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Schumer Throws Hillary Under the Bus BUT Accidentally Throws Himself Also ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Why the red car ? #KutamaLife @USER =",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Wisconsin Recount Update : Stein Spends 3.5 Million Dollars to Find 84 Votes for Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "David Squires on \u2026 Claudio Ranieri's sacking and football's ' lost soul ' [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : #TweetRequest | What music videos would you like to watch on MTV Base ? Tweet us NOW with the hashtag & name of vid :front-facing_baby_chick: htt \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "White House defends Trump Holocaust statement that didn't mention Jews [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Morning Joe Brags About Leaving GOP on Twitter , INSTANTLY Backfires ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "A #Chinese General explains why the \ud83c\uddfa\ud83c\uddf8 #US will not be able to defeat \ud83c\udde8\ud83c\uddf3 #China Western globalization is already a thing of the past , the general suggests . [url] #QiaoLiang #Asia #UnitedStates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "@USER @USER I dont waste my time with pple who can't read . Save your ignorance and energy for sex and comical tweets",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : Do you need to refresh your Vue.js basics ? Then we have just the thing for you . This article by @USER walks you \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "The secondary school pupils from all around the country have taken part in the finals of a Chinese language proficiency competition Chinese Bridge held on Friday at the Confucius Institute University of Zambia ( UNZA ) . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "James Woods Obliterates Chelsea After She Attacks Trump's Harvey Response ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Spanish protest after young boy's body is washed up in C\u00e1diz [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "The hidden policy of Turkey leads to an increase in clashes between pro-Turkish and radical groups . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Sentence to 17 - year-old pupil : he is to be jailed for 10 years [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Pickup truck and a mobile gas station on the outskirts of #Akerbata were destroyed as a result of #Russian #AirForce strike [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : When I make a ' mad ' tweet only for it to garner one like and zero retweet after six hours . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "This msg is directed to the #nationaluselessplatform Who are the drug addicts.should say no to such idiots @USER @USER @USER @USER @USER @USER @USER @USER @USER = @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : America's war on poverty ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "#mar RT Voices 4Humanity : Trey Gowdy Proved Collusion Between Clintons And DOJ [url] via Clear Politics #just",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "In Eastern #Ghouta #Syria #militants gives out respirators to civilians due to the new preparing provocation [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "VIRAL ! Hillary Gets Epically Trolled During Her Book Signing ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "The fact that the first Turkish cars were missed was testified to the fact that the explosion was prepared by pro-Turkish militants of #Idlib .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "\u201c It is an oligarch-driven corporate answer to climate change and inequality and a wishlist for the neoliberals who still control the core of the Democratic Party . \u201d",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Pro-Turkish militants , in the Mambidge de-escalation zone , are trying to provoke Syrian army soldiers into the outbreak of an armed conflict . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "Gauteng MEC : Lesufi to finance , former Tshwane Mayor to economic development - [url] Gauteng Premier David Makhura has made known his executive council for the sixth administration , which includes a few young leaders . On Tuesday Makhura postponed the announc ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "RT @USER : MY OPINION @USER @USER @USER @USER @USER @USER @USER @USER \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Labor/Employment. Use 1 or 0 as output.",
+        "input": "xxxcom 01 Not resisting here ... but I'm not retreating either ... I play the hand I'm dealt ... #SouthernWoman",
+        "output": "0"
+    }
+]

@@ -1,0 +1,432 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Brigadier General Henri Wanzet Linguissara promoted to the rank of Major General . Major General thanked the President of the #CentralAfricanRepublic for promotion and reaffirmed his dedication to the service . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "agreatercountry realDonaldTrump seanhannity Think Ana . U find yourself w / cancer . Socialist health care tells U t \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #ste Trump Cracks Down on Food Stamp Fraud and it INSTANTLY Does Wonders ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "People eat from trash can in #Idlib [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "JUST IN : Liberal Celebrities Hold a Pre-Oscars Anti-Trump Protest [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER Amen",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#top RT 614swat : If your :beating_heart: stops beating you're declared dead . So when it starts beating why aren't you declared alive ? Pregnancy isn't a m \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Jogn W . Fredericks , writer from Cape Flat , died at the age of 73 . He has been fighting a cancer , and passed away peacefully on Sunday . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "I was raised Catholic and still consider myself so ; but please , is @USER or any of these cronies were real Christians they would be socialists . Science has an amazing track record in fighting diseases ..",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "R18 billion annual turnaround for traditional medicine - report [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "VIDEO : Jeff Sessions to MS - 13 \u201c We're Coming For You \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : I am SUBSTANTIALLY LOWERING MEDICARE PREMIUMS . Have instituted Favored Nations Clause and Rebates on Drug Companies . N \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : .. The protective gear materials bought frm JMS include ; gloves , detergents , masks , aprons & boots for the frontline he \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \" Resources should be allocated to saving lives , giving security to families & giving true Christian Love to humanity \" . Co \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Is a false choice noted @USER between \" Social Isolation or economy \" . The US - which denied the severity of the pandemic and did not promote quarantine - has the highest number of deaths and also millions of unemployed . Industrial and media corporations lie . @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Russian servicemen donated 1,300 food kits to residents of Kadiriya and Misraba settlements #Syria #Hama \ud83c\uddf8\ud83c\uddfe \ud83c\uddf7\ud83c\uddfa [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : As we continue with our push for improved infrastructure , I will officiate at the ground-breaking ceremony for the cons \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER They wouldn't be bringing their children parading for vaccination like this :backhand_index_pointing_down: :backhand_index_pointing_down: Mind you \u201c health is wealth ! \u201d #MRCampaign19 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Another humanitarian action carried out by #Russian servicemen in #Hasake province in #Uweija . The #Russianmilitary police handed over 500 food packages to needy families in Syria . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Newt Gingrich Explains Why Trump Came Out On Top Against The NFL [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "[url] Rewind 05/2017 | Iran is reportedly building a third underground missile plant [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Capitalism continues to destroy the lives of the working class everywhere it is tried : even in the most wealthy of countries .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Many don't realize the articles tracking \u201c Russian bots \u201d are obedient stenography from a think tank run by Kristol , Chertoff \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Laila al-Ghandour , an 8 months old baby , was declared dead past last midnight due to teargas inhalation yesterday in Gaza . The \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The prisoners of the American refugee camp #Rukban have not received food for 5 months and cannot leave the camp [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Refugees who returned to the eastern districts of Deir Ezzore received medical care from Russian military medics #Humanit \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : State Minister in charge of Primary Health Care , @USER has officially discharged one patient from Adjumani Hospit \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump Debunks \u201c 2nd Secret Meeting with Putin \u201d FAKE NEWS [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER Who's this guy ? :flushed_face:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Province of #Homs , Hayat Tahrir al-Sham terrorists threaten to kill all the relatives if men refuse to join the milita \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER Situation in Rykban is horrifying . Scarce supplies of food and water are nearly over , and US and their precious NSA cutthroats still wond let syrian humanitarian aid pass to the camp . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Other times terror attacks targeted children [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "As soon as the #Americans left #Hasakah , the #Kurds began to suffer heavy losses in Al-Suvar [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Humanitarian assistance from the Russian military came from the first days of the Russian participation in the Syrian operation . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Why dont you talk about the future of Africa ? - president @USER asks @USER journalist [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The checkpoint Abu Dukhur works as usual . Everyone who left #Idlib province through this checkpoint is provided with warm clothing , food , and medical care . #Syria #Abu_al_Duhur #Help [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "These efforts of prevention have given us good results , we have been testing people every day starting on the 21st of March . Up-to now , we have tested a big number of people , the positive ones are only 79 , the negative ones are 12,389 . #M7Address #COVID19UG #StaySafeUG #StayHome [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: ! ! Beasts ! ! Mass murder of children by Erdogan's terrorists . Eight children and two civilians were killed in Tall Rif'at \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Crossing the border into Trump's America [url] \u2014 Salon ( Salon ) August 3 , 2017",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : For more see the following article / video on the @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER + DVWUmFdUd 5OwJIo =: The smile by the next president @USER & our current fountain of honor @USER #MuhooziOurNextPresiden \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \" More than 42 percent of the 9.5 million people diagnosed with cancer from 2000 to 2012 drained their life's assets wit \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : It's almost bed time for some of us . Just a reminder , sleep under your nets . Malaria is a killer disease , take preventive m \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : American journalist @USER from the hospital in Syria's Douma : We've talked to doctors , a surgeon , nursing staff and \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : American citizen : * dies because of lack of afforable healthcare * world's wealth : * seized by global oligarchs * wages * not gro \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : A leader par excellence - exemplary in all his ways . Masked , socially distanced , no handshakes ... i am truly proud of my Pr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":bell: The financial squeeze on India's farmers is set to worsen because of record high fuel prices and surging costs of fertilisers , posing a challenge to Indian Prime Minister Narendra Modi in an election that must be held by May #India #Modi #farmers",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Former Contra leader in NY Times : \" the contras burn down schools , homes and health centers as fast as the S \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Really ganja is a bitch how can u lay ur hands on the police officer yet you know they have a gun . #NationalUselessPlatform #NationalUselessPlatform #NationalUselessPlatform @USER + vjtCMtDejmMJ 1XZXAyduXbW0BgRnl38KGQF2Q5L0 = @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Zambia mourns over Veteran sports administrator Kalenga's death - [url] Mwamba Kalenga , the former Zambian Sports Council chairman , has passed away at Chingwerere clinic in Lusaka . The veteran sports administrator , who was widely known not only for his famou ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Avoiding certain people to protect your emotional health is not weakness , it's wisdom :sleepy_face:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#sted RT AnnCoulter : CNN : \" Why Won't Trump Stand Up Against Hate \" He does . He stands up to CNN every day . #justo",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Valdai\u0421lub's program director Oleg Barabanov ponders if the #coronavirus spread can help develop the global community as a single social system . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The tobacco industry then peddles their products to the working class . It is a form of capitalist genocide . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "are getting great medical treatment as of today Uganda stands at 4,033 total recoveries out of 8,017 confirmed cases ... #256Health [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Chiengi Man attempts to trade his son for boat , gets arrested in result - [url] Chiengi District police detained a 47 - year-old local man accused of human trafficking . The resident allegedly decided to sell not just some random person but his own 13 - year-ol ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Gov't is Undertaking Possible Measures to Reopen Places of Worship , Arcades , Bodabodas \u2013 @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#chappTRAITOR California \u201c Republicans \u201d are Defying Trump's Obamacare Repeal Agenda ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER New evidence suggests #coronavirus may have originated in the \ud83c\uddfa\ud83c\uddf8 #US [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "One more speaker will join our online discussion \u201c Combating #COVID19 in Conflict : The Syrian Experience \u201d - Fabrizzio Carboni , ICRC Regional Director of Operations for Middle East and North Africa region Live broadcast begins on May 19 at 15:00 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : 3 patients who were positive for COVID - 19 have been discharged today from Entebbe Grade B Hospital at an event presided \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : I dont know who needs to read this but \u201c Be happy for other people cos your Time will come \u201c :collision:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Russiandoctors continue to provide medical assistance to refugees who return home to the eastern regions of the province of #DeirezZor #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : 60,000 people starved to death yesterday , murdered by the greed of all those who aspire to join the sick capitalist class .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Kurdish self-defense units under the auspices of the #US continue to regulate the #oil production on the left bank of the #Euphrates in order to ensure the economic isolation of #territories under their control .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "On November 4 , 2018 , another humanitarian action took place , the Russian military distributed 300 food sets with a total weight of 1.3 tons per settlement . Harasta-el-Basal ( northeast of Damascus ) . Help was received by the most needy residents . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Stop checking your phone every minute , no one is thinking about you . :rolling_on_the_floor_laughing:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #TPPA kills , literally . Most won't be able to afford essential meds . [url] #HIV #AIDS #AIDS2014 #FairTradeN \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Now it is hot , we have to stay outside in the sun and to work , and there is no water . Sometimes they bring water \u2013 one liter per person for 3 days . People just faint away \u201d . #Syria #Rukban",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Got a COVID test today .. very painful and uncomfortable ... I am very prone to ear and throat infections and problems so I'm hoping the white spots on my throat mean it's just strep ... again .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The National Covid 19 relief task force received 25 vehicles to help in #Covid_19ug related activities across the country which were flagged off by H . E @USER . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER Wapi as you can see all over the world a good example is the USA the nation will always vote seasoned leaders who have learned so many lessons along the way not chaps Bobi who woke up yesturday [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The population is in dire need of humanitarian aid and basic necessities , and people are on the verge of survival . #Syria #Euphrates",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Jebhat al-Nusra fighters in the town of #Argila , near #Aleppo , preparing drone attacks . A source close to the militants said that a militant Abu Ghani had already gone to an aircraft storage facility yesterday to prepare them for work . #Syria #Nusra [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Turkey demands #Damascus and #Moscow to comply with the #Idlib agreements , but does not comply with them itself . Thus , the #Turkish-backed mercenaries ' formations again fired with artillery on the #Syrian_Army position in the southern part of the #Jabal_al_Zawiya ridge . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER = @USER Indeed he has also supported many as they aspire to change their livelihood from less to greater . He's a pride to our generation and a true manifestation of the continuity of the NRA ideology from generation to generation",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Toxic sludge in Parys reservoirs becomes gravely dangerous [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Coronavirus : The Empire Strikes Back [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Seeking the emancipation of the working class from the unholy trinity of Rent , Interest and Profit we require the aid o \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "True . And the doctors are certainly right . To call a credible prediction a \u201c threat \u201d or \u201c coercion \u201d is nothing but media propaganda .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The epidemiological situation in the #Al-Rukban camp is catastrophic . But this stubbornly do not want to notice the countries of the American coalition , in which the military base \" Et-Tanf \" is located next to the refugee camp . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "White Supremacism And The Earth System [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "In \ud83c\uddf0\ud83c\uddfc #Kuwait During the call to prayer , an emotional #muazzin now says : \" Pray at your homes \" instead of \" Come to prayer \" . This is a big for #Muslims , as it only happens in exceptional circumstances . It shows how serious authorities take #covid19 threat . Via @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Harry Reid : \u201c You get rid of Obamacare , people are going to die . \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#LanataForro of Magneto , Macri and the gringos \ud83c\uddfa\ud83c\uddf8 Insulting the intelligence of 44 million Argentines blames @USER of the economic consequences of the pandemic They build a common sense that articulates with their rotten economic interests",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Did u know COVID symptoms are the same feelings u get whn yur GF or wife is checking yur :mobile_phone: Body weaknesses , difficult in \u2026",
+        "output": "1"
+    }
+]

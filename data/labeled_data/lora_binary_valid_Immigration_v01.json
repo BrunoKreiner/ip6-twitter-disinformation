@@ -1,0 +1,407 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "BREAKING : Obama's BFF Bill Ayers Helped Organize Violent Anti-Trump Protest In D . C . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "After House Republicans Obliterated Obamacare , Democrats Started Singing This Song \u2026 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "For out of the camp militants usually require about $ 1,500 per person . Of course , the refugees do not have such money , and there is no access to medical care . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Historic drama ' Underground ' reflects on state of US [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Migrant Crisis is Pushing Europe to the Brink of Civil War [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Representatives of The #Russian Centre for Reconciliation of Opposing Sides and #Refugee #Migration Monitoring held an \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Avoid drugs , there's nothing cool about becoming an addict to chemicals and powders .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "BREAKING : Denmark SUSPENDS Taking in Refugees ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "President of the #CentralAfricanRepublic Faustin Archange Touad\u00e9ra has launched the project to support the #agricultural revival and the development of agribusiness to ensure #foodsecurity for the people of the CAR . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "#Refugees returned to the eastern districts of #DeirEzzore received medical care from #Russian military medics [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "\u2018 The refugees of camp Dumeir are not ready to return home ' [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "HS Basketball Game Tradition Seen As Racist When Student Body Turned Backs On Visiting Team [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : \" No human being is illegal . \" RT @USER : Marching to end deportations rally in Denver . #not1more #2million2many [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "A large number of # Syrian refugees flee from the horrors of the war from the province of #Idlib , where the radical groups operate . Tired of the war , people come to the #Syrian provinces , which are under the control of government troops and in which a peaceful life is established [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "#Russiandoctors throughout the day helped 28 civilians who return home to the eastern regions of the province of #DeirezZor [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "VIDEO : Massive Chaos at U . S . Border as Hoards of Haitians Seek U . S . Asylum [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : 10 days left until #Seattle minimum wage goes up ! @USER @USER @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER presenting the Most downloaded Male artist award to @USER ' s brother #MdundoAwardsUg #MdundoMusic #Ge \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Raising the #SyrianFlag for the first time in the middle of the city of #Raqqa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Ambition is pitiless . Any merit that it cannot use it finds despicable . Good morning to my 800 followers .. :smiling_face_with_smiling_eyes: :smiling_face_with_smiling_eyes: :smiling_face_with_smiling_eyes: :smiling_face_with_heart-eyes: :face_blowing_a_kiss:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "\u2018 Tyranny of Political Correctness ' Forced Boy Scouts to Allow Girls to Join [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Last week , my children and I finally got out of #Rukban and I'm happy that we managed to stay #alive after all we've been through .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Residents of #AlBuseyr , infuriated by the terrible standard of living , the despotism and corruption of the #YPG leadership , stormed the building of the people's assembly of self-government . Desperate protesters demand from the YPG to resume negotiations with the government . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "You live longer once you realize that any time spent being unhappy is wasted .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Much became clear after the statement of Amin Avad , Director of the Bureau for the Middle East and North Africa of the Office of the United Nations High Commissioner for Refugees , at a conference on the problems of the Middle East in Washington ! ! ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Most likely , the news about the alleged use of #chemical_weapons by #government_troops can be expected in the near future .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "The Latest : US Trump supporters pleased with travel ban [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "The United States is not able to fight terrorists , and there is no particular desire . They made a resort for them in the territory under their control , where they can relax , gain strength and equip themselves . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "#Zambia : Local news reporters hold protest , demand to pay their salary arrears [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Delegation urges border officials to comply with court order [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "New lies from #WhiteHelmets terrorists . Images from Jabal in southern #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": ":globe_with_meridians: Net migration of European Union citizens into Britain fell to its lowest level since 2012 in the year to March , but this was more than outweighed by a record influx of non-EU citizens ahead of Brexit , official data showed on Thursday #UWI #EU #Brexit #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "\ud83c\uddf7\ud83c\uddfa Ekaterina Arapova , Director of the Sanctions Policy Expertise Centre : Preference should be given to development of critical digital infrastructure in developing countries to avoid growth of global inequality @USER #GlobalSolutions",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Militants \" Dzhebhat al-Nusra \" , raids on areas liberated by Damascus , which does not allow refugees of Er-Rukban to return to their homes . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER + UVxH 0NdxvC9b4HHO + aA9Y =: In #Hasaka , 600 people led by the governor and local #tribal sheikhs gathered in the presidential site to #protest agains \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "The Return of Venezuelan Migrants : Portrait of a Scam in Times of Pandemic [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "2018 Elections in #Italy : No government will be able to cope with the migrant surge [url] #migration [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Uganda's Electricity sub-Sector has grown from 3 Generation Plants in 2001 to over 40 Plants and is still growing . Total Installed Generation Capacity has grown from 60 MW to 1237.49 MW as of October 2020 & will rise to 1837.49 MW by mid - 2021 #WhyUGDecidedM7 #UgInfrastructure [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : The NYPD has violently assaulted black New Yorkers this week . For not paying $ 2.75 to ride the train . So thousands of N \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "They also urge the United States to skip the humanitarian convoy and open a green corridor for the withdrawal of refugees from the territory of the Rukban camp . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Trump orders meat-workers to risk their lives . Trump does NOT order employers first to make workplaces safe . A crashed US \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Over 60 thousand inhabitants of the suburb of #Damascus East #Guta returned to their homes from refugee camps #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "US judge bars deportations under Trump travel ban [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Refugees who returned to the eastern districts of Deir Ezzore received medical care from Russian military medics #Refugee \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump is Putting a 20 % Tax on Imports From Mexico to Pay For THE WALL [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Guys who meet up on Grindr are 25 % more likely to get gonorrhea and 37 % more likely to get chlamydia [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT ArmyChiefStaff : The Army doesn't tolerate racism , extremism , or hatred in our ranks . It's against our Values and everything we've stood \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Christie calls rollout of Trump immigration order ' terrible ' [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Blasphemy .. I turn on ESPN for sports , not to have heterosexuality forced down my throat . Disgusting [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Xenophobic people , you know the idiots whose idea of politics is blaming immigrants for every single thing .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Many residents in #Syria are turning to the leadership of the country with a request to help get their relatives out of the #Ruhrbahn camp , which is located on the territory controlled by the #Americans [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "HTS insurgents shelled Zafar al Kabeer of the Idlib governorate #StopTerrorismInSyria #StopHTSinSyria #WeAreTheLove [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Drunk man crashed his car into the police station [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Where is this convoy ? #West If u don't want to help #Rukban , let #Syrians do it ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Have a nice evening ! #CAR #Touadera #Peace [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "BREAKING : Another BIG WIN for Trump on Deportations ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Robbers tied hands of domestic workers and stolen property [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "BLOOD ON HER HANDS : Merkel's Open Borders Blamed for Refugee Truck Terrorist Deaths [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : U . S . Urges Uganda to Repeal Anti-Gay Law [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Whoopsie ! Unpopular Chancellor Angela Merkel Prepares to DEPORT 100K Migrants from Germany [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Kaepernick Takes Shots at NFL Commissioner Roger Goodell Over Protests [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "The Zambian police have launched a manhunt for three suspects who allegedly gang-raped a first-year Catholic University student . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Bankrupt Ukraine Announces $ 3 Billion Increase in Military Spending - - News from [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "The #US is purposefully doing everything to worsen the humanitarian situation in #Rukban , and then blame #Russia and #Syria for this [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Hundreds at Minneapolis airport protest immigration order [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Trump Admin TRASHES Obama's Transgender Soldier Policy [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "Effingham shacks on fire : firefighters on scene - [url] fire in Durban informal settlement burnt at least 22 shacks to the ground , eThekwini Fire and Rescue service officials said . \" Members of the fire department were scrambling to get down an embankment to t ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : This #ObamaSpeech can basically be summarized in one word : ' Murica !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "South Africa was elected as the African Union chair for 2020 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : According to Cornel West , the American educational system continues to be extremely racist in the way it teaches slavery .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "VIDEO : Judge Jeanine Calls \u201c Recount Hillary \u201d Out for the Anti-Democracy HYPOCRITE That She is [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "What kind of fight against terrorists say the United States , if in the territory controlled by them terrorists feel like at home . Innocent refugees from the Al-Rukban camp are suffering because of them . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "A repatriation flight from Bangui M'Poko International Airport , #CentralAfricanRepublic , for the U . S . citizens is scheduled for April 19 . The approximate cost of this flight is $ 1,774 . It is unlikely that there will be another repatriation flight organized by @USER . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "The Central African Republic can boast gender equality in the field of politics . Look at our female politicians . Beauty and intelligence ! #CAR #genderequity #politics #GirlPower",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Hunt on #ISIS : Muslim \" Turan \" battalion Special Operations Forces #SOF killed terrorists #Palmira #Homs #Syria Russia #ISIL \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : How Israel and Its Partisans Work to Censor the Internet [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "After Being Polite Day One , Merkel Finally LASHES OUT at Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "RT @USER : Powerful missile of militants exploded in Ruken Al Din . \" Democratic \" terrorists forces renewed targeting residential neighb \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "As a result of the actions of militants in the zone of de-escalation , the civilian population suffers , according to the #refugees from Foaa and #Cefraya , a critical humanitarian situation has developed in the besieged enclaves ( based on interviews of refugees who left for #Aleppo [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "#mari VIDEO : Watch Eric Bolling SLAM RINO Traitors McCain , Flake , Graham [url] #mar [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Immigration/Integration. Use 1 or 0 as output.",
+        "input": "This #humanitarian_aid as a drop in the bucket ! Life of #refugees in #Rukban will not be better ! #UN doesn't solve problems with #medical_care , with violent of #MugavirAlThawra #militants against #refugees and many other problems !",
+        "output": "1"
+    }
+]

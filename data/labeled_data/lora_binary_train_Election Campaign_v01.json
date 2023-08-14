@@ -1,1072 +1,1062 @@
 [
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Trump's election calls into question numerous theories about how voters in the United States make decisions [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The government of the #CentralAfricanRepublic and the European Union have signed an agreement on election financing . The European Union has donated 15.5 million euros . #Elections2020 #EU [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : To call it digital is a misrepresentation . The only issue #COVID19UG limits r rallies . Candidates will hv 2 use more \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Prime Minister Firmin Ngrebada received on 30 September Mr . Mankeur Ndiaye , the Head of #MINUSCA . The main focus of the meeting was the election process in the #CentralAfricanRepublic . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "VIDEO : North Carolina Mom and Hillary Supporter Changes Her Vote to Trump [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The National Elections Authority of the #CentralAfricanRepublic announced that the first delivery of voter cards is scheduled for the first days of December . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Breaking Poll Shows Clear Frontrunner in Strange vs . Moore Alabama Race [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "They only want elections if they can pervert them to ensure fascists and capitalists win . They wanted elections in Venezuela and when they lost they scream fraud . Nicaragua and Venezuela are on the side of the people ! The popular revolutions continue ! [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : How low has President Obama gone to tapp my phones during the very sacred election process . This is Nixon / Watergate . B \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Moscow mayor surprises Russian #opposition by calling election [url] #Russia #Sobyanin",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Campaign regulator can remain until replacement is confirmed [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Ramaphosa officially sets elections date in SA [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER I think you take a chill pill for now and let the bazukulu enjoy this conversation in peace #M7UGsChoice",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": ":triangular_flag: Far-right lawmaker Jair Bolsonaro has won Brazil's presidential election . He won 55.2 per cent of votes in the run-off election against left-wing hopeful Fernando Haddad of the Workers Party's 44.8 per cent , according to electoral authority TSE #Brazil #elections #bolsonaro",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "A donation of the electoral kits was given to the #CentralAfricanRepublic from #SouthAfrica . These kits consist of ballot boxes , polling booths and satellite phones , intended to support the functioning of the presidential and legislative elections of 27 December . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "President Mnangagwa urged for calmness in Moz amid election results counting . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Love to Venezuela today as they head to the polls for the 2nd time this year . I have no doubt that the people of Venezuela will reaffirm their confidence and love for Chavez , Bolivar , and Maduro . A victory for the @USER . Viva Chavez ! A Victoria !",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The posting of provisional electoral lists began in the #CentralAfricanRepublic this Wednesday , October 14 . The posting began in Bangui and in some cities of the interior of the country . The National Elections Authority has set a five-day deadline for litigation . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : This is amazing . I don't believe an actual free election will take place under the current dictatorship in #Bolivia but it's c \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "A training for police officers on the security on polling stations is held in Bangui in the #CentralAfricanRepublic . The participants conducted practical exercises on the management of acts of violence during election and the ways to help vulnerable population . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : We have published over 100 articles on United States involvement in the coup of 2016 , Lula's imprisonment , and election of \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER He has the support that's all i can tell you . Lets wait for 2021 elections",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : President Trump teased a potential 2024 presidential bid at a recent White House holiday party . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The change of power in African countries should happen in accordance with constitutional norms and election results . However , these provisions are often violated in one way or another . #Zimbabwe . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "NEW POLL : Hillary is STILL LOSING ! [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "Does he have a great respect for the LGBT + people who voted for Maduro in free and fair elections ? What about any of the LGBT + people harmed by his puppet masters sanctions ? What about the thousands of LGBT + people in @USER , @USER , @USER and all other left orgs ?",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Uganda is the pearl of Africa , with a symbol of peace and this peace needs to be preserved for the generations to come . Do not be lured into destroying our peace by those who are bent to sell our country , those who have no love for our motherland #SecuringYourFuture #M7UGsChoice [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#Russiandoctors continue to provide medical assistance to refugees who return home to the eastern regions of the province of #DeirEzzor #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Teacher : What's the opposite of Antibiotics ? Student : Unclebiotics . Can't laugh alone , laugh and pass to others . htt \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : \" #Venezuela ? We tell you that we are with you . Its a popular government , it was elected by the Venezuelan people . \" - Pres . \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": ":briefcase: Afghanistan's president on Tuesday dismissed the election commission leadership with amended election law #ghani #afghanistan #elections #taliban #politics [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : This is amazing . I don't believe an actual free election will take place under the current dictatorship in #Bolivia but it's c \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT diamactive 2001 : Let's get Gitmo prison ready for all those calling for assassination of our legally elected POT \u2026 [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Zimbabwe's opposition party , Movement for Democratic Change ( MDC ) led by Nelson Chamisa says the time is not yet ripe to confront the ruling ZANU PF government . [url] [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#M7UGsChoice #SecuringYourFuture The only tested and visionary leader ... Mzee pakalast",
-        "output": "1"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Trump SMASHES Obama's Weak Cuba Policy , Puts Castro \u201c On Notice \u201d [url] [url]",
+        "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "BREAKING : THE STEAL IS ON ! Clinton Camp Demands Russia Briefing Before Electoral College Vote [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "VIDEO : Hillary , if you Want to Know WHY YOU LOST Listen to These Democrats Who Voted For Trump [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The election of the @USER was an exercise in popular power and in direct opposition to fascism and terrorist violence . The valiant and heroic Venezuelan people continue to set examples for the worlds working class to follow ! Thank you @USER ! @USER @USER",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "BREAKING : Iowa Adopts Voter-ID Law [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": ":diamond_suit: \ufe0fUS election scandals , Turkey sanctions , New Caledonia \u2013 weekly outcomes [url] #USA #US #Turkey #politics #geopolitics #newcaledonia #Midterms2018 #MidtermsMatter #MidtermElections #MidtermElections2018 @USER @USER [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : In the midst of great odds #Venezuela moves forward with the #May20 presidential elections . The VA team brings a #EarToThe \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : VOTE for George Galloway ! :newspaper: :red_exclamation_mark: :backhand_index_pointing_right: @USER @USER :check_mark: :check_box_with_check:",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Gulu University is community of change agents whose collective commitment to teaching , learning , research , regional & global engagements stimulates attention & invaluable outcomes that transform persons . Thank you YK M7 for the peace & security #M7UGsChoice #SecuringYourFuture . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "WATCH : Malema rages over IEC staff request - [url] On Wednesday , Economic Freedom Fighters leader Julius Malema came with his wife to the Mponegele Primary School in Seshego , Limpopo , to cast their votes . Both were shocked when Mantwa Matlala-Malema was requ ... [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "ANC on top again in KZN [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Bad News for Liberals Feverishly Trying to Change the Law to Allow Electors to Vote their \u201c Conscience \u201d [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "OFFICIAL : 270 + Republican Electors Confirm Donald Trump As The Next President [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Michigan Voter Fraud Update \u2013 782 More Votes Than People Discovered in Democrat Stronghold Detroit [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Sorry Hillary , Former President Carter Didn't Vote For You [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Patriotic National Anthem Viral Video : You Know THIS GUY Voted for Trump [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Thank you @USER for Empowering the Youth livelihoods . #M7UGsChoice #SecuringYourFuture [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER @USER @USER Wapi as you can see all over the world a good example is the USA the nation will always vote seasoned leaders who have learned so many lessons along the way not chaps Bobi who woke up yesturday [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Tomorrow , Wednesday , there will be an interactive session between candidates vying for positions on the Central Executi \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER Say NO to NUP and Bobiwine violence and criminality #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The general election held in Moz received good reviews from the SADC observer mission which described the event as overall peaceful and consistent . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Trump's voter fraud expert owes US more than $ 100,000 in unpaid taxes [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The Joint Technical Committee , consisting of the representatives of the Gendarmerie , the Police and the MINUSCA , has prepared an integrated plan and a $ 7,384 , 150 budget for all electoral operations , including $ 2,051 , 775 for the security of election in the #CentralAfricanRepublic [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Peace and Security the epitome of development . Thank you @USER for prioritising security #M72021 #MK2026 [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Florida GOP Elector : ' I Get 4,000 Harassing Emails from Hillary Supporters a Day . I mean it's a lot of harassment ' [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": ":optical_disk: Ruling party officially contests Istanbul poll results AK Party's Istanbul head says ' rigs , irregularities ' detected #istanbul #turkey #turkeyelections",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER no part of Ireland should leave the EU",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER + DVWUmFdUd 5OwJIo =: #MuhooziOurNextPresident #MuhooziOurNextPresident SALUTE [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "5 days to go ! #M7UGsChoice #M7Nomination",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Voter fraud debate as divided as America is politically [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : We shall prove them wrong the doomsday sayers and we sail with 75 % . Long live YKM :thumbs_up: :thumbs_up: :flexed_biceps: :flexed_biceps: :folded_hands: :folded_hands:",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "We will not be intimidated or meek . This kind of fascist violence will see itself to the trash bin of history , or we will assist ! The revolution lives on , and this constituent will not have been killed in vain . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Tunisians began voting on Sunday for a new parliament that must address chronic economic challenges . #Tunisia :camera: : Reuters [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Your vote has never mattered more than it does right now . Today is National Voter Registration Day . Go to [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#jan Hillary Rehiring Campaign Aides [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#HumanRights institutions excluded from observing #Tanzanian elections [url] via @USER Southern African Development Community",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Trump : Absolutely No Evidence Hacking Affected Election Results [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Welcome to Uganda \ud83c\uddfa\ud83c\uddec @USER It's Road to #MAMA2021 . #SilentMajority #MyPresidentM7 #SecuringYourFuture @USER \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Exit polls vary on Ecuadorian election results . Some suggest a sweeping victory for @USER . Others suggest a runoff with Las \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Electoral College Voters Granted Police Protection [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "We ask you to #VoteSEVO for these and many other reasons ; that we may steadily continue on this path of progress . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Liberals and democrats are really pathological . Obama did run in 2016 . His campaign was called the Hillary Clinton campaig \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Boris Johnson's enthusiasm for hard Brexit is decreasing : the pressure of the opposition forces in the British parliament is too strong . The German Foreign Ministry sais that this time it would be difficult for London to get another delay . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "PA Sec of State Releases 20 Electors Names , Addresses and Phone Numbers ! [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "\ud83c\uddfa\ud83c\uddf8 \ud83d\udc68\ud83c\udffb \ud83d\udc68\ud83c\udffe The racial card and xenophobia are being actively used in #US politics , especially during election campaigns , notes #valdaiclub expert Andrei Tsygankov . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "BREAKING : The Vote is TOMORROW ! [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Malawi opposition goes to court over election results - [url] Malawi's opposition leader Lazarus Chakwera has rejected last week's results of the presidential elections , saying he has filed for a court order to have the vote annulled , citing fraud as one of ... [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : #Canadians being misled by Foreign Affairs Minister @USER in regard to elections and freedom of press in #Venezu \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "RT @USER : . @USER : Democracy is guaranteed with the votes of the people , not the bullets of hate nor with the violence gene \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Mark your calendar and set your alarm . Get your boots ready to #SecuringYourFuture Vote WISELY , we are shaming haters . h \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER u must accept the truth . m7 is loved allover africa",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Militants from Kafr-Nbud fired at the observation post of government troops with a machine gun and a grenade launcher . Five SAA troops wounded . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The soldiers of the #SyrianArabArmy repelled several attacks of suicide bombers on their positions in the province of #Daraa , forcing #militants to retreat #Syria #SAA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Welcome to Uganda \ud83c\uddfa\ud83c\uddec @USER It's Road to #MAMA2021 . #SilentMajority #MyPresidentM7 #SecuringYourFuture @USER \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#SA2019Elections : Elderly voter dies , five objections recorded - [url] The Independent Electoral Commission of South Africa ( IEC ) CEO Sy Mamabolo said the commission experienced a number of challenges as voting got underway today including a death of a voter ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "@USER Electricity plays a very important role in development and production . In your wise leadership you prioritized the most crucial sectors in prosperity and that's why Ugandans continue to trust you b'coz u have proved you're able . #VoteM72021 #SecuringYourFuture #BeautifulUganda [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Ramaphosa casts his vote in Soweto and expresses confidence about ANC support - [url] President Cyril Ramaphosa expressed enthusiasm about voting and the support he has received from ANC supporters . He addressed the media from a voting station in Chiawelo , S ... [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER no part of Ireland should leave the EU",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Venezuela is heading to the polls to defeat fascism , terrorism , exploitation , capitalism , and the oligarchic , squalid class . Viva Venezuela !",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER =: Pro-Turkish militants are massacring children ! Where are the #US missile strikes ? Where are the #WhiteHelmets ? Where is \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Gauteng : Over 300 healthy babies born on Christmas [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "WATCH : Malema rages over IEC staff request - [url] On Wednesday , Economic Freedom Fighters leader Julius Malema came with his wife to the Mponegele Primary School in Seshego , Limpopo , to cast their votes . Both were shocked when Mantwa Matlala-Malema was requ ... [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : The Democratic Party wants your vote . It just won't give you anything you want , will repeatedly tell you to eat shit , \u2026",
-        "output": "1"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Photos of besieged Leningrad 1941-1944 ( in memoriam ) [url]",
+        "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Donald Trump asks early voters to change their minds [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The vice-president of the National Elections Authority of the #CentralAfricanRepublic , Mr Bernard Kpongaba , explained that to date there are 1,835 , 774 registered with 46.46 % women . The audits eliminated 7,281 duplicates . [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Malta accuses Russia of cyber-attacks in run-up to election [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Justin Trudeau abandons campaign promise to reform voting system [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Alexander Schetinin : \u201c Great countries have political constants . We assume that Brazil is not an exception . The political platform of the elected candidate will determine the specifics but there are political and economic interests that Brazil will push forward no matter what \u201d .",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "DISGRACEFUL : 24 States Attempting to Hide the TRUTH About Voter Fraud [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Politico : British call for radical solutions of Brexit strategy [url] A recent poll from a resp",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "BREAKING : Macron Victorious as France Votes for Self Destruction [url] [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Dianne Feinstein Confirms Hillary Can't Get Over The Election Loss , \u201c She's Hurting \u201d [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "luxury biz suites [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The vice-president of the National Elections Authority of the #CentralAfricanRepublic , Mr Bernard Kpongaba , explained that to date there are 1,835 , 774 registered with 46.46 % women . The audits eliminated 7,281 duplicates . [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "[url] Rewind 05/2017 | Columbia Professor : Trump will most likely be reelected in 2020 [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Hello guys don't let me down plz 500 retweets in 12 hours for 50k :folded_hands: :folded_hands: :folded_hands: plz [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : There are 26 lobbyists to every elected representative in DC . Watch @USER talk to @USER about it here : htt \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": ":Statue_of_Liberty: Are American Polls Suppressing a \u2018 Silent Majority ' ? [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "On December 18 , the Christian Democratic Party ( PCD ) nominated Aristide Brian Reboas for the 2020 presidential election in #Bangui during a congress at the CEMAC Palace . Today he is the first candidate for the next election in 2020 . [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT ThinBlueLR : Mark Levin once said : \" The Senate has become an elected mental institution . \" I would add that it is also the laziest group o \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Mark your calendar and set your alarm . Get your boots ready to #SecuringYourFuture Vote WISELY , we are shaming haters . h \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Trying to Maintain Momentum as Election Approaches , Moscow Protests Again [url]",
-        "output": "1"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "To blame the Syrian authorities for the use of banned chemicals is the goal of the Americans . Then all Syrian cities will be shelled by coalition troops led by the United States . [url]",
+        "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Moz grappled with widely-spread fake materials in their informational space in the run-up to the general elections . Although the winner has already been announced , it turns out the fight for the minds of people is far from being over . Read more below : [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "\ud83c\uddea\ud83c\uddf8 The first left-wing coalition government in #Spain Op-ed by Enrique Refoyo [url] #Elections #Spanish #CortesGenerales #S\u00e1nchez #PSOE #PabloIglesias #UP #PP #VOX #Zapatero #Catalan #Basque #Catalonia #Puigdemont #JxC #ERC #PNV #ETA #BILDU #EU #Morocco #SPEXIT",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Project Veritas Undercover Video Shows NH Election Officials Allowed Out-Of-State Voting [url] [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : The Bolivian military junta has arrested the VP of Evo's MAS party and is hunting high ranking officials of his elected \u2026",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The president of the #CentralAfricanRepublic #Touadera met on September 10 , 2020 former Central African leaders #Bozize , #Djotodia and #Nguendet as part of various consultations related to the December 27 , 2020 elections . #CARcrisis [url]",
-        "output": "1"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "competitiveness of labor force in Uganda's hospitality industry . Once the second phase of upgrade is completed , it will become a center of excellence 4 tourism training . Taking advantage of this sector will improve the country's economy inturn . 2/2 @USER #M7UGsChoice [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Muslims make a pitch for populist vote as Dutch politics turns sharp right [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "According to the Syrian intelligence , military experts assisted terrorists in equipping rockets with chemical weapons [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#laww BREAKING : Bombshell New Details Emerge out of Charlottesville [url] #law [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Moz grappled with widely-spread fake materials in their informational space in the run-up to the general elections . Although the winner has already been announced , it turns out the fight for the minds of people is far from being over . Read more below : [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER @USER There 4 his comment remains personal based on his personal interests not either party stand or of any relevance to Gen MK who's ain't evn a member of his party . Stop being cowards & greedy with egos . Let people enjoy their freedom & if u have political ambitions let Ugns decide",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Public Transportation In US Now Better Deal Than Ever , Thanks To Seemingly Ever-Rising Gas Prices | CleanTechnica [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "[url] Rewind 05/2017 | Columbia Professor : Trump will most likely be reelected in 2020 [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Then . Why . Did . You . Vote . To . Increase . His . Military . Budget ? ! ? ! [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER Happy birthday Afande @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "We ask you to #VoteSEVO for these and many other reasons ; that we may steadily continue on this path of progress . [url]",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "BREAKING : Trump Hauls in $ 42 Million in First Quarter Fundraising for 2020 [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : To call it digital is a misrepresentation . The only issue #COVID19UG limits r rallies . Candidates will hv 2 use more \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "SA political parties to submit their candidate lists until Wednesday evening [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : #Canadians being misled by Foreign Affairs Minister @USER in regard to elections and freedom of press in #Venezu \u2026",
         "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "BREAKING : White House Backs Bill to CRIMINALIZE 20 Week Abortions [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : International Criminal Court rejects request to open investigation into US war crimes and crimes against humanity in Afghan \u2026",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : US military - serving as Israels weapon of mass destruction in the Middle East",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "\ud83c\uddf1\ud83c\uddfe #Libya's High Council of State ( UN-recognized ) , welcomed late Wednesday a ceasefire call by #Turkey and #Russia . [url] #Erdogan #Putin #FayezalSarraj #KhalifaHaftar",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Five years ago we launched the national system of missions and great socialist missions to strengthen the social programs of the Revolution , the legacy of Commander Chavez . Today we ratify the commitment to continue to guarantee the Venezuelan people a dignified life .",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "ISIS field commander's sensational confession : [url] via @USER",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : #JayshAlIslam #terrorists do not release #civilians from Eastern Ghouta despite the #UN Security Council resolution . C \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Major Soweto roadways still blocked while protests go on - [url] police are on alert and armed patrols have been bolstered to monitor the situation since Tuesday morning when locals took to the streets and a protest broke out . Today it was reported that prote ... [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "First coast division ( #FSA ) attacked with mortar position of #JabhatAlNusra near Kanaya in province #Idlib [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "On the same day , this employee promptly leaked the information to Newsweek magazine , Trump handed over the Kurdish allies of America unconditionally .",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER smashing it up with Bimpe @USER #MondayXxplosion #LAFTAZZ TOMORO :right_arrow: \ufe0fCLUB AMNESIA",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Disgraceful Yahoo News Purposely Leaves Out 4 Kidnappers are Black , Victim was White [url] [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "U . K . stock market on longest winning streak ever [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "BREAKING : The Vote is TOMORROW ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "PoliticsFairfax liammannix A Stranger In The House until Barnaby_Joyce does what he said others shld do step dow \u2026 [url] \u2026",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER = @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Good work done @USER & team",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#M7UGsChoice #SecuringYourFuture The only tested and visionary leader ... Mzee pakalast",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#CrazySocks4Docs : raising awareness about depression amongst doctors - [url] Thanduxolo Buti The #CrazySocks4Docs campaign hopes to end the stigma and help curb the high number of depression and suicide case amongst doctors and medicine students . The campaig ... [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : I remember I sent some MUBS girl some money for transport to visit me , after 7 hours she sent me a text saying they got \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":high_voltage: Afghanistan's Taliban has traveled to Uzbekistan to meet with the foreign minister in a show of the Talibans increasing influence in the region . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Afghanistan #Uzbekistan",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Our t-shirt fundraiser will be over before you know it . Order your Rage Against the War Machine t-shirt or sweatshirt b \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : When you can't relate to someone's tweet , kindly skip instead of bringing ur bad energy to it .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The National Elections Authority of the #CentralAfricanRepublic announced that the first delivery of voter cards is scheduled for the first days of December . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER + DVWUmFdUd 5OwJIo =: #MuhooziOurNextPresident #MuhooziOurNextPresident SALUTE [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : HBD @USER . I pray for your good health & plz keep up the energy of promoting #BeautifulUganda . Your tenur \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#Refugees returned to the eastern districts of #DeirEzzore received medical care from #Russia | n military medics [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Opposition Party leader warns of vote rigging in Malawi - [url] Opposition leader in Malawai , Lazarus Chakwera on Wednesday warned the media about attempts to rig the country's election , claiming he is leading as votes are slowly being counted . About one-thi ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Trump : Absolutely No Evidence Hacking Affected Election Results [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "How Much Money Can I Bring Into the United States ? [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Malta accuses Russia of cyber-attacks in run-up to election [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Colorado State Univ : 3 students affected by travel ban [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "HS Basketball Game Tradition Seen As Racist When Student Body Turned Backs On Visiting Team [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "VIDEO : Hillary , if you Want to Know WHY YOU LOST Listen to These Democrats Who Voted For Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER I think you take a chill pill for now and let the bazukulu enjoy this conversation in peace #M7UGsChoice",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : In the midst of great odds #Venezuela moves forward with the #May20 presidential elections . The VA team brings a #EarToThe \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT diamactive 2001 : Let's get Gitmo prison ready for all those calling for assassination of our legally elected POT \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Michigan Voter Fraud Update \u2013 782 More Votes Than People Discovered in Democrat Stronghold Detroit [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "' A . I . already is in so many things , ' Salesforce CEO Benioff says [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The National Elections Authority of the #CentralAfricanRepublic has announced the upcoming launch of registering operations in foreign countries : \ud83c\udde8\ud83c\uddf2 Cameroon \ud83c\udde8\ud83c\uddec Congo \ud83c\udde8\ud83c\udde9 DRC \ud83c\uddf9\ud83c\udde9 Chad \ud83c\uddec\ud83c\uddf6 Equatorial Guinea \ud83c\udde8\ud83c\uddee C\u00f4te d'Ivoire \ud83c\uddf9\ud83c\uddec Togo \ud83c\udde7\ud83c\uddef Benin \ud83c\uddf2\ud83c\udde6 Morocco \ud83c\uddf8\ud83c\udde9 Sudan \ud83c\uddeb\ud83c\uddf7 France \ud83c\udde7\ud83c\uddea Belgium \ud83c\uddfa\ud83c\uddf8 the USA",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The Latest : LGBT group dislikes governor's repeal plan [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : President Trump teased a potential 2024 presidential bid at a recent White House holiday party . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Did You See What Happened At Dulles ? This Makes Me Sick ! [ VIDEO ] [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":Statue_of_Liberty: Are American Polls Suppressing a \u2018 Silent Majority ' ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#top RT asamjulian : Stephen Miller needs more camera time . Brilliant intellect and very loyal to Trump's agenda . #love",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : What happens to the nudes after y'all breakup ? :skull: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT YoungDems 4Trump : Trump doesn't have campaign rallies just for himself . He has them for us . I'm really looking forward to it . I need a br \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The Joint Technical Committee , consisting of the representatives of the Gendarmerie , the Police and the MINUSCA , has prepared an integrated plan and a $ 7,384 , 150 budget for all electoral operations , including $ 2,051 , 775 for the security of election in the #CentralAfricanRepublic [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Trying to Maintain Momentum as Election Approaches , Moscow Protests Again [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Bundles of joy : which baby movie is for you ? [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Tebin : Stable deterrence requires clearly spelled ' red lines ' and emergency mechanisms of deconfliction [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "OFFICIAL : 270 + Republican Electors Confirm Donald Trump As The Next President [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER but you have commented . The president is social and it promotes good ethics",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER + 0QPTliyM =: Military source : at 5 o'clock in the morning several dozen #HTS #terrorists with infantry fighting vehicle and large-caliber \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Uganda is the pearl of Africa , with a symbol of peace and this peace needs to be preserved for the generations to come . Do not be lured into destroying our peace by those who are bent to sell our country , those who have no love for our motherland #SecuringYourFuture #M7UGsChoice [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "In Kafr Naal village , #Nusra attacked position of Nour al-Din al-Zenki and captured their militants . [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "PSiRA ( Private Security Industry Regulatory Authority ) is hosting the first Private Security Indaba 2019 during July 3-4 in Emperors Palace , Johannesburg . #Indaba #PSiRAIndaba #PSiRA [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Former CEO of Prasa Mthuthuzeli Swartz is accused of selling Eastern Cape railway line he didn't own . He has denied any wrongdoing . The matter is postponed to September 6 . [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Over the past week , #TahriralSham militants fired at positions of government troops in the #MAARSHAMARIN more than 32 times",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": ". @USER @USER @USER , ensure that Articles 11 & 12 on girls education get the proper resources to enable #climateaction",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Konstantin Truyevtsev , #valdaiclub expert , takes a look at the immediate prospects for the Middle East in his analytical report . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The Anti-Corruption Unit ( ACU ) officers were chasing one of their own when he got caught under the truck wheels on Thursday . The former officer who had been pursued for allegedly trying to sell a police docket died being hit by a truck . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Obama : The Unlikely War Criminal [url] #ThisIsNotUS",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "For defense industry giants , there's plenty of room in the hypersonic arena [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER =: #Turkish president #Erdo\u011fan and his #Russian counterpart #Putin agree to #ceasefire in #Idlib . Will the ceasefire hold ? Our e \u2026",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Insurgents in the Idlib zone shelled Hama for the third time during a day . Fortunately , there are no victims . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "VIDEO : Diamond and Silk Go After the Anti-American Rioters [url] [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Must Read : The U . S . Cities With the Highest Levels of Income Segregation - @USER , @USER : [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The Venezuelan state created a bank @USER which was specifically designed to attend to those that had been excluded from credit and savings . It is a \u201c bank of the workers , communes , and women \u201d !",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Russia plans to create conditions enabling it to deploy its forces in the #Alawite area of #Syria [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#syria #ISIS gunmen shelled #HTS positions in the #Daraa province . 9 militants #killed [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Exoose them [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "TRUMP WINS ! NFL Surrenders , Tells Players to STAND for the Anthem [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Newt Urges Congress to ABOLISH Russia \u201c Special Counsel \u201d [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER :rolling_on_the_floor_laughing: Funny",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "VIDEO : Massive Chaos at U . S . Border as Hoards of Haitians Seek U . S . Asylum [url] [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "And again #JabhatAlNusra is in #SAA #artillery scope \u2013 several terrorists were injured in #OnkAlJara and #AbuKakhf neighborhood [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Boipuso Today Botswana celebrates Independence Day . The day marks Botswana's Declaration of Independence from the United Kingdom on September 30 , 1966 . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The #SAA units advance on #HTS positions near #Hama . 9 terrorists got killed , the rest are abandoning their positions [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "President Touadera was received in audience by his Angolan counterpart Joao Lourenco at the Futungo presidential palace in Belas . The strengthening of bilateral cooperation between the two brotherly countries Angola and the #CAR was at the center of the meeting . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER =: :speaking_head: @USER , gave an interview on the general aspects of Turkish foreign policy , #Turkish - #Egyptian relations , the latest \u2026",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : If you have ever farted while wearing perfume , you'll understand why light and darkness can never mix :loudly_crying_face: :face_with_tears_of_joy:",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#Trump's election calls into question numerous theories about how voters in the United States make decisions [url] [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Brexit : Significant divide between the political classes and the majority of the population [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Four shops were destroyed while the fifth one was partially burnt in the fire that had started at around 12pm yesterday at Mukuba House on President Avenue . Reacting to a distress call at 12:24 pm , the Ndola City Council Fire Brigade managed to extinguish the fire .",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER @USER he is just stupid",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Author-journalist Hugh Lewin died . Ramaphosa expresses condolences [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "\ud83c\uddfa\ud83c\uddf8 #Washington's wasted efforts in the #EasternMediterranean \ud83c\uddf9\ud83c\uddf7 #Turkey will not surrender its maritime jurisdiction in the Eastern #Mediterranean and #Aegean to imperialism . Op-ed by Turkish Admiral #CemG\u00fcrdeniz [url] #US #Greece #Cyprus",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : I've heard people say Cubans aren't allowed to go to church , which is funny , cuz there was a giant portrait of Jesus in \u2026",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#cic RT MAGA 2020too : Thomas 1774Paine __0HOUR1_ You mean the DeepState bugs Gubbermint buildings ? ? ? gee who knew ... ! ! ! \u2026",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Watch #BuyPersonaOniTunes [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER Smashing it up with Shoulder back @USER SundayExplosion @USER :dvd: :television: \ud8fa\udc3c :musical_score: \udbbc\udc3c ?",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Today in the morning insurgents mortar shelled Ayn-al-Naur . No victims and destructions . No retaliatory fire was opened . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER @USER Terrorists wants to to disrupt Astana process ! ! ! Jebhat al-Nusra is preparing some kind of false flag or weapon provocation ! #crime #syira",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : 4/4 international community must know the truth and avoid to fall into traps of the Venezuelan oligarchy media . Our vict \u2026",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "\ud83c\uddee\ud83c\uddf1 \ud83c\uddf5\ud83c\uddf8 Israel is now experiencing a moment of heightened political , economic , and military power is no excuse to avoid dealing with the Palestinian issue , writes #valdaiclub expert Amos Yadlin . [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#topl RT mitchellvii : While the Democrats obsess about Russia , Trump is solidifying his support in MI , WI and PA with real results . #may",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : In the province of #Homs local residents are increasingly opposed to the presence of militants on their land , urging # \u2026",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The traditional cures threatening Myanmar's wildlife \u2013 in pictures [url] [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Ten ways you can tell if Russia has invaded Ukraine or not - Stop the War Coalition : [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The president of the #CentralAfricanRepublic #Touadera met on September 10 , 2020 former Central African leaders #Bozize , #Djotodia and #Nguendet as part of various consultations related to the December 27 , 2020 elections . #CARcrisis [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Want to #GainWithXtianDela ? #RETWEET , Follow & Mention @USER @USER @USER @USER \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "An expensive area along the south coast of KwaZulu-Natal was engulfed by wind-driven fires on Wednesday evening . The property damage was caused and the residents were evacuated to safety . [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Italian Priest Puts Mary In a BURKA For Christmas to Avoid Offending Muslims [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#Turkey opposes the West in its confrontation with the #Kurdistan Workers ' Party ( PKK ) , causing #Ankara to make certain arrangements with the #HTS as one of the strongest groups in #Idlib .",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "In #Latakia governorate , the positions of #SAA were shelled twice by #militants . One soldier was wounded in the shelling . #Syria #terrorists #terrorism #HTS #Idlib #Hama #Syrianow #Aleppo",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "WATCH : The National Funeral Shutdown group organised a march through the Pretoria CBD on Wednesday . About 70 protesters gathered to bring their grievances to six government departments at the Union Buildings . [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Project Veritas Undercover Video Shows NH Election Officials Allowed Out-Of-State Voting [url] [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Ramaphosa gets a YES from Cosatu [url]",
-        "output": "0"
-    },
-    {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "A repatriation flight from Bangui M'Poko International Airport , #CentralAfricanRepublic , for the U . S . citizens is scheduled for April 19 . The approximate cost of this flight is $ 1,774 . It is unlikely that there will be another repatriation flight organized by @USER . [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : VOTE for George Galloway ! :newspaper: :red_exclamation_mark: :backhand_index_pointing_right: @USER @USER :check_mark: :check_box_with_check:",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "It turns out that #HTS militants create pages for girls on social networks and engage in dialogues with other groups . Under the guise of intimate correspondence , they are asked to send in photos that show the geoposition and then fire at them . That's funny ! #Syria #Girl [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#Tunisians began voting on Sunday for a new parliament that must address chronic economic challenges . #Tunisia :camera: : Reuters [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Perhaps in addition to #Turkish technology , radical Islamists in #Idlib #Syria also had Turkish instructors from the #commandos [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Ammunition depot 4km west of Idlib [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : City socialite #BrianWhite of @USER at the fore front of removing the wreckage of #LakeVictoriaBoatAccident . He \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER He is @USER",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Three men arrested on suspicion of having killed 3 people and wounded 2 others at a supermarket in Kalbaskraal , Malmesbury , on Sunday . Four suspects had broken into the store and fled with an undisclosed amount of cash firing at the civilians and killing 3 store customers .",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Ramaphosa officially sets elections date in SA [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : I will never in my life fight with anybody when there's no third party to separate us , I almost died yesterday .",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Angelo Agrizzi robbed at petrol station : goods and cash worth R378k stolen - [url] Former Bosasa COO , Angelo Agrizzi , was ripped off of R378 , 000 worth belongings at a petrol station in Johannesburg on Thursday . The police are searching for two balaclava-weari ... [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Evo Morales : \u201c The best thing would be that all war spending be directed towards climate change , instead of spending it \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":sunrise: Turkey is working with Russia on how a disarmament zone inside Idlib , Syria will be set up and how terror groups will be driven out , a Turkish presidential aide said on Friday . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Turkey",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#HTS militants lost an armored equipment including two tanks #T72 as a result of a retreat from #Tleisiya [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":briefcase: Afghanistan's president on Tuesday dismissed the election commission leadership with amended election law #ghani #afghanistan #elections #taliban #politics [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : #Terrorists continue provocations in the north of #Hama . Sources say about shelling of Kaliat Marz neighborhoods [url] : \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : A list of ' liberated ' countries by the US in past decades #US #Democracy [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Brics will open development bank by 2016 and create alternative to International Monetary Fund to support economies [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "VIDEO : North Carolina Mom and Hillary Supporter Changes Her Vote to Trump [url] [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Happy New Month to all my lovely friends on this App . This is how I would be catching cruise in #June2020 \ud83d\udc47\ud83c\udffc \ud83d\udc47\ud83c\udffc \ud83d\udc47\ud83c\udffc [url] \u2026",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The major crops grown range from root crops such as cassava , irish potatoes , sweet potatoes and yams ; cereals such as rice , maize , sorghum , and millet ; pulses such as beans , pigeon peas and cowpeas ; fruit trees such as mangoes , oranges and avocado . #M7UGsChoice #SecuringYourFuture [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : A leader has the vision and conviction that a dream can be achieved . He inspires the power and energy to get it done . @USER \u2026",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The election of the @USER was an exercise in popular power and in direct opposition to fascism and terrorist violence . The valiant and heroic Venezuelan people continue to set examples for the worlds working class to follow ! Thank you @USER ! @USER @USER",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The attacks of the #Syrian armed forces led the ISIL militants to leave the oil well \u00ab Gisele \u00bb and mount Jabel al-Shaer in #Homs #PamCaramel [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Have you rated this photography guys .. It's / 10 [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "6 People Hold Protest Hoping California will \u201c Exit \u201d America Over President Trump [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Illegal Alien Sitcoms from Actress Gina Rodriguez Headed to CBS and CW [url] [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Things to Do in Walker , Minnesota [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "US uses Rukban as a lever of power pressure on relations between Syria and Iran",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "A woman has been hospitalised in a critical condition after she was injured in an armed robbery at a shop in #Pretoria on Thursday . The armed assault took place at the shop located at Rooihusikraal Road in Centurion . [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Your vote has never mattered more than it does right now . Today is National Voter Registration Day . Go to [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER smashing it up :bright_button: Born t win :bright_button: @USER #FridayExplosion ___ :red_circle: Venue :blue_circle: VEGAS chill out ___",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#Russia and #India added their voices to #China's call for a new world order [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Ramaphosa pays tribute to former Numsa president Cedric Gina [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":pushpin: United Nations Secretary-General Antonio Guterres on Saturday condemned the lethal attacks against an election campaign rally and a candidate's office in Afghanistan #UN #Afghanistan #elections",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Are Babes Wodumo & Mampintsha back together ? - [url] New reports are saying the couple is back together two months after a video of Mampintsha hitting the star went viral \u2013 but what does law say considering their on-going court case ? The couple has released ...",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT lilNecie : Anon 6_NvrForget [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : \" No human being is illegal . \" RT @USER : Marching to end deportations rally in Denver . #not1more #2million2many [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "VIDEO : ICE Arrests Up By 32.6 % This Year With 22,000 Illegals Behind Bars [url] [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Guys , don't sit down and think that your woman trust you . She doesn't even trust her face that's why she carries a mirror in \u2026",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Liberals and democrats are really pathological . Obama did run in 2016 . His campaign was called the Hillary Clinton campaig \u2026",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Will Obama Blame His Fake Birth Certificate On Russia ? [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : The offers available include : :pushpin: 50 % discount on national park and wildlife reserve entry fees :pushpin: 50 % discount on birding fees :pushpin: \u2026",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Effingham shacks on fire : firefighters on scene - [url] fire in Durban informal settlement burnt at least 22 shacks to the ground , eThekwini Fire and Rescue service officials said . \" Members of the fire department were scrambling to get down an embankment to t ... [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#HumanRights institutions excluded from observing #Tanzanian elections [url] via @USER Southern African Development Community",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Mixed Returns For The Huawei Bashing Tour [url] [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Patriotic National Anthem Viral Video : You Know THIS GUY Voted for Trump [url] [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Tanzania : Over 460 accused of economic crimes apply for plea bargaining , Magafuli told [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Happy Birthday to Leanne Manas and Happy Women's Month to everyone !",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Also kinda funny how Trump HAS committed impeachable offenses - namely conducting war without congressional authorization , but the democrats don't care because they are just as guilty of war crimes as the republicans are .",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The World Bank @USER has approved additional funding of $ 25 million for the #CentralAfricanRepublic to support the country in the fight against #COVID19 . [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "On December 13 , the #valdaiclub hosted an expert discussion on the results of the Normandy Four summit ; in attendance was Andrei Rudenko , Deputy Foreign Minister of the Russian Federation . [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Bad News for Liberals Feverishly Trying to Change the Law to Allow Electors to Vote their \u201c Conscience \u201d [url] [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "South Africans , disappeared during the vacation in Zimbabwe , drowned in Mozambique [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "4,400 electoral administrative materials ( 56 tons of kits ) for electoral operations arrived on Wednesday , June 3 at Bangui , #CentralAfricanRepublic . The materials were given to the National Elections Authority for the operation of voting centers . [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "President Lungu is coming to Copperbelt for three day working visit [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "HTS insurgents shelled Zafar al Kabeer of the Idlib governorate #StopTerrorismInSyria #StopHTSinSyria #WeAreTheLove [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "LOL : Tim Kaine Says Russia Probe is now \u201c Grounds for Treason \u201d [url] [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The change of power in African countries should happen in accordance with constitutional norms and election results . However , these provisions are often violated in one way or another . #Zimbabwe . [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Syrian army pushes back militants who do not give up attempts to fire at #Hmeimim airbase [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Ukraine : a candid , in-depth discussion [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : @USER @USER @USER @USER @USER @USER @USER @USER @USER Our man \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Guys who meet up on Grindr are 25 % more likely to get gonorrhea and 37 % more likely to get chlamydia [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Witnesses report that insurgents shelled the living quarter west of Aleppo . 5 civilians died , 8 got injured [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Venezuela is heading to the polls to defeat fascism , terrorism , exploitation , capitalism , and the oligarchic , squalid class . Viva Venezuela !",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Trump Supporters React to Viral Video of Shoe Being Thrown at Hillary [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "ANC on top again in KZN [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "On June , 4 #InherentResolve allies discussed the coalition reinforcement in the #MiddleEast and the #AlTanf American base . In doing so the coalition admitted its failure to defeat #IS and necessity to continue warfare in #Syria . [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "[url] Rewind 06/2017 | Interior Secretary Orders More Alaskan Oil Drilling [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "According to an eyewitness - an employee of the staff of the U . S . National Security Council , who in his capacity listened to Sunday telephone conversations of the President of the United States with the Turkish president .",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Tomorrow , Wednesday , there will be an interactive session between candidates vying for positions on the Central Executi \u2026",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Mariupol under fire , children leave schools [url] #Ukraine",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT ThinBlueLR : Mark Levin once said : \" The Senate has become an elected mental institution . \" I would add that it is also the laziest group o \u2026",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Erdogan domestic #whitehelmets could be used for blaming #Assad in disruption #Idlib ceasefire . Why not ?",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":crayon: \ufe0fUN : Cavusoglu , Guterres discuss Khashoggi murder Pair also discuss Yemen , Syria , Cyprus in a closed-door meeting #un #syria #cyprus #yemen #turkey @USER @USER [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : I visited and commissioned the upgraded Mbale Substation whose reliability and distribution capacity has increased to 1 \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "LGBT + Kenyans await court decision on decriminalising gay sex [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Recent Angela #Merkel's decision to step down as party leader marks the beginning of her withdrawal from German , European and international politics , says #valdaiclub expert Sabine Fischer #Germany #Europe [url]",
-        "output": "0"
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Sorry Hillary , Former President Carter Didn't Vote For You [url] [url]",
+        "output": "1"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
         "input": "28 learners hospitalised after alleged poisoning in Atteridgeville school - [url] Kalafong Hospital and Pretoria West Hospital took at least 28 pupils from Edward Phatudi Compressive School in Atteridgeville under medical supervision on Thursday after they ha ... [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "China's new construction project sends stocks soaring [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The elements of the rebel group Patriotic Front for the Renaissance of #CentralAfricanRepublic ( FPRC ) in Nd\u00e9le have expressed their desire to lay down their arms , said Isma\u00ebl Kouago , Minister Delegate for Disarmament , Demobilization , Reintegration and Repatriation ( DDRR ) . [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "Wounded Police Officer SUES Black Lives Matter Leaders [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Prime Minister Firmin Ngrebada received on 30 September Mr . Mankeur Ndiaye , the Head of #MINUSCA . The main focus of the meeting was the election process in the #CentralAfricanRepublic . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump Hauls in $ 42 Million in First Quarter Fundraising for 2020 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Florida GOP Elector : ' I Get 4,000 Harassing Emails from Hillary Supporters a Day . I mean it's a lot of harassment ' [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "\u2018 Tyranny of Political Correctness ' Forced Boy Scouts to Allow Girls to Join [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: Taking a break from PR scandals and the high-life , self-proclaimed @USER ' s \" ambassador \" to the UK decides to spout \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Who Orchestrated The Breakup Of Yugoslavia And How ? [url] [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "#Strategic_bombers of #Russian and #US #airforces will attack with joint strike against #Nusra position in #Idlib at September . [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Victims of Russian air strikes \u2013 Victims of US-led international coalition #USA #ruassianairforces [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER =: @USER smashing it up / / Mummy @USER #HOTMIX HOME-BASE WEDNESDAY at 5:10 PM ___ \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Coca Cola : a corporation whose stated goal is to find a way to get everyone on Earth to drink at least two cokes per d \u2026",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER =: \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec As smart as Comrade @USER Salute General @USER for being a great inspir \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The general election held in Moz received good reviews from the SADC observer mission which described the event as overall peaceful and consistent . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER and @USER have done it again ... This Friday @USER with three Djs on turn table #SkyHighFrida \u2026",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "RT @USER : Guaido's glorious homecoming following his global regime change deadly sanctions Trump-cuddling tour : Venezuelans bomba \u2026",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Ramaphosa casts his vote in Soweto and expresses confidence about ANC support - [url] President Cyril Ramaphosa expressed enthusiasm about voting and the support he has received from ANC supporters . He addressed the media from a voting station in Chiawelo , S ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":diamond_suit: \ufe0fUS election scandals , Turkey sanctions , New Caledonia \u2013 weekly outcomes [url] #USA #US #Turkey #politics #geopolitics #newcaledonia #Midterms2018 #MidtermsMatter #MidtermElections #MidtermElections2018 @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Maradona resigned as coach of Dorados - [url] Diego Maradona has decided to finish his work with the Mexican second-division club Dorados due to health reasons . According to his lawyer , Matias Morla , the 58 - year-old coach has decided to stop working with ... [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "DEA : South Africa needs more knowledge of climate change impacts [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "They only want elections if they can pervert them to ensure fascists and capitalists win . They wanted elections in Venezuela and when they lost they scream fraud . Nicaragua and Venezuela are on the side of the people ! The popular revolutions continue ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "In the heart of Kenya's capital , Nairobi , alongside seemingly abandoned train carriages and overgrown tracks is a blossoming artists ' community . [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "@USER smashing it up :bright_button: You & M :bright_button: @USER @USER #PremiereWednesdays :collision: :collision: :collision: ___ . :red_circle: Venue :blue_circle: @USER ___ #FRIDAY :backhand_index_pointing_right: CLUBAMBIANCE Bukeesa",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Head-on collision outside Pilanesberg Nature Reserve : 1 dead , 5 injured - [url] another fatal weekend car crash has been announced by the authorities . The accident on the Lerome Road , north of Mogwase , just outside the Pilanesberg Nature Reserve , left five pe ... [url]",
         "output": "0"
     },
     {
-        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 (True) or 0 (False) as output.",
-        "input": "The passion and soul of Laura Nyro [url] [url]",
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#deb LOL : Michael Moore's Anti-Trump Broadway Show Gets Horrific Review [url] #debb [url]",
         "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER U always create false narratives deliberately to win political capital as u misguide people . On every campaign & elections the NRM Gvt ( M7 ) brings a new Manifesto , there is a manifesto implementation agency that follows up & gives citizens accountability on what has been achieved",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Dianne Feinstein Confirms Hillary Can't Get Over The Election Loss , \u201c She's Hurting \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Donald Trump asks early voters to change their minds [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "\ud83c\udde7\ud83c\uddf7 \ud83c\uddf7\ud83c\uddfa \ud83c\uddee\ud83c\uddf3 \ud83c\udde8\ud83c\uddf3 \ud83c\uddff\ud83c\udde6 On July 25-26 , a meeting between the foreign ministers of the #BRICS is taking place in #Rio de Janeiro . The agenda of today's meeting covers the problems of global and regional security and the settlement of international conflicts . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Hoping for justice : Navy officer was beaten up by five men and died several days after . Suspects deny being guilty . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Politico : British call for radical solutions of Brexit strategy [url] A recent poll from a resp",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : How low has President Obama gone to tapp my phones during the very sacred election process . This is Nixon / Watergate . B \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":triangular_flag: Far-right lawmaker Jair Bolsonaro has won Brazil's presidential election . He won 55.2 per cent of votes in the run-off election against left-wing hopeful Fernando Haddad of the Workers Party's 44.8 per cent , according to electoral authority TSE #Brazil #elections #bolsonaro",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : We shall prove them wrong the doomsday sayers and we sail with 75 % . Long live YKM :thumbs_up: :thumbs_up: :flexed_biceps: :flexed_biceps: :folded_hands: :folded_hands:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : That your head is not correct",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "For the continuous unwavering support of the people , we are honored . #VoteSEVO #UgandaDecides [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The posting of provisional electoral lists began in the #CentralAfricanRepublic this Wednesday , October 14 . The posting began in Bangui and in some cities of the interior of the country . The National Elections Authority has set a five-day deadline for litigation . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Now Playing : Wakayima @USER ___ :television: @USER / @USER ___ Music by : @USER #FullDoze",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "PA Sec of State Releases 20 Electors Names , Addresses and Phone Numbers ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Cowz love mzee too :thumbs_up: :thumbs_up: :thumbs_up: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Free State news : triple-murder accused gets three life sentences - [url] young men were pronounced missing in 2014 after they allegedly were attending the Free State man's farm . As the farmer later testified , he had killed the trio and buried them in a shallo ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Cannabis hair growth cream seller arrested in Eastern Province , Zambia - [url] A 26 - year-old businessman has been arrested in Chipata district after the Drug Enforcement Commission ( DEC ) in Eastern Province found him manufacturing and selling hair products l ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : It's Official : Instagram Is Bigger Than Twitter [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#jan Hillary Rehiring Campaign Aides [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": ":optical_disk: Ruling party officially contests Istanbul poll results AK Party's Istanbul head says ' rigs , irregularities ' detected #istanbul #turkey #turkeyelections",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Am disappointed in the analysis of @USER ' s of how age limit bill impacted the #primaries . In Rubirizi distr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Trump's voter fraud expert owes US more than $ 100,000 in unpaid taxes [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : What do you do when you're so excited ? ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Somebody asked me yesterday what was the best airline to book to Nairobi and with a big smile I said @USER ... \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER smashing it up :bright_button: Ba Mbwa :bright_button: @USER #PremiereWednesdays :collision: :collision: :collision: ___ . :red_circle: Venue :blue_circle: @USER ___ #FRIDAY :backhand_index_pointing_right: CLUBAMBIANCE Bukeesa",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Militants \" Jabhat al-Nusra \" fearing for their lives , they merge information about their brothers . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "A donation of the electoral kits was given to the #CentralAfricanRepublic from #SouthAfrica . These kits consist of ballot boxes , polling booths and satellite phones , intended to support the functioning of the presidential and legislative elections of 27 December . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Happy New Month to all my lovely friends on this App . This is how I would be catching cruise in #June2020 \ud83d\udc47\ud83c\udffc \ud83d\udc47\ud83c\udffc \ud83d\udc47\ud83c\udffc [url] \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Panyaza Lesufi reinstated as MEC of Education in Gauteng - [url] Panyaza Lesufi has been reinstated to his post as MEC for Education in Gauteng . \" Yesterday , I indicated that I was giving serious consideration to the request and would announce my decision soo ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Miami-Dade Mayor Just Did The Unexpected ! See Trump's EPIC Plan Begin To Work ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "DRC President Felix Tshisekedi promised to find out the truth about the violent attacks in the republic . Tshisekedi defined the ethnic attacks as \u2018 attempted genocide ' after hundreds of people were killed and tens of thousands displaced . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Voter fraud debate as divided as America is politically [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The withdrawal of the US Armed Forces from the northern areas of the province of Aleppo is being delayed while simultaneously inactive to divert pro-Turkish militants from the Membidge area . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER Say NO to NUP and Bobiwine violence and criminality #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "DISGRACEFUL : 24 States Attempting to Hide the TRUTH About Voter Fraud [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Green light for #financial mega-regulator in #Russia \u2014 RT Business : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER He has the support that's all i can tell you . Lets wait for 2021 elections",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "5 days to go ! #M7UGsChoice #M7Nomination",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "In Syria , the liquidation of ISIS remains continues , which regularly remind us of ourselves . Terrorists make full use of the presence of enclaves in the 55 km zone around the U . S . base El Thanf , as well as in the area of Washington's oil interests on the land behind the Euphrates [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The case against American sprinter Christian Coleman was withdrawn by the US Anti-Doping Agency . The 23 y . o . athlete was charged with 3 missed drug tests . He was facing a 1 year ban . The case has been withdrawn after the USADA received guidance from the World Anti-Doping Agency . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Drama in CT court : accused attacked photographer - [url] On Thursday , a media photographer was assaulted in the Cape High Court by Ameerudien Peters charged with rape and murder of his girlfriend's one-year-old son . Peters allegedly raped , beat and then st ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Kurdish rebels regained control over one of the areas to the north-east of #Katma . 12 militants of the Syrian Democrat \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER its capitalism not democrats . W / o an exploited wrking class Capitalism cant exist . We R all pawns of th rul \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : I voted on Lula's 2007 landmark water law as a delegate at the National Cities Conference ( many vanguard leftists ignore \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Gulu University is community of change agents whose collective commitment to teaching , learning , research , regional & global engagements stimulates attention & invaluable outcomes that transform persons . Thank you YK M7 for the peace & security #M7UGsChoice #SecuringYourFuture . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "#ISIS leaders call upon all terrorist groups to unite against #HTS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Gigs keep popping up like nothing but this event aka #OpenMicFestivalUG has got to be the real deal for you and your crew . \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Happy Thursday Everyone , Friday is almost here . :smiling_face_with_smiling_eyes: Have a beautiful day . :revolving_hearts: :hibiscus: :two_hearts: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "The government of the #CentralAfricanRepublic and the European Union have signed an agreement on election financing . The European Union has donated 15.5 million euros . #Elections2020 #EU [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Peace and Security the epitome of development . Thank you @USER for prioritising security #M72021 #MK2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : Congratulations Lieutenant General @USER maintain your patriotism for this great nation , for you're our icon ... #Sa \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER Brexit shows who is who . True Europeans want to stay together . Conservative imperialists want to act the way they want . Good luck tho . Leave NI , Scotland and Gibraltar alone .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "World Menstrual Day promoting menstrual hygiene - [url] Abigail Moyo Menstrual Hygiene Day on May 28 , aims to promote good menstrual health , demystify stereotypes about menstruation and to encourage young girls and women globally to practice good hygiene . It ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER There 4 his comment remains personal based on his personal interests not either party stand or of any relevance to Gen MK who's ain't evn a member of his party . Stop being cowards & greedy with egos . Let people enjoy their freedom & if u have political ambitions let Ugns decide",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : The Bolivian military junta has arrested the VP of Evo's MAS party and is hunting high ranking officials of his elected \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Alexander Schetinin : \u201c Great countries have political constants . We assume that Brazil is not an exception . The political platform of the elected candidate will determine the specifics but there are political and economic interests that Brazil will push forward no matter what \u201d .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Insurers , regulators seek clarity on ACA's future [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "BREAKING : Michigan Recount Uncovers Voter Fraud in Democrat Stronghold of Detroit [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Donald Trump would favor ' nuclear option ' if Democrats filibuster SCOTUS pick [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "RT @USER : We have published over 100 articles on United States involvement in the coup of 2016 , Lula's imprisonment , and election of \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Protest in #Zimbabwe Police have fired teargas . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Boris Johnson's enthusiasm for hard Brexit is decreasing : the pressure of the opposition forces in the British parliament is too strong . The German Foreign Ministry sais that this time it would be difficult for London to get another delay . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "SA political parties to submit their candidate lists until Wednesday evening [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Election Campaign. Use 1 or 0 as output.",
+        "input": "Muslims make a pitch for populist vote as Dutch politics turns sharp right [url] [url]",
+        "output": "1"
     }
 ]

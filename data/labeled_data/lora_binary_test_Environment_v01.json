@@ -1,0 +1,142 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "A severe flooding , triggered by heavy rains and river spill , left more than 6 , 000 people living in Bangui , the capital of the Central African Republic , without homes . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Three key issues : 1 : Have your mask on whenever in public 2 : L.Victoria water levels are rising and we shall protect ou \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Roaming lion pride did not escape from Kruger - [url] African National Parks stated that the lion pride that has been roaming outside Phalaborwa were not a pride from Kruger National Park . It was reported that the pride has been roaming in the area for over a ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Where are the Members of #EU Parliament that were blaming #Morales for fires in the #Bolivia Amazon last year ? Given that \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "\u201c It is an oligarch-driven corporate answer to climate change and inequality and a wishlist for the neoliberals who still control the core of the Democratic Party . \u201d",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "\ud83c\uddee\ud83c\udde9 H . E . Dino Patti Djalal , founder and director Foreign Policy Community of Indonesia @USER * Climate issue . We have keep global warming within the 1.5 degrees goal . All states should cooperate .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "10 electric pumps donated by @USER arrived in #CentralAfricanRepublic on March 1 . The pumps will help to stabilize the work of the CAR Water Distribution Society ( SODECA ) and provide #potablewater to the citizens .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The protest action by Greenpeace Africa that took place today at Escom's head office in Johannesburg . The protest followed a recent report that shows Eskom's coal-fired power plants are poisoning the people of Mpumalanga and eastern Gauteng . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "At least 43 illegal miners dead after two \u2018 galleries ' overlooking an open excavation pit collapsed in a copper mine owned by Glencore in the Democratic Republic of Congo ( DRC ) on Thursday . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Joburg citizens warned of possible load-shedding and water supply outages [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Ban Ki-moon was in Greenland to see #climatechange impact - more photos here : [url] #climate2014 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The \" financial markets \" welcome when fascists , worshipers of the military dictatorship and agrarian lobbyists who want to clear the rainforest , are in power ? If democracy is to have a future , the power of bankers and financial companies must be broken !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "A new dragonfly has been documented in Hoedspruit , Limpopo . It was named Eastern Scissortail . The Swadini Forever Resort started a programme earlier this year trying to involve the guests in the research of the ecosystem in and around the resort . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "40kg of rhino horns seized during raid in Kempton Park - [url] last Friday the Hawks special squad carried out an operation during which they seized a batch of rhino horns at a cost of about R38m in Kempton Park . \" The exact location of the warehouse cannot be ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER Sebo commander of UPDF where were they going and what was their task for deployment , which law did they break wearing uniform ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Another \u201c democratic \u201d friend of the empire .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "VIDEO : South Africa can't calm down after a video of a proposal made at KFC went viral . Check this below : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : I didn't summon kibalama he sought my assistance over security concerns , then he run to iso and then appeared in court next t \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Clouds @USER #BoxingDayxplosion CLUB AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : #Syria's Islamist rebels thought the US would back them all the way by giving them a no-fly-zone & anti-aircraft weapons , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Insurgents shelled Ikku of the Latakia governorate #StopTerrorismInSyria #StopHTSinSyria #WeAreTheLove [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "WOW ! 119 Dead People Voted 229 Times In Chicago \u2013 Trump Was RIGHT ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Daily , dozens of #terrorist_acts take place in #Syria on the right bank of the #Euphrates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Northwoods and MH - 17 : False Flags Fly alongside \u00ab Old Glory \u00bb [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "Gigi Lamayne said she will release an EP in the end of this month ( July 26th 2019 ) #JobWoodsEP [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "RT @USER : Thank you all my friends for the love , support and for always standing up for me . However , now it's important that we all \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "This beautiful city Kampala at one point had become a city of warlords . All under UNLA different factions partitioned it out each group controlling a portion of our capital ; UFM of Kayira-Makindye , Fedemo-Kabalagala , FUNA - Summit view . At one point there was a fierce battle [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Environment. Use 1 or 0 as output.",
+        "input": "The #SyrianArabArmy and allied forces : struck at the headquarters of #Djebhat anNusra \" in the west of #Idlib . [url]",
+        "output": "0"
+    }
+]

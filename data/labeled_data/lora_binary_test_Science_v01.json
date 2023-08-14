@@ -1,0 +1,112 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Apple's Siri speaker to challenge Google , AmazonOK Google ... [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#Instagram started hiding \u201c likes \u201d on its app in several major markets including Australia and Brazil , following criticism about its impacts on mental health . Although Instagram described the hiding of the likes for users as a \u201c test \u201d , no deadline was given for when it would end .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : This is Dr Gladys West . Whenever you use your #GPS thank her . She's the member of the team that developed it . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "#AWSSummit is happening today in Cape Town ! During this free , one-day event , you will learn about the AWS platform through breakout sessions that cover a wide range of topics from new services and architecture to performance and operations . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Jabhat al - #Nusra forced civilians to equip engineering positions . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "14 coolest tech products from CES 2017 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Our beloved President will today commission the 132kv Mukono Sub-station . No more load-shedding in the area due to an imp \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "President Ramaphosa angry and shocked at the Eskom's load shedding [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "President Edgar Lungu commissioned solar power plant [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER will today officiate at the Groundbreaking ceremony for the construction of Busega \u2014 Mpigi Expressway project \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Curated HedgeBz | #DARPA awards $ 65 million to make #CRISPR safer , more efficient [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Huge US unemployment unnecessary ! US could hire millions to make jobs safe ( by testing , redesigning , disinfecting , etc . ) . \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Moonlight's Oscars shine may not be enough to save Florida film industry [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: Are #Haftar's troops trained by the \ud83c\uddfa\ud83c\uddf8 #US ? Op-ed by @USER [url] #Libya #Sarraj #GNA #Turkey #Blu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "@USER the more you talk and tweet .. the more you burry yourself",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": ". @USER : The US recognition of #Jerusalem will have little effect outside of the immediate aftermath . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Police arrested a man , 36 , for possession of an illegal firearm and dagga in Vanderkloof . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "At least 43 illegal miners dead after two \u2018 galleries ' overlooking an open excavation pit collapsed in a copper mine owned by Glencore in the Democratic Republic of Congo ( DRC ) on Thursday . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Schumer Throws Hillary Under the Bus BUT Accidentally Throws Himself Also ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : Among 100 CEOs analyzed , 11 made more than 1,000 times median employee pay ( Tesla not included in chart because it would \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "In the territories controlled by official #Damascus , the #ISIL is virtually destroyed and peaceful life is being established . #Syria #Syrianow #Assad [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "This beautiful city Kampala at one point had become a city of warlords . All under UNLA different factions partitioned it out each group controlling a portion of our capital ; UFM of Kayira-Makindye , Fedemo-Kabalagala , FUNA - Summit view . At one point there was a fierce battle [url]",
+        "output": "0"
+    }
+]

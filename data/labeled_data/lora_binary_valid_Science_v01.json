@@ -1,0 +1,112 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "@USER Hungary vs . the European Union : the battle for NGO transparency The current decision of the European Court Of Justice clearly points to a coordinated attack on Hungary . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "SHOCK VIDEO : Microchip Under the Skin May Soon Replace Credit Cards [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Use Barclay's new ATMs with a tap of your phone [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Jacob Zuma will lodge another appeal in an attempt to obtain a permanent stay of prosecution . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Zambia : Copperbelt police arrests 50 gangsters 50 notorious gang members who kept Zambians across Copperbelt province in fear were successfully detained during last weekend . Kitwe district commissioner Binwell Mpundu stated that the officers conducted numerous joint operation ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Gallery : On April 25 @USER = experts met with Mr . Lamberto Zannier , @USER Secretary General [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "This Sunday , November 29 , the first wave of new tractors for agriculture arrived in the #CentralAfricanRepublic from #Russia . Overall 40 units are expected to be sent to the CAR in the nearest future as part of the implementation of the recovery and peacebuilding plan . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Lenovo Introduces Its Best Entertainment Tablets Yet [url] You're probably thinking t",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Sudan holds talks to halt strikes - [url] According to an Ethiopian mediator , military and protest leaders have agreed to continue with their talks soon , while on the other hand , an opposition alliance also agreed to call off its campaign of civil disobedien ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Nearly one million Android phones infected by hackers [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Every day , the belligerent reconciliation centre distributes tons of #humanitarian #aid to people in #need . #SYRIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "If @USER recommends it , you know it'll be amazing in its anti-imperialist glory ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "How life may find a way on Saturn's moon [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Hillary's New \u201c Dark Money \u201d Group Allowed to Hide Donors from the Public [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : We would appreciate more collaboration and support from the Commonwealth in the fields of research in medicine and the \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: #Peaceful life returns to #Aleppo ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Gulu University is community of change agents whose collective commitment to teaching , learning , research , regional & global engagements stimulates attention & invaluable outcomes that transform persons . Thank you YK M7 for the peace & security #M7UGsChoice #SecuringYourFuture . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER : #SAA SyrianArmy is SAVING the people of #EastGhouta . NOT killing the people Look and see ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "The #US uses cases of #refugees ' bombing in mines located in the territory adjacent to #Rukban as a reason for refusing international organizations to deliver #humanitarian_aid to the camp . #AtTanf #Rukban #USA #terrorists #terrorism #Homs",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "My meter isn't show any figure yet power is on What may be the problem ? @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "Karuma Hydropower Karuma Hydropower project is Uganda's biggest power project and one of the biggest 53 power dams funded and constructed by China in the East , west and Central Africa . Construction work for the 600MW project started in August 2013 #ChinaInUganda \ud83c\udde8\ud83c\uddf3 \ud83c\uddfa\ud83c\uddec @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Science/Technology. Use 1 or 0 as output.",
+        "input": "RT @USER =: Game theory and policy : \ud83c\uddf9\ud83c\uddf7 #Turkey deals \ud83c\uddfa\ud83c\uddf8 #US hegemony a death blow The @USER is a \u201c research institution \u201d whose ma \u2026",
+        "output": "1"
+    }
+]

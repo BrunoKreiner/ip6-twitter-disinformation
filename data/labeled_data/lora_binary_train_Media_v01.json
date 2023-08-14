@@ -1,0 +1,1472 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#top RT asamjulian : Stephen Miller needs more camera time . Brilliant intellect and very loyal to Trump's agenda . #love",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "A Formed Police Unit ( FPU ) from Indonesia serving with MINUSCA conduct daily patrols in sensitive areas of Bangui in order to protect civilians . #YearReview2019 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Two men aged 29 and 30 were arrested in Philippi . They were allegedly involved in issuing fraudulent roadworthy certificates for vehicles that were physically tested at the centre and the defects were overlooked in exchange for money . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Subscribe to us on social networks and blogs : [url] [url] ...",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : #EastGhouta : The great #SyrianArmy saves , in liberated #Misraba , 60 people including women and children , who were used as \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : Dishonest Liberal Media Stoking Violent Riot Fires with Biased Reporting [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Boris Johnson , it is said , had been preparing all his life to become a latter-day Winston Churchill . Now his Churchill moment has come . But it is a very different Churchillian moment from any he might have expected , writes Mary Dejevsky . #valdaiclub [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : The right people hear you differently .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Session Four \" The Conflict Between Universalism and Self-Identity \" has begun [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Summary : Feb 21 @USER = and @USER meeting of #Club2035 , their project focusing on scenarios of the future [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Ukraine's Banning Of Russian Media Apps Is A Desperate Infringement Of Free Speech [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "With some REAL freedom fighters and amazing friends at @USER ! @USER , @USER , @USER . #WomensMarch4Peace , #RevolutionIsLove [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":camera: Photo Gallery : Combating #COVID19 in Conflict : The Syrian Experience . An Online Discussion [url] @USER @USER @USER @USER @USER @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Trump Speech Gets Millions More Views Than Oscars \u2026 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#angiis Allen West Can No Longer Remain Silent and UNLOADS on Colin Kaepernick ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING : Ratings Are in and Megyn Kelly is DESTROYING NBC [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The Director of Customs and Indirect Rights Fr\u00e9d\u00e9ric-Th\u00e9odore Inamo , assisted by his Deputy Head of Central Services , Mr . Dieudonn\u00e9 Koyangbo , hosted this Friday , December 06 , 2019 , a strong delegation of the training mission of the European Union in the #CAR .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Saudi newspaper @USER published our article \" A disordered world or the multipolar future ? \" @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : What do you know about boys who stand like this :face_with_tears_of_joy: :rolling_on_the_floor_laughing: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The tobacco industry then peddles their products to the working class . It is a form of capitalist genocide . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "14th Annual Meeting of #valdaiclub : Session 2 . The Conflict between Rich and Poor . Summary : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Never pay for an overweight suitcase again [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Weather Services : no cold front on weekend - [url] The South African Weather Services reported that the country would not be hit by the cold front this weekend . During the week , some reports showed that several parts of the country would feel the effects ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":face_screaming_in_fear: Saudi Arabia's chief prosecutor's office on Thursday announced it had charged 11 out of 21 suspects in relation to the murder early last month of journalist Jamal Khashoggi #jamalkhashoggi #khashoggi #saudiarabia",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#RuAF target #terrorists positions",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Gunmen Murder Journalist Exposing Corrupt Mexican Cops [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : [url] My friend @USER + kivHt 7MKmJo6I = just got back from #Venezuela this week . We had a great conversation wh \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "A new framework for the partnership between the #CentralAfricanRepublic and the #EuropeanUnion for the period of 2021-2027 was elaborated by Minister of Economy F\u00e9lix Moloua and Ambassador Samuela Isopi . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER It will end in tears after all :rolling_on_the_floor_laughing: :rolling_on_the_floor_laughing:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Why Are Deadly Industries Promoted ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Russian Interests in the Context of the Iranian-Saudi Crisis : [url] #valdaiclub #Valdai [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : My latest article published by @USER = . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER = how are you",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : 1 : :crown: Retweet this :red_heart: 2 : :red_heart: \ufe0fLike this :crown: 3 : :crown: Follow all who like and rt this :red_heart: 4 : :red_heart: \ufe0fFollow back all that follow you :crown: 5 : :crown: Gain fol \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Police search for thieves who robbed Red Square outlet in Musgrave - [url] are on the hunt for two men who robbed the guards in Musgrave Centre . According to the police spokesperson Lt . Col . Thulani Zwane , the crime was committed on Wednesday night . Two suspe ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#HTS militants equip command posts in schools and mosques , holding civilians as hostages . Terrorists placed MLRS near school in #AbuOmar [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Did You See What Happened At Dulles ? This Makes Me Sick ! [ VIDEO ] [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Donald Trump asks early voters to change their minds [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":red_exclamation_mark: \ufe0fWe remind you that today at 15:00 there will be a session of the #valdaiclub on #SPIEF2019 . Watch the broadcast session on our website : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BUSTED : Trump-Mocker Alec Baldwin Caught Hurling Gay Slur At Reporter \u2026 Media SILENT [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : The #FakeNewsRegime in Washington makes up myths to criminalize legitimate trade between two independent nations when it ' \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":left_arrow_curving_right: \ufe0fQatar's Emir Tamim bin Hamad Al Thani will visit Latin America on Monday , the state news agency reported on Saturday . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Qatar #LatinAmerica",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The Minister of Health and Population of #Centrafrique Dr . Pierre Soms\u00e9 opened the training session on the prevention and control of #Covid_19 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT TinaOrt 7959146 5 : DebAlwaystrump rickwross #MediaAreAltLeft #DemsAreAltLeft",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Chaos , which started as a confrontation between taxi drivers and foreign shop owners accused of drug dealing , has claimed two South Africans ' lives . They were shot and killed in downtown Johannesburg on Tuesday afternoon , as the violent clashes continued . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "OUCH ! HGTV Beat Disgraced FAKE NEWS CNN in The 2016 Ratings [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Vitali Klitschko's American Coaches [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BOOM : Fed-Up Trey Gowdy Calls Out The REAL \u201c Fake News \u201d \u2026 . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":diamond_suit: \ufe0fUS election scandals , Turkey sanctions , New Caledonia \u2013 weekly outcomes [url] #USA #US #Turkey #politics #geopolitics #newcaledonia #Midterms2018 #MidtermsMatter #MidtermElections #MidtermElections2018 @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER That is how Britain produces fake news to frame Spain [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "LIVE : Session 1 . #Russia in the #MiddleEast : A Paradox of Perception [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING : CIA Declares WAPO's Russian Hacker Piece an \u201c Outright Lie \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "NEW RATINGS REVEAL CNN \u201c CLINGING TO LIFE \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Karoo National Park rangers spot escaped lion after week of searching [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "\" During my husbands presidency .. \" Now I can use her husbands terrible policies as much as I want against her . #Debates @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Obama's team allowed 3 blatant factual inaccuracies about #Russia to sneak into a sit-down interview with the press . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Africa Freedom Day celebration in Lusaka will be joined only by 350 guests - [url] The Zambian authorities continue its austerity policies and decided to invite only 350 high-profile residents to celebrate this year's Africa Freedom Day at State House in Lus ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Former Contra leader in NY Times : \" the contras burn down schools , homes and health centers as fast as the S \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Mexico most dangerous place to be a journalist , Colombia most dangerous place to be an organizer or defender of human rights . Yet no mention in the hegemonic media or imperialist discourse .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "MSNBC Tries to Coax Mother of Charlottesville Victim to BASH Trump [url] #calyss [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":globe_showing_Asia-Australia: Central Asia is a region that is dynamically growing , both economically and demographically , but the following long-term challenges are characteristic for the countries of the region , writes #valdaiclub expert Khudoberdi Kholiknazar . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Militants of the #SyrianDemocraticforces of conducted mass arrests of civilians in the village of Al-Qashqi province of #DeirezZor #Syria #BreakingNews [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : I'm always depressed when I see old people work . Why ? After already having a long work life , rather than spending ti \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "In addition , local residents in social networks report the facts of the movement of several groups of #militants in #Tarmala area",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Powerful missile of militants exploded in Ruken Al Din . \" Democratic \" terrorists forces renewed targeting residential neighb \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Vincent Tolliver , candidate for DNC chair , blames Clinton loss on Tim Kaine [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "South Africa's Minister of Finance Tito Mboweni has apologized to Zambia for his offensive tweet . Zambian Minister of Foreign Affairs Hon . Joseph Malanji and Zambia's Ambassador to Ethiopia and explained to Mr Mboweni how much efforts Zambia recently put in the aviation sector . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Here's the Venezuelan opposition which liberals are convinced are \" progressive \" \" leftists \" ( ? ? ) on Israeli television . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Militants carry out terrorist acts in areas outside the control of the Syrian government , promoting the criminal business . On March 6 , the HTS fired at the western districts of the city of Aleppo . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Donald Trump Jr . DESTROYS Fake News CNN with ONE TWEET [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Terrorists from the Jabhat al - #Nusra group opened fire on #SAR military positions in the Abu al-Duhur district of #Idlib province . No one was killed and a Syrian tent was burned . #Syria #HTS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#laww BREAKING : Bombshell New Details Emerge out of Charlottesville [url] #law [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER =: #AboutToday \u2014 \u2014 \u2014 A press statement was issued by all the East African countries about CRYPTOCURRENCIES an \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "We begin our first session \" The Conflict Between Differing Geopolitical Worldviews \" #jv7wuQqplcrGESxqoiVhQN0piu3WvVoNn02V5geew0 = [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Two local residents were injured yesterday in #AlShaddadi as a result of the blasting of a mined motorcycle . How many more civilians will thunder and die ? When will the #US bring order to the east bank of the #Euphrates ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "LOL : GMA Redesigns News Desk to Hide George Stephanopoulous ' Tiny Legs [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Blaming #Socialism , US Media Distorts #Venezuela Food Crisis [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : The Minister for Health , @USER has received medical equipment worth USD 250,000 to boost the COVID - 19 response \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Police whistleblower Dhanajaya Naidoo has told the @USER that several journalists , including Sunday Times associate editor #RanjeniMunusamy , were paid by Crime Intelligence . \" I deny having been involved in any act of bribery , fraud or money laundering , \" she said . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER To call yourself a journalist , is an insult to the profession . All you are , is a shill for rogue governments and Wall Street . A professional liar , do you work for intelligence services like some right wing \u201c journalists \u201d in Venezuela do ? If not , you should demand a wage !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "As a result of shelling of the city of #Aleppo , militants killed 7 people from the civilian population and 3 people from the Syrian government army . At the same time , 12 civilians and 6 members of the #Syrian Arab #Army were injured . #Idlib #Aleppo #HTS",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The annual press conference of the head of the Ministry of Foreign Affairs of the Russian Federation Sergey Lavrov took place today . Club \" Valdai \" about the main results of the press conference : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Happy birthday Baba wa Taifa . Soar higher for many more years . Where would #Uganda be without you ? ! @USER @USER \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "One more speaker will join our online discussion \u201c Combating #COVID19 in Conflict : The Syrian Experience \u201d - Fabrizzio Carboni , ICRC Regional Director of Operations for Middle East and North Africa region Live broadcast begins on May 19 at 15:00 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Blasphemy .. I turn on ESPN for sports , not to have heterosexuality forced down my throat . Disgusting [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "On December 13 , the #valdaiclub hosted an expert discussion on the results of the Normandy Four summit ; in attendance was Andrei Rudenko , Deputy Foreign Minister of the Russian Federation . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#deb LOL : Michael Moore's Anti-Trump Broadway Show Gets Horrific Review [url] #debb [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : 4/4 international community must know the truth and avoid to fall into traps of the Venezuelan oligarchy media . Our vict \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : How Israel and Its Partisans Work to Censor the Internet [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Cyril Ramaphosa was earlier at the home of the late #JabuBaloyi to pay respects . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Premier League : 10 things to look out for this weekend [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "3 Durban schoolgirl fatally hit by taxi [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump SLAUGHTERS the Media , Calls them \u201c ENEMY of the American People \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : [url] National Cuba Conference in NYC March 25 and 26 . This will be an awesome event !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Russian presence in the Black Sea must be stopped . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER you forgot to say about oil fields under controll of Kurdish rebels in the northern Syria and French and UK \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Russia and united #Europe once had the fortunate opportunity to start relations from scratch , notes #valdaiclub Program Director Timofei Bordachev . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Peace and Security the epitome of development . Thank you @USER for prioritising security #M72021 #MK2026 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Western media calls #Russia a \" dictatorship \" then reports on opposition openly exercising free speech . LOL . #WSJ [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Trudeau is the worst kind of western war criminal , one that has everyone fooled . Obama was the same way .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT DanaLovinLife 1 : Some MSM are just evil in disguise ! Media criticize Trump's statement on racism that they demanded \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Khanyisile Mthetwa , a Soweto flautist , won international music scholarship . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER He is @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The #SAA units advance on #HTS positions near #Hama . 9 terrorists got killed , the rest are abandoning their positions [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Edgar Lungu promised to help Zambian learners who failed to pay school fees in India and were left stranded as the result . He addressed the matter to the Zambian Embassy saying that it was not the time to identify those responsible but to help the students come out of trouble . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "It was an accident that needed to be investigated by the authorities @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Moz grappled with widely-spread fake materials in their informational space in the run-up to the general elections . Although the winner has already been announced , it turns out the fight for the minds of people is far from being over . Read more below : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : First Peek at President Trump Inside Air Force One and He's Watching Fox News ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Krauthammer Brutally Exposes Obama As A Narcissist On Fox News , Megyn Kelly Was Left Stunned [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER + + pK5Mrn2cOXrzHm71gg7YwrpNU =: UPDF soldiers in Somalia keeping law & order #securityug [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "First coast division ( #FSA ) attacked with mortar position of #JabhatAlNusra near Kanaya in province #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "JUST IN : Tucker Carlson is Already KILLING Megyn Kelly's Ratings ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Are You Sitting Down ? You WON'T BELIEVE This WAPO Headline ! [url] #chel [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Home affairs \u2018 dragging feet ' on returning freed drug mule - [url] 33 - year-old , Thando Pendu from Welkom who was detained in Thailand for more than ten years has been finally set free but cannot come back home since the Department of Home Affairs has been dra ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Which country's capital has the fastest-growing population ? Ireland . Every day it's Dublin .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Zambia will hold Economic Summit during 25-26 July 2019 . Media companies such as Bloomberg , BBC and Reuters are expected to broadcast the event . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Can't you just spend money on me without us fucking ? :thinking_face: :face_with_tears_of_joy: :face_with_tears_of_joy: \ud83d\udeb6\ud83c\udffe\u200d\u2640",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump Hauls in $ 42 Million in First Quarter Fundraising for 2020 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Tonight , the national teams of Morocco led by coach Herve Renard and South Africa headed by coach Stuart Baxter will meet in the final Group D match of the Africa Cup of Nations in Egypt . The game is to start at 18:00 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "It is a smear job and a smokescreen to distract from capitalism's further decay and to provide cover for the real drug traffickers , the US government , it's allies in the Middle East and Latin America , and the Venezuelan opposition .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : I don't believe anything American media says about Venezuela . The US funded an attempted coup . Elites are hoarding food , w \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#gess Flake Commits Political Suicide With This Latest Stunt [url] #gene [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT diamactive 2001 : Let's get Gitmo prison ready for all those calling for assassination of our legally elected POT \u2026 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "[url] Public #Television of #Russia : How Ordinary People Can Speak to Society and the Authorities #TV",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Love",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER smashing it up with Party time @USER @USER @USER @USER @USER @USER \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The REAL Ukraine Collusion Story Mainstream Media REFUSES To Cover [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "It turns out that #HTS militants create pages for girls on social networks and engage in dialogues with other groups . Under the guise of intimate correspondence , they are asked to send in photos that show the geoposition and then fire at them . That's funny ! #Syria #Girl [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Average kilometer of Gazprom's East Siberian Pipeline to Asia will cost $ 8 million [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : I congratulate Ms . Sarah Kanyike upon her appointment as State Minister for Disabilities and the Elderly . I want to exp \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Don't give up , NEVER GIVE UP . God is the greatest \u270c\ud83c\udffe :relieved_face: :blue_heart:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Social Media Visa Vetting Sure Is Orwellian , But Folks Have To Get Over It [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER =: One of the most outstanding and decisive battles that weakened the LRA was the battle at the Soroti-Katakwi borders wh \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "White House says ' extreme vetting ' order remains in place despite judge's ruling [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Wakikuba @USER #SundayExplosion #NYONDOclub 25thAUGUST :right_arrow: MEGA SHIRUMATIC experience",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Disgraceful Yahoo News Purposely Leaves Out 4 Kidnappers are Black , Victim was White [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : Michelle Malkin SLAMS the Media for Critiquing Trump's Inaugural Address [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The international #coalition led by the #US is not taking any action to prevent terrorist attacks in the territories on the #eastern bank of the #Euphrates . #Syria #War #terrorists",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING Ted Cruz Trolls Mainstream Media Over Russia Hypocrisy and Hysteria [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Director of Natl Intel Just Handed CNN , Buzzfeed A Blistering SMACKDOWN ! ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER You know what matters at the end of the day is winning and you and i know very well Museveni is go \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Hayat Tahrir al-Sham jihadists are preparing a new #offensive in #Aleppo governorate , according to social media reports . #HTS #militants #Terror",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Warning : Debt party's over . Here comes the hangover [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Establishing a fruit processing plant in Masaka @USER will create jobs across the value chain and deepen modernization @USER @USER @USER @USER @USER @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : Mariah Carey Blasted for Insensitive Post-Massacre Vegas Interview [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "FAILED LEGACY : Obama's Appalling Betrayal of Israel [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Join in 10:00 am #RightToKnow #AccessToInfoDay",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT ZakZale : Trump supporter ZakZale claims there are ' no go areas ' in England . Media Trolling me again . I was rig \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "It was a humiliating exit that fans are still finding it difficult to grapple with . Zimbabwe being knocked out of the Africa Cup of Nations ( Afcon ) by DR Congo , a team it had defeated twice during the qualifying rounds . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Twitter Users Fill Up Megyn Kelly's Timeline With Adoration After Good-Bye Video ; Sort Of ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER Omwana Wa Bandi deserves #Number1 Thumbs Up best @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "On the same day , this employee promptly leaked the information to Newsweek magazine , Trump handed over the Kurdish allies of America unconditionally .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The policy of the #Turkish leadership to oust the #Syrian_pound from the occupied territories of northern #Syria is leading to a humane disaster . Medicines and basic necessities have risen sharply , which is disastrous for residents with a minimum level of income [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT pmc 35 : FoxNews POTUS Stumbling to give POTUS even a little credit ! #FoxNewsSpecialists can't find a kind , balan \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "At 14:00 , watch the live broadcast of the #valdaiclub's online press conference \u201c Valdai Club and Agenda - 2020 : Global Challenges from a #Pandemic to #ClimateChange and Their Impact on World Security . \u201d Live text in English will be available . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BOMBSHELL : Van Jones Is Secretly Stealing Trump's Republican Electors \u2026 Media SILENT [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RR RT TheDailyLedger : Tonight on TheDailyLedger on OANN , attacking our President and our heritage with the removal \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT realDonaldTrump : Only the Fake News Media and Trump enemies want me to stop using Social Media ( 110 million people ) . Only way for me to \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : One need a political reform , but #Russia needs weapon plants and altars . #valdai2013",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : It doesn't matter what the MEDIA or OFFICIALS in the west said about #ALEPPO I was there ! I SAW IT ! Aleppo did NOT fall , \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Warlord Abdoulaye Miskine , leader of the Central African People's Democratic Front , was arrested in #Chad , the spokesman for the #CAR government said on Wednesday , which has requested his extradition to the Central African authorities . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "When An Interview Goes Too Far ! CBS ' Dickerson Gets Dismissed By Trump ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#jud BOOM ! Mercedes Just Changed It's Hiring Policy to Fit Trump's \u201c America First \u201d Agenda [url] #jud [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING : New Gallup Poll Proves Americans REJECT Liberalism [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Putin : Russia must counter US missile defences . from BBC News ~ [url] #US #Russia #Putin",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Move to Miami and retire to the dustbin of history where so many of your allies already are @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Daily Maverick journalist Marianne Thamm literally went through EFF's trash to find evidences against them . However , not all people agree with her methods and not all people believe the article is actually true . You can read the article here : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : #Turkish Air Force conducted 19 bombing strikes on #Kurdish rebels in the North of Syria #Syria #OliveBranch #WarInSyr \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Singer and Idols SA runner-up Thami Shobede has died at age 31 at Kalafong Hospital in Pretoria on Thursday morning . Shobede was admitted in hospital after collapsing when performing on stage at the weekend . #RIPThamiShobede [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : #Canadians being misled by Foreign Affairs Minister @USER in regard to elections and freedom of press in #Venezu \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Zahabu @USER #SaturdayExplosion CLUB TEX bweyogerere [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER is a pro-US bot . He tried to blame me of being a Russian troll ( wtf ) and believes I live in Damascus . When he understood he screwed up he just deleted his post . VERY WISE",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "President @USER is committing attempted murder in allowing cargo drivers from neighbouring countries to enter Uganda before their #COVID__19 status is known . The lockdown is a very big cost to our economy ... 1/2 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Please watch ! Another target of the psychological information war is the Sandinista revolution in Nicaragua .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Russia in Syria : Obvious Risks [url] #Russia #Syria #valdaiclub",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "\u2018 Pick up a godd * * n brick ' if Trump fires Mueller , HBO's \u2018 The Wire ' creator tells Twitter followers \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The withdrawal of the US Armed Forces from the northern areas of the province of Aleppo is being delayed while simultaneously inactive to divert pro-Turkish militants from the Membidge area . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER =: Happy birthday @USER . God bless your new age [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "TRUMP IS AT WAR WITH NBC OVER LEAKED INTEL REPORT [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Media attacks on Kentucky AG are \u2018 disgusting ' : Laura Ingraham [url] #FoxNews",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER It's hight time to explain the Tories that we don't feel like watching all this . Now or never",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The #HTS terrorists carried out a street execution in #Idlib . But judging by the numerous media reports there are no terrorists at all in the province , and exclusively peaceful people are dying as a result of shelling by government forces #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "What kind of fight against terrorists say the United States , if in the territory controlled by them terrorists feel like at home . Innocent refugees from the Al-Rukban camp are suffering because of them . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : KK argues that the Seninde report has already been discussed and adopted . Alipanga doesn't know that because he's not a m \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Recent Angela #Merkel's decision to step down as party leader marks the beginning of her withdrawal from German , European and international politics , says #valdaiclub expert Sabine Fischer #Germany #Europe [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The Latest : Judge extends stay barring Trump deportations [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Yesterday , militants from Sukur al-Sham and Hayat Tahrir ash-Sham factions again quarreled in the Idlib de-escalation zone . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : US State Dept implores \u2018 mockingbird ' media to promote White Helmets \u2014 RT Op-ed [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER =: \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec It's already a beautiful morning in Karamoja . Thank you Government of Uganda for the smoo \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : A handful of rich people in the US are shaping government policies to make themselves richer and the rest of us poorer . Bu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : The next time some badly educated person says something like \" .. but we haven't got enough money \" , the world lost , I repeat los \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "\u201c Limits are very unlikely to emerge via international law or explicit policies or formal agreements \u201d , #valdaiclub expert William Wohlforth ( @USER College ) on interventions in the self-help world . #Russia #US #China [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : UK announces 55 more deaths of people with coronavirus - the lowest daily rise since before lockdown on 23 March [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : From #Syria : Thank you #Russia and #China for the double Veto against #NATO .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#anlis Fox News Host SLAMS Mueller for \u2018 Stacking the Deck ' Against Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Will Media Apologize to Trump for CONDEMING his \u201c Fire and Fury \u201d Comments ? [url] #azuus [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER @USER thanks for your recomendation :) I am afraid the infornation about 500 civilians dead in Ghouta is but fake news from terrorists indide . this is information war nothing more",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Uber won't back down from fight with DMV [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Tomorrow , Wednesday , there will be an interactive session between candidates vying for positions on the Central Executi \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Russia : Partnerships make tracks to reform [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Is a false choice noted @USER between \" Social Isolation or economy \" . The US - which denied the severity of the pandemic and did not promote quarantine - has the highest number of deaths and also millions of unemployed . Industrial and media corporations lie . @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : #Terrorists continue provocations in the north of #Hama . Sources say about shelling of Kaliat Marz neighborhoods [url] : \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "several Turkish armoured vehicles have taken terrorist leaders from southern #Idlib #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Igbalod\u00e9 Logistics 15days promo is still on , send us @USER a dm today , lets give you that fast delivery you've al \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER gave the annual State of the Union address . #valdaiclub expert Dmitry Suslov explained in an interview with [url] why this speech can be considered an election manifesto . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Nkwatako @USER #SundayExplosion NYONDO CLUB [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "\" We don't need lectures from anybody really in the world , because we know what we are really doing \" - president @USER Watch Museveni's full interview with @USER . @USER @USER @USER @USER @USER @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "China bans Wikipedia - [url] \u2013 the world's biggest online encyclopedia has been banned in mainland China . According to the censorship research group , the Open Observatory of Network Interference , the encyclopedia has been barred in April . The Wikimedia Founda ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#top RT thebradfordfile : . NEWSWEEK : Do you actually employ an editor ? How on earth did the below article get publi \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Trump Chief Of Staff Shuts Down NBC \u2018 Meet the Press ' Host During Contentious Interview ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : As Al Jazeera America tried asking Trump a Q tonight , he said , \" you guys are out of business ! \" and moved on . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The launch of the new Power of Siberia gas pipeline , through which Russian natural gas will flow to China , symbolizes the establishment of a new type of relationship between the partner countries , writes #valdaiclub expert Alexander Lomanov . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "This Reporter Saving \u201c Old Glory \u201d From Hurricane Harvey Will Bring a Tear to Your Eye ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Handy image for when #Venezuela opposition , supporters & mass media make their \" 60 murdered by Maduro dictatorship \" claim : \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Another part of the media campaign against the legitimate government of Venezuela .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Armed clashes between #HayatTahrirAlSham and #FailakAlSham have resumed between militants in #Idlib because #FaS is critically dependent on the #HTS fuel monopoly . This can lead FAS to risk of being left without transport and combat vehicles [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "MyCiTi services suspended in Khayelitsha and Mitchell Plain - [url] The City of Cape Town's MyCiTi bus commuters struggled to reach their daily destinations after the N2 express service was suspended , earlier today . This followed after the city failed to sec ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Please Follow #HEDGE on Facebook ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "For two weeks of December 2018 , #terrorists in the region of #Idlib province shelled the positions of #Syrian government forces 103 times . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Terrorists used MLRS \" GRAD \" rockets when firing on #Jurin in the Province of #Latakia , #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The \ud83c\uddfa\ud83c\uddf8 #US \u2013 #Taliban deal and dual power in \ud83c\udde6\ud83c\uddeb #Afghanistan Op-ed by @USER [url] #Afghan #Kabul #AshrafGhani #AbdullahAbdullah #Khalilzad #USFORA #AlQa\u00efda #ISISK",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The president of the #CentralAfricanRepublic #Touadera met on September 10 , 2020 former Central African leaders #Bozize , #Djotodia and #Nguendet as part of various consultations related to the December 27 , 2020 elections . #CARcrisis [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : 66 % of Americans want to see tax loopholes closed for wealthy taxpayers . Will the #budget committee listen ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#imo Ann Coulter DESTROYS Mitt Romney for Siding with ANTIFA Over Trump [url] #im [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER Wapi as you can see all over the world a good example is the USA the nation will always vote seasoned leaders who have learned so many lessons along the way not chaps Bobi who woke up yesturday [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER That's totally true :hundred_points: :hundred_points: :hundred_points: :index_pointing_up: #FinesseGXDS",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#CITRobbery scene in #Bloemfontein . Cash van blown up . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : The coup regimes persecution & propaganda can't hide the fact that they've destroyed Bolivia's economy through austerity & n \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Russia cuts deal to finance #Ukraine [url] #euromaidan",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#mar BREAKING : High Profile Dem BUSTED for Funneling Campaign Cash to Wife [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "\ud83c\uddf0\ud83c\uddff Today , the third Russian-Kazakhstan expert forum is held in Nur-Sultan . The Valdai Club prepared a report for the conference : \" Eurasian Economic Integration : Between Absolute and Relative Benefits \" . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT krisp__y : I turn Fox News off every single time Shep Smith comes on . I get an overwhelming urge to throat punch him every time he speaks .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "In all these economic frustrations it's the citizens that suffered . They said Mugabe was the problem but when he left the economic sanctions were not lifted & Zimbabweans continue to suffer . It's the same faces everywhere in Africa destroying states but many still falling for [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Muwe remix @USER #FridayExplosion @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Met with the Parliamentary Public Accounts Committee on Local Governments . They presented to me a report on the finding \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Trump Ditches the Press to Play Golf ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#sted RT AnnCoulter : CNN : \" Why Won't Trump Stand Up Against Hate \" He does . He stands up to CNN every day . #justo",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER + RiCDPYKygUmXr 12GaFQMtg8 =: Canary Mugume isn't only a rapist and homosexual , but he is also a conman . He used his girlfriend to siphon money from a loa \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Are you dumb ? 1 . There is complete press freedom in Venezuela . 2 . He made death threats against the Vice President . You and he should share a cell .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Valdai Club discussion : \" National Identity in the Era of Globalization : the Experience of #China , #Russia and etc . \" [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : More than ... 12,192 bombs in #Syria 12,095 in #Iraq 1,337 in #Afghanistan 496 in #Libya 35 + in #Yemen dropped by the #US \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : The corporate media is lauding Amazon for raising its minimum wage to $ 15 / hr . Now the workers who make his company run wi \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : A list of ' liberated ' countries by the US in past decades #US #Democracy [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "True . And the doctors are certainly right . To call a credible prediction a \u201c threat \u201d or \u201c coercion \u201d is nothing but media propaganda .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The Football Association of Zambia ( FAZ ) has determined which company would further broadcast the Zambia U20 and U17 matches on the web . The regulator has signed a 5 - year contract with Yatu Media giving it exclusive rights to live stream the games . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : I'm a Constitutional Conservative who knows we don't need any more government regulations than we had in 1776 . - - Sent from \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : Hilarious ! Liberal Protester Dramatically Screams \u201c NO ! ! ! \u201d as Trump is Sworn In [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Disgrace of the western democracy and its media.Islamists in #Syria appear to be \" our guys \" whom we support and call \" rebels \" \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":hushed_face: US says they are ready to sanction Russia further over UK poisoning . The UK has expressed support for this intervention . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Russia #UK #UnitedStates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Mandela's daughter Zindzi dies in South Africa [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : IMF and Moreno government of Ecuador lose this round of the fight over austerity and neoliberalism , but if you read the I \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The article and proposals of our writer Mohammed Sabreen about \ud83c\uddf9\ud83c\uddf7 #Turkish - \ud83c\uddea\ud83c\uddec #Egyptian relations in headlines of Turkish media . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Sometyms I feel like I want love :red_heart: :weary_face: buh then eat :poultry_leg: :bowl_with_spoon: :cup_with_straw: and realize t was hunger :hushed_face: making think nosense :face_with_hand_over_mouth: :face_with_tears_of_joy: :face_with_tears_of_joy: A goodmrng to u \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Trump Absolutely Destroys MSNBC and CNN \u201c FOOLS \u201d Over their Coverage of Russia [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER @USER General Suheil's artillery and aviation are continuously shelling ISIS terrorists , who tried to flee from the war zone , on the eastern bank of Euphrates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "After 8 Months Clapper Still isn't Aware of Any \u201c Collusion Between Trump and Russia \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Zimbabwean president Emmerson Mnangagwa handed over 25 buses for civil servants on Wednesday . Mnangagwa said the buses were part of a government scheme to give non-monetary benefits to civil servants . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER =: #Peaceful life returns to #Aleppo ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT AZcardFAN 711 : Hannity EXPOSES Media Matters , George Soros and plot to impeach Trump [url] via realDennisLynch",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : Chris Cuomo CONFRONTED Over #CNNBLACKMAIL [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "The four-nation summit held in Istanbul on the eight-year conflict in Syria commanded wide coverage by media outlets in both the Arab world and Iran #syria #turkey #summit",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER =: The Next President of Republic of Uganda . ___ \ud83d\udc4d\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc47\ud83c\udfff \ud83d\udc4d\ud83c\udfff \ud83d\udc49\ud83c\udfff \ud83d\udc4d\ud83c\udffe \ud83d\udc47\ud83c\udffe \ud83d\udc47\ud83c\udffe \ud83d\udc47\ud83c\udffe \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : Hillary , if you Want to Know WHY YOU LOST Listen to These Democrats Who Voted For Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "SABC staff evacuated due to diesel leak - [url] On Wednesday morning , the South African Broadcasting Corporation ( SABC ) employees were evacuated from the Radio Park building in Johannesburg . Three of them were hospitalised . \u201c There was a power outage earlie ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "In the province of Idlib , Turkish militants plan to conduct regular chemical provocations with the participation of White Helmets , which specialize in media provocations and deceptive stories about chemical attacks . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VALDAI PAPERS #53 : key dynamics in the Middle Eastern #oil and #gas and how they shape the global energy picture [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "TV Anchor Suspended After Saying Kellyanne Conway is \u201c Good At BullS * * * \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Wow , where to begin . @USER first denied there were talks ( under fire from right-wing zealots ) , then claimed the gov't w \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": ":globe_with_meridians: Net migration of European Union citizens into Britain fell to its lowest level since 2012 in the year to March , but this was more than outweighed by a record influx of non-EU citizens ahead of Brexit , official data showed on Thursday #UWI #EU #Brexit #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT Harlan : President realDonaldTrump is going to emerge from this week more popular than ever before . People are sick of the #FakeNews ! # \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER I appreciated your page full of reposts . Do you have any thoughts of your own , Mr.Teacher ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Alexey Kokorin , director of the Climate and Energy programme of the World Wildlife Fund ( #WWF ) , spoke in an interview with #valdaiclub about the possible consequences of climate change and the contradictions of the Paris Agreement . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER Congrats ! ! !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "President Obama's Honor Guard Passes Out During His Farewell Speech [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Ayaya @USER #MondayMotivation #LAFTAZZ :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : \" No human being is illegal . \" RT @USER : Marching to end deportations rally in Denver . #not1more #2million2many [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Tambo airport : car is on fire [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Justin Trudeau abandons campaign promise to reform voting system [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : Bloomberg has spent $ 450 million on his campaign so far . That sounds like a lot , but he makes $ 107 million every day . For \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : WAR ON CULTURE \u2013 TLC Attempting to Normalize Polygamy ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#Sochi : 16th Annual Meeting of the Valdai Discussion Club . Mohammad Sanusi Barkindo : Oil Must Not Be a Weapon . #valdaiclub #Valdai #OPEC #MohammadBarkindo @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "More Fake News : Media Contrived Photos to Diminish Trump's Inauguration Crowd [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Why does France suffer image losses in #Venezuela ? This question is answered by #valdaiclub expert Pascal Boniface . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Putin on Democrats \u201c They're Sore Losers Who Need to Learn how to Lose with DIGNITY \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : We commemorate the eternal memory of the socialist leader Salvador Allende , 45 years after the assassination perpetrated by \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "#NYTimes fabricates another ' hospital bombing ' story against #Russia in Idlib . All sites bombed were underground or ' cave ' hideouts , all the anonymous sources were jihadists in #Idlib and their collaborators . More deliberate #Propaganda for war .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "RT @USER : #Breaking : Infighting between all kind of #terrorists gangs CONTUNUES in #Idlib AlQaeda hub :warning: An explosion shook the city of \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BOOM ! Hannity Hits # 1 Show on Cable News , CNN Not Even in Top 5 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "It seems that #Turkey cannot fulfill the commitments made during the meeting in #Sochi . #Turkey #terrorists #terrorism",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "BREAKING : Nancy Sinatra SLAMS CNN for Anti-Trump Spin on Her Humorous Tweet [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Fake CNN Tries Question Trump During Press Conference ; Watch This Viral Response ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "Not far from Mayadin , international coalition forces bombarded fuel trucks heading for the western bank of the Euphrates [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "A Wentworth man who was found in possession of an unlicensed firearm near the police station is to appear at the Wentworth Magistrates Court tomorrow , September 2 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Media/Journalism. Use 1 or 0 as output.",
+        "input": "VIDEO : O'Reilly Calls Out the Liberal Media Determination to Take Down Trump [url] [url]",
+        "output": "1"
+    }
+]

@@ -1,0 +1,622 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The Automobile Association said it is expecting the petrol to drop by 86 cents a litre , diesel by 68 cents , and illuminating paraffin by 58 cents next month . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : What you need to know about the Keystone XL Pipeline : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Will China Replace the United States on the World Stage ? [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "India's boom continues but for how much longer ? [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#Sochi : Mohammad Sanusi Barkindo on the Future of Energy . #OPEC #MohammadBarkindo #valdaiclub @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "170 unprotected households have received benefits from the village banking program implemented by the government in order to support Chipata district this year . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : 1989 , richest 1 % owned 23.6 % of US wealth . Rose to 30.9 % in 2018 . Top 1 % own a majority of all shares of stock . Since 1989 , \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : America's war on poverty ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The Ministry of Plan , Cooperation and the Central African Agency for Agricultural Development ( ACDA ) , has launched the sowing operations in Landjai-Mboko as a part of the mechanization of #corn cultivation . #CentralAfricanRepublic #farming [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Moonlight's Oscars shine may not be enough to save Florida film industry [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : US taxpayers subsidizing Amazon employees because Amazon refuses to pay US workers a living wage ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Since 2000 , the year Bush was elected , Lockheed Martin , the world's larger weapon manufacturer , has seen its stock tr \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "15 % business tax is lowest for a big economy [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Mozambique's talks with the International Monetary Fund ( IMF ) are making \u201c encouraging progress , \u201d as the country seeks to restore access to international financing , President Filipe Nyusi said on Wednesday . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : We thank the Members of the European Parliament that praise Bolivia's achievements in poverty reduction and economic growt \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Brexit slashes U . K . household wealth by $ 1.5 trillion [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Global class warfare : The 26 richest billionaires own as much as the 3.8 billion ( 3,800 , 000,000 ) people who make up the \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Yet again data show huge social costs - including record rates of suicide - from US capitalism's ever-worsening economic ine \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Iran's Reaction To The OPEC + Output Deal Reeks Of Desperation [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": ":eagle: Iran said on Sunday it could quit a treaty against the spread of nuclear weapons after the United States tightens sanctions , while an Iranian general said the U . S . Navy was interacting as before with an elite military unit blacklisted by Washington #iran #us #usa [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": ". @USER pledges strengthen and adequately recapitalize Uganda Development Bank ( UDB ) to avail affordable long - term credit to those investing in commercial agriculture , tourism , mining and manufacturing . #M7UGsChoice this means easy access of capital . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Social Security's looming $ 11 trillion shortfall [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER I said wars are fought for profit . Corporations make millions off of sending troops to war .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Bill Gates , Vaccinations , Microchips , And Patent 060606 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Senate preserves Trump arms deal with Saudi Arabia [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Davos should get real or close shop [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Uganda's agricultural sector presents multiple highly-profitable investment opportunities both for profit-oriented invest \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#EAEU member states are continental powers , which imposes certain restrictions on their economic development and creates difficulties in integration . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": ":collision: PKK terrorist group controls 80 percent of drug trade in Europe , earning around 1.5 billion dollars per year - Turkish interior minister #turkey #pkk #terrorism #europe",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : The US tax system is , in fact , a big flat tax on 99 % of as at roughly the same rate while only the top 1 % pay LESS than tha \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "\u270a\ud83c\udffc Venezuelan mining minister has announced that the countries gold reserves will be refined in Turkey as opposed to Switzerland because of US and EU sanctions . #Venezuela #Turkey #UWI #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "President Emmerson Mnangagwa's presidential exit is all but sealed amid reports that China will help in his removal from office , after he angered Beijing by giving exclusive diamond exploration and mining rights to Russia ahead of the Asian powerhouse . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "EU and US never stopped colonizing the world ; they just moved onto more \u201c efficient \u201d methods . Military and economic subversion keeps much of the world under the thumb of empires .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Digital Economy Development - Infographics - [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Wall Street drops flash warnings : capitalism \u2013 a system with downturns every 4-7 years for centuries \u2013 is readying to hit us \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Michigan teacher pension fight ruffles union feathers [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Consequently , coffee production is targeted to rise from 3.6 million bags today to 20 million bags by the year 2020 , #Ug \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "MORE illegal and immoral sanctions against Venezuela from the empire . Despite this economic war , the people stand firm in their support of constitutional and democratic president @USER . Socialism continues to fight and provide for the people of Venezuela ! @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The Local Committees for Supply and Production ( CLAPS ) are normally led by 9 people representing sectors of the community . Women , students , a book keeper , farmers , the military and others are represented . @USER is an amazing example of people's power to fight capitalism ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Pakistan's Regional Maritime Security Patrols Are An Extension Of CPEC [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "As a result , according to some reports , the total monthly income of HTS from taxes is almost $ 1 billion . #Idlib #HTS #militants #taxes #fees",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Recognize capitalism as a threat : Bolivia's Evo Morales ( @USER ) urges United Nations Ocean Summit : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Terrorists have attacked pumping stations in Venezuela's oil-rich Orinoco belt . @USER explains this is where the \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Huge US unemployment unnecessary ! US could hire millions to make jobs safe ( by testing , redesigning , disinfecting , etc . ) . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Want a fairer tax system ? Join #TaxChat 3/20 w / @USER @USER @USER @USER RT if you'll be there ! ht \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Moz govt will adjust the current scheme of awarding the public works contracts . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Youth creating jobs in the face of unemployment in SA as Stats SA revealed that the country's unemployment rate had increased to 27.6 % in the first quarter compared to 27.1 % at the end of the fourth quarter of 2018 . Read more : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The \" financial markets \" welcome when fascists , worshipers of the military dictatorship and agrarian lobbyists who want to clear the rainforest , are in power ? If democracy is to have a future , the power of bankers and financial companies must be broken !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Is it summer where you live ? Do you feel like just going outside is a chore because of how hot and uncomfortable it is ? Imagine working for 8-16 hours in a warehouse doing heavy lifting with NO A / C in this weather for sub-par wages . This is the source of bezos wealth - parasitism . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Private Security Industry Regulatory Authority has suspended the business registration of Red Ant Security Relocation and Eviction Services . [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER =: :high_voltage: The Future of #Iran #Energy Exports to #Iraq Op-ed by Omid Shokri Kalehsar ( @USER ) [url] #Teheran #Ba \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Indicative features of upturn in SA manufacturing [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Capitalism , imperialism and dangerous regimes all go hand in hand .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Today , in the @USER , we passed the Budget Law , Indebtedness and Annual Operating Plan for the financial year 2018 ! htt \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Oil tanker trade grows fastest in a decade [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "When #Turkey started an operation in Syria , the #Americans decided to leave the country . Then , #WhiteHouse remembered #Syrian oil fields and their policy changed . Therefore , all equipment from the former #Iraqi bases is drawn now to the #US #oil facilities in eastern #Syria . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Capitalism breeds misery . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Taxpayers spent $ 70,000 , 000 developing this drug . Gilead's CEO makes $ 31,000 , 000 Pharma greed is sickening .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Today , seven years ago , imperialism with the US and NATO in the lead , assassinated Muammar Gaddafi to plunder the millions of reserves and loot oil from Libya , the richest country in Africa and with the most well-being . Chavez explained the treachery to Libya in 2011 .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Curated HedgeBz | #DARPA awards $ 65 million to make #CRISPR safer , more efficient [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Donald Trump : \" We wanted to bring the soldiers home , but we decided to leave them to protect the oil because I like oil . With these words , the American president recommended the withdrawal of the American contingent from the oil fields in #Syria . #SyriaOil #USMilitary [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Rwanda and Zimbabwe entering deal : A Memorandum of Understanding ( MoU ) has been signed in Harare to promote further business growth and investment in the mining sector . The deal will focus on shared training , resource and expert management . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Ayaya @USER #SundayExplosion #NyondoClub :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#SyrianGovernmentForces conducted response #airstrikes on #terrorists positions in #KhaushDaura district [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER Thanks",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RR RT gerard_lapointe : Only if you were born yesterday would you question Barcelona as being a \u2018 Copycat ' of Charl \u2026 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER Nice ones",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "16 units in Idlib are ready to go over to the side of the government forces in Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT AnnCoulter : We need to clone Stephen Miller and appoint him to every cabinet position .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The President of the Central African Republic Touadera granted audience to a delegation of the Economic , Social and Environmental Council of France . #RCA #Touadera [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#ISIS gunmen lack food and medicines near #Hama [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#amb BREAKING : Trump Just Tweeted a BRUTAL Warning to Kim Jong Un ! [url] #amb [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The #Americans are increasing their presence in the region ; the number of #PMCs already exceeds 3.5 thousand . These people have organized criminal production in several fields and sell oil abroad . #Syria #US #oil #Euphrates [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "WATCH : The men in blue gathered in Pretoria Church Square and marched to Jubilee Park via Leyds Street and Kotze Street to stop the crimes committed against women and children . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Zimbabwean accused of rape and murder appeared in PE High Court - [url] truly blood chilling story was told on Thursday in the Port Elizabeth High Court . The victim accused a Zimbabwean national of killing her boyfriend , kidnapping and raping her , and stabbin ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#evas Disgraced Anthony Weiner Paying the Price for Crime , Lies , and Corruption [url] #eevan [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#syria 5 vehicles #destroyed , more than 20 gunmen eliminated after #airstrikes on positions of #terrorists near #Saraqib and #Maradih in the #Idlib province [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "A Zambian resident has filed a lawsuit against Legana Meat products accusing the company of low-quality products . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "We are approaching hunger games levels of ridiculousness . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER @USER Which is very good . He didn't stop them from helping but suggested a more safer way where them and the population will be protected . They can pass the help through the OPM",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "U . K . has no Brexit plan according to leaked memo [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Saw these two young ladies standing at Jinja road roundabout with their psf promo asking us to wear our masks . Couldn't res \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Radio Days Africa is the largest radio conference in Africa . Held on an annual basis , Radio Days Africa is presented by the Wits Radio Academy under the auspices of the Department of Journalism at the University of the Witwatersrand . #RadioDaysAfrica #thepowerof10 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : UPDF Special Forces Soldiers that are well skilled that when dealing with any threat the evidence tells them \u201c HOW \u201d & Psych \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The #Syrian government is doing everything possible to make it easier to live for the refugees who managed to escape from the #Rukban camp . They are provided with jobs for adults and places in schools for children [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "\" We do not buy #US weapons for our money , but , unfortunately , the US does it for #terrorist organizations for free \" , - #Turkish President #Erdogan [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER =: Last week in \ud83c\uddf9\ud83c\uddf7 #Turkey : #Idlib , the beginning of a new war ? Op-ed by Onur Sinan G\u00fczaltan ( @USER ) [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Rare picture of Twitter NG winning the DRAGGING Champions League After dragging African Giant to the extent that they qu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "129 #Ukraine's soldiers taken prisoners by #Donbas insurgents [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "An innocent woman became a victim of a gunfight after she had been hit by a stray bullet in Grassy Park , Cape Town The 27 - year-old woman was a mother of two .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Why Hollywood's writers might be headed for a strike [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Consultant sentenced to prison for part in kickback scheme [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "CIA Troublemaking in Caucasus [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER Thats what you think ... wait for the day your relative will be beaten by NUP hooligans",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The government of the Central African Republic and the @USER reassure the population about the mechanisms established to deal with a possible case of #coronavirus in the country . The announcement was made to the press this morning by Health Minister Dr . @USER . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "On May 18 , the Syrian army unilaterally ceased firing in the Idlib zone . Today the militants attempted to attack the positions of government troops , but were stopped . About 40 terrorists destroyed . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The Constitutional Court has dismissed former Eskom CEO Brian Molefe's appeal against the decision to pay back part of the R30m pension he received from the power utility . This after the Pretoria High Court found that he received the money unlawfully from the Eskom Pension Fund . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#ross Obama Expresses His Sympathies on Charlottesville the WORST Way Possible [url] #ros [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Cape Town police seized abalone worth more than R3 million [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#syria #GeneralSuheil's assault units liberated #Salihiyah , now conducting mopping-up operation in #AlQataa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Durban highways blocked by refuse trucks - [url] Striking eThekwini municipality water and sanitation department employees have been joined by Durban Solid Waste workers . Today , they trashed rubbish bins leaving streets littered with garbage . The drivers b ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : Laba wetutuuse ! I want to thank this wonderful girl in Germany . Next time I'll post a video of Bazungu dancing African st \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Foreign instructors train underage HTS fighters at a training camp in Maarat al-Numan district .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER Sebo commander of UPDF where were they going and what was their task for deployment , which law did they break wearing uniform ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER All 15 million Ugandans attending school . Wow the level of literacy is at climax . Thanx Govt fr making this happen",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Ramaphosa appoints Minister Jeff Radebe as acting President of South Africa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Congressman : No need for green-card holders ban if no threat [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER Erdogan promised to defeat Nusra in Idlib , and thats the result . Nusra domination in land and manpower , which leads to absorbtion of former FSA fighters , facing a choise between death or taking oath to Nusra . And no real actions against Nusra is taken . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER : I was also very honoured to meet HE @USER ' s sick mother and pray with her . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "#sst Bolling Under Attack ! HuffPo Claims He Pulled an Anthony Weiner , Cites \u201c Anon Sources \u201d [url] #ste [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "RT @USER + UVxH 0NdxvC9b4HHO + aA9Y =: A wave of #rallies and #demonstrations of the local population against the #Turkish invasion of the country took place in \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "\ud83c\uddf0\ud83c\uddf5 \ud83c\uddf0\ud83c\uddf7 Who Benefits From the Current Situation on the Korean Peninsula ? The answer to this question is given by the #valdaiclub expert @USER : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Many men in the #alRukban camp are forced to join the #US-controlled #MagavirAlSaura units due to the catastrophic situation of their families . So , in addition to money , better conditions are immediately provided to families that have recruited [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "VIDEO : PAYBACK TIME ! Trump Mocks the Media Claiming He Had No Path to Victory [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "SA Department of Labour to verify NMW implementation [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "The so-called almighty UN has declared that it is ready to provide for up to 11 thousand refugees . What will happen to the rest of the people of this organization frankly do not give a damn .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "WATCH : The Drakensberg Boys Choir have returned from their trip to London where they wowed the audience of the Lyceum Theatre . Check the video below : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Food is a right !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Boy ( 16 ) drowns in Durban lagoon - [url] 16 - year-old boy died after being swept into the sea at Baggies Beach in Durban this afternoon . It is understood that the teen had been on a beach with his friends when he was swept away at the lagoon . Eyewitnesses call ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "BREAKING : Dems Intentionally Used FAKE Russian Disinformation to Attack Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "\ud83c\uddee\ud83c\udde9 H . E . Dino Patti Djalal , founder and director Foreign Policy Community of Indonesia @USER * Climate issue . We have keep global warming within the 1.5 degrees goal . All states should cooperate .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Morning Joe Brags About Leaving GOP on Twitter , INSTANTLY Backfires ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "Offensive to the ideals of democracy and justice . Once the people are in power in the US , justice will be served against oligarchs and criminals like @USER . The existence of Guantanamo is a crime in and of itself !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Macroeconomics/Economic Regulation. Use 1 or 0 as output.",
+        "input": "@USER :thumbs_up: :thumbs_up: :thumbs_up: very good )",
+        "output": "0"
+    }
+]

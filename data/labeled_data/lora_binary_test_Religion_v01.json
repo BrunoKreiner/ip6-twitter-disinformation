@@ -1,0 +1,112 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "INTO THE FRAY : Restoring Jewish Sovereignty by @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Your cup will over flow with God's blessings this month ! ! !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT AmyMek : Bill Clinton , George W . Bush & Obama have ALL had Muslim \" Advisors \" who were linked to #MuslimBrotherho \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : When you fight all your battles on your kness ( prayer ) , you will always win . #MenGather2020",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "After the wave of terrorist attacks that swept across #Western Europe in response to the operation of the anti-terrorist coalition forces against the Islamic state in Syria , the level of terrorist threat in states with a large Muslim population remains stably high . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Judah was the one who sold Jesus Christ for 30 coins , dont kid yourself , moron",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : I was also very honoured to meet HE @USER ' s sick mother and pray with her . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER The most incredible after returning him from the #CentralAfricanRepublic they moved him to church property with children summer camp ! #LukDelft [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "#topl RT Anni_Cyrus : When I hear \" Islam is a religion of peace \" #StopIslamization #WakeUpPeople #ShareTheMessage [url] # \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT AmyMek : Islam has conquered France without firing a shot A replacement of population is under way . Newly arriv \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : I declare that my life is for glory and beauty ; and in my path , there's life , success , victory and health . I pray for God's \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : As cowards this morning , the American forces withdrew from the border points after they demolished the fortifications o \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER Notula nkahi Where do u stay",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "In the southeast of #Syria near the Syrian-Iraqi border between the #AlTanf base and #Albukemal a weapon cache was found . The ammunition was prepared by the New Syrian Army insurgents to organize sabotage against Iranian armed units . #Iran [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "VIDEO : #Women'sMarch Linda Sarsour Told Maddow \u201c Islamic Children Are Executed In The U . S . \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with I like the way @USER #SaturdayExplosion #ClubAmbiance :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "30 #ISIS #militants were killed during the airstrikes of #Russian and #Syrian #AirForces near #Khan_Shaykhun area , [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Iran's Reaction To The OPEC + Output Deal Reeks Of Desperation [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Go Down @USER #WednesdayXplosion DE EMPIRE club TUESDAY_CLUB_AMNESIA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "Hayat Tahrir al-Sham #HTS terrorists executed 3 civilians in #Idlib accusing them of being in connection with government forces [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "RT @USER : Edgy billionaire media mogul instructs the masses to enlist and fight wars for his class . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Religion. Use 1 or 0 as output.",
+        "input": "13 ' Hold My Beer ' Moments That Are Just Spectacularly Stupid [url]",
+        "output": "0"
+    }
+]

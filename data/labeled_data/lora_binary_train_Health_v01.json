@@ -1,0 +1,1712 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : TEENAGER CRITICALLY WOUNDED ON WEDNESDAY , MAN WOUNDED ON TUESDAY IN ' DANGEROUS ' CONDITION [url] via @USER \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "28 learners hospitalised after alleged poisoning in Atteridgeville school - [url] Kalafong Hospital and Pretoria West Hospital took at least 28 pupils from Edward Phatudi Compressive School in Atteridgeville under medical supervision on Thursday after they ha ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Mondli Gungubele : I'm sure the investigation will clear me [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Faustin-Archange Touad\u00e9ra opened a high-level panel on the revival of immunization in the #CentralAfricanRepublic . The panel aims to adopt the budgeted plan for reviving vaccination and obtain stakeholder commitments to support its implementation . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: \" For Bulambuli district , electricity is available in all subcounties . Health Centre IIIs have been constructed at Bunanga \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "\" Jabhat al-Nusra \" is moving fighters from Kafr Da'il to Jisr ash-Shugur . Militants fear the onset of #SAA #Idlib #Aleppo #HTS",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Hoima Regional Referral Hospital is a government owned hospital , started as a district hospital in the early 1930 ' s , a \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "About seven thousand Syrians returned to their homes in the settlement of An-Naim to the east of the city of Dar'a . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "AMAZING ! Little Boy Saves Twin Brother After Dresser Falls On Him [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The SA government has gathered a high-level team of specialists and experts to probe the shooting between the South African National Defence Force ( SANDF ) and Mozambique border police . Mozambican media stated that two members of Mozambique's border police had been killed .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER smashing it :bright_button: Muwe :bright_button: @USER #SundayCarnival ___ :red_circle: Venue :blue_circle: | NYONDO club | ___",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#HTS continues to move troops to #Aleppo for a new offensive . The leaders of Hayat Tahrir al-Sham have sent terrorist squads to tighten control over the Al-Atareb-Twama road . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #Aleppo Hospital : Militants bombarded Al-Khadiya , the Al-Zahra Association and the Nile street in Aleppo City with chlorine \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Minister of Health , Pierre Soms\u00e9 , has declared #CentralAfricanRepublic free of wild poliovirus . The work of the Central African government will not stop at this declaration , but will have to continue adequate response to polio , stressed Mr . Somse . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec \ud83c\uddfa\ud83c\uddec As smart as Comrade @USER Salute General @USER for being a great inspir \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : The US government is shut down and federal workers are working without pay . So what do Republicans do ? They cook up a righ \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Uber and Taxify driver hunters caught by Langa police [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Is Poland Rushing To Save Poroshenko With More Right-Wing Militants ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #m7onland Uganda's forests and wetlands should not not be encroached on to avoid drought and famine . We need water for i \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Saudi Arabia and Israel ; partners in evil arms . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "READ : Corona virus has made people realize the most important things in our life are beyond luxury . It makes you think about your family , how they will survive during the lockdown , it make your reflect and wonder how the whole world hasn't figured out the vaccine yet .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Major Soweto roadways still blocked while protests go on - [url] police are on alert and armed patrols have been bolstered to monitor the situation since Tuesday morning when locals took to the streets and a protest broke out . Today it was reported that prote ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Jacob Zuma's lawyer Daniel Mantsha says he is disappointed that the PMB High Court doubted Zuma's medical certificate @USER \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Unidentified illness found in West African country #Nigeria killed 15 people , 100 more are still at risk [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : I be flirting for fun until she catches feelings",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Why not give the NHS all the money it needs , take it out of the Nuclear Weapons budget ? and to make up the shortfall there , \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "It was an accident that needed to be investigated by the authorities @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Reprieve for owing Namibian students - [url] Owing students allowed to write their examinations . Over 12 000 tertiary students who were rejected by the Namibia Students Financial Assistance Fund ( NSFAF ) were given a chance to sit-in and write their mid-year ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The United States , occupying Al-Tanf , brought the situation in the Er-Rukban camp to a critical one . In the camp there is no water and electricity , and people huddle in shacks with cesspools . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Africa Freedom Day celebration in Lusaka will be joined only by 350 guests - [url] The Zambian authorities continue its austerity policies and decided to invite only 350 high-profile residents to celebrate this year's Africa Freedom Day at State House in Lus ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER + qIsPp 4ZaNFZCxaLJIePPypzDuzVZg97pJfU =: According to my sources in #Aleppo hospital , there are already 72 victims of chlorine poisoning . Among them 8 children a \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "A drinking water tower was opened on November 6 for the benefit of Boeing Kokoro police station and local population in Bimbo , #CentralAfricanRepublic . The water drilling aimed at improving living conditions and helping to combat the #Covid_19 pandemic . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The #bandits controlling the Rukban camp used to sell water to refugees at a very high price . Now , after #Jordan has damaged the #water supply , water in the refugee camp will become too expensive for ordinary people and will be simply unavailable to many . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "One of the representatives of the so-called Shariah court of militants \" Hayat Tahrir ash-Sham \" , known as Abu Salah , was seriously injured as a result of an attempt on his life in Darkush town west of Idlib . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Over the past day , residents of the village of #KaferBatna were given 500 sets with essentials , 500 food sets and 900 liters of drinking water #Syria #Russia #BreakingNews [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Refugees who returned to the eastern districts of Deir Ezzore received medical care from Russian military medics #Humanit \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : Obamacare Repeal Effectively Dead After Another Senator Vows to Vote \u2018 No ' [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : To call it digital is a misrepresentation . The only issue #COVID19UG limits r rallies . Candidates will hv 2 use more \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Knysna ward councillor and former deputy mayor , Peter Myers has criticised Local Government MEC Anton Bredell's decision to suspend him saying it was irrational and politically motivated . Read full article : [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Turkish special forces and the formation of the so-called Syrian Free Army launched a special operation in the city of Afrin , where about 300 members of the extremist group Shuhada ash-Sharqiyah are currently based . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Russian doctors provided #medical assistance to residents of the #Yalda settlement , where a stationary medical post was recently opened #Syria #Damascus \ud83c\uddf8\ud83c\uddfe \ud83c\uddf7\ud83c\uddfa [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : As Uganda celebrates IDOP , remember COVID - 19 is causing untold fear & suffering to older people . Let's spread love , care & \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Port Shepstone K9 Unit during an intell driven op in Boboyi recovered drugs and a stolen vehicle . Vehicle was reported stolen over the weekend in Port Shepstone - found completely stripped next to suspect's residence . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Mad Dog Mattis DESTROYS Obama's Disgraceful National Security Team [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Construction of int . specialized hospital of Lubowa is ongoing . This 240 bed facility is a specialized referral , tertiary \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#sted RT SecPriceMD : Too many Americans cannot afford #Obamacare . 6.5 million people would rather pay an #IRS fine than sign up . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The 1st patient with Ebola in the eastern Democratic Republic of Congo in Goma city died . Experts are worried that the virus will continue to spread and reach cities where high population and mobility will make it hard to trace and isolate infected people compared to villages . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#laww VIDEO : Judge Jeanine's EPIC RANT on the Clinton / Lynch Tarmac Meeting [url] #law [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Mississippi passes law that allows discrimination . Where do we go from here ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#evas BOOM ! Abbott Just Dealt a DEADLY BLOW to State-Funded Abortions ! [url] #eevan [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #GainWithXtianDela follow @USER IFB",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Central Asian states must unite to halt the spread of jihadism [url] #Islam #terrorism #Asia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Please , send your woman money today . Send her money for just being beautiful . Do it ! ! !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Help save Emma ( @USER ) who is battling Kidney failure . Every coin counts . Thank you [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "GOP Traitors Sabotaging Obamacare Repeal Just Got Terrible News ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The first death from #COVID has been registered in the #RCA this Saturday , May 23 . The recent COVID numbers in #CentralAfricanRepublic are : 604 confirmed cases 22 healed 1 deceased [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Still taking orders ba dear .. Its the ladies this week .. 07038632 88 ( WhatsApp ) 07865258 77 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Central African Republic benefits from an investment of 121 million euros in order to fight against HIV / AIDS , malaria , tuberculosis during the year 2020-2021 . #CAR #HIV #AIDS #malaria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Ankara is using a #humanitarian_convoy from T #urkey to #Idlib governorate to assist the #militants under its control",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "What can Japan expect during negotiations with Russia on the issue of signing a peace treaty ? The #valdaiclub expert Dmitry Streltsov is trying to answer this question . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Blaming #Socialism , US Media Distorts #Venezuela Food Crisis [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The plenary session of the Supreme Council of national defense was held on 13 February in the presence of the president of the #Republic , the Prime Minister , members of the Supreme Council of National #Defense Defense and others . #CARpiece [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The World Bank @USER has approved additional funding of $ 25 million for the #CentralAfricanRepublic to support the country in the fight against #COVID19 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Breastfeeding mothers are being given milk on top of salt , Posho & beans . Govt remains committed to helping Ugandans af \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Grady is still fighting ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ". @USER = Infographics : #Water and Peace [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Recent images of a country burying its dead from COVID 19 . Even as lockdown is lifted , may we remain aware of the dang \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : Multiple Arrests at Trump Tower [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Are You Sitting Down ? You WON'T BELIEVE This WAPO Headline ! [url] #chel [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Problem areas in the Idlib area require special attention from the Syrian government forces . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \ud83c\udde8\ud83c\uddfa #Cuba | Today , the Cuban people have proclaimed their new Constitution after months of direct democratic consultation \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : What do you do when you're so excited ? ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "HTS militants shelled Mharda from Ltamenah once again . 3 civilians were killed , 5 wounded . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \" The financial strain is pushing millions of seriously ill Americans to ration their care , jeopardizing their health an \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : Peso Tumbles After Mexican President Says He Won't Meet with Trump [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "NEW POLL : Majority of Trump Supporters Love His Tweets [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Exclusive interview with Solly Msimanga ! Foreign nationals burden SA's health system , and inconsistent border policy . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Scary SA stats revealed by Momentum Life - [url] This week , a major life insurer , Momentum Life , revealed its 2018 claims statistics at a media briefing in Johannesburg . The shocking numbers show that more and more young women are being diagnosed with cancer ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Stigma is only so much of the problem , even larger is the proliferation of a system that puts profits before human needs .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER = Happy birthday to you sir .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "President Edgar Lungu has fired Finance Minister Margaret Mwanakatwe and appointed central bank deputy governor Bwalya Ng'andu to take her place . The statement was released on Sunday night and it gives no explanations for the President's decision . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#SyrianAirForce liquidated the chief #ISIS propaganda leader in Syria , Abu Bara'a ash-Shami , who produced video materials praising the ISIS , organized shooting of torture and executions #Syria #BreakingNews [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Eating litchi killed 31 children in India - [url] disease killed 31 children after they ate litchi fruit . The children died in hospitals in Bihar state which is famous for litchi orchards . According to the senior health official Ashok Kumar Singh , the victims ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "More than 2000 Ebola cases recorded in the DRC - [url] Democratic Repblic of Congo ( DRC ) ministry said on Monday it had recorded more than 2000 cases of Ebola . Two-thirds of the Ebola cases reported have been fatal since the disease broke out 10 months ago i ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Russian revolution continues to inspire millions across the globe . The people were emancipated from exploitation !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#mar Anthony Scaramucci Reveals What's Next [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "This #humanitarian_aid as a drop in the bucket ! Life of #refugees in #Rukban will not be better ! #UN doesn't solve problems with #medical_care , with violent of #MugavirAlThawra #militants against #refugees and many other problems !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "On June , 4 #InherentResolve allies discussed the coalition reinforcement in the #MiddleEast and the #AlTanf American base . In doing so the coalition admitted its failure to defeat #IS and necessity to continue warfare in #Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Minister of Foreign Affairs Hon Joseph Malanji says the Zambian government appreciates the support it gets from the European Union ( EU ) . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":camera: Photo Gallery : Combating #COVID19 in Conflict : The Syrian Experience . An Online Discussion [url] @USER @USER @USER @USER @USER @USER @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The first confirmed case of #COVID19 in #CentralAfricanRepublic announced this Saturday 14 March . A 74 - year-old Italian national entered the Central African Republic on 8 March via Bangui Mpoko international Airport via a Royal Air Maroc flight from Milan . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Kevin Hart , an actor and comedian , got into a car accident . It has been reported that he is in hospital now with major back injuries . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "VIDEO : Judge Jeanine Warns the GOP Establishment to Back Trump OR ELSE [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Obamacare repeal remains Trump's chief priority , Mike Pence says [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The family of a patient who died from #COVID19 forcibly tried to recover the body from the treatment center in #Bangui , #CentralAfricanRepublic . The third death of COVID has be rehistered in the CAR . Video by @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "\u201c White helmets \u201d brainwash schoolchildren in Idlib again , scaring them with Assad's chemical weapons . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : After quarantine , there will be 6 girls who are going to visit same man . :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The International Monetary Fund @USER has decided to grant debt relief to 19 African countries . This is an emergency aid payment to deal with the impact of the #COVID19 pandemic . #CentralAfricanRepublic will benefit from debt service relief . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Three men attacked the police and were arrested [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Police arrested seven who robbed bar and wanted to have barbeque [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : This is it . Matthew 6:3 . ... but when thou giveth unto the poor , let not your left hand see what the right hand hath d \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : China is building a coronavirus hospital . Completion expected in 6 days . Well , I guess socialism does work after all .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Also kinda funny how Trump HAS committed impeachable offenses - namely conducting war without congressional authorization , but the democrats don't care because they are just as guilty of war crimes as the republicans are .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Around 40 % of the Southern Africa Development Community population have no access to safe water . Providing clean water is the aim of a small pilot unit installed on the premises of the decaying water treatment plant in Mozambique . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Find out what your taxes bought ( and what they could've paid for ) [url] via @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Obamacare chaos may scare off insurers [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Honorable Deputies of the Central African Republic made a voluntary donation for the cause of the fight against # Covid _19",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Guys who meet up on Grindr are 25 % more likely to get gonorrhea and 37 % more likely to get chlamydia [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#CrazySocks4Docs : raising awareness about depression amongst doctors - [url] Thanduxolo Buti The #CrazySocks4Docs campaign hopes to end the stigma and help curb the high number of depression and suicide case amongst doctors and medicine students . The campaig ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The president of the National Order of Pharmacists of #Senegal , Amath Niang invited political and religious authorities to be cautious about the vaccine against #COVID19 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Insurers , regulators seek clarity on ACA's future [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Let go of friends that ain't connecting , referring , advertising you to clients . It's a duty that is implied in the terms an \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Kimberly school evacuated , 25 learners hospitalized after unknown gas leak - [url] Cape Department of Education confirmed that at least twenty-five pupils of Venus Primary School in Kimberley have been taken to hospital after an unknown gas was apparently rel ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "With tears in her eyes , a woman named Maram , who came from the province of Idlib , thanks Russia , who helped in the opening of the green corridor from Idlib . Now for Maram all the sorrows are behind . As soon as they arrived in Aleppo , her child was rushed to the hospital in Aleppo [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #Flint without water 2 yrs , Pipelines exploding everywhere , What do @USER do ? Wear white to \" resist \" . Lmfao [url] : \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Police has arrested two rapists [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Cold European spring may cause surge in natural #gas prices as winter heating season looms [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Minister of Youth and Sports Lionel Doundra tested positive for #COVID19 . At the moment , there are 2222 confirmed cases , 369 healed and 7 people dead in the #CentralAfricanRepublic [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Xenophobic people , you know the idiots whose idea of politics is blaming immigrants for every single thing .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Russiandoctors continue to provide medical assistance to refugees who return home to the eastern regions of the province of #DeirEzzor #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "An Indian health facility , Fortis Hospital , has commended improvement made by Zambia in its health sector after Zambian doctors completed the first kidney transplant [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Medical journal @USER has published a research on #CoronavirusOutbreak and vulnerability of the African countries . According to the research #CentralAfricanRepublic is relatively safe . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Russiandoctors throughout the day helped 28 civilians who return home to the eastern regions of the province of #DeirezZor [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : UK announces 55 more deaths of people with coronavirus - the lowest daily rise since before lockdown on 23 March [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Aldar Khalil , co-chair of the #Kurdish Movement for Democratic Society , said the deal between #Ankara and #Washington is the result of the absence of any intra - #Syrian dialogue .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : Hospital's Amazing Offer to Charlie Gard's Family After Trump Intervenes [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The policy of the #Turkish leadership to oust the #Syrian_pound from the occupied territories of northern #Syria is leading to a humane disaster . Medicines and basic necessities have risen sharply , which is disastrous for residents with a minimum level of income [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":high_voltage: \ufe0f5 Turkish soldiers injured in accident during live-fire drill in Ankara - Defense Ministry #turkey #defence #ankara",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "You won't believe who DERANGED Dems are Using for Anti-Trumpcare Propaganda [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : A handful of rich people in the US are shaping government policies to make themselves richer and the rest of us poorer . Bu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Sisulu : protests in Zimbabwe have subsided [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Italian Priest Puts Mary In a BURKA For Christmas to Avoid Offending Muslims [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #Erica I hope you learn from your errors , keep working hard and stay focused . You are born to shine and you will when it's ti \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Venezuelan twittersphere has been bustling today following an unofficial announcement that the minimum wage is being raise \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "House Passes Bill To Stop Taxpayer Funded Abortions ; \u201c We're A Pro-Life Congress \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Museveni : Why we cannot tolerate anyone ignoring Ministry of Health guidelines on Covid - 19 via @USER [url] :/ \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "WATCH : The National Funeral Shutdown group organised a march through the Pretoria CBD on Wednesday . About 70 protesters gathered to bring their grievances to six government departments at the Union Buildings . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT SkyNewsAust : #BREAKING Emergency services are on the scene of a wall collapse caused by strong winds in the Sydney suburb of Carlingford \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "After the start of the #Syrian intelligence campaign to transfer data on #HayatTahrirAlSham facilities , the militants transferred the coordinates of more than 50 terrorist facilities in #Idlib to the special services . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":clapping_hands: Turkish security forces held 26,678 irregular migrants seeking safety in Europe in the seas surrounding the country in 2018 , according to security sources #Turkey #Migrants",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Two men reportedly died at KZN's beach [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : This is Hoima-Butiaba-Wanseko Road that hv been constructed during the tenure of HE . @USER @USER gov't t \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "An aspiring teenage model from South Africa fell victim to a fraudulent scheme as a fake agent duped her into sending her nude photos . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : New Wikileaks Docs Show CIA is BUGGING \u201c Factory Fresh \u201d Iphones [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":sparkler: The United States announced new visa restrictions for \" dozens \" of officials aligned with Venezuelan President Nicolas Maduro's government #usa #us #venezuela #maduro #trump #guaido @USER @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "20 cholera death cases reported in northern districts of Cabo Delgado province , Mozambique . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Jacob Zuma throws weight behind embattled eThekwini mayor - [url] Former President Jacob Zuma has come out in full support of embattled eThekwini mayor Zandile Gumede . In a tweet posted on Sunday night , Zuma said he hoped the corruption charges against Gumed ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER The Facebook page ; need me to send the link ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Turkey is oppressing its line in spite of peaceful lives . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : The Vote is TOMORROW ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Here's what small businesses want more than an Obamacare repeal [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Kansas governor to act on bill to keep guns out of hospitals [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "During the work of the #Russian Center for Reconciliation of the Warring Parties in #Syria , 2,029 humanitarian actions were carried out for Syrian residents , 3,190 tons of food , bottled water and essential items were delivered and distributed to #Syrian citizens . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Syrian Popular Forces deployed in #Afrin \ud83c\uddf8\ud83c\uddfe [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "We appreciate @USER and @USER for the opportunity provided to our Minister of Health , Carlos Alvarado , to expose the outstanding experience of Venezuela in the fight against Covid 19 , despite the inhuman criminal blockade x part of the government of #EEUU Venezuela will win",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : YUGE News from Border Patrol has Morale SOARING [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Serious clashes within the FPRC armed group happened Friday morning , March 6 , in the city of Ndele , in the north of #CentralAfricanRepublic . There are several wounded among fighters and civilians . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Nicaragua : Vice President Rosario Murillo announces that Cuban medical brigades will arrive in the coming days with trea \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "People could #not receive basic #medical care in #Rukban camp . There was no drinking water . As stated by the #Syrian Red Crescent doctors , who were on duty at the temporary #accommodation center \" Diyad Adnan Qalib \" , almost every second examined patient was with #chronic diseases [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Federal Bureau of Investigation ( #FBI ) deploys its specialists to assist the Sudanese Ministry of Interior in the investigations into the Monday's attempted assassination of the Sudanese Prime Minister #Hamdok More details below : [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER An active tweep is here , follow her @USER =",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "In the #Idylb de-escalation zone , the terrorist organization # \u00ab Hayat Tahrir ash-Sham \u00bb , which was formed as a result of the association of \u00ab Djebhat An-Nusra \u00bb with some other bandit groups , is against reconciliation and arranges reprisals against members of other gangs who wished [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Rule on guns and mentally ill people faces a GOP rollback [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Brad Wenstrup : Steve Scalise's ' critical ' condition normal for his injury [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "' Fantastic Beasts ' hopes to find ' Harry Potter ' fans [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Europe leaders promised to help restore Syria , but only #Russia and #Iran actually helping . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Disgrace of the western democracy and its media.Islamists in #Syria appear to be \" our guys \" whom we support and call \" rebels \" \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Raising the #SyrianFlag for the first time in the middle of the city of #Raqqa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER There 4 his comment remains personal based on his personal interests not either party stand or of any relevance to Gen MK who's ain't evn a member of his party . Stop being cowards & greedy with egos . Let people enjoy their freedom & if u have political ambitions let Ugns decide",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT echump : DebAlwaystrump hope the brave officer appears on TuckerCarlson tonight .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#War on #MiddleEast it's a #great #business . For #Saudi , For #Qatar and sure , for the #US . No #problem with #death and #suffering , it's a #Syrian problem . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The main problem created by the #US military in the zone of the base at #Et-Tanf is the acute shortage of food and medicine in the # \" Ru-Rukban \" refugee camp , located near the base due to the prevention of humanitarian convoys on its territory . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "ABOUT TODAY ; \u2014 \u2014 \u2014 Four patients have been discharged from Mulago National Hospital after FULLY recovering from #COVID19 virus . They tested NEGATIVE twice after the treatment . #STAYHOME #StaySafeUG [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Cuba has a lung cancer vaccine . But the criminal , illegal US blockade prevents US cancer patients from getting it . * Ki \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "JUST IN : US House of Representatives impeached President Donald Trump by a majority of votes in relation to his alleged abuse of power and obstruction of Congress . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":megaphone: Mevlut Cavusoglu met Norwegian , German , Canadian , French and Montenegro foreign ministers at NATO meeting #cavusoglu #turkey #nato #canada #norway #france #montenegro",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The mortality rate among those hospitalized with symptoms of acute malnutrition has #reached 4 % .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Four Republican gripes about Obamacare analyzed [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER Intend to develop Uganda on the other hand HE @USER has always proved his competence and love for Uganda as he has stood strong since its liberation , creating solutions to all challenges that have come up after and as well front the Pan African Agenda . Young man Relax ! !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Please watch ! Another target of the psychological information war is the Sandinista revolution in Nicaragua .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "English football club and the defending champions Liverpool suffered a loss to Italian Napoli 2-0 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : The Minister for Health , @USER has received medical equipment worth USD 250,000 to boost the COVID - 19 response \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Breaking eNCA announces that the channel's Director of News Ben Said drowned while on holiday in Mozambique on Monday afternoon . #RIPBenSaid [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#syria #HTS convoy carrying #food and #medicine #destroyed after #airstrikes near Qasr Wardan in the northern part of #Hama province [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Jack #Matlock : The #Ukraine crisis is a product of the policy of indefinite expansion of #NATO to the east . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The North-West University has released a report with information about a student with confirmed case of bacterial meningitis . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "MSNBC Tries to Coax Mother of Charlottesville Victim to BASH Trump [url] #calyss [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "On The Occult Meaning Of The Term COVID [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "China is going to finish the construction of the 750 - megawatt Hydro-power Station next year , a senior Zambian government official said on Sunday . Once the construction is finished , Zambia's power generation capacity will be increased to 3,750 from the current 2,900 megawatts . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Amid a LOT of anti-women's health politicking this week , one #gynotician went above & beyond : Rep . Marsha Blackburn . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : The International Airport and Land borders will now be opened for tourists , coming in and going out , provided they tested ne \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Western Cape premier Alan Winde has confirmed that at least 43 people were murdered over the weekend in the province . \u201c A total of 43 murders were recorded by our forensics services over the weekend period , despite police also claiming a heavier police presence , \u201d said Winde .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Michigan Rep . Who VOTED NO on Kate's Law Refused Aid in Flint Water Crisis [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "22 boxes of Covid-Organics has been sent by #Madagascar to #Congo , #DRC and #CentralAfricanRepublic . Last month herbal concoction against #COVID has been developed by the Malagasy Institute of Applied Research . A pharmaceutical factory is to be set up within a month . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Singer and Idols SA runner-up Thami Shobede has died at age 31 at Kalafong Hospital in Pretoria on Thursday morning . Shobede was admitted in hospital after collapsing when performing on stage at the weekend . #RIPThamiShobede [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "It should be noted the activity of Central African youth around voluntary testing in the clinic of Aqabef with the support of the MAJ program JS3 #RCA [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BREAKING : White House Backs Bill to CRIMINALIZE 20 Week Abortions [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Chancellor Arreaza : Unasur Would Have Helped Stop Covid - 19 in the Region [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "After House Republicans Obliterated Obamacare , Democrats Started Singing This Song \u2026 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "WHOA ! Time Warner CEO Says \u2018 Real Threat \u201d To First Amendment Is Democrats [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Peaceful residents of the village of Al Sanamiyah took to the streets holding flags of the #Syrian Arab Republic ( SAR ) and posters with portraits of President #Bashar Assad [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "[url] Deir ez-Zor , #Raqqa and #Hasaka , protests of civilians against Kurds and presence of the #American military contingent in #Syria continue . The territory on the left bank of the #Euphrates is under the control of the Coalition led by the US [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#alexa McConnell Reveals his Reaction When Traitor McCain Killed Obamacare Repeal [url] #alexdr [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "If the situation with water supply in Er-Rukban does not change , if #Jordan does not restore the #water supply , the residents of the refugee camp will face a painful death from thirst . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "New cycle of #Russian history is beginning . Moscow can no longer be said to oppose Soviet model of self-positioning . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Im gonna give 10 artists the chance To be featured on over 85 playlists ! Drop Your best music links & I will Pick my fa \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "4th Woman Missing in North Carolina Town Where 3 Others Have Been Found Dead [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Obamacare repeal remains Trump's chief priority , Mike Pence says [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The future of healthcare system is now in good hands : Northern Cape's newly appointed Health MEC , Galerekwe Manopole on her way to make the public healthcare sector efficient again . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Am back for the undisputed #NBSSNL Retweet so that I follow you :smiling_face_with_heart-eyes: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "To solve the challenge of housing for the medical personal , @USER has constructed staff housing units at Mulago Hospital . #WhyUGDecidedM7 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Mbozi za malwa @USER @USER #FridayExplosion @USER TUESDAY :right_arrow: CLUB_AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The former Passenger Rail Agency of South Africa ( PRASA ) CEO Lucky Montana , sent a letter to the State Capture Commission of Inquiry notifying them that he was ready to testify . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Carrol Boyes died at the age of 65 yesterday . She was the founder and CEO of The Carrol Boyes retailer in Cape Town . #RIPCarrolBoyes [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \u201c We are equipping accident and emergency units in hospitals as a means of building capacity capable of responding to the \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Caster Semenya : I won't back down Caster Semenya said she won't back down following a the decision by the Court of Arbitration for Sport ( CSA ) to maintain IAAF rules forcing female athletes to regulate their testosterone levels . \" For a decade the IAAF has tried to slow me dow ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The main question is why the United States is not able to guarantee security in the territory under its control ? Are the rumors about the radicals acting there true ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#syria Militants are cut off from food and ammo supplies . They are in a very poor psychological state , refuse to fight and abandon their positions [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Thank you @USER ! Kirchnerismo has improved the lives of millions of people in Argentina . And it will do so again !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "THANK YOU TOUR VIDEO : Trump Humiliates Mitt Romney's #NeverTrump UTAH RINGER Candidate Evan McMullin [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Where will the next global #pandemic begin ? The scientists predicted that the human onslaught on nature had left us susceptib \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Soccer analyst and journalist David Kekana passed away at the age of 47 after a long battle with diabetes . #RIPDavidKekana [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The longer the #Americans do not give permission for the passage of a humanitarian convoy across the occupied #US territory of #Syria , the longer the residents of the #Rukban refugee camp remain without the #aid they need . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER :face_with_rolling_eyes: You're also proud :unamused_face:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Retired judge of the Constitutional Court Edwin Cameron said the higher court faced challenges including massive workload , political pressure as well as difficulties with some of the cases it had to deal with . He said that the court was challenged with fresh and exceptional ways . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The traditional cures threatening Myanmar's wildlife \u2013 in pictures [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Ethiopian Airlines has given Uganda & Eritrea their first Coronavirus cases ON THE SAME DAY . What a shame ! !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "There is a catastrophic situation on the territory of the Rukban refugee camp ! The reason for this is the lack of qualified personnel and certified medical institutions . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The bishop of Pemba and president of the Episcopal Commission of Justice and Peace , Dom Luiz Fernandes , has lambasted the government over what he said was its failure to curb a radical Islamist insurgency ravaging the country's north , claiming hundreds of civilian lives .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Unless we change and fully adopt the existing guidelines set by @USER on prevention of #COVID19 , @USER m \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Japan PM Abe to visit US , meet with Trump [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "As opposition demagogues complain about the budget meant to support health workers in the fight against #COVID19UGANDA , their greedy MPs want the money for themselves . This level of hypocrisy and greed needs prayers ! !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "American Airlines flight attendants want uniforms recalled [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The #militants ' desertion in #radical groups in #Syria has increased . The reason is the lack of means of #subsistence .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Today in the morning insurgents shelled several towns in the north of #Hama : Qamhana , Suqaylabiyah , Tal-Salhab . The shelling killed a woman and injured several civilians . Some houses are destroyed , fields and forests are burning . #Syria #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "As German Terror Attacks Escalate , Protesters Demand Merkel STEP DOWN [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Thousands of gold miners who contracted silicosis or pulmonary tuberculosis during or after their employment from 1965 are set to receive big payouts . This is after the High Court in Johannesburg approved a historic R5 billion settlement in the silicosis case . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#danita FLASHBACK : Bill Clinton Made Same \u201c Fire and Fury \u201d Comments [url] #dannis [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Flint still doesn't have clean drinking water . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "President @USER is committing attempted murder in allowing cargo drivers from neighbouring countries to enter Uganda before their #COVID__19 status is known . The lockdown is a very big cost to our economy ... 1/2 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Refugees returned to the eastern districts of #DeirEzzore received medical care from #Russian military medics [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Return of Venezuelan Migrants : Portrait of a Scam in Times of Pandemic [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#syria #The #Committee #for #Governance #of #the #Eastern #Territories of the #Euphrates has organised delivery of medical aid for civilians of #Marrat [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #TweetRequest | DANCE WELL tune by @USER ft @USER ... send your tun\u00f1n\u00f1eees :woman_dancing: :woman_dancing: :woman_dancing: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : We believe that we can never do enough in the face of corona virus unless God is with us . We shall hold prayers as a n \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "VIDEO : WAR ON CULTURE \u2013 TLC Attempting to Normalize Polygamy ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Ryan sidesteps Trump's goal of health coverage for all [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "World Menstrual Day promoting menstrual hygiene - [url] Abigail Moyo Menstrual Hygiene Day on May 28 , aims to promote good menstrual health , demystify stereotypes about menstruation and to encourage young girls and women globally to practice good hygiene . It ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Refugees who returned to the eastern districts of Deir Ezzore received medical care from Russian military medics #Refugee \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "VIDEO : Unhinged Cuomo Demands PROOF Trump Did not Collude With Russia [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "$ 162.5 million dollars was spent by the #US to purchase weapon and ammunition for pro-American #militants in #Syria . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Commander of the #SDF , told a senior US diplomat : \" You have refused us . You are leaving us to slaughter . You do not want to protect people , but you also do not want another force to protect us . You sold us . \" It is immoral . \" [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "VIDEO : Islamic Activist Explains Why She Supports Extreme Vetting [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Team Sky deny using motorised bikes at the 2015 Tour de France [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "For more than one year actions of the US-led coalition did not have any significant impact on #ISIS . [url] #SyriaConflict",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Happy birthday Baba wa Taifa . Soar higher for many more years . Where would #Uganda be without you ? ! @USER @USER \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Refugees returned to the eastern districts of #DeirEzzore received medical care from #Russia | n military medics [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : You can get HIV the first time you have sex . You can be born with HIV . Having HIV does not mean you are going around fucking \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \u201c US Empire Myth-busting ( SYRIA ) W / Eva Bartlett \u201d : Cindy Sheehan's Soapbox April 27 , 2017 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Watch Tucker School a NAACP Liberal Who Demands a NFL Team Hire Kaepernick [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Woman Shot In The Face At SC Gun Range [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT TruthinGov 2016 : While President Trump spoke in West Virginia tonight a rare double-rainbow appeared over the Wh \u2026 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: #HotMix very killa ! Mash it up to the great my Favorite swt @USER Cc @USER @USER @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Obama : The Unlikely War Criminal [url] #ThisIsNotUS",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "No Ukrainian president can effectively solve any problem without normal relations with #Russia [url] #Ukraine",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Police in Kimberley are searching for two detainees who escaped from lawful custody on August 10 . The suspects were awaiting trial . The detainees escaped through the roof of the police cells . Two suspects were arrested , two are still on the run .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Why so many people hate Obamacare [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Babes Wodumo hospitalised after Mampintsha attacking her [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Kansas governor to act on bill to keep guns out of hospitals [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Good morning @USER = I hope you are well . Have a wonderful day",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "At 14:00 , watch the live broadcast of the #valdaiclub's online press conference \u201c Valdai Club and Agenda - 2020 : Global Challenges from a #Pandemic to #ClimateChange and Their Impact on World Security . \u201d Live text in English will be available . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Trump Absolutely Destroys MSNBC and CNN \u201c FOOLS \u201d Over their Coverage of Russia [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "156 militants from the city of Talbays and Al #Rastan , north of the province of #Homs , surrendered their weapons to the authorities and settled their status . Former militants promised not to participate in any actions that threaten the security of the motherland and its citizens [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "A woman , a resident of #Osaka , in western #Japan , tested positive for the #coronavirus on Wednesday ... second time . For experts ' opinion please read the full article : [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#syria #Medical aid has been provided for civilians of Marrat by the #Committee #for #Governance of the #Eastern #Territories of the #Euphrates [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Visual artists of #CentralAfricanRepublic create murals in Bangui to raise awareness during #Covid19 pandemic . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : #Canadians being misled by Foreign Affairs Minister @USER in regard to elections and freedom of press in #Venezu \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Kevin Hart survived the car accident and is now in hospital with major back injuries . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : 75 % of Americans oppose cuts to SNAP . Will the #budget committee listen ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Due to lack of drinking water and good food , outbreaks of disease occur . Rainy weather also negatively affects the health of the Rukban refugees . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Zambian President attends the 74th session of the United Nations General Assembly . He will discuss topics related to the universal health coverage and climate changes . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BOMBSHELL : Podesta Emails Expose Hillary's Money Laundering Scheme [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \" Hezbollah \" is now trending because a Zionist intelligence account alleged that what exploded in Beirut was a weapons stor \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "In the village of Topez in the Syrian governorate of Hasakah , the Russian military carried out another humanitarian action and provided medical care to local residents . #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : i hate fans who just change fandoms to the biggest people of that time and change up quick . shout out to the supporters \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Gareth Flanagan's family hopes for his full recovery after he broke his neck while diving in Kleinmond - [url] from all over the world participating in a crowd-funding campaign held by Gareth Flanagan family to provide \" extensive rehabilitation \" and care for ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Problem areas beyond the control of Damascus require special reinforcement from the Syrian government forces . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Central African Republic can boast gender equality in the field of politics . Look at our female politicians . Beauty and intelligence ! #CAR #genderequity #politics #GirlPower",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Anyone seeking to hold a public meeting for a legitimate reason should liaise with the police . Find my detailed guidanc \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Freedom Caucus Ready To Sign On To Health Care Bill With Changes ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "First #Putin - #Trump meeting : The exploration of a compartmentalised relationship [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : We would appreciate more collaboration and support from the Commonwealth in the fields of research in medicine and the \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Sessions : Any suggestion I colluded with Russia is ... [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Absolutely Disgusting ! Since 2012 There Have Been 1,565 Refugees Brought into the U . S . Diagnosed with Active TB [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Perm . Representative of Syria to UN Office in Nairobi Sawsan Alani : unilateral coercive economic measures imposed by some countries and regional entities on Syria since 2011 contradict UN Charter and UN resolutions and impede achieving goals of 2030 Sustainable Development Plan [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : WWF Report Reveals a 60 % Decline in Wildlife Populations Since 1970 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : I congratulate Ms . Sarah Kanyike upon her appointment as State Minister for Disabilities and the Elderly . I want to exp \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "People should take an action before it's too late #PrayForTheAmazon [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : After his injury for fifth time #ISIS - Hunter Ibrahim Jaber Hussein martyred by the American airstrike on syrian forces . \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The government of the #CentralAfricanRepublic built about a dozen boreholes in Bangui and surrounding areas with the financial help of the African Development Bank @USER . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":round_pushpin: Council of Europe criticizes Greece on refugee camps #greece #europe",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : The initial batch of 864,000 AstraZeneca COVID - 19 vaccines have arrived in #Uganda . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER But why is it that you're still Alive ? ? Stop spreading hoax otherwise no oppressed person can be in position to buy a smart phone then load it data .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : U . S . Senator Kamala Harris has been criticized for hijacking the Medicare for All policy and giving an alternative that \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Minister of Health and Population of #Centrafrique Dr . Pierre Soms\u00e9 opened the training session on the prevention and control of #Covid_19 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : \u201c By serving ICE detainees spoiled , expired , and donated food , Etowah County sheriff Todd Entrekin was able to generate a $ 3 m \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Any FRIEND that turned into an ENEMY has been HATING since day ZERO .. :microphone: :microphone: :microphone: :person_walking: :person_walking:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "116 refugees come home to the #CentralAfricanRepublic from the #RepublicOfCongo this Saturday , September 26 . Due to the #COVID19 pandemic they were not able to travel home for months . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "In the article , one of the reasons why #Syrians in the camp live in #unacceptable conditions , with little or no food , water or medicine , the #Americans call the #refugees ' fear of the #Assad regime . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Anglo American South Africa has passed the charges on to the Zambian government after it was accused of lead poisoning over 200 children from the villages near Kabwe . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "For out of the camp militants usually require about $ 1,500 per person . Of course , the refugees do not have such money , and there is no access to medical care . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ":Statue_of_Liberty: Are American Polls Suppressing a \u2018 Silent Majority ' ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Western Cape has spent R30m , combating recent fires [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "As a result of the actions of militants in the zone of de-escalation , the civilian population suffers , according to the #refugees from Foaa and #Cefraya , a critical humanitarian situation has developed in the besieged enclaves ( based on interviews of refugees who left for #Aleppo [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Russiandoctors continue to provide medical assistance to refugees who return home to the eastern regions of the province of #DeirEzzor [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BOOM : Fed-Up Trey Gowdy Calls Out The REAL \u201c Fake News \u201d \u2026 . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Dr Pierre Somse , Minister of Public Health of the #CentralAfricanRepublic announced that the payment of the #COVID19 compensation to the doctors and health workers will be made next week . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "#Turkish-backed groups continue to divide profit from smuggling through the northern checkpoints . Thus , there was battle between the mercenaries at the Tell Abu Sheikhat checkpoint . One mercenary killed and the other wounded . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : The bottom up reforms under Chavismo brought clinics and education to the working class of Venezuela across the entire cou \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "BLOOD ON HER HANDS : Merkel's Open Borders Blamed for Refugee Truck Terrorist Deaths [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Trump orders meat-workers to risk their lives . Trump does NOT order employers first to make workplaces safe . A crashed US \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Obama's Final White House Tweet [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Wizkid too big",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Latest : Activist faces felony charge in pipeline protest [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "The Russian military provided humanitarian aid to the people of Um al-Izam in #Homs . #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": ". @USER for taking leadership in FSM to ensure safe and sustainable sanitation ! #GlobalCitizenIndia #SafeSludge",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Employees of the #Russian center for reconciliation of the warring sides handed over about 500 food sets to the residents of the settlement of Ash-Shih in the province of #Hama . In each of the packages are canned meat , rice , flour #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "OFFICIAL : 270 + Republican Electors Confirm Donald Trump As The Next President [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "We must take extreme measures along the border with Brazil , the epicenter of the Covid 19 pandemic in South America thanks to the irrational positions of @USER to deal with the coronavirus , and which has placed his people at serious risk [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Why should anyone stop us from celebrating this beauty ? This is truly African and we are looking forward to April 26th # \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "President Emmerson Mnangagwa on Tuesday the 21st declared renewed COVID - 19 lockdown restrictions , these renewed restrictions came after a sharp surge in COVID - 19 local virus transmission which have been recorded [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Yes , movies . How realistic .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Handy image for when #Venezuela opposition , supporters & mass media make their \" 60 murdered by Maduro dictatorship \" claim : \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "K.Pierce , #UK Rep in #UN quotes provisions of the int law on the protection of hospitals but forgets to say that the protection stops as soon as one of the parties starts using hospitals to make harm to the adversary . #Idlib #Hama [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : Terrorists used MLRS \" GRAD \" rockets when firing on #Jurin in the Province of #Latakia , #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Today all over the world , including #CAR , celebrates #ChildhoodCancerDay . There are numerous examples of misconduct which the Central African Republic faces in matters of children's cancer treatments . In any case , we must continue to do all in order to beat this disease .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "More than 21,000 confirmed cases of #measles in the last five months in #CentralAfricanRepublic . However there has been a continuous reduction in the number of cases reported in recent weeks since the first phase of the measles vaccination campaign . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER =: Closer cooperation between \ud83c\udde8\ud83c\uddf3 #China and \ud83c\uddf9\ud83c\uddf7 #Turkey needed to fight against #COVID19 China was grateful to Turkey for help and \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Dr James Blair Mwesigwa is accused of stealing the human organs for the past six years while having been in the post of the state pathologist . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "RT @USER : The UPF runs a quarterly magazine known as the Police Habari Magazine . We are pleased to share with you our latest issue ; the \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "Scan any celeb's face & this app will tell you who it is [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Health. Use 1 or 0 as output.",
+        "input": "No cases of Ebola have been registered in Uganda since June . That's when two people from Uganda who traveled to Congo passed away . [url]",
+        "output": "1"
+    }
+]

@@ -47,7 +47,20 @@ def calculate_metrics_streamlit(model_classification_reports_df, beta):
         avg_precision_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'precision_class_1'].mean()
         avg_recall_class_1_low = model_classification_reports_df.loc[low_f1_classes, 'recall_class_1'].mean()
         fbeta_score_class_1_low = calculate_fbeta_score(0.5, avg_precision_class_1_low, avg_recall_class_1_low)
+
+        
+
         avg_fbeta_score_class_1_low_0_25 = calculate_fbeta_score(0.25, avg_precision_class_1_low, avg_recall_class_1_low)
+        avg_fbeta_score_class_1_low_0_25 = 0
+        try:
+            for class_ in low_f1_classes:
+                print(model_classification_reports_df.columns)
+                model_classification_reports_df[model_classification_reports_df.index == class_]["precision_class_1"]
+                model_classification_reports_df[model_classification_reports_df.index == class_]["recall_class_1"]
+                avg_fbeta_score_class_1_low_0_25 += calculate_fbeta_score(0.25, avg_precision_class_1_low, avg_recall_class_1_low)
+        except:
+            pass
+        avg_fbeta_score_class_1_low_0_25 = avg_fbeta_score_class_1_low_0_25/len(low_f1_classes)
 
         fbeta_score_class_0 = calculate_fbeta_score(beta, avg_precision_class_0, avg_recall_class_0)
         fbeta_score_class_1 = calculate_fbeta_score(beta, avg_precision_class_1, avg_recall_class_1)
@@ -214,7 +227,6 @@ def extract_nth_character(classification_str, n, strip = False):
     if type(classification_str) == int:
         return classification_str
     try:
-        #print(classification_str)
         class_value = int(classification_str[n])
         if class_value != 0 and class_value != 1:
             """print("Class value not 0 or 1")
@@ -242,15 +254,38 @@ def extract_not_x(classification_str):
             return 1
     except ValueError:
         return None
+
+def find_classes_in_string(classification_str):
+
+    class_keywords = {
+        "War/Terror": ["war", "terror"],
+        "Conspiracy Theory": ["conspiracy", "plan"],
+        "Education": ["education"],
+        "Election Campaign": ["election", "campaign"],
+        "Environment": ["environment"],
+        "Government/Public": ["government", "public"],
+        "Health": ["health"],
+        "Immigration/Integration": ["immigration", "integration"],
+        "Justice/Crime": ["justice", "crime"],
+        "Labor/Employment": ["labor", "employment"],
+        "Macroeconomics/Economic Regulation": ["economy", "macroeconomics", "economic regulation"],
+        "Media/Journalism": ["media", "journalism"],
+        "Religion": ["religion"],
+        "Science/Technology": ["science", "technology"],
+        #"Others": []  # This can be a catch-all category, so no specific keywords
+    }
+    present_classes = []
+    for class_name, keywords in class_keywords.items():
+        for keyword in keywords:
+            if keyword in classification_str.lower():
+                present_classes.append(class_name)
+                break  # Break out of the inner loop once a keyword is found
+    return present_classes
     
 def extract_multilabel_list(classification_str, classes):
     if classification_str is np.nan:
         return ["Others"]
-    classification_str = classification_str.replace("[", "").replace("]", "").replace("'", "").replace('\n', '').replace("### Human:", "")
-    annotations = []
-    for class_ in classes:
-        if class_.lower() in classification_str.lower():
-            annotations.append(class_)
+    annotations = find_classes_in_string(classification_str)
     if annotations == []:
         annotations = ["Others"]
     return list(set(annotations))
@@ -259,10 +294,7 @@ def extract_multilabel_list_explanation_first(classification_str, classes):
     if classification_str is np.nan:
         return ["Others"]
     classification_str = classification_str.split("Topics:")[-1]
-    annotations = []
-    for class_ in classes:
-        if class_.lower() in classification_str.lower():
-            annotations.append(class_)
+    annotations = find_classes_in_string(classification_str)
     if annotations == []:
         annotations = ["Others"]
     return list(set(annotations))
@@ -271,27 +303,21 @@ def extract_multilabel_list_only_first_class(classification_str, classes):
     if classification_str is np.nan:
         return ["Others"]
     classification_str = classification_str.replace("[", "").replace("]", "").replace("'", "")
-    classification_str = classification_str.split(", ")
-    for class_ in classification_str:
-        if class_ not in " ".join(classes):
-            #print(class_)
-            classification_str.remove(class_)
-    if classification_str == []:
-        classification_str = ["Others"]
-    classification_str = [classification_str[0]]
+    annotations = find_classes_in_string(classification_str)
+    if annotations == []:
+        annotations = ["Others"]
+    classification_str = [annotations[0]]
     return list(set(classification_str))
 
 def extract_multilabel_list_explanation_first_only_first_class(classification_str, classes):
     if classification_str is np.nan:
         return ["Others"]
-    classification_str = classification_str.split("Topics:")[-1].split(", ")
-    for class_ in classification_str:
-        if class_ not in " ".join(classes):
-            #print(class_)
-            classification_str.remove(class_)
-    if classification_str == []:
+    classification_str = classification_str.split("Topics:")[-1]
+    annotations = find_classes_in_string(classification_str)
+    if annotations == []:
+        annotations = ["Others"]
         classification_str = ["Others"]
-    classification_str = [classification_str[0]]
+    classification_str = [annotations[0]]
     return list(set(classification_str))
 
 def extract_using_class_token(classification_str):

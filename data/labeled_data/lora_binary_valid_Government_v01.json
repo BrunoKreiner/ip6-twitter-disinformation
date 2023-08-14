@@ -1,0 +1,2502 @@
+[
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#syria More than 30 #terrorists eliminated during clashes between #ISIS and #HTS in the #Hama province [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Sean Connery asked for Germaine Greer's number ( and other things we found in her archives ) [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Donald Trump and Theresa May hold joint White House press conference - Politics live [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Russian experts assert that the U . S . has repeatedly violated and continues to bypass the #INF Treaty . [url] #Russia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Militants have launched an offensive on #Mesherf in #Idlib province . Hard fighting has been reported , with preliminary reports of casualties on both sides . #Syria #HTS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : These photos were sent to me by a friend in Santiago , Chile , where people have continued to protest austerity & inequality \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Terrorist groups continue to assemble in small towns near #Idlib as they prepare to attack the #Russian and #Turkish military [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Zim government to repeal the press law that affected journalists and newspapers [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : State Minister in charge of Primary Health Care , @USER has officially discharged one patient from Adjumani Hospit \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Donald Trump looks for unity after Steve Scalise shooting [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Senator Duckworth and Most of the Press Are Lying about Trump's Speech [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "President Faustin Archange Touad\u00e9ra has met with Ms . Lucy Tamlyn , the Ambassador of the #USA to the #CentralAfricanRepublic . Ms . Lucy Tamlyn has presented the 2020 Annual Report of the US Department of State on trafficking in Persons in the Central African Republic . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "WATCH : #NorthWestAircrash - pilot killed , passenger injured [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : The way i have jogged during this weather :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: Cheptegei im ready :face_with_crossed-out_eyes: :face_with_crossed-out_eyes: :rolling_on_the_floor_laughing: :rolling_on_the_floor_laughing: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Thanks , but Vaseline sticks on the scalp",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The South African National Defence Force ( SANDF ) has been deployed to certain areas in Cape Town , after 13 gang related murders , but some residents have mixed feelings about armed forces in the area . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Fight is growing between terrorist groups . Three members of the Liva Sukur el-Simal group were killed because of having #proTurkish position . Fighting between terrorists plays into the hands of official #Damascus , but unfortunately , it poses a threat to civilians . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Briefly about the lying fairy tales of #WhiteHelmets . #Syria #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "On October 1 during his visit to #Vatican President of the #CentralAfricanRepublic Faustin Archange Touad\u00e9ra met Cardinal Pietro Parolin . The Cardinal passed the message of Pope Francis @USER who is committed to supporting the efforts of the government to preserve peace . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : It's hard to imagine how the average person is coping in #Zimbabwe . A tub of salted butter in Harare today costs US $ 16.50 / R \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "AMLO Is Bringing New Hope To Mexico [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Europe leaders promised to help restore Syria , but only #Russia and #Iran actually helping . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Zahabu @USER #SaturdayExplosion CLUB TEX bweyogerere [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : What is Kidney ? ? ? :backhand_index_pointing_down: :backhand_index_pointing_down: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Formula F1 legend Niki Lauda dies at 70 - [url] Lauda's family confirmed in a statement that the Austrian Formula 1 champion died peacefully on Monday . \" With deep sadness , we announce that our beloved Niki has peacefully passed away with his family on Monday ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Bimo byebiluma abayaye This is Isimba Public Bridge being commissioned today by the Father of the nation \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "My week on Twitter :party_popper: : 3 Tweets . See yours with [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : Macron Victorious as France Votes for Self Destruction [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : A dedicated Uganda Police Force . Thanks for protecting us #SecureUganda [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Insurers , regulators seek clarity on ACA's future [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Contacts from the fields reported that #SDF again intend to conduct a forced mobilization in al-Tabqah . People try to stay at home . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Hayat Tahrir al-Sham jihadists are preparing a new #offensive in #Aleppo governorate , according to social media reports . #HTS #militants #Terror",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Why #Putin will not return to the presidency \u2026 . not in #2012 anyway [url] #elections2012",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Will #Macron use the tragedy in #Beirut to restore French rule over #Lebanon ? The French mandate for Lebanon was in force from 1920 to 1943 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : REMINDER : Iran doesn't have nukes or want war with the US . Our government hates Iran because they're a stable country in the M \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "URGENT ! ! ! #Whitehelmets are making another #falseflag in #Azaz , #Chobanbey , #Mar'a . #Civilians are in #danger ! #White_helmets looking for another #sacred #sacrifice . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A new framework for the partnership between the #CentralAfricanRepublic and the #EuropeanUnion for the period of 2021-2027 was elaborated by Minister of Economy F\u00e9lix Moloua and Ambassador Samuela Isopi . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Zimbabwean soldiers took control under Bulawayo roadblocks [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = #MiddleEast Conference . Live Video Broadscast in Arabic [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The U . S . shale oil business is not dead [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "InvestorPlace to Kellogg's : \u2018 You Do Not Pick a Fight with Breitbart ' [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING REPORT : President Trump to Visit Korean Border [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump is Putting a 20 % Tax on Imports From Mexico to Pay For THE WALL [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "\" We have all the rights and freedom , we are full-fledged citizens of the Syrian Arab Republic , we are against the separation of #Syria , we are against separatism and we are for a #united Syrian nation , \" said Maria Daoud al-Raza , a representative of Syrian Chechens . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Chiengi Man attempts to trade his son for boat , gets arrested in result - [url] Chiengi District police detained a 47 - year-old local man accused of human trafficking . The resident allegedly decided to sell not just some random person but his own 13 - year-ol ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER You know what matters at the end of the day is winning and you and i know very well Museveni is go \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: \ud83c\uddf9\ud83c\uddf7 #Turkey , \ud83c\uddf7\ud83c\uddfa #Russia and \ud83c\uddee\ud83c\uddf7 #Iran find common ground in \ud83c\uddf8\ud83c\uddfe #Syria [url] #Erdogan #Putin #Rouhani #US #France \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Terrorists from the Jabhat al - #Nusra group opened fire on #SAR military positions in the Abu al-Duhur district of #Idlib province . No one was killed and a Syrian tent was burned . #Syria #HTS [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Trump's voter fraud expert owes US more than $ 100,000 in unpaid taxes [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Smashing It Up with Biri Biri @USER #TwinsFestivalUg at Namboole ___ Hosted by @USER @USER @USER @USER @USER @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":check_mark: \ufe0fThe U . S . and Canada forged a last-gasp deal to salvage NAFTA as a trilateral pact with Mexico , rescuing a three-country , $ 1.2 trillion open-trade zone that had been about to collapse after nearly a quarter century #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #USA #Canada #Nafta #Mexico",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":crayon: \ufe0fUN : Cavusoglu , Guterres discuss Khashoggi murder Pair also discuss Yemen , Syria , Cyprus in a closed-door meeting #un #syria #cyprus #yemen #turkey @USER @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Turkey is oppressing its line in spite of peaceful lives . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Insurgents shelled Ayn al Korum in the Hama governorate #StopTerrorismInSyria #StopHTSinSyria #WeAreTheLove [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER We are watching our beloved chairman .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Democrats prepare for battle over Trump's supreme court nominee [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Mexican President : \u201c We Agree To Pay For The Wall If The Deal Includes Returning Texas To Mexico \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The fire that broke out at the scene of the terrorist act was localized . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : Hillary Just Fell and Broke Her Toe in London ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Secret of Woolworths water is unveiled [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER + qIsPp 4ZaNFZCxaLJIePPypzDuzVZg97pJfU =: According to my sources in #Aleppo hospital , there are already 72 victims of chlorine poisoning . Among them 8 children a \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "After #defeats in battles with #government_forces , a number of #field_commanders seek to secede from the #HTS and receive the protection of #Turkey by joining the \" #NationalLiberationFront . \"",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Whenever you're bored and you don't have data don't worry yourself no more just play game with your chrome browser . Its free \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "7.Therefore the representatives of the Arab tribes go out into the street with slogans of #withdrawal of American #troops from the territory of #Syria . After all , the desire of the population on the left bank of the #Euphrates is a simple wish to end the #war and live in #peace . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Senior EFF member raped a 39 - year-old female colleague in a bar \u2013 Police [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Commissioned Lugazi central market in Lugazi Municipality . These developments are a result of deliberate policies of th \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Michael Moore Proposes the WORST Plan For Gun Control EVER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Wolves stun Liverpool in FA Cup after Richard Stearman kickstarts upset [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Dubai Frame Nears Completion Despite Claims of Copyright Breach [url] Building first evolved out of",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : Congressional Shooter A Huge Bernie Sanders Fan \u2026 But It Gets Even WORSE [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Four Republican gripes about Obamacare analyzed [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Dispelling rumors of his death or overthrow , \ud83c\uddf0\ud83c\uddf5 #NorthKorean leader #KimJongUn has appeared in public for the first time in 20 days , according to Yonhap News Agency . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Anyone seeking to hold a public meeting for a legitimate reason should liaise with the police . Find my detailed guidanc \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":robot: UK : Boris Johnson could face court over Brexit claim Ex-foreign minister could be prosecuted over allegations he misled public by supporting claim that UK sends EU \u00a3 350m a week #uk #brexit #borisjohnson",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The National Board of Education imposes the learning of the Turkish language to the Syrian children of Kilis in the canton of Afrin . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "It is a smear job and a smokescreen to distract from capitalism's further decay and to provide cover for the real drug traffickers , the US government , it's allies in the Middle East and Latin America , and the Venezuelan opposition .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Turkey opposes the West in its confrontation with the #Kurdistan Workers ' Party ( PKK ) , causing #Ankara to make certain arrangements with the #HTS as one of the strongest groups in #Idlib .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Russia Plotting for Ukrainian Influence , Not Invasion , Analysts Say [url] #Ukraine",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "VIDEO : Senile Pelosi Calls Trump \u201c President Bush \u201d For the FIFTH Time [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Trump Admin TRASHES Obama's Transgender Soldier Policy [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Why not give the NHS all the money it needs , take it out of the Nuclear Weapons budget ? and to make up the shortfall there , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : This is a gigantic lie . US provides billions in weapons to SA & UAE . US provides intel & diplomatic cover . US literall \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : I'm going to put George Bush in jail",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Where on earth is Jacob Zuma's nephew Khulubuse ? - [url] Lawyers acting for the liquidators of the Pamodzi mining group are struggling to locate Jacob Zuma's nephew Khulubuse Zuma to recover the more than R1 . 4bn he owes to creditors . A provisional liquidatio ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "David Mabuza back in parliament after being sworn in - [url] Koketso Ramorei After asking for a postponement last week for him to \u201c clear his name \u201d David Mabuza has now been sworn in as a Member of Parliament for the ruling African National Congress ( ANC ) . Th ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : I also do repair , and maintenance of Refrigeration systems . Please RT . Support my hustle . 07872790 8/ 07551429 68 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : We shall prove them wrong the doomsday sayers and we sail with 75 % . Long live YKM :thumbs_up: :thumbs_up: :flexed_biceps: :flexed_biceps: :folded_hands: :folded_hands:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #M7OnLand Pres . @USER emphasises that the Bamugemereire Commission is dealing with an inquiry . He is dealing wi \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : If you hate me I don't care . If you don't message me , MTN and AIRTEL will . If you don't call me , the people who own me w \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "As German Terror Attacks Escalate , Protesters Demand Merkel STEP DOWN [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Working people of the world continue to be victimized by capitalism every day . No longer ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Terrorist groups associated with #ISIS appear in the At-Tanf area , controlled by the US - #Russian Foreign Minister #Lavrov #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "In #Idlib governorate , there has been an increase in #protest activity among civilians dissatisfied with the #humanitarian situation in the de-escalation zone and the activities of #extremists .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#gess Flake Commits Political Suicide With This Latest Stunt [url] #gene [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Russia and #India added their voices to #China's call for a new world order [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "32 stolen sheep were found and returned to the lawful owner in Zamdela . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Bail worth R20 , 000 for former police commissioner Phahlane and major general Pillay [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "jacques christian Retweet RT RT_America to #MAGA ! [url] 490 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER The Ugandan tax base hasn't grown by miracle but through creation of economic growth drivers such as peace & stability , infrastructure development . With good leadership that is friendly to investors Uganda has attracted huge investments many of these investors had been chased by",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Members of the Public Council of the #Russian Ministry of Defense visited Russian bases in #Syria and met with the commander of the Russian group of troops [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Sandra Moonsamy assaulted and then abducted while driving in her car in Pinetown - [url] businesswoman has been attacked by a group of unidentified men and then abducted on Thursday afternoon in Pinetown , authorities stated . They said that Sandra Moonsamy was ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : At the end of the day , the probability of finding a common ground between Ankara-Moscow and Cairo in Libya is seeming mor \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #SecurityUg , Kony does not settle whenever he hears the sound of that bird , one of his former commander said . UPDF is now \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Watch : 30-40 Teens Caught on Surveillance Video Looting Connecticut Gas Station [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A MLC was struck in the village of Khan al-Sibil in Idlib province from a Turkish post near Serakab , killing and injuring civilians . When will the Syrian army liberate their lands from militants and Turks ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#clarri Liberals Continue Their Disgraceful War Against History [url] #clar [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER Hello",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER The Facebook page ; need me to send the link ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER You will go to jail again besigye",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : US is aiming to divide Syria in order to establish oil supplies from Kurdish territories #USA_OutOfSyria #AmericanTerror \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "How I did on Twitter this week : 4 New Followers . How'd your week go ? via [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Children injured in a terrorist attack on #Aleppo on 12 January [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Mob justice in Limpopo : police arrested two suspects accused of killing - [url] alleged act of mob justice took the life of a 22 - year-old man in Limpopo . In connection , police are said to have been arrested two suspects who are aged 21 and 24 on charges of pr ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT realDonaldTrump : Only the Fake News Media and Trump enemies want me to stop using Social Media ( 110 million people ) . Only way for me to \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Will Obama Be A CLASSY Ex-Pres OR A Pain In The BUTT ? [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Merkel , Trudeau , and Macron are all fools who support further exploitation of the working class globally , and even more imperialist aggression . Liberals ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Protesters replace Israel's flag with a Palestinian flag at Chicago's O'Hare airport \ud83c\uddf5\ud83c\uddf8 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "READ : Corona virus has made people realize the most important things in our life are beyond luxury . It makes you think about your family , how they will survive during the lockdown , it make your reflect and wonder how the whole world hasn't figured out the vaccine yet .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Voter fraud debate as divided as America is politically [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Drop one English word , that'd make people check the dictionary .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Taxi-related shooting in Bedfordview : 2 shot dead , 1 in critical condition [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#BREAKING #URGENT Several militant units move from Kafr-Nabl to Amqiyah #Hama #Idlib",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Meeting of MLPC Activists from the Bocarang Sub-Federation #CentralAfricanRepublic [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "We ask you to #VoteSEVO for these and many other reasons ; that we may steadily continue on this path of progress . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":pushpin: United Nations Secretary-General Antonio Guterres on Saturday condemned the lethal attacks against an election campaign rally and a candidate's office in Afghanistan #UN #Afghanistan #elections",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT chiIIum : Isn't that irony . Helping rebuild something that he destroyed . Twitter is phenomenal . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Gen Kainerugaba I love your personality and all the first family @USER @USER @USER = @USER = \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Public housing's future under Ben Carson [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "I love it when they say \u201c I / my family escaped the dire conditions in Venezuela \u201d . Like obviously you had enough privilege and $ to go to the richest country in the world . Plus anecdotally , most fluent English speaking Venezuelans come from wealthier sectors . They're so transparent !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Capitalism kills .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Russian military provided humanitarian aid to the people of Um al-Izam in #Homs . #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : This is Uganda also :backhand_index_pointing_down: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The #SAA sappers proceeded to clear the territories around the border crossing \u00ab #Nasib \u00bb , released earlier #Syria #Daraa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Refugees continue coming back home to the #Eastern_shore of #Euphrates . 78 people returned in #Jnayna yesterday [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#sted RT pnehlen : Like Pres . Trump , I condemn hatred and bigotry on all sides . Violent , illegal antifa attacks on lawful assemblies are esp \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Zambian President attends the 74th session of the United Nations General Assembly . He will discuss topics related to the universal health coverage and climate changes . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "On February 27 , the Central African Republic Parliament has passed the law on the #CVJRRR expected since the signing of the APPR-RCA . The Commission will be responsible for establishing the truth about serious national events since 1959 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Dance Well @USER #DjShiruLiveMixAt4Pm @USER TUESDAY_CLUB_AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : RT @USER : The Terrible Fear of Paying the Poor Too Much [url] via @USER #fightfor15 #mini \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #Manbej #Syria . # Within a 600 - meter area in western Manbij , a Russian military base and another American , they are neigh \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : We as Turkish Cypriots condemn whole Parties who accuses Turkey ! Check my presentation on Yavuz Drilling , Reactions , Real \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : I'm a Constitutional Conservative who knows we don't need any more government regulations than we had in 1776 . - - Sent from \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "VIDEO : Judge Jeanine Calls \u201c Recount Hillary \u201d Out for the Anti-Democracy HYPOCRITE That She is [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER = @USER = @USER @USER @USER @USER @USER @USER @USER @USER Wow , great news .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police has charged a teacher with sexual assault [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "LIVE : Session 1 . #Russia in the #MiddleEast : A Paradox of Perception [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Good Morning Patriots ! :grinning_face: :raised_hand: :sun_behind_small_cloud: :hot_beverage: #TrumpTrain :locomotive: :tram_car: :tram_car: :tram_car: :dashing_away: Despite GOP :thumbs_down: POTUS WINNING ! :flexed_biceps: \ud83c\uddfa\ud83c\uddf8 :two_hearts: WHERE's Mass Lawsuit against GO \u2026 \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Kibale Forest National Park is one of Uganda's most magnificent rain forests famously known for the chimpanzees and other \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Tillerson visits Russia as tensions over Syria flare [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Africa Freedom Day celebration in Lusaka will be joined only by 350 guests - [url] The Zambian authorities continue its austerity policies and decided to invite only 350 high-profile residents to celebrate this year's Africa Freedom Day at State House in Lus ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Mariupol is the Next ? [url] #military #RussianSpring",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Moz emergency services on high alert as flood death toll expected to rise [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "3 Durban schoolgirl fatally hit by taxi [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #m7onland Uganda's forests and wetlands should not not be encroached on to avoid drought and famine . We need water for i \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: :green_circle: The renaissance of #secularism in the #Arab world The time is coming for the leaders like #GamalAbdelNasser , #HabibBourguiba \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Tunisian parliament speaker approves sending a military unit to the #CentralAfricanRepublic as part of the #MINUSCA contingent . According to Rached Ghannouchi , #Tunisia's participation in this #UN mission , is a measure to consolidate relations with African countries . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : The #jaguzalivestockapp uses a drone & AI to monitor & detect diseases . Thermal imaging & high definition cameras allow you \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : \ud83c\uddf8\ud83c\uddfe #Syrian Electricity Ministry has launched the urban and constructional works preparing the infrastructure of a power genera \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Gulu University is community of change agents whose collective commitment to teaching , learning , research , regional & global engagements stimulates attention & invaluable outcomes that transform persons . Thank you YK M7 for the peace & security #M7UGsChoice #SecuringYourFuture . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Turkey's leadership is unable to make and implement independent politico-military decisions without the intervention of its main \" partner \" in #NATO .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Brexit shows who is who . True Europeans want to stay together . Conservative imperialists want to act the way they want . Good luck tho . Leave NI , Scotland and Gibraltar alone .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER Ur assumptions are wrong . Those who know me know me",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Fyodor Lukyanov : At the start of Barack Obama's second term , U . S . - Russian relations are hard to fathom . Russia is ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay #NBSOnMyWay # N \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Mixed reaction to Ramaphosa's new cabinet - [url] After announcing his new cabinet of ministers , several party members and opposition parties were not pleased with President Cyril Ramaphosa's new team . following the announcement , Ekhuruleni Mayor Mzwandile M ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Duterte slams building of \u2018 permanent ' US weapon depot in Philippines , threatens to tear up treaty [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The #US uses cases of #refugees ' bombing in mines located in the territory adjacent to #Rukban as a reason for refusing international organizations to deliver #humanitarian_aid to the camp . #AtTanf #Rukban #USA #terrorists #terrorism #Homs",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Interesting #lessons are taught in #Idlib schools . \" #Whitehelmets \" lie to the #children that #Assad wants to kill them with #chemical #weapons . But they themselves do not tell children about how \u201c White Helmets \u201d poisoned many people in #Syrian cities . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "More than 21,000 confirmed cases of #measles in the last five months in #CentralAfricanRepublic . However there has been a continuous reduction in the number of cases reported in recent weeks since the first phase of the measles vaccination campaign . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "What's Trump's plan for Syria ? Five different policies in two weeks [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Medical journal @USER has published a research on #CoronavirusOutbreak and vulnerability of the African countries . According to the research #CentralAfricanRepublic is relatively safe . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#MINUSCA launched a campaign to combat gender-based violence \u201c 16 Days of Actively Combating Gender-based Violence \u201d in Bamingi-Bangoran and Uam Prefectures . The campaign will last until December 10th . #CARcrisis [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "CHELSEA CLINTON RUNS FILTHY MOUTH AT TRUMP \u2026 IMMEDIATELY REGRETS IT [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Usual mafia style tactics by a desperate colonial government ! If she was the wife of a radical islamist no one will come \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : The Moscow Metro System Is Just Incredible - [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The South African National Parks ( SANParks ) celebrated World Ranger Day , honouring late ranger Respect Mathebula who was shot and killed during a battle with poachers in 2018 . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Mothers need more than flowers [url] #MothersDay #LiberationNews",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : At d throne of mercy this Sunday , yr case is settled ! No evil judgement shal keep u down again . By mercy yr glory is restor \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #LIVE | #Venezuela's Communications Minister @USER : \" A group of people , guided by their ambition for power , dared \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with The way @USER #FridayXplosion #CLUB_AMBIANCE :television: #HMA2017 #HiPipoDJ #DJSHIRU TUESDAY :backhand_index_pointing_right: CLUB AMNESIA [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Sitani @USER @USER #SundayExplosion #NYONDOclub TUESDAY :right_arrow: CLUB AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "\ud83c\uddfa\ud83c\uddf8 #US think tanks and the \ud83c\uddf1\ud83c\uddfe #Libyan War The US considers the Moscow-Ankara and \ud83c\uddf9\ud83c\uddf7 #Ankara - \ud83c\uddf7\ud83c\uddfa #Moscow - \ud83c\uddea\ud83c\uddec #Cairo negotiation formats dangerous , and is determined to disrupt them . [url] #Libya #UnitedStates #Turkey #Russia #Egypt #Oil #GNA #Haftar",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Ramaphosa gets a YES from Cosatu [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Federal Judge Tosses Stein Recount Petition ; Turn Out The Light And Lock Up ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police on alert : Joburg violent robbers are back [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : US @USER forces in the Syrian al-Jazeera area made a deal w #Daesh terrorists by which Washington gets tens of tons \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Kelly \u201c Any Channel of Communication With a Country Like Russia is Good \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A jihad-mobile was used in #HTS attack by #ISIS near Armanaz in #Idlib province . Total mayhem ! [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Still taking orders ba dear .. Its the ladies this week .. 07038632 88 ( WhatsApp ) 07865258 77 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Well put @USER =",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "In #Raqqa , #ISIS ' \" sleeping cell \" detonated an #IED . One local resident was killed and three citizens were injured . #Syria #War #Terror #Euphrates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#calleCORRUPTION ! ! ! Disgraced Dem Mayor HID the DISASTROUS RESULTS ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "1 worker fatally injured as Harmony Gold mine is SA collapses [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Is Poland Rushing To Save Poroshenko With More Right-Wing Militants ? [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Blasphemy .. I turn on ESPN for sports , not to have heterosexuality forced down my throat . Disgusting [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Munich conference : Western pseudo-multipolar stability theory in action [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Cluster Crime Intelligence Unit , SAPS Tzaneen Crime Prevention , and the K9 Unit officers have uncovered a drug lag . It is reported that the value of seized drugs is estimated at R200 000 . The suspect was arrested during the operation . He is believed to be a drug lord . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Boys and one boxer #SchoolTimes [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Russiandoctors continue to provide medical assistance to refugees who return home to the eastern regions of the province of #DeirezZor #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Major Soweto roadways still blocked while protests go on - [url] police are on alert and armed patrols have been bolstered to monitor the situation since Tuesday morning when locals took to the streets and a protest broke out . Today it was reported that prote ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Valdai Paper #23 : The Future of the Global Trading System [url] #valdaipaper #valdaiclub",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #Canadians being misled by Foreign Affairs Minister @USER in regard to elections and freedom of press in #Venezu \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: Happy birthday @USER . God bless your new age [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Official statement from @USER about the special investigation into @USER pertaining it's procurement and supply chain activities . #dNmHNq1VWA2HyF7g2246AsCZU5RKtwuhy1pYieDONA = [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Two convoys of the #US #army , including 12 #military vehicles , arrived in the outskirts of the town of #Manbij and deployed in the two villages of al-Sa'eidah and Awn al-Dadat West and North of the town , respectively #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER This is more than great Manager since it will increase efficiency in the service delivery to people of Uganda . #DigitzeUg",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Keep in mind that Saudi ideology is literally an invention of the British . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : The bottom up reforms under Chavismo brought clinics and education to the working class of Venezuela across the entire cou \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Goal Of A Lesser Life [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Somebody asked me yesterday what was the best airline to book to Nairobi and with a big smile I said @USER ... \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Democratic Progressive Party ( DPP ) Vice President and Minister of Agriculture , Irrigation and Water Development Kondwani Nankhumwa said Malawi's political differences should be settled peacefully through mediation instead of violent protests . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Protest in #Zimbabwe Police have fired teargas . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "WATCH : Sarah Huckabee Sanders insists Trump didn't lie about phone calls she admits never took place [url] #p2 #ctl \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "After House Republicans Obliterated Obamacare , Democrats Started Singing This Song \u2026 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "[url] Rewind 05/2017 | Columbia Professor : Trump will most likely be reelected in 2020 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "There were demonstrations against the #SDF two days ago in #Baghouz . Their fighters had previously arrested the head of the city council and his two brothers . As usual , they should be accused of having links with #ISIS , which the SDF presents to all opposing #Kurdish power . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Kurds throw vegetables at #Turkish armored vehicles in a joint patrol with the #RussianMilitary police ( Tiger-M , Typhoon-K and APC - 82 ) . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Good short video by @USER sharing some of her experiences in Caracas . I have never seen 1 homeless or hungry person in Venezuela . Yet almost 200,000 children are homeless in NYC in the United States . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "well its just the opposite they don't do well with homeowners who complain they make life living hell and we are b \u2026 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#calleTrump TRIGGERS Climate Change Freaks With THIS Policy Change [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : If you punch yourself in the face and it hurts , does that make you strong or weak ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Teen girl hospitalized after brutal attack by Cape school gang [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER + R2D0a + RXyETI 7Z51C01LqDo =: #American instructors trained a group of 180 terrorists in #AlTanf military camp to participate in battles with #Government \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Republicans are excited about a Mexico import tax \u2013 but not because of the wall [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "MUST SEE ! Judge Jeanine Rips Hawaii Judge For Blocking Trump's Executive Order [ VIDEO ] [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The militants of the Jebhat-an-Nusra group in the north of Hama , under the leadership of the Americans , are preparing a provocation using chemical weapons . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":spider_web: Group of Gabon soldiers seize national radio in coup attempt #gabon #radio #war",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Oman , #Qatar and , to certain extent , #Kuwait want to oppose the Saudi policy of weakening #Iran [url] #QatarCrisis [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "VIRAL : James Woods Perfectly Explains Who Women SHOULD BE Marching For [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The longer the #Americans do not give permission for the passage of a humanitarian convoy across the occupied #US territory of #Syria , the longer the residents of the #Rukban refugee camp remain without the #aid they need . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "We will not be intimidated or meek . This kind of fascist violence will see itself to the trash bin of history , or we will assist ! The revolution lives on , and this constituent will not have been killed in vain . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER What opportunities do you as Pepper Publications have for young people ? #UgChat @USER + ZnAr 1wmWd0 =",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":megaphone: Mevlut Cavusoglu met Norwegian , German , Canadian , French and Montenegro foreign ministers at NATO meeting #cavusoglu #turkey #nato #canada #norway #france #montenegro",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Why so many people hate Obamacare [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Jedediah Bila made a life-changing announcement on \u2018 The View ' [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Nhlanhla Khuzwayo hasn't been given a jersey number for the upcoming campaign and this fact gave rise to the rumors that he might leave Orlando Pirates in the nearest future . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The ISIS militants attempt to attack the rear positions of the #SyrianArabArmy using the underground communications network in Hajar al-Aswade #Syria #brekingnews [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "US judge bars deportations under Trump travel ban [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING Ted Cruz Trolls Mainstream Media Over Russia Hypocrisy and Hysteria [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Two police pilots \u2013 one is trainee pilot and the other one is his assistant \u2013 narrowly escaped with their lives when a helicopter driven by them crashed while landing nearby a runway at Virginia Airport , KZN , police spokesman Brig Vish Naidoo confirmed . [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Rick Ross released new album #PortOfMiami2 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "CT gym masturbator will appear in the court - [url] 18 - year-old man is expected to make his appearance in the Stellenbosch Magistrate's Court after he was caught on camera masturbating at Virgin Activegym . According to the police spokesperson Sgt . Noloyiso Rw ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "As the Minister of Energy was delivering his speech , Paramount chief Mwata Kazembe collapsed . About twenty minutes later , a presidential convoy came back , throwing the crowd into wild euphoria . The chief entered the arena to the excitement of the people . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "President Edgar Lungu has fired Finance Minister Margaret Mwanakatwe and appointed central bank deputy governor Bwalya Ng'andu to take her place . The statement was released on Sunday night and it gives no explanations for the President's decision . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "1800 mine workers trapped underground says Sibanye 1800 miners are trapped underground at Sibanye-Stillwater mine , at their Thembelani shaft after rails used to transport workers fell . This was confirmed by Sibanye , and the mine says it is trying to remove obstruction which m ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Middle schooler draws Republican elephant pooping on Trump , gets perfect grade \u2014 but Dad is ticked \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Today , i want to salute all the @USER Army on Twitter . We are now taking a leading role on the platform . We have \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "REPORT : Congressional Black Caucus Spends Lavishly on Luxury Resorts & Restaurants [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : A letter to all Ugandans , especially the Buzzukulu : [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Diplomats of #Russia : #WhiteHelmets , together with terrorists are preparing new provocations in #Syria with the use of #ChemicalWeapons #Idlib [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "\u201c Limits are very unlikely to emerge via international law or explicit policies or formal agreements \u201d , #valdaiclub expert William Wohlforth ( @USER College ) on interventions in the self-help world . #Russia #US #China [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Steve Bannon : Gary Cohn Should Have Resigned over Charlottesville [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#USarmy are totally withdraw their #positions in South-East #DeirezZour [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Trump's 1st executive order on TPP - sources [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Inequality of income worsens under Trump ... another reality so different from the \u201c great economy \u201d he boasts . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Two women died after being struck by a train near Nyanga , in the morning Minister of Transport Fikile Mbalula was making his way to the train station to get the plight of train commuters in Cape Town . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER He has coddmned violence",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Whoopsie ! Unpopular Chancellor Angela Merkel Prepares to DEPORT 100K Migrants from Germany [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT AmericanHotLips : Acosta wasn't the only one who got spanked today :rolling_on_the_floor_laughing: :rolling_on_the_floor_laughing: GlennThrush makes it clear he's \" not asking for common sense \" :rolling_on_the_floor_laughing: :rolling_on_the_floor_laughing: [url] \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "VIDEO : Trump's Orlando \u201c Thank You \u201d Rally Crowd BELTS OUT \u201c God Bless The USA \u201d Song [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Province of #Homs , Hayat Tahrir al-Sham terrorists threaten to kill all the relatives if men refuse to join the milita \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : \" WE WANT THE USA \ud83c\uddfa\ud83c\uddf8 TO STOP KILLING US \" \" WE WANT THE US TO LEAVE AFGHANISTAN \ud83c\udde6\ud83c\uddeb \" Hundreds of Afghans march to protest t \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Party tym @USER @USER @USER #SaturdayExplosion #TexClub TUESDAY :right_arrow: \ufe0fCLUB AMNESIA",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER u must accept the truth . m7 is loved allover africa",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "\u2018 Pick up a godd * * n brick ' if Trump fires Mueller , HBO's \u2018 The Wire ' creator tells Twitter followers \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING VIDEO : First Peek at President Trump Inside Air Force One and He's Watching Fox News ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Border Police confiscated counterfeit goods with a total value of R45 553 400 on 28 June 2019 . The counterfeit goods were seized and handed to officials from Customs and Excise for the safekeeping .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "We must take extreme measures along the border with Brazil , the epicenter of the Covid 19 pandemic in South America thanks to the irrational positions of @USER to deal with the coronavirus , and which has placed his people at serious risk [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "President Trump and Family Send Condolences to Victims of Vegas Shooting [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Be okay with not knowing for sure what might come next , but know that whatever it is , You'll be Okay .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Together with Muhammad Ahmed #Khattab , the field commander of the #NationalLiberationFront shot four ordinary militants . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#sted RT SecPriceMD : Too many Americans cannot afford #Obamacare . 6.5 million people would rather pay an #IRS fine than sign up . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The march of Women for Peace took place in Bangui , #CentralAfricanRepublic , on December 10 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #ste FOIA Lawsuit Filed Over Obama's $ 400 Million to Iran ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER =: Looking at \u2018 Malignant Seeds ' in Deterioration of #Russia-West Relations [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "PA Sec of State Releases 20 Electors Names , Addresses and Phone Numbers ! [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#sted RT foxandfriends : . Suffolk_Sheriff praises President Trump for making gang eradication a priority [url] #justo",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Latest : Judge extends stay barring Trump deportations [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "116 refugees come home to the #CentralAfricanRepublic from the #RepublicOfCongo this Saturday , September 26 . Due to the #COVID19 pandemic they were not able to travel home for months . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "On May 9 , Syrian government forces took control of Al Tunah , Al Sharia , Al Huwayz in the north of #Hama governorate #Idlib #Syria #Russia [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Death of veteran DRC opposition leader jeopardises political deal [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER I love the gesture of holding her hand while walking :smiling_face_with_hearts: :winking_face_with_tongue:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police hunt for Middledrift escapees - [url] have launched a manhunt for three escapees in Middledrift . The criminals escaped the Middledrift prison in Eastern Cape . The criminals were identified as Sizwe Mhlana , who was serving 10 years for robbery , Andisa V ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The National Elections Authority of the #CentralAfricanRepublic announced that the first delivery of voter cards is scheduled for the first days of December . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "House Democrats demand info on Trump hotel [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER Good work done @USER & team",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The tranquility of having fulfilled We have the peace of mind of having fulfilled what we promised : to renegotiate an impossible debt in the face of society , defending the interests of Argentina and without imposing adjustments on those who strive every day to get ahead .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "To blame the Syrian authorities for the use of banned chemicals is the goal of the Americans . Then all Syrian cities will be shelled by coalition troops led by the United States . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "US judge bars deportations under Trump travel ban [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The 22 - year-old Zephany Nurse has won the right to reclaim the name her kidnappers gave her . The young girl was kidnapped shortly after birth in 1997 and was raised as her kidnapper's own child . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The first confirmed case of #COVID19 in #CentralAfricanRepublic announced this Saturday 14 March . A 74 - year-old Italian national entered the Central African Republic on 8 March via Bangui Mpoko international Airport via a Royal Air Maroc flight from Milan . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":fire: Pakistan has released a senior Afghan Taliban leader from prison , a spokesman for the Taliban said Thursday . #Pakistan #Afghanistan #Taliban",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: Never miss please :rolling_on_the_floor_laughing:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "12 members of #UNSC that voted against the China and Russia #Idlib resolution are trying to protect the #terrorists they sponsor from destruction . The draft resolution called for support for a #ceasefire in the #Idlib #deescalation zone . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Now the UN is moving forward with the idea of a second humanitarian convoy to the Er-Rukban camp . There is a willingness on both the Syrian and Russian side to support this initiative . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : Maxine Waters Gets a \u201c Warning \u201d From Trump's Lawyer [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":sunrise: Turkey is working with Russia on how a disarmament zone inside Idlib , Syria will be set up and how terror groups will be driven out , a Turkish presidential aide said on Friday . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Turkey",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER horrendously failed to advance her manifesto & now horribly resorted to falsification and misinformation against @USER . Who are those agents ? Which village ? #NdorwaFakeTracyVideo",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "You should definitely check this thread :smiling_face_with_heart-eyes:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Check out Free Meek documentary !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Every day , the belligerent reconciliation centre distributes tons of #humanitarian #aid to people in #need . #SYRIA",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Future Of The Balkans Runs Through Macedonia I [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#vvmar Look Who's Trying to Flood Congress With MORE Money to PUSH His Agenda [url] #marv [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "South African vegetables and fruits to go to the Berlin fair [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = Infographics : U . S . Military Presence in Western Pacific [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Russia : Partnerships make tracks to reform [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":upside-down_face: British Prime Minister Theresa May has warned rebels in her party that unless they support her potential Brexit deal with the EU then they will face a no deal #Brexit #UWI #May #UK #EUcrisis",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "IN PICTURES : President Cyril Ramaphosa's inauguration - [url] Cyril Ramaphosa has officially become South Africa's sixth democratically elected President after taking the oath of office at Loftus Versfeld Stadium in Pretoria . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : How guys leave the inbox as soon as the babe starts asking for money #bomboclat [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER Yes ! ! Whenever I wld be playing with my friends I cld eat anywhere whenever am feeling hungry , African setting is of love every home's doors are always open to every kid . This is how u have lost yourselves , u're soo much swallowed by hate that u don't even know what u represent !",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police whistleblower Dhanajaya Naidoo has told the @USER that several journalists , including Sunday Times associate editor #RanjeniMunusamy , were paid by Crime Intelligence . \" I deny having been involved in any act of bribery , fraud or money laundering , \" she said . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Wells Fargo giving raise to 25,000 entry level workers [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "In northern Syria , another joint Russian-Turkish patrol took place in Hasaka . The unfriendly attitude of the local population towards the patrols is in the past , and Russian helicopters have become a symbol of security and stability . #Syria [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "How Will Germany's International Standing Change After Merkel Secures 4th Bundestag Victory ? Join us tomorrow at 11AM [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Vincent Tolliver , candidate for DNC chair , blames Clinton loss on Tim Kaine [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Criticize Gabbard for what she deserves , but advocating for peace and dialogue in Syria and defending the legitimate president are not reasons to critique her .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Donald Trump Jr . DESTROYS Fake News CNN with ONE TWEET [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Coca Cola : a corporation whose stated goal is to find a way to get everyone on Earth to drink at least two cokes per d \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Residents of Al-Shaddadi in #Haseke province rallied against the #SDF , calling for the release of detainees , better living conditions and jobs . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Stephen King Goes After Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Syrian residents leaving their homes in areas bordering with #Turkey fear #Turkish military invasion and fear for their lives . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Protestors call attention to their causes in Trump's first week [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER @USER @USER = @USER = @USER @USER @USER @USER @USER @USER Uganda's 10th president :thumbs_up:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Princess Leia , Carrie Fisher Dead at 60 [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : President Trump Nominates Neil Gorsuch to the Supreme Court [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: We should continue networking and interacting . ~ Gen @USER #quote #TuesdayMotivation [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A high-level panel to interview candidates for the Sars commissioner post [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Hot spots for massive poaching have been identified and ranger posts constructed with effective deployments to curb poachin \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Kurds organized a terrorist attack in the village of Maabytli near Afrina . According to the information of the human rights organization , as a result of the mine explosion , laid by the militants of the Kurd militia , 11 civilians of the settlement died , including a child [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":sparkler: The United States announced new visa restrictions for \" dozens \" of officials aligned with Venezuelan President Nicolas Maduro's government #usa #us #venezuela #maduro #trump #guaido @USER @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER smashing it up with Pam Pam remix @USER @USER #FridayExplosion #CLUBAMBIANCE :television: :optical_disk: :musical_score: :fire: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Turkish army carried out a massive artillery shelling of Kurdish self-defense units in Sharanly , Shirkan and Kharabat - \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Plans for SA economy in 2030 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#cic RT I_AmAmerica : Why did the Clinton's give North Korea a nuclear reactor and 5 billion dollars in 1994 , we all saw this coming ... \u2026 \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: ABOUT TODAY ; @USER + dz1Jl16wGvZPHcGjAJGoV + t7g + WF1M91UUGE = was officially launched by Brig Gen Henry Masiko in Bushenyi district . _ #UYPFBushenyiLa \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The United States was moaning to leave the #Yaarubiya crossing on the Syrian-Iraqi border to address humanitarian issues . In fact , the point was left to legitimize the illegal presence of U . S . military forces and the coalition they led on the eastern bank of the Euphrates . #Syria [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER That's totally true :hundred_points: :hundred_points: :hundred_points: :index_pointing_up: #FinesseGXDS",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "VIDEO : The Crowd Goes WILD For Trump at the U . S . Women's Open [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER Ifb all people",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Two field commanders of Jaysh al-Yarmouk group and Mohammand bin Abdullah brigade , Abdel Rahman al-Mahamid and Fadi al-Bawuni \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Is war between Ethiopia and Egypt inevitable ? The Arab League on Tuesday called on Ethiopia to \u201c refrain \u201d from starting to fill the reservoir of the large dam it is building on the Nile . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Gauteng school online registration system up and running - [url] The Gauteng Department of Education's online registration system sees huge traffic volumes as parents register grade 1 and 8 pupils . Gauteng Education MEC Panyaza Lesufi says , the online regist ... [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT DanaLovinLife 1 : #boycottSpecialists [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Brexit white paper to be published on Thursday , sources say [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "US National Security Adviser John Bolton told the Secretary of the Security Council of Russia Nikolai Patrushev that Washington is ready to inflict a military strike on the Syrian government forces more powerful than before . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : In U . N . Speech , Noam Chomsky Blasts U . S . for Supporting #Israel , Blocking Palestinian State [url] [url] :/ \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#sted RT AmyMek : Always Men :backhand_index_pointing_right: No women . No kids . No elderly More than 180 \" Refugees \" ( SOLDIERS ) stormed a border b / w Morocco & the S \u2026 \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Atty : 1 Somali national turned away at Seattle airport [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER I just want to be in Buenos Aires",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "As long as the United States is present in Syria , there is no peace on the east coast of the Euphrates [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : :face_with_tears_of_joy: :face_with_tears_of_joy: :face_with_tears_of_joy: Taking a break from PR scandals and the high-life , self-proclaimed @USER ' s \" ambassador \" to the UK decides to spout \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Chairman of DNC STILL Has NO CLUE Who is Leading the Party [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#topl RT mitchellvii : While the Democrats obsess about Russia , Trump is solidifying his support in MI , WI and PA with real results . #may",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "OUCH ! HGTV Beat Disgraced FAKE NEWS CNN in The 2016 Ratings [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "His watever :rolling_on_the_floor_laughing:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : A public blockchain can be used as a ledger that keeps time-stamped records of every transaction made by a public office \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Syrian_army personnel were seen with #Strela_3 and #Strela_2 #MANPADS on the line of contact with militants in the #Jabal_al_Zawiya area . The threat of #Turkish drones is likely being taken more seriously now . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Historic drama ' Underground ' reflects on state of US [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Japan PM Abe to visit US , meet with Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A pregnant woman was shot in gang shooting in Cape Town . \u201c The victim had been in Gamtoos Street at about 03:20 pm on Monday when shots were fired between rival gangs . She was struck in the head by a stray bullet and died on the scene due to injuries sustained , \u201d police confirmed . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "MAKE RUSSIA GREAT AGAIN !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Sorry West , the #Syrian people have chosen - #Assad isn't going anywhere [url] #syria",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Top liberals openly plot , promote expansion of \u2018 deep state ' at Constitution conference [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "New detachments are arriving at #IDLIB and #BINNISH to form a new formation \" Jaysh al - #Sham \" as a part of \" Jabhat al - #Nusra \" [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: Indeed we need more exemplary leaders not CORRUPT ones like @USER w / o neva wanted her kids 2 b quarantined . You're \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Mariupol under fire , children leave schools [url] #Ukraine",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER Hehehehehehehe he always find the most funny and hilarious posts .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Hi guys ! Sorry for having been silent for a month . My congratulations to all the Syrians - the north of Hama is free now and people may live there happily ever after !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER Your mum should take away her phone . This young gal should go back to school",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #Flint without water 2 yrs , Pipelines exploding everywhere , What do @USER do ? Wear white to \" resist \" . Lmfao [url] : \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER That's awesome",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Greek former MP Dimitris Kammenos : \" If we go to The Hague ( International Court of Justice ) against the Turks , we will lo \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Roger Federer and Rafael Nadal still want more after Australian Open [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Over the past day , #terrorists #violated the \" #silence_regime \" about 30 times , firing at the positions of the #SAA .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Cape Town police have found the lifeless body of a 16 - year-old pupil lying metres away from the train tracks between the Hazendal and Pinelands railway stations . According to the preliminary reports , the victim was a student at a high school in Lansdowne .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : What happens to the nudes after y'all breakup ? :skull: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: A good morning [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":up-right_arrow: Anti-government protesters faced off with French riot police in Paris on Saturday in a fourth weekend of unrest that has shaken President Emmanuel Macron's authority #Macron #France #jiletsjaunes #Macron",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The Prime Minister Firmin Ngrebada launched the Multisectoral Technical Committee on Food Security and Nutrition together with several ministers of the #CentralAfricanRepublic and the representatives of @USER and @USER . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER @USER @USER @USER @USER @USER nobody is at war and no citizen has been attacked ! The army shall always be here to ensure Uganda is peaceful and protected",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : How low has President Obama gone to tapp my phones during the very sacred election process . This is Nixon / Watergate . B \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Despicable Roach Rep Gutierrez Calls President Trump A Con Artist [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "It's amazing what happens when workers and the people are in control . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "As a result of #shelling from #mortars and #MLRS , there are casualties among the #civilian population and the destruction of #civilian targets",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BREAKING : Trump Debunks \u201c 2nd Secret Meeting with Putin \u201d FAKE NEWS [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Preparations for the opening of Al-Bukamal-Al-Qaim crossing on the Syrian-Iraqi border [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Hunt on #ISIS : Muslim \" Turan \" battalion Special Operations Forces #SOF killed terrorists #Palmira #Homs #Syria Russia #ISIL \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Israel will continue to strike at #Hezbollah facilities despite #Syria's air defense warnings . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : \ud83c\udde8\ud83c\uddfa #Cuba | Today , the Cuban people have proclaimed their new Constitution after months of direct democratic consultation \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Smashing it up with Agende @USER #SundayBlast #Ratatatata @USER :dvd: :television: \ud8fa\udc3c :musical_score: :microphone: :guitar: \udbbc\udc3c ?",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#laww VIDEO : Judge Jeanine's EPIC RANT on the Clinton / Lynch Tarmac Meeting [url] #law [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER @USER They have truly played a great role :clapping_hands:",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Millions of Nigerian youths have been sleeping in protest grounds . Pushing for an end to police brutality , for better schoo \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Pro-Trump CEO is SICK of the Gridlock and \u201c DC SH * T ! \u201d [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Such people do not deserve being given bail :loudly_crying_face: #NationalUselessPlatform #NationalUselessPlatform #NationalUselessPlatform #StopHooliganism #StopHooliganism #StopHooliganism #StopHooliganism",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "KwaZulu-Natal police are investigating a case of murder after a man was shot dead outside a service station on Friday . The man , 62 , was in his vehicle at a service station in KwaMashu , in northern Durban , when an unknown person got out of a car and shot him . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT GartrellLinda : . ACLJ : MORE Emails Supply New Evidence of Clinton Pay-to-Play Scheme WHEN will she face justice \u2026 [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The vice-president of the National Elections Authority of the #CentralAfricanRepublic , Mr Bernard Kpongaba , explained that to date there are 1,835 , 774 registered with 46.46 % women . The audits eliminated 7,281 duplicates . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Thousands of gold miners who contracted silicosis or pulmonary tuberculosis during or after their employment from 1965 are set to receive big payouts . This is after the High Court in Johannesburg approved a historic R5 billion settlement in the silicosis case . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The National Conference on prison reforms in the #CentralAfricanRepublic has started in Bangui this Wednesday , September 30 . The various experts will discuss the reforms and the means of mobilizing the necessary resources for their implementation . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police started investigating a case of culpable homicide after 4 people died in a car accident . The accident happened near Maralaleng village on September 17 . A family of 4 were walking along the road when they were hit by a vehicle . All the victims died at the scene .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Influx of migrants in Europe has become tragicomic problem - tragic for migrants and comical for EU . [url] #migrantcrisis",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "About ten days ago , the Dzhebkhat al-Nusra militants brought several containers with chlorine to the Khan-Sheikhun district in the south of Idlib province . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police responded to a taxi related incident that was reported at the Mandeni Taxi Rank . 2 Unlicensed firearms & 30 rounds of ammo seized , 3 suspects arrested . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : My love thank you so much :red_heart: :folded_hands:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Yesterday , 3 men were found guilty by the Durban High Court of having kidnapped and murdered a Durban resident Sipho Vusi Sithole who had gone missing in KwaDukuza on July 15 . Two convicted men were sentenced to 25 years behind bars , while 3rd person was sentenced to 20 years .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER @USER There're thousands of more vocal & reasonable critics out here going on soo well with there businesses other contesting & win big leadership positions why fear Nyanzi who's job is to only insult the first family and promote lesbianism . Ts only this gvt that has developed women",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Saudi Arabia to build an oil refinery and a petrochemicals plant in South Africa [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "\" Our response will be a military operation against criminals and traitors backed by the United States , \" Major General Jazez Al-Musa said . He had in mind the skirmish that took place this week between Kurdish forces and regime militants in the divided north-eastern city of Kamishl [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER :rolling_on_the_floor_laughing: Funny",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER + 0QPTliyM =: At 6.20 am , #terrorists fired mortar shells at #SAA positions in #AbuOmar . #Syria #SAA #Idlib #terrorists #terrorism #Hama",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Cyber Security CEO John McAfee Says \u2013 Russia Didn't Hack Us ! [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Statue of Just Nuisance stripped in Simon Town - [url] The statue of the only god to be enlisted in the Royal Navy was vandalized . The perpetrators stole the bronze collar and sailor's cap . Just Nuisance died at the age of 7 in 1944 . According to the histori ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A sloth's guide to business travel [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Yes , it actually is hilarious to remember your failed effort to oust Ch\u00e1vez and how your husband used his academic creden \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A woman was shot in Cape Town , just meters away from her 7 y . o . child . Cynthia Stoulo received several fatal bullets to her face while walking with her son in Valhalla Park on Wednesday . According to the reports , the suspect later fled the scene on foot and is still at large . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Organized labor built the middle class ! #solidarity @USER [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Desperate Clinton Campaign Doubts \u201c Legitimacy \u201d of Trump's Win One Week from Inauguration [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The president of the National Order of Pharmacists of #Senegal , Amath Niang invited political and religious authorities to be cautious about the vaccine against #COVID19 . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Snooty Chef Anthony Bourdain Bashes Fellow \u201c Privileged Eastern Liberals \u201d for the Rise of Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : This is the consequence of the Decree of Bolivia's self-proclaimed @USER which grants immunity to the militaries \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Trump admits asking Comey if he was under investigation for ties to Russia [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER = report : #Russia's Role in the #SCO and Central Asia : Challenges and Opportunities . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Panetta : Trump's Arctic drilling policy hurts national security [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Newsmax CEO says Trump is thinking about doing something really shocking [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Angola President Joao Lourenco said there was hope in resolving the Katuna border conflict between Uganda and Rwanda , saying his country would attempt to mediate peace and stability between the neighbouring countries . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Amazing job @USER [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "DISGRACEFUL : 24 States Attempting to Hide the TRUTH About Voter Fraud [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: Where will the next global #pandemic begin ? The scientists predicted that the human onslaught on nature had left us susceptib \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Can spot a Hampden and want more :) Take the game online !",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Police arrested seven who robbed bar and wanted to have barbeque [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Capitalists , elitists , the establishment , war mongers / imperialists , these people are no friends of the working class ! Former banker to boot ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT AZcardFAN 711 : Hannity EXPOSES Media Matters , George Soros and plot to impeach Trump [url] via realDennisLynch",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : The average Fortune 500 CEO earns 55000 times as much income as the company's sweatshop factory worker .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "CFPB sues America's largest student loan company [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Archived HedgeBz | Climbing Mt . Everest got a lot harder after the Hillary Step collapsed [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : This is it . Matthew 6:3 . ... but when thou giveth unto the poor , let not your left hand see what the right hand hath d \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BUSTED : Here's How Much Russia Gave To The Clinton Foundation \u2026 [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Militants of Hay'at Tahrir al-Sham continue to #fire on the western outskirts of #Aleppo . #Syria #HTS #war #shelling #explosion #militants #idlib #terrorism #Terror [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "City Power stated that customers may not be able to visit their website until their ICT department sort the matter out .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : The International Airport and Land borders will now be opened for tourists , coming in and going out , provided they tested ne \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":left_arrow_curving_right: \ufe0fQatar's Emir Tamim bin Hamad Al Thani will visit Latin America on Monday , the state news agency reported on Saturday . #nLNypqNVNQI4fmoJmze3J87muasHauiayd8bucgecA = ernational #UWI #Qatar #LatinAmerica",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "South African Actress Nomhle Nkonyeni passed away today at 4.30 am . She was 77 years old . May her soul rest in peace . #RIPNomhleNkonyeni [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The best thing you have to offer Venezuela @USER is military aggression ! The kind of imperial help they brought to Iraq , Libya , Syria . The people of Venezuela will never allow any empire to threaten our national integrity again ! Free x always in peace ! @USER",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Obama : The Unlikely War Criminal [url] #ThisIsNotUS",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "THANK YOU TOUR VIDEO : Trump Humiliates Mitt Romney's #NeverTrump UTAH RINGER Candidate Evan McMullin [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Tiger Woods to miss Masters [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : 60,000 people starved to death yesterday , murdered by the greed of all those who aspire to join the sick capitalist class .",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Delusional Sore Loser Hillary Claims She \u201c Beat \u201d Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Residents of #AlBuseyr , infuriated by the terrible standard of living , the despotism and corruption of the #YPG leadership , stormed the building of the people's assembly of self-government . Desperate protesters demand from the YPG to resume negotiations with the government . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Leaders of #terrorist groups continue to #fortify the #defensive line in the #Idlib de-escalation zone . #Syria #terrorists #HTS",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : It's Official : Instagram Is Bigger Than Twitter [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Load-shedding risk in SA high amid possible tariff hikes news [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "18 Democratic Lawmakers To Skip Presidential Inauguration [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Happy independence day too dia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Abu Zeyd al-Homsi , a Jebhat Tahrir Suria field commander was killed in one of the military clashes with Hayat Tahrir a \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Smashing it up with Jaburata @USER #MondayMotivation :fire: @USER :optical_disk: :television: :microphone: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Scott Baio PHYSICALLY ATTACKED by the Wife of Red Hot Chili Peppers Drummer for Supporting Trump [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "As long as the dates and routes of exit are coordinated with the #USA , people continue to die in inhuman conditions in the camp . #Syria #Rukban #camp #withdrawal #refugees [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER =: #SundayMotivation \u2014 \u2014 \u2014 \ud835\udc0c\ud835\udc32 \ud835\udc1c\ud835\udc28\ud835\udc27\ud835\udc1c\ud835\udc1e\ud835\udc2b\ud835\udc27 \ud835\udc22\ud835\udc2c \ud835\udc27\ud835\udc28\ud835\udc2d \ud835\udc30\ud835\udc21\ud835\udc1e\ud835\udc2d\ud835\udc21\ud835\udc1e\ud835\udc2b \ud835\udc06\ud835\udc28\ud835\udc1d \ud835\udc22\ud835\udc2c \ud835\udc28\ud835\udc27 \ud835\udc26\ud835\udc32 \ud835\udc2c\ud835\udc22\ud835\udc1d\ud835\udc1e , \ud835\udc26\ud835\udc32 \ud835\udc20\ud835\udc2b\ud835\udc1e\ud835\udc1a\ud835\udc2d\ud835\udc1e\ud835\udc2c\ud835\udc2d \ud835\udc1c\ud835\udc28\ud835\udc27\ud835\udc1c\ud835\udc1e\ud835\udc2b\ud835\udc27 \ud835\udc22\ud835\udc2c \ud835\udc2d\ud835\udc28 \ud835\udc1b\ud835\udc1e \ud835\udc28\ud835\udc27 \ud835\udc06\ud835\udc28\ud835\udc1d ' \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "The project of the Constitution amendment was rejected by the Constitutional Court of #CentralAfricanRepublic . The amendment proposed to keep the President of State in power in case of elections postponement due to exceptional circumstances . [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Peaceful residents of the village of Al Sanamiyah took to the streets holding flags of the #Syrian Arab Republic ( SAR ) and posters with portraits of President #Bashar Assad [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : I salute the positive responders such as @USER , @USER , Henseley , Arabian Restaurant , @USER = , \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Not favored , bought off . Cops still like to bust thugs when they are allowed . Think bigger more corrupt vermin . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "VIDEO : EXPOSING THE RADICAL LEFT'S PLAN FOR CHAOS AND VIOLENCE AT TRUMP'S INAUGURATION [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : \" No human being is illegal . \" RT @USER : Marching to end deportations rally in Denver . #not1more #2million2many [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Couples who spend at least 10 minutes a day talking & laughing together are more likely to have a stronger relationshi \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Get started on your office tasks with #GULAirtime App , get seamless connections and calls all day . :red_exclamation_mark: Remember you can download this @USER App as many times as you wish on your different mobiles . :face_with_rolling_eyes: \ud83d\udc4d\ud83c\udfff StayHomeStayConnected . :smiling_face_with_smiling_eyes: :thumbs_up: [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : I thought sleeping naked was fun until rat sucked my p * ssy yesterday :grinning_face: :grinning_face: :grinning_face:",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "SHOCKING : ANIMAL ABUSER Lena Dunham's New Low Will DISGUST You [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER @USER General Suheil's artillery and aviation are continuously shelling ISIS terrorists , who tried to flee from the war zone , on the eastern bank of Euphrates",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Turkish special forces and the formation of the so-called Syrian Free Army launched a special operation in the city of Afrin , where about 300 members of the extremist group Shuhada ash-Sharqiyah are currently based . [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Look What the Louisiana Crowd Chanted When Trump Arrived ! [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Michigan Rep . Who VOTED NO on Kate's Law Refused Aid in Flint Water Crisis [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : @USER @USER Play me Unconditional love by @USER X @USER",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "New Study Shows 70 Percent of Obama's \u201c Children Refugee \u201d Program are Actually Adults [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Refugees who returned to the eastern districts of Deir Ezzore received medical care from Russian military medics #Humanit \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Hugo Ch\u00e1vez : There will be no pact with the bourgeoisie or revolutionary debauchery . We will continue advancing and building Socialism at the pace and speed imposed by circumstances . 02OCT10",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "@USER Compromise is normal ; but who is making the compromise ? Me ? Or the Palestinian children who will continue to suffer under Zionism ? But the same will continue under all candidates , perhaps sanders would open up avenues to this end in the future ...",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Elite assault troops of the Syrian Army's Tiger Forces Division seized the town of Beit Sawa in Damascus's #EasternGhouta \u2026",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Have a nice evening ! #CAR #Touadera #Peace [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Russia And Central #Asia : Do All Central Asian Roads Still Lead To Russia ? [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Kimberly school evacuated , 25 learners hospitalized after unknown gas leak - [url] Cape Department of Education confirmed that at least twenty-five pupils of Venus Primary School in Kimberley have been taken to hospital after an unknown gas was apparently rel ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "House fire claimed life of CT woman - [url] circumstances led to a fire in one of the residential houses in Bonteheuwel Avenue and claimed the life of Bonteheuwel resident in Cape Town on Monday . The fire apparently broke out at about 01:00 and Fire and Rescu ... [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "#Russia Takes Steps to Increase LNG Exports [url] #gas @USER #Asia",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "BOMBSHELL : Wikileaks Exposes Hillary's Deep-Seeded DARK Anger Issues [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Bomb-making guides are online , but getting them to work is not easy | Ewen MacAskill and Nick Hopkins [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Looters staged a party in the Luveve suburb mortuary and hid there goods for $ 3 000 [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "TRUMP WINS ! NFL Surrenders , Tells Players to STAND for the Anthem [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":bell: The financial squeeze on India's farmers is set to worsen because of record high fuel prices and surging costs of fertilisers , posing a challenge to Indian Prime Minister Narendra Modi in an election that must be held by May #India #Modi #farmers",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": ":fireworks: Sri Lanka says international network involved in attacks Seven suicide bombers took part in the attacks on churches and luxury hotels in Sri Lanka that killed 290 people and wounded more than 500 , an investigator said on Monday . #srilanka #SriLankaBombings #SriLankaTerrorAttack [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Hong Kong's Caught In A Color Revolution Crisis [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "No president cares more about size \u2013 so let's show Trump how many of us oppose him [url] [url]",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : For the Opposition that is celebrating US sanctions against General Kale Kayihura , it simply shows how poor the quality \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : #Cuba's new president , #MiguelDiazCanel began his term on Thursday with a promise to #defend the #socialist revolution . \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "Tennessee : Muslim Students Association Call for \u201c a new Hitler \u201d to \u201c Wipe Out the Jews \u201d [url] [url]",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "they've only just begun ... \u2014 ROSIE ( Rosie ) August 2 , 2017",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "A man was declared dead on the scene after a taxi rolled over on the N7 Jakes Gerwel Drive in Newfields , the Western Cape . The Fire Services had carefully rescued him but the man succumbed to his multiple injuries 30 minutes after the ambulance crew had started to assess him .",
+        "output": "0"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "RT @USER : Heading home from #abolishICE rally tonight in #Philly , my African cabbie said \u201c Obama deported my brother ; how come no \u2026",
+        "output": "1"
+    },
+    {
+        "instruction": "Classify the input based on if it's about Government/Public. Use 1 or 0 as output.",
+        "input": "agreatercountry realDonaldTrump seanhannity Think Ana . U find yourself w / cancer . Socialist health care tells U t \u2026 [url]",
+        "output": "1"
+    }
+]
